@@ -1,0 +1,17 @@
+{
+  "name": "nanyin",
+  "main": "worker.js",
+  "compatibility_date": "2026-07-24",
+  "assets": {
+    "binding": "ASSETS",
+    "directory": ".",
+    "not_found_handling": "single-page-application",
+    "exclude": [
+      "node_modules/**",
+      ".git/**",
+      ".DS_Store",
+      "*.zip",
+      "nanyin-edgeone-deploy/**"
+    ]
+  }
+}
