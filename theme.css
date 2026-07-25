@@ -466,7 +466,7 @@ body {
 
 .profile-audio-button {
   align-items: center;
-  background: linear-gradient(135deg, rgba(223, 247, 238, .92) 0%, rgba(220, 238, 255, .88) 100%);
+  background: linear-gradient(135deg, rgba(223, 247, 238, .3) 0%, rgba(220, 238, 255, .3) 100%);
   border: 1px solid rgba(23, 37, 84, .08);
   border-radius: 999px;
   color: #172554;
