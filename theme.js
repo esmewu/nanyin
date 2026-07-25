@@ -1370,7 +1370,7 @@ function renderDebtList(singer, target) {
       const signature = item.creditor || "未命名债主";
       return `
       <article class="card song-card-flat request-song-card debt-list-item">
-        <div class="song-card-body">
+        <div class="card-body song-card-body flex-row justify-between items-center gap-3">
           <div class="request-song-signer debt-song-signer song-card-pinned-${(index % 7) + 1}">
             ${signature}
           </div>
