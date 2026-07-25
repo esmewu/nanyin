@@ -1448,7 +1448,7 @@ body {
   min-width: 0;
 }
 
-.debt-tags {
+.request-song-meta.debt-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
