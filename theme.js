@@ -1367,21 +1367,26 @@ function renderDebtList(singer, target) {
   target.innerHTML = debts.length ? debts
     .map((item, index) => {
       const itemKey = debtKey(item, index);
+      const signature = item.creditor || "未命名债主";
       return `
-      <article class="debt-list-item">
-        <div class="debt-list-content">
-          <div>
-            <p class="font-bold">${item.creditor || "未命名债主"}</p>
-            ${item.note ? `<p class="text-sm opacity-70">${item.note}</p>` : ""}
-            <div class="debt-tags">
-              <span class="tag-chip tag-debt">待还 ${item.count} 首</span>
-              <span class="tag-chip tag-language">已还 ${item.repaid || 0} 首</span>
-            </div>
+      <article class="card song-card-flat request-song-card debt-list-item">
+        <div class="song-card-body">
+          <div class="request-song-signer debt-song-signer song-card-pinned-${(index % 7) + 1}">
+            ${signature}
           </div>
-          <button class="debt-monkey-button debt-card-monkey-button" type="button" aria-label="催 ${item.creditor || "债主"} 还歌" data-debt-monkey data-debt-key="${itemKey}">
-            <span aria-hidden="true">🐒</span>
-            <span data-debt-monkey-count>${singerReactionCount(itemKey, "monkey")}</span>
-          </button>
+          <div class="min-w-0">
+            <h3 class="font-bold text-lg">${item.note || "欠歌记录"}</h3>
+            <p class="request-song-meta debt-tags">
+              <span class="tag-chip tag-debt">待还 ${item.count} 首</span>
+              <span class="tag-chip tag-note">已还 ${item.repaid || 0} 首</span>
+            </p>
+          </div>
+          <div class="song-card-actions">
+            <button class="debt-monkey-button debt-card-monkey-button" type="button" aria-label="催 ${item.creditor || "债主"} 还歌" data-debt-monkey data-debt-key="${itemKey}">
+              <span aria-hidden="true">🐒</span>
+              <span data-debt-monkey-count>${singerReactionCount(itemKey, "monkey")}</span>
+            </button>
+          </div>
         </div>
         ${canManage ? `<div class="debt-actions">
             <button class="debt-action-btn debt-edit-btn" type="button" data-edit-key="${itemKey}">修改</button>

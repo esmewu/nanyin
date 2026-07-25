@@ -537,6 +537,10 @@ body {
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
 }
 
+.songlist-controls:has(.song-add-button.hidden) {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .detail-library-search {
   max-width: none;
   width: 100%;
@@ -636,18 +640,18 @@ body {
 
 .debt-monkey-button {
   align-items: center;
-  background: rgba(255, 247, 242, .72);
-  border: 1px solid rgba(123, 47, 115, .16);
+  background: linear-gradient(135deg, rgba(219, 234, 254, .6) 0%, rgba(242, 197, 255, .48) 100%);
+  border: 1px solid rgba(23, 37, 84, .06);
   border-radius: 999px;
-  box-shadow: 0 8px 18px rgba(168, 77, 148, .12);
-  color: #7b2f73;
+  box-shadow: 0 6px 16px rgba(168, 77, 148, .16);
+  color: #172554;
   display: inline-flex;
-  font-size: 16px;
-  font-weight: 900;
-  gap: 6px;
-  min-height: 40px;
-  min-width: 62px;
-  padding: 0 12px;
+  flex: 0 0 auto;
+  font-size: 12px;
+  font-weight: 800;
+  gap: 5px;
+  min-height: 30px;
+  padding: 0 9px;
   position: absolute;
   right: 12px;
   top: 12px;
@@ -659,8 +663,7 @@ body {
 }
 
 .debt-card-monkey-button {
-  right: 12px;
-  top: 12px;
+  position: static;
 }
 
 .monkey-burst {
@@ -1373,12 +1376,7 @@ body {
 }
 
 .debt-list-item {
-  background: #fff7f2;
-  border: 1px solid rgba(23, 37, 84, .08);
-  border-radius: .75rem;
-  display: grid;
   overflow: hidden;
-  position: relative;
 }
 
 .debt-list-content {
@@ -1386,14 +1384,14 @@ body {
   display: flex;
   gap: 12px;
   justify-content: space-between;
-  padding: 12px 86px 12px 12px;
+  min-width: 0;
 }
 
 .debt-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
-  margin-top: 8px;
+  margin-top: 6px;
 }
 
 .debt-actions {
@@ -1637,11 +1635,12 @@ body {
 }
 
 .request-add-button {
-  border-radius: 14px;
+  border-radius: 999px;
   font-size: 22px;
   font-weight: 900;
   min-height: 44px;
   margin-left: auto;
+  margin-right: auto;
   min-width: 44px;
   padding-left: 0;
   padding-right: 0;
@@ -1653,6 +1652,7 @@ body {
   background: linear-gradient(135deg, rgba(219, 234, 254, .6) 0%, rgba(242, 197, 255, .48) 100%);
   border: 1px solid rgba(23, 37, 84, .06);
   border-radius: 999px;
+  box-shadow: 0 6px 16px rgba(168, 77, 148, .16);
   color: #172554;
   display: inline-flex;
   flex: 0 0 auto;
@@ -1823,12 +1823,21 @@ body {
   word-break: break-all;
 }
 
+.debt-song-signer {
+  color: #172554;
+}
+
 .request-song-card .min-w-0 {
   flex: 1 1 auto;
   padding: 10px 12px;
 }
 
 .request-song-card .song-card-actions {
+  padding-right: 12px;
+}
+
+.debt-list-item .song-card-actions {
+  align-items: center;
   padding-right: 12px;
 }
 
