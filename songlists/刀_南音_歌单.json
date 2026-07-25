@@ -1097,17 +1097,17 @@
       "title": "这样一个麻烦",
       "charCount": 6,
       "originalArtist": "陈奕迅",
-      "releaseYear": "",
+      "releaseYear": "2009",
       "genre": "流行",
-      "confidence": "pending"
+      "confidence": "medium"
     },
     {
       "title": "只为灿烂瞬间",
       "charCount": 6,
       "originalArtist": "陈昊宇",
-      "releaseYear": "",
+      "releaseYear": "2024",
       "genre": "流行",
-      "confidence": "pending"
+      "confidence": "medium"
     },
     {
       "title": "1234567",
@@ -1177,9 +1177,9 @@
       "title": "你要如何我们便如何",
       "charCount": 9,
       "originalArtist": "康姆士",
-      "releaseYear": "",
+      "releaseYear": "2019",
       "genre": "流行",
-      "confidence": "pending"
+      "confidence": "medium"
     },
     {
       "title": "天下没有不散的宴席",
@@ -1217,9 +1217,9 @@
       "title": "没有人能比我们更接近对方",
       "charCount": 12,
       "originalArtist": "声音玩具",
-      "releaseYear": "",
+      "releaseYear": "2022",
       "genre": "摇滚",
-      "confidence": "pending"
+      "confidence": "medium"
     }
   ],
   "english": [
