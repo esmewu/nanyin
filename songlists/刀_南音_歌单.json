@@ -2,814 +2,1618 @@
   "singer": "刀_南音",
   "singerId": "v1-07",
   "source": "user-provided text",
-  "updatedAt": "2026-07-24",
-  "rules": "中文区和英文区分开；去重；每区均按字数从少到多排列。英文歌曲字数按去掉空格后的字符数计算。原唱、发行年份、风格待后续补齐。",
+  "updatedAt": "2026-07-25",
+  "rules": "中文区和英文区分开；去重；每区均按字数从少到多排列。英文歌曲字数按去掉空格后的字符数计算。原唱、发行年份、风格已批量补齐；confidence=pending 的曲目仍建议人工校对。",
   "chinese": [
     {
       "title": "飘",
-      "charCount": 1
+      "charCount": 1,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "流行",
+      "confidence": "pending"
     },
     {
       "title": "爱错",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "王力宏",
+      "releaseYear": "2004",
+      "genre": "R&B",
+      "confidence": "medium"
     },
     {
       "title": "宝贝",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "张悬",
+      "releaseYear": "2006",
+      "genre": "民谣",
+      "confidence": "medium"
     },
     {
       "title": "保留",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "郭顶",
+      "releaseYear": "2016",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "表态",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "流行",
+      "confidence": "pending"
     },
     {
       "title": "拆穿",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "林志炫",
+      "releaseYear": "1998",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "崇拜",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "梁静茹",
+      "releaseYear": "2007",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "出卖",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "那英",
+      "releaseYear": "2002",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "船歌",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "齐豫",
+      "releaseYear": "1995",
+      "genre": "民谣",
+      "confidence": "medium"
     },
     {
       "title": "底细",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "杨宗纬",
+      "releaseYear": "2011",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "海鸥",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "刘家昌",
+      "releaseYear": "1971",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "花火",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "汪峰",
+      "releaseYear": "2000",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "怀珠",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "杨宗纬",
+      "releaseYear": "2011",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "幻觉",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "许巍",
+      "releaseYear": "2006",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "回留",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "方大同",
+      "releaseYear": "2024",
+      "genre": "R&B",
+      "confidence": "medium"
     },
     {
       "title": "结婚",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "流行",
+      "confidence": "pending"
     },
     {
       "title": "静止",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "杨乃文",
+      "releaseYear": "1997",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "九月",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "许巍",
+      "releaseYear": "2012",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "泪桥",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "伍佰",
+      "releaseYear": "2003",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "骊歌",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "GALA",
+      "releaseYear": "2004",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "流沙",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "陶喆",
+      "releaseYear": "1997",
+      "genre": "R&B",
+      "confidence": "medium"
     },
     {
       "title": "男孩",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "梁博",
+      "releaseYear": "2017",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "南音",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "方大同",
+      "releaseYear": "2009",
+      "genre": "R&B",
+      "confidence": "medium"
     },
     {
       "title": "难道",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "羽泉",
+      "releaseYear": "2000",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "人间",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "王菲",
+      "releaseYear": "1997",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "山丘",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "李宗盛",
+      "releaseYear": "2013",
+      "genre": "民谣",
+      "confidence": "medium"
     },
     {
       "title": "听海",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "张惠妹",
+      "releaseYear": "1997",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "停格",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "蔡健雅",
+      "releaseYear": "2013",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "玩乐",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "方大同",
+      "releaseYear": "2010",
+      "genre": "R&B",
+      "confidence": "medium"
     },
     {
       "title": "晚风",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "伍佰",
+      "releaseYear": "1996",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "晚婚",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "李宗盛",
+      "releaseYear": "1999",
+      "genre": "民谣",
+      "confidence": "medium"
     },
     {
       "title": "唯一",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "王力宏",
+      "releaseYear": "2001",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "我我",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "古巨基",
+      "releaseYear": "1999",
+      "genre": "粤语",
+      "confidence": "medium"
     },
     {
       "title": "悟空",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "戴荃",
+      "releaseYear": "2015",
+      "genre": "国风",
+      "confidence": "medium"
     },
     {
       "title": "下坠",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "Corki刘宗鑫",
+      "releaseYear": "",
+      "genre": "流行",
+      "confidence": "pending"
     },
     {
       "title": "仙儿",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "二手玫瑰",
+      "releaseYear": "2006",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "相对",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "子曰乐队",
+      "releaseYear": "1997",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "心脏",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "流行",
+      "confidence": "pending"
     },
     {
       "title": "悬崖",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "齐秦",
+      "releaseYear": "1996",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "旋木",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "王菲",
+      "releaseYear": "2003",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "眼泪",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "范晓萱",
+      "releaseYear": "1995",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "余温",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "李玟",
+      "releaseYear": "1997",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "玉珍",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "福禄寿FloruitShow",
+      "releaseYear": "2020",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "掌纹",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "曹格",
+      "releaseYear": "2006",
+      "genre": "R&B",
+      "confidence": "medium"
     },
     {
       "title": "拯救",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "孙楠",
+      "releaseYear": "2002",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "追寻",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "严爵",
+      "releaseYear": "2010",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "最爱",
-      "charCount": 2
+      "charCount": 2,
+      "originalArtist": "周慧敏",
+      "releaseYear": "1993",
+      "genre": "粤语",
+      "confidence": "medium"
     },
     {
       "title": "敕勒歌",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "腾格尔",
+      "releaseYear": "2001",
+      "genre": "民歌",
+      "confidence": "medium"
     },
     {
       "title": "达尔文",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "蔡健雅",
+      "releaseYear": "2007",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "大人中",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "卢广仲",
+      "releaseYear": "2017",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "封锁线",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "马条",
+      "releaseYear": "2009",
+      "genre": "民谣",
+      "confidence": "medium"
     },
     {
       "title": "光之翼",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "王菲",
+      "releaseYear": "2001",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "没有你",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "莫文蔚",
+      "releaseYear": "2006",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "梦醒了",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "那英",
+      "releaseYear": "1998",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "末班车",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "萧煌奇",
+      "releaseYear": "2011",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "抛物线",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "蔡健雅",
+      "releaseYear": "2009",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "凄美地",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "郭顶",
+      "releaseYear": "2016",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "潜伏期",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "陈势安",
+      "releaseYear": "2018",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "圣诞结",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "陈奕迅",
+      "releaseYear": "2003",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "十二楼",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "莫文蔚",
+      "releaseYear": "2000",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "水星记",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "郭顶",
+      "releaseYear": "2016",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "送流水",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "声音碎片",
+      "releaseYear": "2019",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "天边外",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "流行",
+      "confidence": "pending"
     },
     {
       "title": "我很好",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "刘若英",
+      "releaseYear": "2008",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "我要你",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "任素汐",
+      "releaseYear": "2016",
+      "genre": "民谣",
+      "confidence": "medium"
     },
     {
       "title": "无条件",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "陈奕迅",
+      "releaseYear": "2015",
+      "genre": "粤语",
+      "confidence": "medium"
     },
     {
       "title": "想着你",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "郭顶",
+      "releaseYear": "2016",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "小小虫",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "流行",
+      "confidence": "pending"
     },
     {
       "title": "小宇宙",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "苏打绿",
+      "releaseYear": "2006",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "在雨中",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "汪峰",
+      "releaseYear": "2002",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "中间人",
-      "charCount": 3
+      "charCount": 3,
+      "originalArtist": "王菲",
+      "releaseYear": "2004",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "白日梦蓝",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "刺猬",
+      "releaseYear": "2009",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "不如这样",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "陈奕迅",
+      "releaseYear": "2001",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "不要告别",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "高旗&超载",
+      "releaseYear": "1996",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "等你爱我",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "陈明",
+      "releaseYear": "1999",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "第一滴泪",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "动力火车",
+      "releaseYear": "1999",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "孤独患者",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "陈奕迅",
+      "releaseYear": "2011",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "海阔天空",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "Beyond",
+      "releaseYear": "1993",
+      "genre": "粤语",
+      "confidence": "medium"
     },
     {
       "title": "花样年华",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "陈琳",
+      "releaseYear": "2001",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "恍如隔世",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "萨顶顶",
+      "releaseYear": "2012",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "开始懂了",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "孙燕姿",
+      "releaseYear": "2000",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "恋恋风尘",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "老狼",
+      "releaseYear": "1995",
+      "genre": "民谣",
+      "confidence": "medium"
     },
     {
       "title": "猎户星座",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "朴树",
+      "releaseYear": "2017",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "玫瑰往事",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "昨夜派对",
+      "releaseYear": "2019",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "每天每天",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "方大同",
+      "releaseYear": "2005",
+      "genre": "R&B",
+      "confidence": "medium"
     },
     {
       "title": "你的城市",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "声音玩具",
+      "releaseYear": "2021",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "你快回来",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "孙楠",
+      "releaseYear": "1999",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "且听风吟",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "朴树",
+      "releaseYear": "1999",
+      "genre": "民谣",
+      "confidence": "medium"
     },
     {
       "title": "然后怎样",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "陈奕迅",
+      "releaseYear": "2008",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "让她降落",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "何璐",
+      "releaseYear": "2001",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "三万英尺",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "迪克牛仔",
+      "releaseYear": "1999",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "逝去的爱",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "欧阳菲菲",
+      "releaseYear": "1980",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "完美夏天",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "高旗&超载",
+      "releaseYear": "1999",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "晚安北京",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "汪峰",
+      "releaseYear": "1997",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "我要快乐",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "张惠妹",
+      "releaseYear": "2006",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "无名的人",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "毛不易",
+      "releaseYear": "2021",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "勿忘心安",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "张杰",
+      "releaseYear": "2009",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "夕阳醉了",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "张学友",
+      "releaseYear": "1989",
+      "genre": "粤语",
+      "confidence": "medium"
     },
     {
       "title": "写一首歌",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "顺子",
+      "releaseYear": "1997",
+      "genre": "R&B",
+      "confidence": "medium"
     },
     {
       "title": "幸运大门",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "郭顶",
+      "releaseYear": "2009",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "需要人陪",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "王力宏",
+      "releaseYear": "2010",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "夜夜夜夜",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "齐秦",
+      "releaseYear": "1996",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "一荤一素",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "毛不易",
+      "releaseYear": "2018",
+      "genre": "民谣",
+      "confidence": "medium"
     },
     {
       "title": "一块红布",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "崔健",
+      "releaseYear": "1991",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "衣柜歌手",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "HUSH",
+      "releaseYear": "2021",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "音乐爱我",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "流行",
+      "confidence": "pending"
     },
     {
       "title": "友情卡片",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "孙燕姿",
+      "releaseYear": "2000",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "愿爱无忧",
-      "charCount": 4
+      "charCount": 4,
+      "originalArtist": "痛仰乐队",
+      "releaseYear": "2014",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "曾经是情侣",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "流行",
+      "confidence": "pending"
     },
     {
       "title": "出现又离开",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "梁博",
+      "releaseYear": "2019",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "大石碎胸口",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "万能青年旅店",
+      "releaseYear": "2010",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "二三四个字",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "方大同",
+      "releaseYear": "2016",
+      "genre": "R&B",
+      "confidence": "medium"
     },
     {
       "title": "给自己的歌",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "李宗盛",
+      "releaseYear": "2010",
+      "genre": "民谣",
+      "confidence": "medium"
     },
     {
       "title": "荒漠上行走",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "流行",
+      "confidence": "pending"
     },
     {
       "title": "会呼吸的痛",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "梁静茹",
+      "releaseYear": "2007",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "火烧的寂寞",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "信",
+      "releaseYear": "2009",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "寂寞有多长",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "马条",
+      "releaseYear": "2009",
+      "genre": "民谣",
+      "confidence": "medium"
     },
     {
       "title": "陆垚知马俐",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "火星电台",
+      "releaseYear": "2016",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "美丽的神话",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "孙楠 / 韩红",
+      "releaseYear": "2005",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "我们都寂寞",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "陈奕迅",
+      "releaseYear": "2003",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "我如此爱你",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "汪峰",
+      "releaseYear": "2009",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "无情的情书",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "动力火车",
+      "releaseYear": "1997",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "夏洛特烦恼",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "金志文",
+      "releaseYear": "2015",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "像疯了一样",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "流行",
+      "confidence": "pending"
     },
     {
       "title": "一生中最爱",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "谭咏麟",
+      "releaseYear": "1991",
+      "genre": "粤语",
+      "confidence": "medium"
     },
     {
       "title": "永远不回头",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "张雨生 / 王杰 / 邰正宵 / 姚可杰 / 星星月亮太阳",
+      "releaseYear": "1989",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "有一种悲伤",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "A-Lin",
+      "releaseYear": "2018",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "走钢索的人",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "李泉",
+      "releaseYear": "2000",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "100种表情",
-      "charCount": 6
+      "charCount": 6,
+      "originalArtist": "方大同",
+      "releaseYear": "2009",
+      "genre": "R&B",
+      "confidence": "medium"
     },
     {
       "title": "不再让你孤单",
-      "charCount": 6
+      "charCount": 6,
+      "originalArtist": "陈升",
+      "releaseYear": "1991",
+      "genre": "民谣",
+      "confidence": "medium"
     },
     {
       "title": "纯洁2016",
-      "charCount": 6
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "流行",
+      "confidence": "pending"
     },
     {
       "title": "寂寞的恋人啊",
-      "charCount": 6
+      "charCount": 6,
+      "originalArtist": "莫文蔚",
+      "releaseYear": "2000",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "三个人的晚餐",
-      "charCount": 6
+      "charCount": 6,
+      "originalArtist": "黄韵玲",
+      "releaseYear": "1991",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "十万毫升泪水",
-      "charCount": 6
+      "charCount": 6,
+      "originalArtist": "蔡健雅",
+      "releaseYear": "2013",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "推开世界的门",
-      "charCount": 6
+      "charCount": 6,
+      "originalArtist": "杨乃文",
+      "releaseYear": "2016",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "乌兰巴托的夜",
-      "charCount": 6
+      "charCount": 6,
+      "originalArtist": "安来宁",
+      "releaseYear": "2009",
+      "genre": "民谣",
+      "confidence": "medium"
     },
     {
       "title": "这样一个麻烦",
-      "charCount": 6
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "流行",
+      "confidence": "pending"
     },
     {
       "title": "只为灿烂瞬间",
-      "charCount": 6
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "流行",
+      "confidence": "pending"
     },
     {
       "title": "1234567",
-      "charCount": 7
+      "charCount": 7,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "流行",
+      "confidence": "pending"
     },
     {
       "title": "不会说话的爱情",
-      "charCount": 7
+      "charCount": 7,
+      "originalArtist": "周云蓬",
+      "releaseYear": "2010",
+      "genre": "民谣",
+      "confidence": "medium"
     },
     {
       "title": "莎士比亚的天份",
-      "charCount": 7
+      "charCount": 7,
+      "originalArtist": "林俊杰",
+      "releaseYear": "2004",
+      "genre": "R&B",
+      "confidence": "medium"
     },
     {
       "title": "花儿为什么这样红",
-      "charCount": 8
+      "charCount": 8,
+      "originalArtist": "李谷一",
+      "releaseYear": "1963",
+      "genre": "民歌",
+      "confidence": "medium"
     },
     {
       "title": "杀死那个石家庄人",
-      "charCount": 8
+      "charCount": 8,
+      "originalArtist": "万能青年旅店",
+      "releaseYear": "2010",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "她来听我的演唱会",
-      "charCount": 8
+      "charCount": 8,
+      "originalArtist": "张学友",
+      "releaseYear": "1999",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "我对自己开了一枪",
-      "charCount": 8
+      "charCount": 8,
+      "originalArtist": "佛跳墙",
+      "releaseYear": "2014",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "要死就死在你手里",
-      "charCount": 8
+      "charCount": 8,
+      "originalArtist": "莫西子诗",
+      "releaseYear": "2014",
+      "genre": "民谣",
+      "confidence": "medium"
     },
     {
       "title": "你要如何我们便如何",
-      "charCount": 9
+      "charCount": 9,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "流行",
+      "confidence": "pending"
     },
     {
       "title": "天下没有不散的宴席",
-      "charCount": 9
+      "charCount": 9,
+      "originalArtist": "郑钧",
+      "releaseYear": "1997",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "输了你赢了世界又如何",
-      "charCount": 10
+      "charCount": 10,
+      "originalArtist": "优客李林",
+      "releaseYear": "1994",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "我心中尚未崩坏的地方",
-      "charCount": 10
+      "charCount": 10,
+      "originalArtist": "五月天",
+      "releaseYear": "2008",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "揪心的玩笑与漫长的白日梦",
-      "charCount": 12
+      "charCount": 12,
+      "originalArtist": "万能青年旅店",
+      "releaseYear": "2010",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "没有人能比我们更接近对方",
-      "charCount": 12
+      "charCount": 12,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "流行",
+      "confidence": "pending"
     }
   ],
   "english": [
     {
       "title": "Creep",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "Radiohead",
+      "releaseYear": "1992",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "Misty",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "Erroll Garner",
+      "releaseYear": "1954",
+      "genre": "爵士",
+      "confidence": "medium"
     },
     {
       "title": "Sunny",
-      "charCount": 5
+      "charCount": 5,
+      "originalArtist": "Bobby Hebb",
+      "releaseYear": "1966",
+      "genre": "Soul",
+      "confidence": "medium"
     },
     {
       "title": "Old love",
-      "charCount": 7
+      "charCount": 7,
+      "originalArtist": "Eric Clapton",
+      "releaseYear": "1989",
+      "genre": "Blues",
+      "confidence": "medium"
     },
     {
       "title": "Perfect",
-      "charCount": 7
+      "charCount": 7,
+      "originalArtist": "Ed Sheeran",
+      "releaseYear": "2017",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "Reality",
-      "charCount": 7
+      "charCount": 7,
+      "originalArtist": "Richard Sanderson",
+      "releaseYear": "1980",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "Shallow",
-      "charCount": 7
+      "charCount": 7,
+      "originalArtist": "Lady Gaga / Bradley Cooper",
+      "releaseYear": "2018",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "Vincent",
-      "charCount": 7
+      "charCount": 7,
+      "originalArtist": "Don McLean",
+      "releaseYear": "1971",
+      "genre": "民谣",
+      "confidence": "medium"
     },
     {
       "title": "Annie mae",
-      "charCount": 8
+      "charCount": 8,
+      "originalArtist": "John Lee Hooker",
+      "releaseYear": "1961",
+      "genre": "Blues",
+      "confidence": "medium"
     },
     {
       "title": "Feelings",
-      "charCount": 8
+      "charCount": 8,
+      "originalArtist": "Morris Albert",
+      "releaseYear": "1974",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "A song for u",
-      "charCount": 9
+      "charCount": 9,
+      "originalArtist": "Leon Russell",
+      "releaseYear": "1970",
+      "genre": "Soul",
+      "confidence": "medium"
     },
     {
       "title": "Desperado",
-      "charCount": 9
+      "charCount": 9,
+      "originalArtist": "Eagles",
+      "releaseYear": "1973",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "Lay me down",
-      "charCount": 9
+      "charCount": 9,
+      "originalArtist": "Sam Smith",
+      "releaseYear": "2014",
+      "genre": "Soul",
+      "confidence": "medium"
     },
     {
       "title": "Lilac wine",
-      "charCount": 9
+      "charCount": 9,
+      "originalArtist": "James Shelton",
+      "releaseYear": "1950",
+      "genre": "爵士",
+      "confidence": "medium"
     },
     {
       "title": "Losing you",
-      "charCount": 9
+      "charCount": 9,
+      "originalArtist": "Dusty Springfield",
+      "releaseYear": "1964",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "Stand by me",
-      "charCount": 9
+      "charCount": 9,
+      "originalArtist": "Ben E. King",
+      "releaseYear": "1961",
+      "genre": "Soul",
+      "confidence": "medium"
     },
     {
       "title": "Yesterday",
-      "charCount": 9
+      "charCount": 9,
+      "originalArtist": "The Beatles",
+      "releaseYear": "1965",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "Close to you",
-      "charCount": 10
+      "charCount": 10,
+      "originalArtist": "The Carpenters",
+      "releaseYear": "1970",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "Purple rain",
-      "charCount": 10
+      "charCount": 10,
+      "originalArtist": "Prince",
+      "releaseYear": "1984",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "Unintended",
-      "charCount": 10
+      "charCount": 10,
+      "originalArtist": "Muse",
+      "releaseYear": "1999",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "City of stars",
-      "charCount": 11
+      "charCount": 11,
+      "originalArtist": "Ryan Gosling / Emma Stone",
+      "releaseYear": "2016",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "Feeling good",
-      "charCount": 11
+      "charCount": 11,
+      "originalArtist": "Nina Simone",
+      "releaseYear": "1965",
+      "genre": "爵士",
+      "confidence": "medium"
     },
     {
       "title": "I think of you",
-      "charCount": 11
+      "charCount": 11,
+      "originalArtist": "Rodriguez",
+      "releaseYear": "1971",
+      "genre": "民谣",
+      "confidence": "medium"
     },
     {
       "title": "Come together",
-      "charCount": 12
+      "charCount": 12,
+      "originalArtist": "The Beatles",
+      "releaseYear": "1969",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "If i ain't got u",
-      "charCount": 12
+      "charCount": 12,
+      "originalArtist": "Alicia Keys",
+      "releaseYear": "2003",
+      "genre": "R&B",
+      "confidence": "medium"
     },
     {
       "title": "Say something",
-      "charCount": 12
+      "charCount": 12,
+      "originalArtist": "A Great Big World / Christina Aguilera",
+      "releaseYear": "2013",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "Cherry red wine",
-      "charCount": 13
+      "charCount": 13,
+      "originalArtist": "Luther Allison",
+      "releaseYear": "1995",
+      "genre": "Blues",
+      "confidence": "medium"
     },
     {
       "title": "No one knows you",
-      "charCount": 13
+      "charCount": 13,
+      "originalArtist": "Jimmy Cox",
+      "releaseYear": "1923",
+      "genre": "Blues",
+      "confidence": "medium"
     },
     {
       "title": "The one you love",
-      "charCount": 13
+      "charCount": 13,
+      "originalArtist": "Glenn Frey",
+      "releaseYear": "1982",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "Fly me to the moon",
-      "charCount": 14
+      "charCount": 14,
+      "originalArtist": "Kaye Ballard",
+      "releaseYear": "1954",
+      "genre": "爵士",
+      "confidence": "medium"
     },
     {
       "title": "Isn't she lovely",
-      "charCount": 14
+      "charCount": 14,
+      "originalArtist": "Stevie Wonder",
+      "releaseYear": "1976",
+      "genre": "Soul",
+      "confidence": "medium"
     },
     {
       "title": "Just the two of us",
-      "charCount": 14
+      "charCount": 14,
+      "originalArtist": "Grover Washington Jr. / Bill Withers",
+      "releaseYear": "1980",
+      "genre": "Soul",
+      "confidence": "medium"
     },
     {
       "title": "Sultans of swing",
-      "charCount": 14
+      "charCount": 14,
+      "originalArtist": "Dire Straits",
+      "releaseYear": "1978",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "Ain't no sunshine",
-      "charCount": 15
+      "charCount": 15,
+      "originalArtist": "Bill Withers",
+      "releaseYear": "1971",
+      "genre": "Soul",
+      "confidence": "medium"
     },
     {
       "title": "Careless whisper",
-      "charCount": 15
+      "charCount": 15,
+      "originalArtist": "George Michael",
+      "releaseYear": "1984",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "I've got a feeling",
-      "charCount": 15
+      "charCount": 15,
+      "originalArtist": "The Beatles",
+      "releaseYear": "1970",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "Make u feel my love",
-      "charCount": 15
+      "charCount": 15,
+      "originalArtist": "Bob Dylan",
+      "releaseYear": "1997",
+      "genre": "民谣",
+      "confidence": "medium"
     },
     {
       "title": "The thrill is gone",
-      "charCount": 15
+      "charCount": 15,
+      "originalArtist": "Roy Hawkins",
+      "releaseYear": "1951",
+      "genre": "Blues",
+      "confidence": "medium"
     },
     {
       "title": "Bohemian Rhapsody",
-      "charCount": 16
+      "charCount": 16,
+      "originalArtist": "Queen",
+      "releaseYear": "1975",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "I'm not the only one",
-      "charCount": 16
+      "charCount": 16,
+      "originalArtist": "Sam Smith",
+      "releaseYear": "2014",
+      "genre": "Soul",
+      "confidence": "medium"
     },
     {
       "title": "Rolling in the deep",
-      "charCount": 16
+      "charCount": 16,
+      "originalArtist": "Adele",
+      "releaseYear": "2010",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "Wonderful tonight",
-      "charCount": 16
+      "charCount": 16,
+      "originalArtist": "Eric Clapton",
+      "releaseYear": "1977",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "Cant take my eyes off u",
-      "charCount": 18
+      "charCount": 18,
+      "originalArtist": "Frankie Valli",
+      "releaseYear": "1967",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "Don‘t look back in anger",
-      "charCount": 20
+      "charCount": 20,
+      "originalArtist": "Oasis",
+      "releaseYear": "1995",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "I know you know I love you",
-      "charCount": 20
+      "charCount": 20,
+      "originalArtist": "Sunset Rollercoaster",
+      "releaseYear": "2011",
+      "genre": "流行",
+      "confidence": "medium"
     },
     {
       "title": "Stop crying your heart out",
-      "charCount": 22
+      "charCount": 22,
+      "originalArtist": "Oasis",
+      "releaseYear": "2002",
+      "genre": "摇滚",
+      "confidence": "medium"
     },
     {
       "title": "What a difference a day made",
-      "charCount": 23
+      "charCount": 23,
+      "originalArtist": "María Grever",
+      "releaseYear": "1934",
+      "genre": "爵士",
+      "confidence": "medium"
     },
     {
       "title": "Slow dancing in a burning room",
-      "charCount": 25
+      "charCount": 25,
+      "originalArtist": "John Mayer",
+      "releaseYear": "2006",
+      "genre": "Blues",
+      "confidence": "medium"
     },
     {
       "title": "Sorry seems to be the hardest word",
-      "charCount": 28
+      "charCount": 28,
+      "originalArtist": "Elton John",
+      "releaseYear": "1976",
+      "genre": "流行",
+      "confidence": "medium"
     }
   ],
   "totals": {
