@@ -26,7 +26,7 @@
 | 咖啡 | 张学友 | 2024 | 流行 | medium | MusicBrainz recording search |
 | 哪吒 | GAI周延 | 待补 | 流行 | pending | genre inferred; year pending |
 | 嘉宾 | 张远 | 2020 | 流行 | medium | MusicBrainz recording search |
-| 嚣张 | en | 2019 | 流行 | medium | MusicBrainz recording search |
+| 嚣张 | En | 2019 | 流行 | medium | MusicBrainz recording search |
 | 墙角 | 苟瀚中 | 待补 | 流行 | pending | genre inferred; year pending |
 | 太阳 | 邱振哲 | 2017 | 流行 | medium | MusicBrainz recording search |
 | 安静 | 周杰伦 | 2019 | 流行 | medium | MusicBrainz recording search |
@@ -37,7 +37,7 @@
 | 恋人 | 李荣浩 | 2024 | 流行 | medium | MusicBrainz recording search |
 | 想象 | 蔡健雅 | 待补 | 流行 | pending | genre inferred; year pending |
 | 慢慢 | 张学友 | 2012 | 流行 | medium | MusicBrainz recording search |
-| 懦弱 | TRASH | 待补 | 摇滚 | pending | genre inferred; year pending |
+| 懦弱 | Trash | 待补 | 摇滚 | pending | genre inferred; year pending |
 | 成全 | 刘若英 | 2003 | 流行 | medium | MusicBrainz recording search |
 | 我们 | 陈奕迅 | 2003 | 流行 | medium | MusicBrainz recording search |
 | 戒烟 | 李荣浩 | 2017 | 流行 | medium | MusicBrainz recording search |
@@ -232,10 +232,10 @@
 | Your Man | Josh Turner | 2005 | 流行 | medium | MusicBrainz recording search |
 | Diamonds | Rihanna | 2014 | R&B / Soul | medium | MusicBrainz recording search |
 | Free Loop | Daniel Powter | 2010 | 流行 | medium | MusicBrainz recording search |
-| Remember | KATIE | 2018 | 流行 | medium | MusicBrainz recording search |
+| Remember | Katie | 2018 | 流行 | medium | MusicBrainz recording search |
 | Thank You | Dido | 2006 | 流行 | medium | MusicBrainz recording search |
 | That's Us | Anson Seabra | 2019 | 流行 | medium | MusicBrainz recording search |
-| Apologize | OneRepublic | 2013 | R&B / Soul | medium | MusicBrainz recording search |
+| Apologize | Onerepublic | 2013 | R&B / Soul | medium | MusicBrainz recording search |
 | Mam' selle | Art Lund | 待补 | 流行 | pending | genre inferred; year pending |
 | Moody Wind | Anthony Lazaro | 2025 | 流行 | medium | MusicBrainz recording search |
 | Moon River | Audrey Hepburn | 2024 | 民谣 | medium | MusicBrainz recording search |
@@ -255,7 +255,7 @@
 | Say Something | A Great Big World | 2018 | R&B / Soul | medium | MusicBrainz recording search |
 | Through It All | Charlie Puth | 2018 | 流行 | medium | MusicBrainz recording search |
 | Christmas List | Anson Seabra | 2022 | 流行 | medium | MusicBrainz recording search |
-| Counting Stars | OneRepublic | 2016 | R&B / Soul | medium | MusicBrainz recording search |
+| Counting Stars | Onerepublic | 2016 | R&B / Soul | medium | MusicBrainz recording search |
 | Last Christmas | Wham! | 2019 | 流行 | medium | MusicBrainz recording search |
 | Man On A Mission | Oh The Larceny | 2017 | 流行 | medium | MusicBrainz recording search |
 | Outlaws Of Love | Adam Lambert | 2012 | 摇滚 | medium | MusicBrainz recording search |
@@ -263,7 +263,7 @@
 | A Thousand Years | Christina Perri | 2016 | 流行 | medium | MusicBrainz recording search |
 | Blue Suede Shoes | Carl Perkins | 1995 | 民谣 | medium | MusicBrainz recording search |
 | Fly Me To The Moon | Kaye Ballard | 2017 | 民谣 | medium | MusicBrainz recording search |
-| Just the Two of Us | Grover Washington Jr. feat. Bill Withers | 2022 | 流行 | medium | MusicBrainz recording search |
+| Just the Two of Us | Grover Washington Jr. Feat. Bill Withers | 2022 | 流行 | medium | MusicBrainz recording search |
 | Love You Anymore | Michael Bublé | 2019 | 流行 | medium | MusicBrainz recording search |
 | Ain' t No Sunshine | Bill Withers | 待补 | 流行 | pending | genre inferred; year pending |
 | Give Me One Reason | Tracy Chapman | 1998 | 爵士 / Blues | medium | MusicBrainz recording search |
@@ -275,7 +275,7 @@
 | Peter Pan Was Right | Anson Seabra | 2022 | 流行 | medium | MusicBrainz recording search |
 | Rolling In The Deep | Adele | 2011 | R&B / Soul | medium | MusicBrainz recording search |
 | Silhouettes Of You | Isaac Gracie | 2017 | 流行 | medium | MusicBrainz recording search |
-| The Sensitive Kind | J.J. Cale | 待补 | 流行 | pending | genre inferred; year pending |
+| The Sensitive Kind | J.j. Cale | 待补 | 流行 | pending | genre inferred; year pending |
 | Make You Feel My Love | Bob Dylan | 1999 | R&B / Soul | medium | MusicBrainz recording search |
 | You Are So Beautiful | Billy Preston | 2004 | 流行 | medium | MusicBrainz recording search |
 | Supermarket Flowers | Ed Sheeran | 2022 | 流行 | medium | MusicBrainz recording search |
@@ -297,6 +297,6 @@
 | Put Your Head On My Shoulder | Paul Anka | 2011 | 民谣 | medium | MusicBrainz recording search |
 | Can You Feel The Love Tonight | Elton John | 2003 | 流行 | medium | MusicBrainz recording search |
 | I Don' t Mind If You Don' t Mind | Ruel | 待补 | 流行 | pending | genre inferred; year pending |
-| Lets Fall In Love For The Night | FINNEAS | 待补 | 流行 | pending | genre inferred; year pending |
+| Lets Fall In Love For The Night | Finneas | 待补 | 流行 | pending | genre inferred; year pending |
 | Wake Me Up When September Ends | Green Day | 2024 | 摇滚 | medium | MusicBrainz recording search |
 | (I Love You) for Sentimental Reasons | Deek Watson | 待补 | 流行 | pending | genre inferred; year pending |

@@ -897,7 +897,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "gnight",
-    "title": "4am",
+    "title": "4AM",
     "originalArtist": "Justin Stone",
     "releaseYear": "2017",
     "genre": "流行",
@@ -3193,7 +3193,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "gnight",
-    "title": "Mam' selle",
+    "title": "Mam' Selle",
     "originalArtist": "Art Lund",
     "releaseYear": "",
     "genre": "流行",
@@ -3263,7 +3263,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "gnight",
-    "title": "Mad sex cool",
+    "title": "Mad Sex Cool",
     "originalArtist": "Babyface",
     "releaseYear": "",
     "genre": "流行",
@@ -3305,7 +3305,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "gnight",
-    "title": "Shape of You",
+    "title": "Shape Of You",
     "originalArtist": "Ed Sheeran",
     "releaseYear": "2022",
     "genre": "R&B / Soul",
@@ -3571,7 +3571,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "gnight",
-    "title": "Just the Two of Us",
+    "title": "Just The Two Of Us",
     "originalArtist": "Grover Washington Jr. feat. Bill Withers",
     "releaseYear": "2022",
     "genre": "流行",
@@ -3599,7 +3599,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "gnight",
-    "title": "Ain' t No Sunshine",
+    "title": "Ain't No Sunshine",
     "originalArtist": "Bill Withers",
     "releaseYear": "",
     "genre": "流行",
@@ -3823,7 +3823,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "gnight",
-    "title": "Somewhere in Ann Arbor",
+    "title": "Somewhere In Ann Arbor",
     "originalArtist": "Anson Seabra",
     "releaseYear": "2020",
     "genre": "流行",
@@ -3893,7 +3893,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "gnight",
-    "title": "Can' t Take My Eyes Off You",
+    "title": "Can't Take My Eyes Off You",
     "originalArtist": "Frankie Valli",
     "releaseYear": "",
     "genre": "流行",
@@ -4033,7 +4033,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "gnight",
-    "title": "I Don' t Mind If You Don' t Mind",
+    "title": "I Don't Mind If You Don't Mind",
     "originalArtist": "Ruel",
     "releaseYear": "",
     "genre": "流行",
@@ -4047,7 +4047,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "gnight",
-    "title": "Lets Fall In Love For The Night",
+    "title": "Let's Fall In Love For The Night",
     "originalArtist": "FINNEAS",
     "releaseYear": "",
     "genre": "流行",
@@ -4075,7 +4075,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "gnight",
-    "title": "(I Love You) for Sentimental Reasons",
+    "title": "(I Love You) For Sentimental Reasons",
     "originalArtist": "Deek Watson",
     "releaseYear": "",
     "genre": "流行",
@@ -6741,7 +6741,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "My dear",
+    "title": "My Dear",
     "originalArtist": "张洢豪",
     "releaseYear": "2025",
     "genre": "流行",
@@ -7092,7 +7092,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Last dance",
+    "title": "Last Dance",
     "originalArtist": "伍佰 & China Blue",
     "releaseYear": "1996",
     "genre": "流行",
@@ -7144,7 +7144,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Kiss goodbye",
+    "title": "Kiss Goodbye",
     "originalArtist": "王力宏",
     "releaseYear": "2005",
     "genre": "流行",
@@ -7157,7 +7157,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "R&b All Night",
+    "title": "R&B All Night",
     "originalArtist": "KnowKnow/Higher Brothers",
     "releaseYear": "2019",
     "genre": "R&B",
@@ -7170,7 +7170,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Lost you twice",
+    "title": "Lost You Twice",
     "originalArtist": "卢广仲",
     "releaseYear": "2025",
     "genre": "流行",
@@ -7183,7 +7183,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Waiting for love",
+    "title": "Waiting For Love",
     "originalArtist": "Romy Wave",
     "releaseYear": "2024",
     "genre": "流行",
@@ -7404,7 +7404,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "2 soon",
+    "title": "2 Soon",
     "originalArtist": "keshi",
     "releaseYear": "",
     "genre": "流行",
@@ -7417,20 +7417,20 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "4ever",
+    "title": "4Ever",
     "originalArtist": "Elhé/gabby parafina",
     "releaseYear": "2023",
     "genre": "流行",
     "source": "QQ Music search API",
-    "sourceUrl": "https://c.y.qq.com/soso/fcgi-bin/client_search_cp?p=1&n=8&w=4ever&format=json",
+    "sourceUrl": "https://c.y.qq.com/soso/fcgi-bin/client_search_cp?p=1&n=8&w=4Ever&format=json",
     "confidence": "medium",
-    "matchedTitle": "4ever",
+    "matchedTitle": "4Ever",
     "matchedArtist": "Elhé/gabby parafina",
     "checkedAt": "2026-07-24"
   },
   {
     "singerId": "dazhao",
-    "title": "For us",
+    "title": "For Us",
     "originalArtist": "V",
     "releaseYear": "2023",
     "genre": "流行",
@@ -7456,7 +7456,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "calico",
+    "title": "Calico",
     "originalArtist": "DPR IAN",
     "releaseYear": "2022",
     "genre": "流行",
@@ -7495,7 +7495,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "undone",
+    "title": "Undone",
     "originalArtist": "Tommee Profitt/Fleurie",
     "releaseYear": "2019",
     "genre": "流行",
@@ -7508,7 +7508,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "All of me",
+    "title": "All Of Me",
     "originalArtist": "John Legend",
     "releaseYear": "1997",
     "genre": "流行",
@@ -7521,7 +7521,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "alonica",
+    "title": "Alonica",
     "originalArtist": "LANY",
     "releaseYear": "2023",
     "genre": "流行",
@@ -7560,7 +7560,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "as It was",
+    "title": "As It Was",
     "originalArtist": "Harry Styles",
     "releaseYear": "2022",
     "genre": "流行",
@@ -7573,7 +7573,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Beer man",
+    "title": "Beer Man",
     "originalArtist": "The Hit Crew",
     "releaseYear": "2013",
     "genre": "流行",
@@ -7586,7 +7586,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "closure",
+    "title": "Closure",
     "originalArtist": "Hayd",
     "releaseYear": "2021",
     "genre": "流行",
@@ -7625,7 +7625,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "It's you",
+    "title": "It's You",
     "originalArtist": "keshi",
     "releaseYear": "2017",
     "genre": "流行",
@@ -7638,7 +7638,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Merry go",
+    "title": "Merry Go",
     "originalArtist": "DPR IAN",
     "releaseYear": "2022",
     "genre": "流行",
@@ -7651,7 +7651,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "pretend",
+    "title": "Pretend",
     "originalArtist": "Mikey_Mike",
     "releaseYear": "2026",
     "genre": "流行",
@@ -7677,7 +7677,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "shivers",
+    "title": "Shivers",
     "originalArtist": "Ed Sheeran",
     "releaseYear": "2021",
     "genre": "流行",
@@ -7716,7 +7716,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "You and I",
+    "title": "You And I",
     "originalArtist": "Scorpions",
     "releaseYear": "2021",
     "genre": "流行",
@@ -7729,7 +7729,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Bed I made",
+    "title": "Bed I Made",
     "originalArtist": "Allen Stone",
     "releaseYear": "2026",
     "genre": "流行",
@@ -7742,7 +7742,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Fast love",
+    "title": "Fast Love",
     "originalArtist": "George Michael",
     "releaseYear": "2012",
     "genre": "流行",
@@ -7755,7 +7755,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "feelings",
+    "title": "Feelings",
     "originalArtist": "FLY COAST/二宮愛",
     "releaseYear": "2015",
     "genre": "流行",
@@ -7794,7 +7794,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "What's up",
+    "title": "What's Up",
     "originalArtist": "4 Non Blondes",
     "releaseYear": "1991",
     "genre": "流行",
@@ -7820,7 +7820,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Better man",
+    "title": "Better Man",
     "originalArtist": "Robbie Williams",
     "releaseYear": "2000",
     "genre": "流行",
@@ -7833,7 +7833,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Deep green",
+    "title": "Deep Green",
     "originalArtist": "Christian Kuria",
     "releaseYear": "2022",
     "genre": "流行",
@@ -7846,7 +7846,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Kiss a girl",
+    "title": "Kiss A Girl",
     "originalArtist": "Keith Urban",
     "releaseYear": "2008",
     "genre": "流行",
@@ -7859,7 +7859,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Lego house",
+    "title": "Lego House",
     "originalArtist": "Ed Sheeran",
     "releaseYear": "2011",
     "genre": "流行",
@@ -7872,7 +7872,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Loving you",
+    "title": "Loving You",
     "originalArtist": "Marcela Morelo",
     "releaseYear": "2007",
     "genre": "流行",
@@ -7885,7 +7885,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "moody wind",
+    "title": "Moody Wind",
     "originalArtist": "Anthony Lazaro",
     "releaseYear": "2025",
     "genre": "流行",
@@ -7898,7 +7898,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Moon river",
+    "title": "Moon River",
     "originalArtist": "Audrey Hepburn",
     "releaseYear": "2024",
     "genre": "民谣",
@@ -7911,7 +7911,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Stand by me",
+    "title": "Stand By Me",
     "originalArtist": "SHINee (샤이니)",
     "releaseYear": "2009",
     "genre": "流行",
@@ -7924,7 +7924,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "sweet side",
+    "title": "Sweet Side",
     "originalArtist": "Raquel Rodriguez;SWATKINS STEVE;MATTSON ANDRIS;Moorea Masa;Jess Best",
     "releaseYear": "2021",
     "genre": "流行",
@@ -7937,7 +7937,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "why why why",
+    "title": "Why Why Why",
     "originalArtist": "王嘉尔",
     "releaseYear": "2022",
     "genre": "流行",
@@ -7950,7 +7950,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "anything 4 u",
+    "title": "Anything 4 You",
     "originalArtist": "LANY",
     "releaseYear": "2020",
     "genre": "流行",
@@ -7963,7 +7963,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "colorblind",
+    "title": "Colorblind",
     "originalArtist": "Mokita",
     "releaseYear": "2019",
     "genre": "流行",
@@ -7989,7 +7989,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Lonely city",
+    "title": "Lonely City",
     "originalArtist": "Mokita",
     "releaseYear": "2021",
     "genre": "流行",
@@ -8015,7 +8015,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Need you now",
+    "title": "Need You Now",
     "originalArtist": "Charlie Puth",
     "releaseYear": "2010",
     "genre": "流行",
@@ -8054,7 +8054,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Shape of you",
+    "title": "Shape Of You",
     "originalArtist": "Ed Sheeran",
     "releaseYear": "2022",
     "genre": "R&B / Soul",
@@ -8080,7 +8080,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "boiling milk",
+    "title": "Boiling Milk",
     "originalArtist": "",
     "releaseYear": "",
     "genre": "",
@@ -8093,7 +8093,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "City of stars",
+    "title": "City Of Stars",
     "originalArtist": "Ryan Gosling",
     "releaseYear": "2016",
     "genre": "流行",
@@ -8106,7 +8106,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Glimpse of us",
+    "title": "Glimpse Of Us",
     "originalArtist": "Joji",
     "releaseYear": "2022",
     "genre": "流行",
@@ -8119,7 +8119,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "malibu night",
+    "title": "Malibu Night",
     "originalArtist": "",
     "releaseYear": "",
     "genre": "",
@@ -8132,7 +8132,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Nothing ever",
+    "title": "Nothing Ever",
     "originalArtist": "Rebecka Tornqvist",
     "releaseYear": "",
     "genre": "",
@@ -8145,7 +8145,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Nowhere to be",
+    "title": "Nowhere To Be",
     "originalArtist": "Joey Stamper",
     "releaseYear": "2020",
     "genre": "流行",
@@ -8158,7 +8158,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Paint my love",
+    "title": "Paint My Love",
     "originalArtist": "Michael Learns To Rock",
     "releaseYear": "2015",
     "genre": "流行",
@@ -8171,7 +8171,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "rest assured",
+    "title": "Rest Assured",
     "originalArtist": "Diafrix",
     "releaseYear": "2016",
     "genre": "流行",
@@ -8197,7 +8197,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "So far so good",
+    "title": "So Far So Good",
     "originalArtist": "Beady Belle",
     "releaseYear": "2020",
     "genre": "流行",
@@ -8210,7 +8210,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "still the one",
+    "title": "Still The One",
     "originalArtist": "Gioldest",
     "releaseYear": "2026",
     "genre": "流行",
@@ -8223,7 +8223,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "All out of love",
+    "title": "All Out Of Love",
     "originalArtist": "Air Supply",
     "releaseYear": "1980",
     "genre": "流行",
@@ -8236,7 +8236,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Autumn leaves",
+    "title": "Autumn Leaves",
     "originalArtist": "Jo Stafford",
     "releaseYear": "2001",
     "genre": "民谣",
@@ -8249,7 +8249,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Because of you",
+    "title": "Because Of You",
     "originalArtist": "Kelly Clarkson",
     "releaseYear": "2004",
     "genre": "流行",
@@ -8262,7 +8262,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "bedtime story",
+    "title": "Bedtime Story",
     "originalArtist": "欧阳娜娜",
     "releaseYear": "2022",
     "genre": "流行",
@@ -8275,7 +8275,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "God's country",
+    "title": "God's Country",
     "originalArtist": "Blake Shelton",
     "releaseYear": "2019",
     "genre": "流行",
@@ -8288,7 +8288,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "growing pains",
+    "title": "Growing Pains",
     "originalArtist": "Birdy",
     "releaseYear": "2016",
     "genre": "流行",
@@ -8301,7 +8301,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Holiday party",
+    "title": "Holiday Party",
     "originalArtist": "Dan + Shay",
     "releaseYear": "2022",
     "genre": "流行",
@@ -8314,7 +8314,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "I will survive",
+    "title": "I Will Survive",
     "originalArtist": "Demi Lovato",
     "releaseYear": "2016",
     "genre": "流行",
@@ -8327,7 +8327,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "loose tonight",
+    "title": "Loose Tonight",
     "originalArtist": "Hips",
     "releaseYear": "2017",
     "genre": "流行",
@@ -8340,7 +8340,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "No fear no more",
+    "title": "No Fear No More",
     "originalArtist": "Madeon",
     "releaseYear": "2019",
     "genre": "流行",
@@ -8353,7 +8353,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Ready for love",
+    "title": "Ready For Love",
     "originalArtist": "India Arie",
     "releaseYear": "2022",
     "genre": "流行",
@@ -8366,7 +8366,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Teenage dream",
+    "title": "Teenage Dream",
     "originalArtist": "Katy Perry",
     "releaseYear": "2010",
     "genre": "流行",
@@ -8379,7 +8379,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Viscous ocean",
+    "title": "Viscous Ocean",
     "originalArtist": "Beady Belle",
     "releaseYear": "2008",
     "genre": "流行",
@@ -8392,7 +8392,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Wind of change",
+    "title": "Wind Of Change",
     "originalArtist": "Scorpions",
     "releaseYear": "1989",
     "genre": "摇滚",
@@ -8405,7 +8405,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Falling for you",
+    "title": "Falling For You",
     "originalArtist": "Colbie Caillat",
     "releaseYear": "2021",
     "genre": "流行",
@@ -8418,7 +8418,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Half of my heart",
+    "title": "Half Of My Heart",
     "originalArtist": "John Mayer",
     "releaseYear": "2009",
     "genre": "摇滚",
@@ -8431,7 +8431,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "I feel it coming",
+    "title": "I Feel It Coming",
     "originalArtist": "The Weeknd/Daft Punk",
     "releaseYear": "2016",
     "genre": "流行",
@@ -8444,7 +8444,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "I wish your love",
+    "title": "I Wish Your Love",
     "originalArtist": "",
     "releaseYear": "",
     "genre": "",
@@ -8457,7 +8457,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Jesus to a child",
+    "title": "Jesus To A Child",
     "originalArtist": "George Michael",
     "releaseYear": "",
     "genre": "",
@@ -8470,7 +8470,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Pink champagne",
+    "title": "Pink Champagne",
     "originalArtist": "Nick Lopez",
     "releaseYear": "2018",
     "genre": "流行",
@@ -8483,7 +8483,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Stop this world",
+    "title": "Stop This World",
     "originalArtist": "Diana Krall",
     "releaseYear": "2003",
     "genre": "流行",
@@ -8496,7 +8496,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "temporary love",
+    "title": "Temporary Love",
     "originalArtist": "sunkis 宋秉勤",
     "releaseYear": "2023",
     "genre": "流行",
@@ -8509,7 +8509,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "The Look of Love",
+    "title": "The Look Of Love",
     "originalArtist": "Diana Krall",
     "releaseYear": "2009",
     "genre": "流行",
@@ -8522,7 +8522,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Until I find you",
+    "title": "Until I Find You",
     "originalArtist": "Richard Marx",
     "releaseYear": "",
     "genre": "",
@@ -8535,7 +8535,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Always on my mind",
+    "title": "Always On My Mind",
     "originalArtist": "Sakda Record",
     "releaseYear": "2026",
     "genre": "流行",
@@ -8548,7 +8548,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Fly me to the moon",
+    "title": "Fly Me To The Moon",
     "originalArtist": "Kaye Ballard",
     "releaseYear": "2017",
     "genre": "民谣",
@@ -8561,7 +8561,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Over the rainbow",
+    "title": "Over The Rainbow",
     "originalArtist": "Chris Mann",
     "releaseYear": "2008",
     "genre": "流行",
@@ -8574,7 +8574,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Ross and Rachael",
+    "title": "Ross And Rachael",
     "originalArtist": "",
     "releaseYear": "",
     "genre": "",
@@ -8587,7 +8587,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Shape of my heart",
+    "title": "Shape Of My Heart",
     "originalArtist": "Sting",
     "releaseYear": "1993",
     "genre": "流行",
@@ -8600,7 +8600,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Tequila sunrise",
+    "title": "Tequila Sunrise",
     "originalArtist": "Eagles",
     "releaseYear": "2019",
     "genre": "流行",
@@ -8613,7 +8613,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Can I walk with you",
+    "title": "Can I Walk With You",
     "originalArtist": "India Arie",
     "releaseYear": "2026",
     "genre": "流行",
@@ -8626,7 +8626,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Girl from Ipanema",
+    "title": "Girl From Ipanema",
     "originalArtist": "Olivia Ong",
     "releaseYear": "2005",
     "genre": "流行",
@@ -8639,7 +8639,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "give me one reason",
+    "title": "Give Me One Reason",
     "originalArtist": "Tracy Chapman",
     "releaseYear": "1998",
     "genre": "爵士 / Blues",
@@ -8652,7 +8652,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Head in the clouds",
+    "title": "Head In The Clouds",
     "originalArtist": "Hayd",
     "releaseYear": "2021",
     "genre": "流行",
@@ -8691,7 +8691,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Raining on Sunday",
+    "title": "Raining On Sunday",
     "originalArtist": "Keith Urban",
     "releaseYear": "2002",
     "genre": "流行",
@@ -8704,7 +8704,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Someone you loved",
+    "title": "Someone You Loved",
     "originalArtist": "Lewis Capaldi",
     "releaseYear": "2023",
     "genre": "R&B / Soul",
@@ -8717,7 +8717,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "you'll think of me",
+    "title": "You'll Think Of Me",
     "originalArtist": "Keith Urban",
     "releaseYear": "2002",
     "genre": "流行",
@@ -8730,7 +8730,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "I'm not the only one",
+    "title": "I'm Not The Only One",
     "originalArtist": "Sam Smith",
     "releaseYear": "2013",
     "genre": "流行",
@@ -8743,7 +8743,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Peter pan was right",
+    "title": "Peter Pan Was Right",
     "originalArtist": "Anson Seabra",
     "releaseYear": "2022",
     "genre": "流行",
@@ -8756,7 +8756,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Right here waiting",
+    "title": "Right Here Waiting",
     "originalArtist": "Richard Marx",
     "releaseYear": "1988",
     "genre": "流行",
@@ -8769,7 +8769,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "something about us",
+    "title": "Something About Us",
     "originalArtist": "Daft Punk",
     "releaseYear": "2001",
     "genre": "流行",
@@ -8795,7 +8795,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "dancing with my phone",
+    "title": "Dancing With My Phone",
     "originalArtist": "Kyle Nitram",
     "releaseYear": "2023",
     "genre": "流行",
@@ -8808,7 +8808,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Endless summer night",
+    "title": "Endless Summer Night",
     "originalArtist": "Richard Marx",
     "releaseYear": "2026",
     "genre": "流行",
@@ -8821,7 +8821,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Every breath you take",
+    "title": "Every Breath You Take",
     "originalArtist": "The Police",
     "releaseYear": "2014",
     "genre": "流行",
@@ -8834,7 +8834,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "On the Night Like This",
+    "title": "On The Night Like This",
     "originalArtist": "Coldiac",
     "releaseYear": "2004",
     "genre": "流行",
@@ -8860,7 +8860,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "We don't talk anymore",
+    "title": "We Don't Talk Anymore",
     "originalArtist": "Charlie Puth",
     "releaseYear": "2016",
     "genre": "流行",
@@ -8873,7 +8873,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Love will keep us alive",
+    "title": "Love Will Keep Us Alive",
     "originalArtist": "Eagles",
     "releaseYear": "1994",
     "genre": "摇滚",
@@ -8886,7 +8886,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "somewhere only we know",
+    "title": "Somewhere Only We Know",
     "originalArtist": "Keane",
     "releaseYear": "2004",
     "genre": "流行",
@@ -8899,7 +8899,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "the joker and the queen",
+    "title": "The Joker And The Queen",
     "originalArtist": "Ed Sheeran/Taylor Swift",
     "releaseYear": "2022",
     "genre": "摇滚",
@@ -8912,7 +8912,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "I'll still be loving you",
+    "title": "I'll Still Be Loving You",
     "originalArtist": "Restless Heart",
     "releaseYear": "1998",
     "genre": "流行",
@@ -8938,7 +8938,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Another crack in my heart",
+    "title": "Another Crack In My Heart",
     "originalArtist": "Take That",
     "releaseYear": "1993",
     "genre": "流行",
@@ -8951,7 +8951,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "long lost Sunday morning",
+    "title": "Long Lost Sunday Morning",
     "originalArtist": "Tep No",
     "releaseYear": "2019",
     "genre": "流行",
@@ -8964,7 +8964,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "strawberries & cigarette",
+    "title": "Strawberries & Cigarette",
     "originalArtist": "",
     "releaseYear": "",
     "genre": "",
@@ -8977,7 +8977,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Nothing's gonna stop us now",
+    "title": "Nothing's Gonna Stop Us Now",
     "originalArtist": "Starship",
     "releaseYear": "1987",
     "genre": "流行",
@@ -8990,7 +8990,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Some things I'll never know",
+    "title": "Some Things I'll Never Know",
     "originalArtist": "Teddy Swims",
     "releaseYear": "2023",
     "genre": "流行",
@@ -9003,7 +9003,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Those dancing days are gone",
+    "title": "Those Dancing Days Are Gone",
     "originalArtist": "Carla Bruni",
     "releaseYear": "2007",
     "genre": "流行",
@@ -9016,7 +9016,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Nothing's gonna change my love for you",
+    "title": "Nothing's Gonna Change My Love For You",
     "originalArtist": "George Benson",
     "releaseYear": "1985",
     "genre": "流行",
@@ -9030,12 +9030,12 @@ window.nanyinSongMetadata = [
   {
     "singerId": "v1-07",
     "title": "飘",
-    "originalArtist": "",
-    "releaseYear": "",
+    "originalArtist": "沙宝亮",
+    "releaseYear": "2003",
     "genre": "流行",
-    "source": "genre fallback; artist/year pending",
+    "source": "user provided artist; MusicBrainz release search",
     "sourceUrl": "",
-    "confidence": "pending",
+    "confidence": "medium",
     "checkedAt": "2026-07-25"
   },
   {
@@ -9074,12 +9074,12 @@ window.nanyinSongMetadata = [
   {
     "singerId": "v1-07",
     "title": "表态",
-    "originalArtist": "",
-    "releaseYear": "",
-    "genre": "流行",
-    "source": "genre fallback; artist/year pending",
+    "originalArtist": "梁博",
+    "releaseYear": "2021",
+    "genre": "摇滚",
+    "source": "user provided artist; web lyric metadata",
     "sourceUrl": "",
-    "confidence": "pending",
+    "confidence": "medium",
     "checkedAt": "2026-07-25"
   },
   {
@@ -9195,12 +9195,12 @@ window.nanyinSongMetadata = [
   {
     "singerId": "v1-07",
     "title": "结婚",
-    "originalArtist": "",
-    "releaseYear": "",
-    "genre": "流行",
-    "source": "genre fallback; artist/year pending",
+    "originalArtist": "李志",
+    "releaseYear": "2009",
+    "genre": "民谣",
+    "source": "user provided artist; MusicBrainz release search",
     "sourceUrl": "",
-    "confidence": "pending",
+    "confidence": "medium",
     "checkedAt": "2026-07-25"
   },
   {
@@ -9404,12 +9404,12 @@ window.nanyinSongMetadata = [
   {
     "singerId": "v1-07",
     "title": "下坠",
-    "originalArtist": "Corki刘宗鑫",
-    "releaseYear": "",
-    "genre": "流行",
-    "source": "MusicBrainz title search",
+    "originalArtist": "汪峰",
+    "releaseYear": "2018",
+    "genre": "摇滚",
+    "source": "user provided artist; web search",
     "sourceUrl": "",
-    "confidence": "pending",
+    "confidence": "medium",
     "checkedAt": "2026-07-25"
   },
   {
@@ -9437,12 +9437,12 @@ window.nanyinSongMetadata = [
   {
     "singerId": "v1-07",
     "title": "心脏",
-    "originalArtist": "",
-    "releaseYear": "",
+    "originalArtist": "声入人心男团",
+    "releaseYear": "2019",
     "genre": "流行",
-    "source": "genre fallback; artist/year pending",
+    "source": "user provided artist; MusicBrainz release search",
     "sourceUrl": "",
-    "confidence": "pending",
+    "confidence": "medium",
     "checkedAt": "2026-07-25"
   },
   {
@@ -9712,12 +9712,12 @@ window.nanyinSongMetadata = [
   {
     "singerId": "v1-07",
     "title": "天边外",
-    "originalArtist": "",
-    "releaseYear": "",
+    "originalArtist": "陈伟轮",
+    "releaseYear": "2018",
     "genre": "流行",
-    "source": "genre fallback; artist/year pending",
+    "source": "user provided artist; web search",
     "sourceUrl": "",
-    "confidence": "pending",
+    "confidence": "medium",
     "checkedAt": "2026-07-25"
   },
   {
@@ -9767,12 +9767,12 @@ window.nanyinSongMetadata = [
   {
     "singerId": "v1-07",
     "title": "小小虫",
-    "originalArtist": "",
-    "releaseYear": "",
-    "genre": "流行",
-    "source": "genre fallback; artist/year pending",
+    "originalArtist": "方大同",
+    "releaseYear": "2009",
+    "genre": "R&B",
+    "source": "user provided artist; MusicBrainz release search",
     "sourceUrl": "",
-    "confidence": "pending",
+    "confidence": "medium",
     "checkedAt": "2026-07-25"
   },
   {
@@ -10185,12 +10185,12 @@ window.nanyinSongMetadata = [
   {
     "singerId": "v1-07",
     "title": "音乐爱我",
-    "originalArtist": "",
-    "releaseYear": "",
+    "originalArtist": "常石磊",
+    "releaseYear": "2020",
     "genre": "流行",
-    "source": "genre fallback; artist/year pending",
+    "source": "user provided artist; web search",
     "sourceUrl": "",
-    "confidence": "pending",
+    "confidence": "medium",
     "checkedAt": "2026-07-25"
   },
   {
@@ -10218,10 +10218,10 @@ window.nanyinSongMetadata = [
   {
     "singerId": "v1-07",
     "title": "曾经是情侣",
-    "originalArtist": "",
+    "originalArtist": "梁博",
     "releaseYear": "",
     "genre": "流行",
-    "source": "genre fallback; artist/year pending",
+    "source": "user provided artist; year pending",
     "sourceUrl": "",
     "confidence": "pending",
     "checkedAt": "2026-07-25"
@@ -10273,10 +10273,10 @@ window.nanyinSongMetadata = [
   {
     "singerId": "v1-07",
     "title": "荒漠上行走",
-    "originalArtist": "",
+    "originalArtist": "亚森",
     "releaseYear": "",
-    "genre": "流行",
-    "source": "genre fallback; artist/year pending",
+    "genre": "民谣",
+    "source": "user provided artist; year pending",
     "sourceUrl": "",
     "confidence": "pending",
     "checkedAt": "2026-07-25"
@@ -10383,12 +10383,12 @@ window.nanyinSongMetadata = [
   {
     "singerId": "v1-07",
     "title": "像疯了一样",
-    "originalArtist": "",
-    "releaseYear": "",
+    "originalArtist": "陈楚生",
+    "releaseYear": "2025",
     "genre": "流行",
-    "source": "genre fallback; artist/year pending",
+    "source": "user provided artist; MusicBrainz live release search",
     "sourceUrl": "",
-    "confidence": "pending",
+    "confidence": "medium",
     "checkedAt": "2026-07-25"
   },
   {
@@ -10460,12 +10460,12 @@ window.nanyinSongMetadata = [
   {
     "singerId": "v1-07",
     "title": "纯洁2016",
-    "originalArtist": "",
-    "releaseYear": "",
-    "genre": "流行",
-    "source": "genre fallback; artist/year pending",
+    "originalArtist": "木马",
+    "releaseYear": "2016",
+    "genre": "摇滚",
+    "source": "user provided artist",
     "sourceUrl": "",
-    "confidence": "pending",
+    "confidence": "medium",
     "checkedAt": "2026-07-25"
   },
   {
@@ -10526,10 +10526,10 @@ window.nanyinSongMetadata = [
   {
     "singerId": "v1-07",
     "title": "这样一个麻烦",
-    "originalArtist": "",
+    "originalArtist": "陈奕迅",
     "releaseYear": "",
     "genre": "流行",
-    "source": "genre fallback; artist/year pending",
+    "source": "user provided artist; year pending",
     "sourceUrl": "",
     "confidence": "pending",
     "checkedAt": "2026-07-25"
@@ -10537,10 +10537,10 @@ window.nanyinSongMetadata = [
   {
     "singerId": "v1-07",
     "title": "只为灿烂瞬间",
-    "originalArtist": "",
+    "originalArtist": "陈昊宇",
     "releaseYear": "",
     "genre": "流行",
-    "source": "genre fallback; artist/year pending",
+    "source": "user provided artist; year pending",
     "sourceUrl": "",
     "confidence": "pending",
     "checkedAt": "2026-07-25"
@@ -10548,12 +10548,12 @@ window.nanyinSongMetadata = [
   {
     "singerId": "v1-07",
     "title": "1234567",
-    "originalArtist": "",
-    "releaseYear": "",
-    "genre": "流行",
-    "source": "genre fallback; artist/year pending",
+    "originalArtist": "方大同",
+    "releaseYear": "2009",
+    "genre": "R&B",
+    "source": "user provided artist; MusicBrainz release search",
     "sourceUrl": "",
-    "confidence": "pending",
+    "confidence": "medium",
     "checkedAt": "2026-07-25"
   },
   {
@@ -10636,10 +10636,10 @@ window.nanyinSongMetadata = [
   {
     "singerId": "v1-07",
     "title": "你要如何我们便如何",
-    "originalArtist": "",
+    "originalArtist": "康姆士",
     "releaseYear": "",
     "genre": "流行",
-    "source": "genre fallback; artist/year pending",
+    "source": "user provided artist; year pending",
     "sourceUrl": "",
     "confidence": "pending",
     "checkedAt": "2026-07-25"
@@ -10691,10 +10691,10 @@ window.nanyinSongMetadata = [
   {
     "singerId": "v1-07",
     "title": "没有人能比我们更接近对方",
-    "originalArtist": "",
+    "originalArtist": "声音玩具",
     "releaseYear": "",
-    "genre": "流行",
-    "source": "genre fallback; artist/year pending",
+    "genre": "摇滚",
+    "source": "user provided artist; year pending",
     "sourceUrl": "",
     "confidence": "pending",
     "checkedAt": "2026-07-25"
@@ -10734,7 +10734,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Old love",
+    "title": "Old Love",
     "originalArtist": "Eric Clapton",
     "releaseYear": "1989",
     "genre": "Blues",
@@ -10789,7 +10789,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Annie mae",
+    "title": "Annie Mae",
     "originalArtist": "John Lee Hooker",
     "releaseYear": "1961",
     "genre": "Blues",
@@ -10811,7 +10811,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "A song for u",
+    "title": "A Song For You",
     "originalArtist": "Leon Russell",
     "releaseYear": "1970",
     "genre": "Soul",
@@ -10833,7 +10833,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Lay me down",
+    "title": "Lay Me Down",
     "originalArtist": "Sam Smith",
     "releaseYear": "2014",
     "genre": "Soul",
@@ -10844,7 +10844,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Lilac wine",
+    "title": "Lilac Wine",
     "originalArtist": "James Shelton",
     "releaseYear": "1950",
     "genre": "爵士",
@@ -10855,7 +10855,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Losing you",
+    "title": "Losing You",
     "originalArtist": "Dusty Springfield",
     "releaseYear": "1964",
     "genre": "流行",
@@ -10866,7 +10866,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Stand by me",
+    "title": "Stand By Me",
     "originalArtist": "Ben E. King",
     "releaseYear": "1961",
     "genre": "Soul",
@@ -10888,7 +10888,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Close to you",
+    "title": "Close To You",
     "originalArtist": "The Carpenters",
     "releaseYear": "1970",
     "genre": "流行",
@@ -10899,7 +10899,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Purple rain",
+    "title": "Purple Rain",
     "originalArtist": "Prince",
     "releaseYear": "1984",
     "genre": "摇滚",
@@ -10921,7 +10921,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "City of stars",
+    "title": "City Of Stars",
     "originalArtist": "Ryan Gosling / Emma Stone",
     "releaseYear": "2016",
     "genre": "流行",
@@ -10932,7 +10932,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Feeling good",
+    "title": "Feeling Good",
     "originalArtist": "Nina Simone",
     "releaseYear": "1965",
     "genre": "爵士",
@@ -10943,7 +10943,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "I think of you",
+    "title": "I Think Of You",
     "originalArtist": "Rodriguez",
     "releaseYear": "1971",
     "genre": "民谣",
@@ -10954,7 +10954,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Come together",
+    "title": "Come Together",
     "originalArtist": "The Beatles",
     "releaseYear": "1969",
     "genre": "摇滚",
@@ -10965,7 +10965,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "If i ain't got u",
+    "title": "If I Ain't Got You",
     "originalArtist": "Alicia Keys",
     "releaseYear": "2003",
     "genre": "R&B",
@@ -10976,7 +10976,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Say something",
+    "title": "Say Something",
     "originalArtist": "A Great Big World / Christina Aguilera",
     "releaseYear": "2013",
     "genre": "流行",
@@ -10987,7 +10987,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Cherry red wine",
+    "title": "Cherry Red Wine",
     "originalArtist": "Luther Allison",
     "releaseYear": "1995",
     "genre": "Blues",
@@ -10998,7 +10998,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "No one knows you",
+    "title": "No One Knows You",
     "originalArtist": "Jimmy Cox",
     "releaseYear": "1923",
     "genre": "Blues",
@@ -11009,7 +11009,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "The one you love",
+    "title": "The One You Love",
     "originalArtist": "Glenn Frey",
     "releaseYear": "1982",
     "genre": "流行",
@@ -11020,7 +11020,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Fly me to the moon",
+    "title": "Fly Me To The Moon",
     "originalArtist": "Kaye Ballard",
     "releaseYear": "1954",
     "genre": "爵士",
@@ -11031,7 +11031,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Isn't she lovely",
+    "title": "Isn't She Lovely",
     "originalArtist": "Stevie Wonder",
     "releaseYear": "1976",
     "genre": "Soul",
@@ -11042,7 +11042,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Just the two of us",
+    "title": "Just The Two Of Us",
     "originalArtist": "Grover Washington Jr. / Bill Withers",
     "releaseYear": "1980",
     "genre": "Soul",
@@ -11053,7 +11053,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Sultans of swing",
+    "title": "Sultans Of Swing",
     "originalArtist": "Dire Straits",
     "releaseYear": "1978",
     "genre": "摇滚",
@@ -11064,7 +11064,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Ain't no sunshine",
+    "title": "Ain't No Sunshine",
     "originalArtist": "Bill Withers",
     "releaseYear": "1971",
     "genre": "Soul",
@@ -11075,7 +11075,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Careless whisper",
+    "title": "Careless Whisper",
     "originalArtist": "George Michael",
     "releaseYear": "1984",
     "genre": "流行",
@@ -11086,7 +11086,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "I've got a feeling",
+    "title": "I've Got A Feeling",
     "originalArtist": "The Beatles",
     "releaseYear": "1970",
     "genre": "摇滚",
@@ -11097,7 +11097,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Make u feel my love",
+    "title": "Make You Feel My Love",
     "originalArtist": "Bob Dylan",
     "releaseYear": "1997",
     "genre": "民谣",
@@ -11108,7 +11108,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "The thrill is gone",
+    "title": "The Thrill Is Gone",
     "originalArtist": "Roy Hawkins",
     "releaseYear": "1951",
     "genre": "Blues",
@@ -11130,7 +11130,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "I'm not the only one",
+    "title": "I'm Not The Only One",
     "originalArtist": "Sam Smith",
     "releaseYear": "2014",
     "genre": "Soul",
@@ -11141,7 +11141,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Rolling in the deep",
+    "title": "Rolling In The Deep",
     "originalArtist": "Adele",
     "releaseYear": "2010",
     "genre": "流行",
@@ -11152,7 +11152,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Wonderful tonight",
+    "title": "Wonderful Tonight",
     "originalArtist": "Eric Clapton",
     "releaseYear": "1977",
     "genre": "摇滚",
@@ -11163,7 +11163,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Cant take my eyes off u",
+    "title": "Can't Take My Eyes Off You",
     "originalArtist": "Frankie Valli",
     "releaseYear": "1967",
     "genre": "流行",
@@ -11174,7 +11174,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Don‘t look back in anger",
+    "title": "Don't Look Back In Anger",
     "originalArtist": "Oasis",
     "releaseYear": "1995",
     "genre": "摇滚",
@@ -11185,7 +11185,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "I know you know I love you",
+    "title": "I Know You Know I Love You",
     "originalArtist": "Sunset Rollercoaster",
     "releaseYear": "2011",
     "genre": "流行",
@@ -11196,7 +11196,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Stop crying your heart out",
+    "title": "Stop Crying Your Heart Out",
     "originalArtist": "Oasis",
     "releaseYear": "2002",
     "genre": "摇滚",
@@ -11207,7 +11207,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "What a difference a day made",
+    "title": "What A Difference A Day Made",
     "originalArtist": "María Grever",
     "releaseYear": "1934",
     "genre": "爵士",
@@ -11218,7 +11218,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Slow dancing in a burning room",
+    "title": "Slow Dancing In A Burning Room",
     "originalArtist": "John Mayer",
     "releaseYear": "2006",
     "genre": "Blues",
@@ -11229,7 +11229,7 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "v1-07",
-    "title": "Sorry seems to be the hardest word",
+    "title": "Sorry Seems To Be The Hardest Word",
     "originalArtist": "Elton John",
     "releaseYear": "1976",
     "genre": "流行",

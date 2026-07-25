@@ -78,7 +78,7 @@
 | 62 | 遗憾 | 许美静 | 1997 | 流行 | 2 |
 | 63 | 只你 | 颜人中 | 待补 | 流行 | 2 |
 | 64 | 自拍 | 陈慧敏 | 待补 | 流行 | 2 |
-| 65 | 4am | Justin Stone | 2017 | 流行 | 3 |
+| 65 | 4AM | Justin Stone | 2017 | 流行 | 3 |
 | 66 | 不等你 | 汪苏泷 | 待补 | 流行 | 3 |
 | 67 | 不将就 | 李荣浩 | 2016 | 流行 | 3 |
 | 68 | 不找了 | 郭旭 | 待补 | 民谣 | 3 |
@@ -247,15 +247,15 @@
 | 20 | Thank You | Dido | 2006 | 流行 | 8 |
 | 21 | That's Us | Anson Seabra | 2019 | 流行 | 8 |
 | 22 | Apologize | OneRepublic | 2013 | R&B / Soul | 9 |
-| 23 | Mam' selle | Art Lund | 待补 | 流行 | 9 |
+| 23 | Mam' Selle | Art Lund | 待补 | 流行 | 9 |
 | 24 | Moody Wind | Anthony Lazaro | 2025 | 流行 | 9 |
 | 25 | Moon River | Audrey Hepburn | 2024 | 民谣 | 9 |
 | 26 | Put It On Me | Matt Maeson | 2018 | 流行 | 9 |
 | 27 | Close To You | The Carpenters | 待补 | 民谣 | 10 |
-| 28 | Mad sex cool | Babyface | 待补 | 流行 | 10 |
+| 28 | Mad Sex Cool | Babyface | 待补 | 流行 | 10 |
 | 29 | Miss Riddle | Boz Scaggs | 2001 | 流行 | 10 |
 | 30 | Say It Again | Marie Digby | 2008 | 摇滚 | 10 |
-| 31 | Shape of You | Ed Sheeran | 2022 | R&B / Soul | 10 |
+| 31 | Shape Of You | Ed Sheeran | 2022 | R&B / Soul | 10 |
 | 32 | Before You Go | Lewis Capaldi | 2019 | 摇滚 | 11 |
 | 33 | Cry Me A River | Julie London | 2004 | 流行 | 11 |
 | 34 | Feeling Good | Cy Grant | 待补 | 民谣 | 11 |
@@ -274,9 +274,9 @@
 | 47 | A Thousand Years | Christina Perri | 2016 | 流行 | 14 |
 | 48 | Blue Suede Shoes | Carl Perkins | 1995 | 民谣 | 14 |
 | 49 | Fly Me To The Moon | Kaye Ballard | 2017 | 民谣 | 14 |
-| 50 | Just the Two of Us | Grover Washington Jr. feat. Bill Withers | 2022 | 流行 | 14 |
+| 50 | Just The Two Of Us | Grover Washington Jr. feat. Bill Withers | 2022 | 流行 | 14 |
 | 51 | Love You Anymore | Michael Bublé | 2019 | 流行 | 14 |
-| 52 | Ain' t No Sunshine | Bill Withers | 待补 | 流行 | 15 |
+| 52 | Ain't No Sunshine | Bill Withers | 待补 | 流行 | 15 |
 | 53 | Give Me One Reason | Tracy Chapman | 1998 | 爵士 / Blues | 15 |
 | 54 | Head In The Clouds | Hayd | 2021 | 流行 | 15 |
 | 55 | Hindenburg Lover | Anson Seabra | 2020 | 流行 | 15 |
@@ -292,12 +292,12 @@
 | 65 | Supermarket Flowers | Ed Sheeran | 2022 | 流行 | 18 |
 | 66 | To Let A Good Thing Die | Bruno Major | 2020 | 流行 | 18 |
 | 67 | If December Never Ends | Anson Seabra | 2023 | 流行 | 19 |
-| 68 | Somewhere in Ann Arbor | Anson Seabra | 2020 | 流行 | 19 |
+| 68 | Somewhere In Ann Arbor | Anson Seabra | 2020 | 流行 | 19 |
 | 69 | Welcome To Wonderland | Anson Seabra | 2018 | 流行 | 19 |
 | 70 | What A Wonderful World | Louis Armstrong | 2006 | 民谣 | 19 |
 | 71 | A Thousand Dreams Of You | The Romantic Strings | 待补 | 民谣 | 20 |
 | 72 | Can I Have The Day With You | Sam Ock | 2020 | 流行 | 21 |
-| 73 | Can' t Take My Eyes Off You | Frankie Valli | 待补 | 流行 | 21 |
+| 73 | Can't Take My Eyes Off You | Frankie Valli | 待补 | 流行 | 21 |
 | 74 | Down By The Sally Gardens | Traditional | 2012 | 民谣 | 21 |
 | 75 | Dream A Little Dream Of Me | Ozzie Nelson | 1931 | 民谣 | 21 |
 | 76 | I Can't Smile Without You | David Martin | 待补 | 民谣 | 21 |
@@ -307,7 +307,7 @@
 | 80 | Boulevard Of Broken Dreams | Green Day | 2008 | 摇滚 | 23 |
 | 81 | Put Your Head On My Shoulder | Paul Anka | 2011 | 民谣 | 23 |
 | 82 | Can You Feel The Love Tonight | Elton John | 2003 | 流行 | 24 |
-| 83 | I Don' t Mind If You Don' t Mind | Ruel | 待补 | 流行 | 24 |
-| 84 | Lets Fall In Love For The Night | FINNEAS | 待补 | 流行 | 25 |
+| 83 | I Don't Mind If You Don' T Mind | Ruel | 待补 | 流行 | 24 |
+| 84 | Let's Fall In Love For The Night | FINNEAS | 待补 | 流行 | 25 |
 | 85 | Wake Me Up When September Ends | Green Day | 2024 | 摇滚 | 25 |
-| 86 | (I Love You) for Sentimental Reasons | Deek Watson | 待补 | 流行 | 31 |
+| 86 | (I Love You) For Sentimental Reasons | Deek Watson | 待补 | 流行 | 31 |
