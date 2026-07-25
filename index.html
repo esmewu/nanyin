@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="./theme.css?v=20260725h">
+    <link rel="stylesheet" href="./theme.css?v=20260725i">
   </head>
   <body>
     <main class="min-h-screen bg-base-200">
@@ -64,6 +64,7 @@
           <section id="songsView" class="hidden" aria-label="歌曲列表">
             <section class="home-song-filters grid gap-3 mb-3">
               <label class="form-control"><span class="label-text font-bold">排序</span><select id="sort" class="select select-bordered"><option value="default">默认</option><option value="az">歌名 A-Z</option><option value="length">歌名字数</option><option value="originalArtist">原唱</option><option value="likes">♥</option></select></label>
+              <button id="homeSongViewToggle" class="view-toggle-button" type="button" aria-label="切换歌曲视图"></button>
               <label class="form-control"><span class="label-text font-bold">语种</span><select id="languageFilter" class="select select-bordered"><option value="all">全部语种</option></select></label>
               <label class="form-control"><span class="label-text font-bold">类型</span><select id="genreFilter" class="select select-bordered"><option value="all">全部类型</option></select></label>
             </section>
@@ -110,6 +111,7 @@
             </label>
             <section id="songlistControls" class="songlist-controls mb-3">
               <label class="form-control"><span class="label-text font-bold">排序</span><select id="detailSort" class="select select-bordered"><option value="default">默认</option><option value="az">歌名 A-Z</option><option value="length">歌名字数</option><option value="originalArtist">原唱</option><option value="likes">♥</option></select></label>
+              <button id="detailSongViewToggle" class="view-toggle-button" type="button" aria-label="切换曲库视图"></button>
               <label class="form-control"><span class="label-text font-bold">语言</span><select id="detailLanguage" class="select select-bordered"><option value="all">全部</option><option value="中文">中文</option><option value="英文">英文</option></select></label>
               <button class="btn recommend-btn song-add-button hidden" id="detailAddSong" type="button">添加</button>
             </section>
@@ -383,6 +385,6 @@
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script>
     <script src="./v1-singers.js?v=20260723q"></script>
     <script src="./song-metadata.js?v=20260724c"></script>
-    <script src="./theme.js?v=20260725g"></script>
+    <script src="./theme.js?v=20260725i"></script>
   </body>
 </html>

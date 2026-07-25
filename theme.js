@@ -712,6 +712,8 @@ const scheduleStoreKey = "nanyin-singer-schedules";
 const tagStoreKey = "nanyin-singer-tags";
 const authStoreKey = "nanyin-singer-auth";
 const colorModeStoreKey = "nanyin-color-mode";
+const homeSongViewStoreKey = "nanyin-home-song-view";
+const detailSongViewStoreKey = "nanyin-detail-song-view";
 const customSongStoreKey = "nanyin-custom-songs";
 const pinnedSongStoreKey = "nanyin-pinned-songs";
 const songEditStoreKey = "nanyin-song-edits";
@@ -756,12 +758,31 @@ let editDebtCounter = 1;
 let activeDetailPanel = "debts";
 let lastDetailSingerId = "";
 let detailSongQuery = "";
+let homeSongViewMode = readViewMode(homeSongViewStoreKey);
+let detailSongViewMode = readViewMode(detailSongViewStoreKey);
 
 function readStoredJSON(key, fallback) {
   try {
     return JSON.parse(localStorage.getItem(key)) || fallback;
   } catch {
     return fallback;
+  }
+}
+
+function readViewMode(key) {
+  try {
+    const mode = localStorage.getItem(key);
+    return mode === "card" ? "card" : "list";
+  } catch {
+    return "list";
+  }
+}
+
+function writeViewMode(key, mode) {
+  try {
+    localStorage.setItem(key, mode);
+  } catch {
+    // Ignore private browsing storage failures; view mode can stay in memory.
   }
 }
 
@@ -1702,10 +1723,21 @@ function songCard(song, options = {}) {
   const flat = options.flat === true;
   const canPin = options.canPin === true;
   const canEdit = options.canEdit === true;
+  const compact = options.compact === true;
   const pinned = isSongPinned(song);
   const pinnedKeys = Object.keys(readPinnedSongs()).sort();
   const pinnedIndex = pinned ? Math.max(0, pinnedKeys.indexOf(songKey(song))) : -1;
   const pinnedClass = pinned ? `song-card-pinned song-card-pinned-${(pinnedIndex % 7) + 1}` : "";
+  const baseClass = flat ? "song-card-flat" : "bg-base-100 md:bg-base-200 border border-base-300";
+  if (compact) {
+    return `
+      <article class="card ${baseClass} ${pinnedClass} song-card-compact">
+        <div class="card-body song-card-body">
+          <h3 class="font-bold">${song.title}</h3>
+        </div>
+      </article>
+    `;
+  }
   const details = [
     showSinger ? song.singer : "",
     `原唱：${song.originalArtist || "待补"}`,
@@ -1715,7 +1747,7 @@ function songCard(song, options = {}) {
   ].filter(Boolean).join(" · ");
 
   return `
-    <article class="card ${flat ? "song-card-flat" : "bg-base-100 md:bg-base-200 border border-base-300"} ${pinnedClass}">
+    <article class="card ${baseClass} ${pinnedClass}">
       <div class="card-body song-card-body flex-row justify-between items-center gap-3">
         <div class="min-w-0">
           <h3 class="font-bold text-lg">${song.title}</h3>
@@ -1745,11 +1777,27 @@ function songCard(song, options = {}) {
   `;
 }
 
+function songViewToggleIcon(mode) {
+  return mode === "card"
+    ? `<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 6h16"></path><path d="M4 12h16"></path><path d="M4 18h16"></path></svg>`
+    : `<svg aria-hidden="true" viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6" rx="1.2"></rect><rect x="14" y="4" width="6" height="6" rx="1.2"></rect><rect x="4" y="14" width="6" height="6" rx="1.2"></rect><rect x="14" y="14" width="6" height="6" rx="1.2"></rect></svg>`;
+}
+
+function updateSongViewToggle(buttonId, mode) {
+  const button = $(buttonId);
+  if (!button) return;
+  button.innerHTML = songViewToggleIcon(mode);
+  button.setAttribute("aria-pressed", mode === "card" ? "true" : "false");
+  button.title = mode === "card" ? "切换到列表视图" : "切换到卡片视图";
+}
+
 function renderSongs() {
   const list = visibleSongs();
-  $("songs").className = "grid gap-2";
-  $("songs").innerHTML = list.map(songCard).join("") || "<article class='alert'>没有找到结果</article>";
-  bindLikeButtons();
+  const compact = homeSongViewMode === "card";
+  updateSongViewToggle("homeSongViewToggle", homeSongViewMode);
+  $("songs").className = compact ? "song-card-grid-compact" : "grid gap-2";
+  $("songs").innerHTML = list.map((song) => songCard(song, { compact })).join("") || "<article class='alert'>没有找到结果</article>";
+  if (!compact) bindLikeButtons();
 }
 
 function detailSongs(singer) {
@@ -1959,6 +2007,8 @@ function renderSingerPage() {
   $("songlistControls").querySelectorAll(".form-control").forEach((control) => {
     control.classList.toggle("hidden", !hasSongs);
   });
+  $("detailSongViewToggle").classList.toggle("hidden", !hasSongs);
+  updateSongViewToggle("detailSongViewToggle", detailSongViewMode);
   $("detailAddSong").classList.toggle("hidden", !canManage);
   $("detailAddSong").onclick = canManage ? openAddSongDialog : null;
   renderDebtList(singer, $("detailDebtList"));
@@ -1966,11 +2016,16 @@ function renderSingerPage() {
   $("detailDebtAdd").classList.toggle("hidden", !canManage);
   $("detailDebtAdd").onclick = canManage ? openDebtDialog : null;
   if (activeDetailPanel === "library" && hasSongs) {
-    $("detailSongs").className = "grid gap-2";
-    $("detailSongs").innerHTML = detailSongs(singer).map((song) => songCard(song, { showSinger: false, flat: true, canPin: canManage, canEdit: canManage })).join("") || "<article class='alert'>没有找到歌曲</article>";
-    bindSongEditButtons();
-    bindPinButtons();
-    bindLikeButtons();
+    const compact = detailSongViewMode === "card";
+    $("detailSongs").className = compact ? "song-card-grid-compact" : "grid gap-2";
+    $("detailSongs").innerHTML = detailSongs(singer)
+      .map((song) => songCard(song, { showSinger: false, flat: true, canPin: canManage, canEdit: canManage, compact }))
+      .join("") || "<article class='alert'>没有找到歌曲</article>";
+    if (!compact) {
+      bindSongEditButtons();
+      bindPinButtons();
+      bindLikeButtons();
+    }
   } else if (activeDetailPanel === "library") {
     $("detailSongs").className = "detail-empty-list";
     $("detailSongs").innerHTML = "<p class='song-empty-state'>歌单呢🤔</p>";
@@ -2099,6 +2154,13 @@ $("logoutSinger").onclick = () => {
   };
 });
 
+$("homeSongViewToggle").onclick = () => {
+  homeSongViewMode = homeSongViewMode === "card" ? "list" : "card";
+  writeViewMode(homeSongViewStoreKey, homeSongViewMode);
+  activeTab = "songs";
+  renderRoute();
+};
+
 $("clearSearch").onclick = () => {
   $("search").value = "";
   activeTab = "singers";
@@ -2109,6 +2171,12 @@ $("clearSearch").onclick = () => {
 ["detailSort", "detailLanguage"].forEach((id) => {
   $(id).oninput = renderRoute;
 });
+
+$("detailSongViewToggle").onclick = () => {
+  detailSongViewMode = detailSongViewMode === "card" ? "list" : "card";
+  writeViewMode(detailSongViewStoreKey, detailSongViewMode);
+  renderRoute();
+};
 
 $("detailSearch").oninput = () => {
   detailSongQuery = $("detailSearch").value.trim();
