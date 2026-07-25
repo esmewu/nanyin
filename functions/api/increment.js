@@ -40,38 +40,9 @@ async function writeState(env, state) {
   return nextState;
 }
 
-async function handleStateApi(request, env) {
-  if (!env.NANYIN_KV) {
-    return json({ error: "Missing KV binding: NANYIN_KV" }, 500);
-  }
+export async function onRequest(context) {
+  const { request, env } = context;
 
-  try {
-    if (request.method === "GET") {
-      return json(await readState(env));
-    }
-
-    if (request.method === "PUT") {
-      const incoming = await request.json();
-      return json(await writeState(env, incoming));
-    }
-
-    if (request.method === "POST") {
-      const patch = await request.json();
-      const current = await readState(env);
-      return json(await writeState(env, { ...current, ...patch }));
-    }
-
-    return json({ error: "Method not allowed" }, 405);
-  } catch (error) {
-    return json({
-      error: "Cloudflare Worker KV API error",
-      message: error.message,
-      name: error.name
-    }, 500);
-  }
-}
-
-async function handleIncrementApi(request, env) {
   if (!env.NANYIN_KV) {
     return json({ error: "Missing KV binding: NANYIN_KV" }, 500);
   }
@@ -94,25 +65,9 @@ async function handleIncrementApi(request, env) {
     return json({ bucket, key, value: nextBucket[key], state: nextState });
   } catch (error) {
     return json({
-      error: "Cloudflare Worker increment API error",
+      error: "Cloudflare KV increment API error",
       message: error.message,
       name: error.name
     }, 500);
   }
 }
-
-export default {
-  async fetch(request, env) {
-    const url = new URL(request.url);
-
-    if (url.pathname === "/api/state") {
-      return handleStateApi(request, env);
-    }
-
-    if (url.pathname === "/api/increment") {
-      return handleIncrementApi(request, env);
-    }
-
-    return env.ASSETS.fetch(request);
-  }
-};

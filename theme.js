@@ -715,6 +715,7 @@ const songEditStoreKey = "nanyin-song-edits";
 const deletedSongStoreKey = "nanyin-deleted-songs";
 const songRequestStoreKey = "nanyin-song-requests";
 const sharedStateEndpoint = location.hostname.includes("edgeone.") ? "/node-api/state" : "/api/state";
+const sharedStateIncrementEndpoint = location.hostname.includes("edgeone.") ? "/node-api/increment" : "/api/increment";
 const singerLoginPassword = "NanYin2026DebtManagement";
 const cnLanguages = ["中文", "粤语", "闽南语"];
 const maxPinnedSongs = 10;
@@ -807,15 +808,90 @@ function saveSharedStateSoon() {
   clearTimeout(sharedStateSaveTimer);
   sharedStateSaveTimer = setTimeout(async () => {
     try {
+      let outgoingState = sharedState;
+      try {
+        const latestResponse = await fetch(sharedStateEndpoint, { cache: "no-store" });
+        if (latestResponse.ok) {
+          const latestState = await latestResponse.json();
+          outgoingState = {
+            ...outgoingState,
+            likes: mergeCountersByMax(latestState.likes, outgoingState.likes),
+            singerReactions: mergeCountersByMax(latestState.singerReactions, outgoingState.singerReactions)
+          };
+          sharedState = {
+            ...emptySharedState,
+            ...outgoingState
+          };
+        }
+      } catch (error) {
+        console.warn("共享计数合并失败，继续保存当前数据", error);
+      }
       await fetch(sharedStateEndpoint, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(sharedState)
+        body: JSON.stringify(outgoingState)
       });
     } catch (error) {
       console.warn("共享数据保存失败，已保留在本地缓存", error);
     }
   }, 250);
+}
+
+function mergeCountersByMax(a = {}, b = {}) {
+  const merged = { ...a, ...b };
+  Object.keys(merged).forEach((key) => {
+    merged[key] = Math.max(Number(a[key] || 0), Number(b[key] || 0));
+  });
+  return merged;
+}
+
+function cacheCounterState(bucket) {
+  if (bucket === "likes") writeStoredJSON(likeStoreKey, sharedState.likes);
+  if (bucket === "singerReactions") writeStoredJSON(singerReactionStoreKey, sharedState.singerReactions);
+}
+
+function localIncrementCounter(bucket, key, amount = 1) {
+  const counters = { ...(sharedState[bucket] || {}) };
+  counters[key] = Math.max(0, Number(counters[key] || 0) + Number(amount || 1));
+  sharedState[bucket] = counters;
+  cacheCounterState(bucket);
+  return counters[key];
+}
+
+async function incrementCounter(bucket, key, amount = 1, options = {}) {
+  const optimisticValue = options.optimistic === false
+    ? Number((sharedState[bucket] || {})[key] || 0)
+    : localIncrementCounter(bucket, key, amount);
+  if (location.protocol === "file:" || !sharedStateReady) {
+    return optimisticValue;
+  }
+
+  try {
+    const response = await fetch(sharedStateIncrementEndpoint, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ bucket, key, amount })
+    });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const result = await response.json();
+    if (result.state) {
+      sharedState = {
+        ...emptySharedState,
+        ...result.state
+      };
+      cacheSharedState();
+    } else if (result.bucket && result.key) {
+      sharedState[result.bucket] = {
+        ...(sharedState[result.bucket] || {}),
+        [result.key]: result.value
+      };
+      cacheCounterState(result.bucket);
+    }
+    return Number(result.value || optimisticValue);
+  } catch (error) {
+    console.warn("共享计数更新失败，已保留本地计数", error);
+    return optimisticValue;
+  }
 }
 
 function readLikes() {
@@ -1023,16 +1099,22 @@ function togglePinnedSong(encodedKey, triggerButton) {
 
 function bindLikeButtons() {
   document.querySelectorAll("[data-like-key]").forEach((button) => {
-    button.onclick = (event) => {
+    button.onclick = async (event) => {
       event.stopPropagation();
       const key = decodeURIComponent(button.dataset.likeKey);
-      const likes = readLikes();
-      likes[key] = (likes[key] || 0) + 1;
-      writeLikes(likes);
-      button.querySelector("[data-like-count]").textContent = likes[key];
+      const optimisticValue = localIncrementCounter("likes", key);
+      const counter = button.querySelector("[data-like-count]");
+      counter.textContent = optimisticValue;
       button.classList.add("like-button-pulse");
       setTimeout(() => button.classList.remove("like-button-pulse"), 360);
       celebrateHeart();
+      if (location.protocol !== "file:" && sharedStateReady) {
+        const serverValue = await incrementCounter("likes", key, 1, { optimistic: false });
+        counter.textContent = serverValue;
+        document.querySelectorAll(`[data-like-key="${CSS.escape(encodeURIComponent(key))}"] [data-like-count]`).forEach((item) => {
+          item.textContent = serverValue;
+        });
+      }
     };
   });
 }
@@ -1118,34 +1200,43 @@ function tearDebtPaper() {
 
 function bindSingerReactionButtons() {
   document.querySelectorAll("[data-singer-reaction]").forEach((button) => {
-    button.onclick = (event) => {
+    button.onclick = async (event) => {
       event.preventDefault();
       event.stopPropagation();
       const singerId = button.dataset.singerId;
       const type = button.dataset.singerReaction;
-      const reactions = readSingerReactions();
       const key = singerReactionKey(singerId, type);
-      reactions[key] = (reactions[key] || 0) + 1;
-      writeSingerReactions(reactions);
-      button.querySelector("[data-singer-reaction-count]").textContent = reactions[key];
+      const optimisticValue = localIncrementCounter("singerReactions", key);
+      const counter = button.querySelector("[data-singer-reaction-count]");
+      counter.textContent = optimisticValue;
       if (type === "bomb") explodeDebt();
       if (type === "rainbow") celebrateRainbow();
+      if (location.protocol !== "file:" && sharedStateReady) {
+        const serverValue = await incrementCounter("singerReactions", key, 1, { optimistic: false });
+        counter.textContent = serverValue;
+        document.querySelectorAll(`[data-singer-id="${CSS.escape(singerId)}"][data-singer-reaction="${CSS.escape(type)}"] [data-singer-reaction-count]`).forEach((item) => {
+          item.textContent = serverValue;
+        });
+      }
     };
   });
 }
 
 function bindDebtMonkeyButtons() {
   document.querySelectorAll("[data-debt-monkey]").forEach((button) => {
-    button.onclick = (event) => {
+    button.onclick = async (event) => {
       event.preventDefault();
       event.stopPropagation();
       const targetKey = button.dataset.debtKey;
-      const reactions = readSingerReactions();
       const key = singerReactionKey(targetKey, "monkey");
-      reactions[key] = (reactions[key] || 0) + 1;
-      writeSingerReactions(reactions);
-      button.querySelector("[data-debt-monkey-count]").textContent = reactions[key];
+      const optimisticValue = localIncrementCounter("singerReactions", key);
+      const counter = button.querySelector("[data-debt-monkey-count]");
+      counter.textContent = optimisticValue;
       celebrateMonkey();
+      if (location.protocol !== "file:" && sharedStateReady) {
+        const serverValue = await incrementCounter("singerReactions", key, 1, { optimistic: false });
+        counter.textContent = serverValue;
+      }
     };
   });
 }
