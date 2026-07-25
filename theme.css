@@ -652,6 +652,18 @@ body {
   text-align: left;
 }
 
+.panel-copy {
+  min-width: 0;
+}
+
+.detail-panel-switch .text-sm {
+  line-height: 1.15;
+}
+
+.detail-panel-switch .font-bold {
+  line-height: 1.2;
+}
+
 .detail-panel-switch:active {
   transform: scale(.985);
 }
@@ -664,15 +676,22 @@ body {
 }
 
 .panel-chevron {
+  align-self: center;
+  background: rgba(255, 255, 255, .5);
+  border: 1px solid rgba(23, 37, 84, .08);
+  border-radius: 999px;
+  box-shadow: 0 4px 12px rgba(23, 37, 84, .05);
   fill: none;
-  height: 18px;
-  opacity: .55;
+  height: 24px;
+  justify-self: end;
+  opacity: .72;
+  padding: 4px;
   position: static;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 2.4;
-  width: 18px;
+  width: 24px;
 }
 
 .debt-monkey-button {
@@ -1433,7 +1452,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
-  margin-top: 30px;
+  margin-top: 36px;
 }
 
 .debt-actions {
@@ -1975,15 +1994,6 @@ body {
   color: #cdf3ff;
 }
 
-[data-theme="nanyin-dark"] .song-card-pinned {
-  color: #172554;
-}
-
-[data-theme="nanyin-dark"] .song-card-pinned .song-card-body h3,
-[data-theme="nanyin-dark"] .song-card-pinned .song-card-body p {
-  color: #172554;
-}
-
 [data-theme="nanyin-dark"] .detail-panel-active {
   background: linear-gradient(135deg, #312e81 0%, #6d28d9 38%, #be185d 100%);
   border-color: rgba(196, 181, 253, .45);
@@ -1998,11 +2008,82 @@ body {
   opacity: 1;
 }
 
+[data-theme="nanyin-dark"] .panel-chevron {
+  background: rgba(15, 23, 42, .42);
+  border-color: rgba(226, 232, 240, .16);
+  box-shadow: 0 6px 16px rgba(2, 6, 23, .22);
+}
+
+[data-theme="nanyin-dark"] .tag-voice,
+[data-theme="nanyin-dark"] .song-card-pinned-3 {
+  background: linear-gradient(135deg, #0e7490 0%, #047857 100%);
+  color: #f0fdfa;
+  box-shadow: 0 10px 24px rgba(14, 116, 144, .22);
+}
+
+[data-theme="nanyin-dark"] .tag-genre,
+[data-theme="nanyin-dark"] .song-card-pinned-2 {
+  background: linear-gradient(135deg, #92400e 0%, #be185d 100%);
+  color: #fff7ed;
+  box-shadow: 0 10px 24px rgba(190, 24, 93, .2);
+}
+
+[data-theme="nanyin-dark"] .tag-persona,
+[data-theme="nanyin-dark"] .song-card-pinned-4 {
+  background: linear-gradient(135deg, #312e81 0%, #0e7490 100%);
+  color: #eef2ff;
+  box-shadow: 0 10px 24px rgba(49, 46, 129, .24);
+}
+
+[data-theme="nanyin-dark"] .tag-language,
+[data-theme="nanyin-dark"] .song-card-pinned-1 {
+  background: linear-gradient(135deg, #9d174d 0%, #3730a3 100%);
+  color: #fff1f2;
+  box-shadow: 0 10px 24px rgba(157, 23, 77, .22);
+}
+
+[data-theme="nanyin-dark"] .tag-ability,
+[data-theme="nanyin-dark"] .song-card-pinned-5 {
+  background: linear-gradient(135deg, #7c2d12 0%, #581c87 100%);
+  color: #fffbeb;
+  box-shadow: 0 10px 24px rgba(124, 45, 18, .22);
+}
+
+[data-theme="nanyin-dark"] .tag-artist,
+[data-theme="nanyin-dark"] .song-card-pinned-6 {
+  background: linear-gradient(135deg, #86198f 0%, #047857 100%);
+  color: #fdf4ff;
+  box-shadow: 0 10px 24px rgba(134, 25, 143, .22);
+}
+
+[data-theme="nanyin-dark"] .tag-note,
+[data-theme="nanyin-dark"] .song-card-pinned-7 {
+  background: linear-gradient(135deg, #334155 0%, #1e3a8a 100%);
+  color: #f8fafc;
+  box-shadow: 0 10px 24px rgba(30, 58, 138, .2);
+}
+
 [data-theme="nanyin-dark"] .gradient-action-btn,
-[data-theme="nanyin-dark"] .tag-debt {
+[data-theme="nanyin-dark"] .tag-debt,
+[data-theme="nanyin-dark"] .like-button,
+[data-theme="nanyin-dark"] .debt-monkey-button,
+[data-theme="nanyin-dark"] .singer-reaction-button {
   background: linear-gradient(135deg, #0e7490 0%, #312e81 32%, #6d28d9 66%, #be185d 100%);
   border-color: rgba(196, 181, 253, .34);
   box-shadow: 0 10px 24px rgba(109, 40, 217, .22);
+  color: #f8fafc;
+}
+
+[data-theme="nanyin-dark"] .song-card-pinned,
+[data-theme="nanyin-dark"] .request-song-signer {
+  border-color: rgba(196, 181, 253, .28);
+  color: #f8fafc;
+}
+
+[data-theme="nanyin-dark"] .song-card-pinned .song-card-body h3,
+[data-theme="nanyin-dark"] .song-card-pinned .song-card-body p,
+[data-theme="nanyin-dark"] .song-card-pinned h3,
+[data-theme="nanyin-dark"] .song-card-pinned p {
   color: #f8fafc;
 }
 

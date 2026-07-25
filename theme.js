@@ -1933,19 +1933,25 @@ function renderDetailPanelSwitches(singer) {
   $("requestPanelSwitch").classList.toggle("detail-panel-active", activeDetailPanel === "requests");
   $("libraryPanelSwitch").classList.toggle("detail-panel-active", activeDetailPanel === "library");
   $("debtPanelSwitch").innerHTML = `
-    <div class="text-sm opacity-60">欠歌账簿</div>
-    <div class="font-bold">待还 ${debtTotal(singer.id)} 首</div>
+    <div class="panel-copy">
+      <div class="text-sm opacity-60">欠歌账簿</div>
+      <div class="font-bold">待还 ${debtTotal(singer.id)} 首</div>
+    </div>
     <svg class="panel-chevron" aria-hidden="true" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"></path></svg>
   `;
   $("debtPanelSwitch").classList.remove("debt-panel-has-counter");
   $("requestPanelSwitch").innerHTML = `
-    <div class="text-sm opacity-60">想听TA唱</div>
-    <div class="font-bold">${singerSongRequests(singer.id).length} 首</div>
+    <div class="panel-copy">
+      <div class="text-sm opacity-60">想听TA唱</div>
+      <div class="font-bold">${singerSongRequests(singer.id).length} 首</div>
+    </div>
     <svg class="panel-chevron" aria-hidden="true" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"></path></svg>
   `;
   $("libraryPanelSwitch").innerHTML = `
-    <div class="text-sm opacity-60">曲库</div>
-    <div class="font-bold">${libraryCount} 首</div>
+    <div class="panel-copy">
+      <div class="text-sm opacity-60">曲库</div>
+      <div class="font-bold">${libraryCount} 首</div>
+    </div>
     <svg class="panel-chevron" aria-hidden="true" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"></path></svg>
   `;
   $("libraryPanelSwitch").classList.remove("debt-panel-has-counter");
