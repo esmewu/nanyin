@@ -736,6 +736,8 @@ let sharedState = {
 };
 let sharedStateReady = false;
 let sharedStateSaveTimer = 0;
+let sharedStateCacheTimer = 0;
+const burstCooldowns = {};
 let debtCounter = 1;
 let editDebtCounter = 1;
 let activeDetailPanel = "debts";
@@ -763,6 +765,11 @@ function cacheSharedState() {
   writeStoredJSON(tagStoreKey, sharedState.tags);
 }
 
+function cacheSharedStateSoon() {
+  clearTimeout(sharedStateCacheTimer);
+  sharedStateCacheTimer = setTimeout(cacheSharedState, 1200);
+}
+
 async function loadSharedState() {
   if (location.protocol === "file:") return;
   try {
@@ -782,7 +789,7 @@ async function loadSharedState() {
 }
 
 function saveSharedStateSoon() {
-  cacheSharedState();
+  cacheSharedStateSoon();
   if (location.protocol === "file:" || !sharedStateReady) return;
   clearTimeout(sharedStateSaveTimer);
   sharedStateSaveTimer = setTimeout(async () => {
@@ -933,9 +940,8 @@ function togglePinnedSong(encodedKey, triggerButton) {
   const singerId = key.split(":")[0];
   const singerPinnedCount = Object.keys(pins).filter((itemKey) => itemKey.split(":")[0] === singerId && pins[itemKey]).length;
   if (!pins[key] && singerPinnedCount >= maxPinnedSongs) {
-    triggerButton?.classList.remove("pin-button-limit");
-    void triggerButton?.offsetWidth;
     triggerButton?.classList.add("pin-button-limit");
+    setTimeout(() => triggerButton?.classList.remove("pin-button-limit"), 420);
     if (triggerButton) triggerButton.title = `每个歌手最多置顶 ${maxPinnedSongs} 首`;
     return;
   }
@@ -954,9 +960,8 @@ function bindLikeButtons() {
       likes[key] = (likes[key] || 0) + 1;
       writeLikes(likes);
       button.querySelector("[data-like-count]").textContent = likes[key];
-      button.classList.remove("like-button-pulse");
-      void button.offsetWidth;
       button.classList.add("like-button-pulse");
+      setTimeout(() => button.classList.remove("like-button-pulse"), 360);
       celebrateHeart();
     };
   });
@@ -972,20 +977,24 @@ function bindPinButtons() {
   });
 }
 
+function triggerBurst(id, activeClass, duration, cooldown = 700) {
+  const now = performance.now();
+  if ((burstCooldowns[id] || 0) + cooldown > now) return;
+  burstCooldowns[id] = now;
+  const burst = $(id);
+  if (!burst || burst.classList.contains(activeClass)) return;
+  requestAnimationFrame(() => {
+    burst.classList.add(activeClass);
+    setTimeout(() => burst.classList.remove(activeClass), duration);
+  });
+}
+
 function celebrateHeart() {
-  const burst = $("heartBurst");
-  burst.classList.remove("heart-burst-active");
-  void burst.offsetWidth;
-  burst.classList.add("heart-burst-active");
-  setTimeout(() => burst.classList.remove("heart-burst-active"), 900);
+  triggerBurst("heartBurst", "heart-burst-active", 900, 650);
 }
 
 function celebrateDebt() {
-  const burst = $("bombBurst");
-  burst.classList.remove("bomb-burst-active");
-  void burst.offsetWidth;
-  burst.classList.add("bomb-burst-active");
-  setTimeout(() => burst.classList.remove("bomb-burst-active"), 900);
+  triggerBurst("bombBurst", "bomb-burst-active", 900, 850);
 }
 
 function explodeDebt() {
@@ -993,35 +1002,19 @@ function explodeDebt() {
 }
 
 function celebrateRainbow() {
-  const burst = $("rainbowBurst");
-  burst.classList.remove("rainbow-burst-active");
-  void burst.offsetWidth;
-  burst.classList.add("rainbow-burst-active");
-  setTimeout(() => burst.classList.remove("rainbow-burst-active"), 1100);
+  triggerBurst("rainbowBurst", "rainbow-burst-active", 1100, 900);
 }
 
 function celebrateMonkey() {
-  const burst = $("monkeyBurst");
-  burst.classList.remove("monkey-burst-active");
-  void burst.offsetWidth;
-  burst.classList.add("monkey-burst-active");
-  setTimeout(() => burst.classList.remove("monkey-burst-active"), 1800);
+  triggerBurst("monkeyBurst", "monkey-burst-active", 1800, 1500);
 }
 
 function celebrateCry() {
-  const burst = $("cryBurst");
-  burst.classList.remove("cry-burst-active");
-  void burst.offsetWidth;
-  burst.classList.add("cry-burst-active");
-  setTimeout(() => burst.classList.remove("cry-burst-active"), 1100);
+  triggerBurst("cryBurst", "cry-burst-active", 1100, 900);
 }
 
 function tearDebtPaper() {
-  const burst = $("tearDebtBurst");
-  burst.classList.remove("tear-debt-burst-active");
-  void burst.offsetWidth;
-  burst.classList.add("tear-debt-burst-active");
-  setTimeout(() => burst.classList.remove("tear-debt-burst-active"), 1100);
+  triggerBurst("tearDebtBurst", "tear-debt-burst-active", 1100, 900);
 }
 
 function bindSingerReactionButtons() {
