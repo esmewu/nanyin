@@ -666,6 +666,11 @@ body {
   position: static;
 }
 
+.debt-card-monkey-button span[aria-hidden="true"] {
+  font-size: 17px;
+  line-height: 1;
+}
+
 .monkey-burst {
   align-items: center;
   display: none;
@@ -1391,7 +1396,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 4px;
-  margin-top: 6px;
+  margin-top: 10px;
 }
 
 .debt-actions {
@@ -1825,6 +1830,15 @@ body {
 
 .debt-song-signer {
   color: #172554;
+}
+
+.debt-list-item:has(.debt-actions) .debt-song-signer {
+  border-bottom-left-radius: 0;
+}
+
+.debt-list-item .font-bold.text-lg {
+  font-size: 15px;
+  line-height: 1.25;
 }
 
 .request-song-card .min-w-0 {
