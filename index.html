@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="./theme.css?v=20260725m">
+    <link rel="stylesheet" href="./theme.css?v=20260725n">
   </head>
   <body>
     <main class="min-h-screen bg-base-200">
@@ -63,10 +63,14 @@
           </section>
           <section id="songsView" class="hidden" aria-label="歌曲列表">
             <section class="home-song-filters grid gap-3 mb-3">
-              <label class="form-control home-sort-control"><span class="label-text font-bold">排序</span><select id="sort" class="select select-bordered"><option value="default">默认</option><option value="az">歌名 A-Z</option><option value="length">歌名字数</option><option value="originalArtist">原唱</option><option value="likes">♥</option></select></label>
-              <label class="form-control home-type-control"><span class="label-text font-bold">类型</span><select id="genreFilter" class="select select-bordered"><option value="all">全部类型</option></select></label>
-              <label class="form-control home-language-control"><span class="label-text font-bold">语种</span><select id="languageFilter" class="select select-bordered"><option value="all">全部语种</option></select></label>
-              <button id="homeSongViewToggle" class="view-toggle-button" type="button" aria-label="切换歌曲视图"></button>
+              <div class="home-song-filter-row home-song-filter-primary">
+                <label class="form-control home-sort-control"><span class="label-text font-bold">排序</span><select id="sort" class="select select-bordered"><option value="default">默认</option><option value="az">歌名 A-Z</option><option value="length">歌名字数</option><option value="originalArtist">原唱</option><option value="likes">♥</option></select></label>
+                <button id="homeSongViewToggle" class="view-toggle-button" type="button" aria-label="切换歌曲视图"></button>
+              </div>
+              <div class="home-song-filter-row home-song-filter-secondary">
+                <label class="form-control home-type-control"><span class="label-text font-bold">类型</span><select id="genreFilter" class="select select-bordered"><option value="all">全部类型</option></select></label>
+                <label class="form-control home-language-control"><span class="label-text font-bold">语种</span><select id="languageFilter" class="select select-bordered"><option value="all">全部语种</option></select></label>
+              </div>
             </section>
             <div class="grid gap-3" id="songs"></div>
           </section>
@@ -387,6 +391,6 @@
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script>
     <script src="./v1-singers.js?v=20260723q"></script>
     <script src="./song-metadata.js?v=20260724c"></script>
-    <script src="./theme.js?v=20260725m"></script>
+    <script src="./theme.js?v=20260725n"></script>
   </body>
 </html>
