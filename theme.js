@@ -1182,19 +1182,17 @@ function bindStarButtons() {
       const key = decodeURIComponent(button.dataset.starKey);
       const singer = singers.find((item) => item.id === button.dataset.starSingerId);
       const title = decodeURIComponent(button.dataset.starTitle || "");
-      const optimisticValue = localIncrementCounter("songStars", key);
-      const counter = button.querySelector("[data-star-count]");
-      counter.textContent = optimisticValue;
+      localIncrementCounter("songStars", key);
       button.classList.add("star-button-pulse");
       setTimeout(() => button.classList.remove("star-button-pulse"), 520);
       celebrateStars();
-      openSongRequestDialog(singer, title);
+      setTimeout(() => openSongRequestDialog(singer, title), 1120);
       if (location.protocol !== "file:" && sharedStateReady) {
         const serverValue = await incrementCounter("songStars", key, 1, { optimistic: false });
-        counter.textContent = serverValue;
-        document.querySelectorAll(`[data-star-key="${CSS.escape(encodeURIComponent(key))}"] [data-star-count]`).forEach((item) => {
-          item.textContent = serverValue;
-        });
+        sharedState.songStars = {
+          ...(sharedState.songStars || {}),
+          [key]: serverValue
+        };
       }
     };
   });
@@ -1821,7 +1819,6 @@ function songCard(song, options = {}) {
               <circle cx="14" cy="10.7" r=".78"></circle>
               <path d="M9.8 13.3c1.2 1.1 3.2 1.1 4.4 0"></path>
             </svg>
-            <span data-star-count>${starCount(song)}</span>
           </button>
           <button class="like-button" type="button" aria-label="喜欢 ${song.title}" data-like-key="${encodedSongKey(song)}">
             <svg aria-hidden="true" viewBox="0 0 24 24" class="like-icon">
