@@ -1813,12 +1813,7 @@ function songCard(song, options = {}) {
             </svg>
           </button>` : ""}
           <button class="star-button" type="button" aria-label="想听 ${song.title}" data-star-key="${encodedSongKey(song)}" data-star-singer-id="${song.singerId}" data-star-title="${encodeURIComponent(song.title)}">
-            <svg aria-hidden="true" viewBox="0 0 24 24" class="star-icon">
-              <path d="m12 2.2 2.77 5.61 6.19.9-4.48 4.36 1.06 6.16L12 16.32l-5.54 2.91 1.06-6.16L3.04 8.71l6.19-.9L12 2.2Z"></path>
-              <circle cx="10" cy="10.7" r=".78"></circle>
-              <circle cx="14" cy="10.7" r=".78"></circle>
-              <path d="M9.8 13.3c1.2 1.1 3.2 1.1 4.4 0"></path>
-            </svg>
+            <span class="star-icon" aria-hidden="true"></span>
           </button>
           <button class="like-button" type="button" aria-label="喜欢 ${song.title}" data-like-key="${encodedSongKey(song)}">
             <svg aria-hidden="true" viewBox="0 0 24 24" class="like-icon">

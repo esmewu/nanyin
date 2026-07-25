@@ -1902,12 +1902,10 @@ body {
 }
 
 .star-icon {
-  fill: #f5c542;
+  background: #f5c542;
   height: 17px;
-  stroke: #b7791f;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 1.2;
+  mask: url("./assets/kid-star.svg") center / contain no-repeat;
+  -webkit-mask: url("./assets/kid-star.svg") center / contain no-repeat;
   width: 17px;
 }
 
@@ -2206,8 +2204,7 @@ body {
 }
 
 [data-theme="nanyin-dark"] .star-icon {
-  fill: #fde68a;
-  stroke: #fef3c7;
+  background: #fde68a;
 }
 
 [data-theme="nanyin-dark"] .song-card-pinned,
