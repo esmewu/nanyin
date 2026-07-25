@@ -4518,16 +4518,16 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "问馋",
-    "originalArtist": "",
-    "releaseYear": "",
-    "genre": "",
-    "source": "iTunes Search API",
-    "sourceUrl": "https://itunes.apple.com/search?term=%E9%97%AE%E9%A6%8B&country=CN&media=music&entity=song&limit=15",
-    "confidence": "pending",
-    "matchedTitle": "",
-    "matchedArtist": "",
-    "checkedAt": "2026-07-24"
+    "title": "馋",
+    "originalArtist": "杨宗纬",
+    "releaseYear": "2011",
+    "genre": "流行",
+    "source": "user-provided original artist + manual metadata lookup",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "馋",
+    "matchedArtist": "杨宗纬",
+    "checkedAt": "2026-07-25"
   },
   {
     "singerId": "dazhao",
@@ -5468,15 +5468,15 @@ window.nanyinSongMetadata = [
   {
     "singerId": "dazhao",
     "title": "淋湿旺角",
-    "originalArtist": "",
-    "releaseYear": "",
-    "genre": "",
-    "source": "iTunes Search API error",
-    "sourceUrl": "https://itunes.apple.com/search?term=%E6%B7%8B%E6%B9%BF%E6%97%BA%E8%A7%92&country=CN&media=music&entity=song&limit=15",
-    "confidence": "pending",
-    "matchedTitle": "",
-    "matchedArtist": "",
-    "checkedAt": "2026-07-24"
+    "originalArtist": "KIV / RollFlash",
+    "releaseYear": "2024",
+    "genre": "说唱",
+    "source": "user-provided original artist + manual metadata lookup",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "Mong Kok",
+    "matchedArtist": "KIV feat. RollFlash",
+    "checkedAt": "2026-07-25"
   },
   {
     "singerId": "dazhao",
@@ -6300,15 +6300,15 @@ window.nanyinSongMetadata = [
   {
     "singerId": "dazhao",
     "title": "年少的你呀",
-    "originalArtist": "",
-    "releaseYear": "",
-    "genre": "",
-    "source": "iTunes Search API error",
-    "sourceUrl": "https://itunes.apple.com/search?term=%E5%B9%B4%E5%B0%91%E7%9A%84%E4%BD%A0%E5%91%80&country=CN&media=music&entity=song&limit=15",
-    "confidence": "pending",
-    "matchedTitle": "",
-    "matchedArtist": "",
-    "checkedAt": "2026-07-24"
+    "originalArtist": "浩然H.R.",
+    "releaseYear": "2023",
+    "genre": "流行",
+    "source": "user-provided original artist + manual metadata lookup",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "年少的你啊",
+    "matchedArtist": "浩然H.R.",
+    "checkedAt": "2026-07-25"
   },
   {
     "singerId": "dazhao",
@@ -6442,16 +6442,16 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "像风了一样",
-    "originalArtist": "",
+    "title": "像疯了一样",
+    "originalArtist": "齐秦",
     "releaseYear": "",
-    "genre": "",
-    "source": "iTunes Search API error",
-    "sourceUrl": "https://itunes.apple.com/search?term=%E5%83%8F%E9%A3%8E%E4%BA%86%E4%B8%80%E6%A0%B7&country=CN&media=music&entity=song&limit=15",
+    "genre": "流行",
+    "source": "user-provided original artist + manual metadata lookup",
+    "sourceUrl": "",
     "confidence": "pending",
     "matchedTitle": "",
-    "matchedArtist": "",
-    "checkedAt": "2026-07-24"
+    "matchedArtist": "齐秦",
+    "checkedAt": "2026-07-25"
   },
   {
     "singerId": "dazhao",
@@ -6547,15 +6547,15 @@ window.nanyinSongMetadata = [
   {
     "singerId": "dazhao",
     "title": "给电影人情书",
-    "originalArtist": "",
-    "releaseYear": "",
-    "genre": "",
-    "source": "iTunes Search API error",
-    "sourceUrl": "https://itunes.apple.com/search?term=%E7%BB%99%E7%94%B5%E5%BD%B1%E4%BA%BA%E6%83%85%E4%B9%A6&country=CN&media=music&entity=song&limit=15",
-    "confidence": "pending",
-    "matchedTitle": "",
-    "matchedArtist": "",
-    "checkedAt": "2026-07-24"
+    "originalArtist": "单依纯",
+    "releaseYear": "2020",
+    "genre": "流行",
+    "source": "user-provided original artist + manual metadata lookup",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "给电影人的情书 (Live)",
+    "matchedArtist": "单依纯",
+    "checkedAt": "2026-07-25"
   },
   {
     "singerId": "dazhao",
@@ -6625,15 +6625,15 @@ window.nanyinSongMetadata = [
   {
     "singerId": "dazhao",
     "title": "时间都去哪啦",
-    "originalArtist": "",
+    "originalArtist": "王铮亮",
     "releaseYear": "",
-    "genre": "",
-    "source": "iTunes Search API error",
-    "sourceUrl": "https://itunes.apple.com/search?term=%E6%97%B6%E9%97%B4%E9%83%BD%E5%8E%BB%E5%93%AA%E5%95%A6&country=CN&media=music&entity=song&limit=15",
+    "genre": "流行",
+    "source": "user-provided original artist + manual metadata lookup",
+    "sourceUrl": "",
     "confidence": "pending",
     "matchedTitle": "",
-    "matchedArtist": "",
-    "checkedAt": "2026-07-24"
+    "matchedArtist": "王铮亮",
+    "checkedAt": "2026-07-25"
   },
   {
     "singerId": "dazhao",
@@ -7067,15 +7067,15 @@ window.nanyinSongMetadata = [
   {
     "singerId": "dazhao",
     "title": "祝你爱我到天荒地老",
-    "originalArtist": "",
-    "releaseYear": "",
-    "genre": "",
-    "source": "iTunes Search API error",
-    "sourceUrl": "https://itunes.apple.com/search?term=%E7%A5%9D%E4%BD%A0%E7%88%B1%E6%88%91%E5%88%B0%E5%A4%A9%E8%8D%92%E5%9C%B0%E8%80%81&country=CN&media=music&entity=song&limit=15",
-    "confidence": "pending",
-    "matchedTitle": "",
-    "matchedArtist": "",
-    "checkedAt": "2026-07-24"
+    "originalArtist": "颜人中",
+    "releaseYear": "2019",
+    "genre": "流行",
+    "source": "user-provided original artist + manual metadata lookup",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "祝你爱我到天荒地老",
+    "matchedArtist": "Ele Yan",
+    "checkedAt": "2026-07-25"
   },
   {
     "singerId": "dazhao",
@@ -8081,15 +8081,15 @@ window.nanyinSongMetadata = [
   {
     "singerId": "dazhao",
     "title": "Boiling Milk",
-    "originalArtist": "",
+    "originalArtist": "Beady Belle",
     "releaseYear": "",
-    "genre": "",
-    "source": "iTunes Search API error",
-    "sourceUrl": "https://itunes.apple.com/search?term=boiling%20milk&country=US&media=music&entity=song&limit=15",
+    "genre": "爵士",
+    "source": "user-provided original artist + manual metadata lookup",
+    "sourceUrl": "",
     "confidence": "pending",
     "matchedTitle": "",
-    "matchedArtist": "",
-    "checkedAt": "2026-07-24"
+    "matchedArtist": "Beady Belle",
+    "checkedAt": "2026-07-25"
   },
   {
     "singerId": "dazhao",
@@ -8119,16 +8119,16 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Malibu Night",
-    "originalArtist": "",
-    "releaseYear": "",
-    "genre": "",
-    "source": "iTunes Search API error",
-    "sourceUrl": "https://itunes.apple.com/search?term=malibu%20night&country=US&media=music&entity=song&limit=15",
-    "confidence": "pending",
-    "matchedTitle": "",
-    "matchedArtist": "",
-    "checkedAt": "2026-07-24"
+    "title": "Malibu Nights",
+    "originalArtist": "LANY",
+    "releaseYear": "2018",
+    "genre": "流行",
+    "source": "user-provided original artist + manual metadata lookup",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "Malibu Nights",
+    "matchedArtist": "LANY",
+    "checkedAt": "2026-07-25"
   },
   {
     "singerId": "dazhao",
@@ -8444,16 +8444,16 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "I Wish Your Love",
-    "originalArtist": "",
-    "releaseYear": "",
-    "genre": "",
-    "source": "iTunes Search API error",
-    "sourceUrl": "https://itunes.apple.com/search?term=I%20wish%20your%20love&country=US&media=music&entity=song&limit=15",
-    "confidence": "pending",
-    "matchedTitle": "",
-    "matchedArtist": "",
-    "checkedAt": "2026-07-24"
+    "title": "I Wish You Love",
+    "originalArtist": "Laufey",
+    "releaseYear": "2021",
+    "genre": "爵士",
+    "source": "user-provided original artist + manual metadata lookup",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "I Wish You Love",
+    "matchedArtist": "Laufey",
+    "checkedAt": "2026-07-25"
   },
   {
     "singerId": "dazhao",
@@ -8574,16 +8574,16 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Ross And Rachael",
-    "originalArtist": "",
-    "releaseYear": "",
-    "genre": "",
-    "source": "iTunes Search API error",
-    "sourceUrl": "https://itunes.apple.com/search?term=Ross%20and%20Rachael&country=US&media=music&entity=song&limit=15",
-    "confidence": "pending",
-    "matchedTitle": "",
-    "matchedArtist": "",
-    "checkedAt": "2026-07-24"
+    "title": "Ross And Rachel",
+    "originalArtist": "Jake Miller",
+    "releaseYear": "2021",
+    "genre": "流行",
+    "source": "user-provided original artist + manual metadata lookup",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "Ross And Rachel",
+    "matchedArtist": "Jake Miller",
+    "checkedAt": "2026-07-25"
   },
   {
     "singerId": "dazhao",
@@ -8964,16 +8964,16 @@ window.nanyinSongMetadata = [
   },
   {
     "singerId": "dazhao",
-    "title": "Strawberries & Cigarette",
-    "originalArtist": "",
-    "releaseYear": "",
-    "genre": "",
-    "source": "iTunes Search API error",
-    "sourceUrl": "https://itunes.apple.com/search?term=strawberries%20%26%20cigarette&country=US&media=music&entity=song&limit=15",
-    "confidence": "pending",
-    "matchedTitle": "",
-    "matchedArtist": "",
-    "checkedAt": "2026-07-24"
+    "title": "Strawberries & Cigarettes",
+    "originalArtist": "Troye Sivan",
+    "releaseYear": "2018",
+    "genre": "流行",
+    "source": "user-provided original artist + manual metadata lookup",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "Strawberries & Cigarettes",
+    "matchedArtist": "Troye Sivan",
+    "checkedAt": "2026-07-25"
   },
   {
     "singerId": "dazhao",

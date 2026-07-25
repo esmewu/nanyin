@@ -2,7 +2,7 @@
   "singer": "大招_南音",
   "singerId": "dazhao",
   "source": "user-provided text",
-  "updatedAt": "2026-07-24",
+  "updatedAt": "2026-07-25",
   "rules": "按语种分区；去重；每区按字数从少到多排列。已用 QQ 音乐标题精确匹配、iTunes Search API 与本地资料初步补原唱、发行年份、风格；未命中项保留待补。",
   "chinese": [
     {
@@ -270,12 +270,12 @@
       "genre": "流行"
     },
     {
-      "title": "问馋",
+      "title": "馋",
       "language": "中文",
-      "originalArtist": "",
-      "charCount": 2,
-      "releaseYear": "",
-      "genre": ""
+      "originalArtist": "杨宗纬",
+      "charCount": 1,
+      "releaseYear": "2011",
+      "genre": "流行"
     },
     {
       "title": "无赖",
@@ -856,10 +856,10 @@
     {
       "title": "淋湿旺角",
       "language": "中文",
-      "originalArtist": "",
+      "originalArtist": "KIV / RollFlash",
       "charCount": 4,
-      "releaseYear": "",
-      "genre": ""
+      "releaseYear": "2024",
+      "genre": "说唱"
     },
     {
       "title": "梦醒时分",
@@ -1368,10 +1368,10 @@
     {
       "title": "年少的你呀",
       "language": "中文",
-      "originalArtist": "",
+      "originalArtist": "浩然H.R.",
       "charCount": 5,
-      "releaseYear": "",
-      "genre": ""
+      "releaseYear": "2023",
+      "genre": "流行"
     },
     {
       "title": "怒放的生命",
@@ -1454,12 +1454,12 @@
       "genre": "流行"
     },
     {
-      "title": "像风了一样",
+      "title": "像疯了一样",
       "language": "中文",
-      "originalArtist": "",
+      "originalArtist": "齐秦",
       "charCount": 5,
       "releaseYear": "",
-      "genre": ""
+      "genre": "流行"
     },
     {
       "title": "一生中最爱",
@@ -1520,10 +1520,10 @@
     {
       "title": "给电影人情书",
       "language": "中文",
-      "originalArtist": "",
+      "originalArtist": "单依纯",
       "charCount": 6,
-      "releaseYear": "",
-      "genre": ""
+      "releaseYear": "2020",
+      "genre": "流行"
     },
     {
       "title": "漫过城市的雨",
@@ -1568,10 +1568,10 @@
     {
       "title": "时间都去哪啦",
       "language": "中文",
-      "originalArtist": "",
+      "originalArtist": "王铮亮",
       "charCount": 6,
       "releaseYear": "",
-      "genre": ""
+      "genre": "流行"
     },
     {
       "title": "我是真的爱你",
@@ -1840,10 +1840,10 @@
     {
       "title": "祝你爱我到天荒地老",
       "language": "中文",
-      "originalArtist": "",
+      "originalArtist": "颜人中",
       "charCount": 9,
-      "releaseYear": "",
-      "genre": ""
+      "releaseYear": "2019",
+      "genre": "流行"
     },
     {
       "title": "Beautiful",
@@ -2470,10 +2470,10 @@
     {
       "title": "Boiling Milk",
       "language": "英文",
-      "originalArtist": "",
+      "originalArtist": "Beady Belle",
       "charCount": 11,
       "releaseYear": "",
-      "genre": ""
+      "genre": "爵士"
     },
     {
       "title": "City Of Stars",
@@ -2492,12 +2492,12 @@
       "genre": "流行"
     },
     {
-      "title": "Malibu Night",
+      "title": "Malibu Nights",
       "language": "英文",
-      "originalArtist": "",
-      "charCount": 11,
-      "releaseYear": "",
-      "genre": ""
+      "originalArtist": "LANY",
+      "charCount": 12,
+      "releaseYear": "2018",
+      "genre": "流行"
     },
     {
       "title": "Nothing Ever",
@@ -2692,12 +2692,12 @@
       "genre": "流行"
     },
     {
-      "title": "I Wish Your Love",
+      "title": "I Wish You Love",
       "language": "英文",
-      "originalArtist": "",
-      "charCount": 13,
-      "releaseYear": "",
-      "genre": ""
+      "originalArtist": "Laufey",
+      "charCount": 12,
+      "releaseYear": "2021",
+      "genre": "爵士"
     },
     {
       "title": "Jesus To A Child",
@@ -2772,12 +2772,12 @@
       "genre": "流行"
     },
     {
-      "title": "Ross And Rachael",
+      "title": "Ross And Rachel",
       "language": "英文",
-      "originalArtist": "",
-      "charCount": 14,
-      "releaseYear": "",
-      "genre": ""
+      "originalArtist": "Jake Miller",
+      "charCount": 13,
+      "releaseYear": "2021",
+      "genre": "流行"
     },
     {
       "title": "Shape Of My Heart",
@@ -3012,12 +3012,12 @@
       "genre": "流行"
     },
     {
-      "title": "Strawberries & Cigarette",
+      "title": "Strawberries & Cigarettes",
       "language": "英文",
-      "originalArtist": "",
+      "originalArtist": "Troye Sivan",
       "charCount": 22,
-      "releaseYear": "",
-      "genre": ""
+      "releaseYear": "2018",
+      "genre": "流行"
     },
     {
       "title": "Nothing's Gonna Stop Us Now",
