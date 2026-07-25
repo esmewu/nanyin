@@ -1061,6 +1061,7 @@ function openSongRequestDialog(singer) {
   if (!singer) return;
   $("requestSongTitle").value = "";
   $("requestSongNote").value = "";
+  $("requestSongSignature").value = "";
   $("requestSongDialog").showModal();
 }
 
@@ -1685,7 +1686,7 @@ function songCard(song, options = {}) {
   const pinned = isSongPinned(song);
   const pinnedKeys = Object.keys(readPinnedSongs()).sort();
   const pinnedIndex = pinned ? Math.max(0, pinnedKeys.indexOf(songKey(song))) : -1;
-  const pinnedClass = pinned ? `song-card-pinned song-card-pinned-${(pinnedIndex % 6) + 1}` : "";
+  const pinnedClass = pinned ? `song-card-pinned song-card-pinned-${(pinnedIndex % 7) + 1}` : "";
   const details = [
     showSinger ? song.singer : "",
     `原唱：${song.originalArtist || "待补"}`,
@@ -1811,14 +1812,18 @@ function requestSongKey(request) {
 
 function requestSongCard(request, index) {
   const key = requestSongKey(request);
-  const requestGradientOrder = [4, 2, 1, 3, 5, 6];
+  const requestGradientOrder = [3, 4, 1, 2, 5, 6, 7];
   const gradientClass = `song-card-pinned song-card-pinned-${requestGradientOrder[index % requestGradientOrder.length]}`;
+  const requestMeta = [
+    request.note ? `<span>${request.note}</span>` : "",
+    request.signature ? `<span class="request-song-signature">点歌by ${request.signature}</span>` : ""
+  ].filter(Boolean).join("<span aria-hidden='true'>·</span>");
   return `
     <article class="card song-card-flat request-song-card ${gradientClass}">
       <div class="card-body song-card-body flex-row justify-between items-center gap-3">
         <div class="min-w-0">
           <h3 class="font-bold text-lg">${request.title}</h3>
-          ${request.note ? `<p class="text-sm opacity-70">${request.note}</p>` : ""}
+          ${requestMeta ? `<p class="request-song-meta">${requestMeta}</p>` : ""}
         </div>
         <div class="song-card-actions">
           <button class="like-button" type="button" aria-label="喜欢 ${request.title}" data-like-key="${encodeURIComponent(key)}">
@@ -2241,6 +2246,7 @@ $("saveSongRequest").onclick = () => {
     singer: displayName(singer.name),
     title,
     note: $("requestSongNote").value.trim(),
+    signature: $("requestSongSignature").value.trim(),
     createdAt: new Date().toISOString()
   });
   writeSongRequests(requests);
