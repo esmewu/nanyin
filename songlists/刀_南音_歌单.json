@@ -1,0 +1,820 @@
+{
+  "singer": "刀_南音",
+  "singerId": "v1-07",
+  "source": "user-provided text",
+  "updatedAt": "2026-07-24",
+  "rules": "中文区和英文区分开；去重；每区均按字数从少到多排列。英文歌曲字数按去掉空格后的字符数计算。原唱、发行年份、风格待后续补齐。",
+  "chinese": [
+    {
+      "title": "飘",
+      "charCount": 1
+    },
+    {
+      "title": "爱错",
+      "charCount": 2
+    },
+    {
+      "title": "宝贝",
+      "charCount": 2
+    },
+    {
+      "title": "保留",
+      "charCount": 2
+    },
+    {
+      "title": "表态",
+      "charCount": 2
+    },
+    {
+      "title": "拆穿",
+      "charCount": 2
+    },
+    {
+      "title": "崇拜",
+      "charCount": 2
+    },
+    {
+      "title": "出卖",
+      "charCount": 2
+    },
+    {
+      "title": "船歌",
+      "charCount": 2
+    },
+    {
+      "title": "底细",
+      "charCount": 2
+    },
+    {
+      "title": "海鸥",
+      "charCount": 2
+    },
+    {
+      "title": "花火",
+      "charCount": 2
+    },
+    {
+      "title": "怀珠",
+      "charCount": 2
+    },
+    {
+      "title": "幻觉",
+      "charCount": 2
+    },
+    {
+      "title": "回留",
+      "charCount": 2
+    },
+    {
+      "title": "结婚",
+      "charCount": 2
+    },
+    {
+      "title": "静止",
+      "charCount": 2
+    },
+    {
+      "title": "九月",
+      "charCount": 2
+    },
+    {
+      "title": "泪桥",
+      "charCount": 2
+    },
+    {
+      "title": "骊歌",
+      "charCount": 2
+    },
+    {
+      "title": "流沙",
+      "charCount": 2
+    },
+    {
+      "title": "男孩",
+      "charCount": 2
+    },
+    {
+      "title": "南音",
+      "charCount": 2
+    },
+    {
+      "title": "难道",
+      "charCount": 2
+    },
+    {
+      "title": "人间",
+      "charCount": 2
+    },
+    {
+      "title": "山丘",
+      "charCount": 2
+    },
+    {
+      "title": "听海",
+      "charCount": 2
+    },
+    {
+      "title": "停格",
+      "charCount": 2
+    },
+    {
+      "title": "玩乐",
+      "charCount": 2
+    },
+    {
+      "title": "晚风",
+      "charCount": 2
+    },
+    {
+      "title": "晚婚",
+      "charCount": 2
+    },
+    {
+      "title": "唯一",
+      "charCount": 2
+    },
+    {
+      "title": "我我",
+      "charCount": 2
+    },
+    {
+      "title": "悟空",
+      "charCount": 2
+    },
+    {
+      "title": "下坠",
+      "charCount": 2
+    },
+    {
+      "title": "仙儿",
+      "charCount": 2
+    },
+    {
+      "title": "相对",
+      "charCount": 2
+    },
+    {
+      "title": "心脏",
+      "charCount": 2
+    },
+    {
+      "title": "悬崖",
+      "charCount": 2
+    },
+    {
+      "title": "旋木",
+      "charCount": 2
+    },
+    {
+      "title": "眼泪",
+      "charCount": 2
+    },
+    {
+      "title": "余温",
+      "charCount": 2
+    },
+    {
+      "title": "玉珍",
+      "charCount": 2
+    },
+    {
+      "title": "掌纹",
+      "charCount": 2
+    },
+    {
+      "title": "拯救",
+      "charCount": 2
+    },
+    {
+      "title": "追寻",
+      "charCount": 2
+    },
+    {
+      "title": "最爱",
+      "charCount": 2
+    },
+    {
+      "title": "敕勒歌",
+      "charCount": 3
+    },
+    {
+      "title": "达尔文",
+      "charCount": 3
+    },
+    {
+      "title": "大人中",
+      "charCount": 3
+    },
+    {
+      "title": "封锁线",
+      "charCount": 3
+    },
+    {
+      "title": "光之翼",
+      "charCount": 3
+    },
+    {
+      "title": "没有你",
+      "charCount": 3
+    },
+    {
+      "title": "梦醒了",
+      "charCount": 3
+    },
+    {
+      "title": "末班车",
+      "charCount": 3
+    },
+    {
+      "title": "抛物线",
+      "charCount": 3
+    },
+    {
+      "title": "凄美地",
+      "charCount": 3
+    },
+    {
+      "title": "潜伏期",
+      "charCount": 3
+    },
+    {
+      "title": "圣诞结",
+      "charCount": 3
+    },
+    {
+      "title": "十二楼",
+      "charCount": 3
+    },
+    {
+      "title": "水星记",
+      "charCount": 3
+    },
+    {
+      "title": "送流水",
+      "charCount": 3
+    },
+    {
+      "title": "天边外",
+      "charCount": 3
+    },
+    {
+      "title": "我很好",
+      "charCount": 3
+    },
+    {
+      "title": "我要你",
+      "charCount": 3
+    },
+    {
+      "title": "无条件",
+      "charCount": 3
+    },
+    {
+      "title": "想着你",
+      "charCount": 3
+    },
+    {
+      "title": "小小虫",
+      "charCount": 3
+    },
+    {
+      "title": "小宇宙",
+      "charCount": 3
+    },
+    {
+      "title": "在雨中",
+      "charCount": 3
+    },
+    {
+      "title": "中间人",
+      "charCount": 3
+    },
+    {
+      "title": "白日梦蓝",
+      "charCount": 4
+    },
+    {
+      "title": "不如这样",
+      "charCount": 4
+    },
+    {
+      "title": "不要告别",
+      "charCount": 4
+    },
+    {
+      "title": "等你爱我",
+      "charCount": 4
+    },
+    {
+      "title": "第一滴泪",
+      "charCount": 4
+    },
+    {
+      "title": "孤独患者",
+      "charCount": 4
+    },
+    {
+      "title": "海阔天空",
+      "charCount": 4
+    },
+    {
+      "title": "花样年华",
+      "charCount": 4
+    },
+    {
+      "title": "恍如隔世",
+      "charCount": 4
+    },
+    {
+      "title": "开始懂了",
+      "charCount": 4
+    },
+    {
+      "title": "恋恋风尘",
+      "charCount": 4
+    },
+    {
+      "title": "猎户星座",
+      "charCount": 4
+    },
+    {
+      "title": "玫瑰往事",
+      "charCount": 4
+    },
+    {
+      "title": "每天每天",
+      "charCount": 4
+    },
+    {
+      "title": "你的城市",
+      "charCount": 4
+    },
+    {
+      "title": "你快回来",
+      "charCount": 4
+    },
+    {
+      "title": "且听风吟",
+      "charCount": 4
+    },
+    {
+      "title": "然后怎样",
+      "charCount": 4
+    },
+    {
+      "title": "让她降落",
+      "charCount": 4
+    },
+    {
+      "title": "三万英尺",
+      "charCount": 4
+    },
+    {
+      "title": "逝去的爱",
+      "charCount": 4
+    },
+    {
+      "title": "完美夏天",
+      "charCount": 4
+    },
+    {
+      "title": "晚安北京",
+      "charCount": 4
+    },
+    {
+      "title": "我要快乐",
+      "charCount": 4
+    },
+    {
+      "title": "无名的人",
+      "charCount": 4
+    },
+    {
+      "title": "勿忘心安",
+      "charCount": 4
+    },
+    {
+      "title": "夕阳醉了",
+      "charCount": 4
+    },
+    {
+      "title": "写一首歌",
+      "charCount": 4
+    },
+    {
+      "title": "幸运大门",
+      "charCount": 4
+    },
+    {
+      "title": "需要人陪",
+      "charCount": 4
+    },
+    {
+      "title": "夜夜夜夜",
+      "charCount": 4
+    },
+    {
+      "title": "一荤一素",
+      "charCount": 4
+    },
+    {
+      "title": "一块红布",
+      "charCount": 4
+    },
+    {
+      "title": "衣柜歌手",
+      "charCount": 4
+    },
+    {
+      "title": "音乐爱我",
+      "charCount": 4
+    },
+    {
+      "title": "友情卡片",
+      "charCount": 4
+    },
+    {
+      "title": "愿爱无忧",
+      "charCount": 4
+    },
+    {
+      "title": "曾经是情侣",
+      "charCount": 5
+    },
+    {
+      "title": "出现又离开",
+      "charCount": 5
+    },
+    {
+      "title": "大石碎胸口",
+      "charCount": 5
+    },
+    {
+      "title": "二三四个字",
+      "charCount": 5
+    },
+    {
+      "title": "给自己的歌",
+      "charCount": 5
+    },
+    {
+      "title": "荒漠上行走",
+      "charCount": 5
+    },
+    {
+      "title": "会呼吸的痛",
+      "charCount": 5
+    },
+    {
+      "title": "火烧的寂寞",
+      "charCount": 5
+    },
+    {
+      "title": "寂寞有多长",
+      "charCount": 5
+    },
+    {
+      "title": "陆垚知马俐",
+      "charCount": 5
+    },
+    {
+      "title": "美丽的神话",
+      "charCount": 5
+    },
+    {
+      "title": "我们都寂寞",
+      "charCount": 5
+    },
+    {
+      "title": "我如此爱你",
+      "charCount": 5
+    },
+    {
+      "title": "无情的情书",
+      "charCount": 5
+    },
+    {
+      "title": "夏洛特烦恼",
+      "charCount": 5
+    },
+    {
+      "title": "像疯了一样",
+      "charCount": 5
+    },
+    {
+      "title": "一生中最爱",
+      "charCount": 5
+    },
+    {
+      "title": "永远不回头",
+      "charCount": 5
+    },
+    {
+      "title": "有一种悲伤",
+      "charCount": 5
+    },
+    {
+      "title": "走钢索的人",
+      "charCount": 5
+    },
+    {
+      "title": "100种表情",
+      "charCount": 6
+    },
+    {
+      "title": "不再让你孤单",
+      "charCount": 6
+    },
+    {
+      "title": "纯洁2016",
+      "charCount": 6
+    },
+    {
+      "title": "寂寞的恋人啊",
+      "charCount": 6
+    },
+    {
+      "title": "三个人的晚餐",
+      "charCount": 6
+    },
+    {
+      "title": "十万毫升泪水",
+      "charCount": 6
+    },
+    {
+      "title": "推开世界的门",
+      "charCount": 6
+    },
+    {
+      "title": "乌兰巴托的夜",
+      "charCount": 6
+    },
+    {
+      "title": "这样一个麻烦",
+      "charCount": 6
+    },
+    {
+      "title": "只为灿烂瞬间",
+      "charCount": 6
+    },
+    {
+      "title": "1234567",
+      "charCount": 7
+    },
+    {
+      "title": "不会说话的爱情",
+      "charCount": 7
+    },
+    {
+      "title": "莎士比亚的天份",
+      "charCount": 7
+    },
+    {
+      "title": "花儿为什么这样红",
+      "charCount": 8
+    },
+    {
+      "title": "杀死那个石家庄人",
+      "charCount": 8
+    },
+    {
+      "title": "她来听我的演唱会",
+      "charCount": 8
+    },
+    {
+      "title": "我对自己开了一枪",
+      "charCount": 8
+    },
+    {
+      "title": "要死就死在你手里",
+      "charCount": 8
+    },
+    {
+      "title": "你要如何我们便如何",
+      "charCount": 9
+    },
+    {
+      "title": "天下没有不散的宴席",
+      "charCount": 9
+    },
+    {
+      "title": "输了你赢了世界又如何",
+      "charCount": 10
+    },
+    {
+      "title": "我心中尚未崩坏的地方",
+      "charCount": 10
+    },
+    {
+      "title": "揪心的玩笑与漫长的白日梦",
+      "charCount": 12
+    },
+    {
+      "title": "没有人能比我们更接近对方",
+      "charCount": 12
+    }
+  ],
+  "english": [
+    {
+      "title": "Creep",
+      "charCount": 5
+    },
+    {
+      "title": "Misty",
+      "charCount": 5
+    },
+    {
+      "title": "Sunny",
+      "charCount": 5
+    },
+    {
+      "title": "Old love",
+      "charCount": 7
+    },
+    {
+      "title": "Perfect",
+      "charCount": 7
+    },
+    {
+      "title": "Reality",
+      "charCount": 7
+    },
+    {
+      "title": "Shallow",
+      "charCount": 7
+    },
+    {
+      "title": "Vincent",
+      "charCount": 7
+    },
+    {
+      "title": "Annie mae",
+      "charCount": 8
+    },
+    {
+      "title": "Feelings",
+      "charCount": 8
+    },
+    {
+      "title": "A song for u",
+      "charCount": 9
+    },
+    {
+      "title": "Desperado",
+      "charCount": 9
+    },
+    {
+      "title": "Lay me down",
+      "charCount": 9
+    },
+    {
+      "title": "Lilac wine",
+      "charCount": 9
+    },
+    {
+      "title": "Losing you",
+      "charCount": 9
+    },
+    {
+      "title": "Stand by me",
+      "charCount": 9
+    },
+    {
+      "title": "Yesterday",
+      "charCount": 9
+    },
+    {
+      "title": "Close to you",
+      "charCount": 10
+    },
+    {
+      "title": "Purple rain",
+      "charCount": 10
+    },
+    {
+      "title": "Unintended",
+      "charCount": 10
+    },
+    {
+      "title": "City of stars",
+      "charCount": 11
+    },
+    {
+      "title": "Feeling good",
+      "charCount": 11
+    },
+    {
+      "title": "I think of you",
+      "charCount": 11
+    },
+    {
+      "title": "Come together",
+      "charCount": 12
+    },
+    {
+      "title": "If i ain't got u",
+      "charCount": 12
+    },
+    {
+      "title": "Say something",
+      "charCount": 12
+    },
+    {
+      "title": "Cherry red wine",
+      "charCount": 13
+    },
+    {
+      "title": "No one knows you",
+      "charCount": 13
+    },
+    {
+      "title": "The one you love",
+      "charCount": 13
+    },
+    {
+      "title": "Fly me to the moon",
+      "charCount": 14
+    },
+    {
+      "title": "Isn't she lovely",
+      "charCount": 14
+    },
+    {
+      "title": "Just the two of us",
+      "charCount": 14
+    },
+    {
+      "title": "Sultans of swing",
+      "charCount": 14
+    },
+    {
+      "title": "Ain't no sunshine",
+      "charCount": 15
+    },
+    {
+      "title": "Careless whisper",
+      "charCount": 15
+    },
+    {
+      "title": "I've got a feeling",
+      "charCount": 15
+    },
+    {
+      "title": "Make u feel my love",
+      "charCount": 15
+    },
+    {
+      "title": "The thrill is gone",
+      "charCount": 15
+    },
+    {
+      "title": "Bohemian Rhapsody",
+      "charCount": 16
+    },
+    {
+      "title": "I'm not the only one",
+      "charCount": 16
+    },
+    {
+      "title": "Rolling in the deep",
+      "charCount": 16
+    },
+    {
+      "title": "Wonderful tonight",
+      "charCount": 16
+    },
+    {
+      "title": "Cant take my eyes off u",
+      "charCount": 18
+    },
+    {
+      "title": "Don‘t look back in anger",
+      "charCount": 20
+    },
+    {
+      "title": "I know you know I love you",
+      "charCount": 20
+    },
+    {
+      "title": "Stop crying your heart out",
+      "charCount": 22
+    },
+    {
+      "title": "What a difference a day made",
+      "charCount": 23
+    },
+    {
+      "title": "Slow dancing in a burning room",
+      "charCount": 25
+    },
+    {
+      "title": "Sorry seems to be the hardest word",
+      "charCount": 28
+    }
+  ],
+  "totals": {
+    "chinese": 152,
+    "english": 49,
+    "total": 201
+  }
+}

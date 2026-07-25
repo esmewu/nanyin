@@ -1,0 +1,301 @@
+# Gnight_南音 原唱校对表
+
+- 歌曲总数：292
+- 已补原唱：292
+- 高置信度：158
+- 需要复核：0
+
+## 原唱列表
+
+- 别：薛之谦（medium）
+- 她：苏打绿（medium）
+- 我：蔡依林（medium）
+- 窗：吴青峰（medium）
+- 蓝：陈奕迅（medium）
+- 不搭：李荣浩（high）
+- 乞丐：刘宇宁（medium）
+- 人质：张惠妹（high）
+- 仇敌：陈柏宇（medium）
+- 你走：松紧先生（medium）
+- 出卖：那英（medium）
+- 只你：颜人中（medium）
+- 可乐：赵紫骅（high）
+- 同类：孙燕姿（high）
+- 后来：刘若英（high）
+- 咖啡：张学友（medium）
+- 哪吒：GAI周延（medium）
+- 嘉宾：张远（high）
+- 嚣张：en（high）
+- 墙角：苟瀚中（medium）
+- 太阳：邱振哲（high）
+- 安静：周杰伦（high）
+- 山海：草东没有派对（high）
+- 当你：王心凌（high）
+- 心跳：王力宏（high）
+- 忽然：李志（medium）
+- 恋人：李荣浩（medium）
+- 想象：蔡健雅（medium）
+- 慢慢：张学友（high）
+- 懦弱：TRASH（medium）
+- 成全：刘若英（high）
+- 我们：陈奕迅（high）
+- 戒烟：李荣浩（high）
+- 无问：毛不易（high）
+- 晚安：颜人中（medium）
+- 晚星：唐汉霄（medium）
+- 暗香：沙宝亮（high）
+- 朝夕：檀健次（medium）
+- 李白：李荣浩（high）
+- 模特：李荣浩（high）
+- 歌者：田嘉瑞（medium）
+- 泪桥：伍佰（high）
+- 浮生：刘莱斯（medium）
+- 淘汰：陈奕迅（high）
+- 满座：李荣浩（medium）
+- 烟波：黄恺/八萬和（high）
+- 狂妄：李昊晨（high）
+- 王妃：萧敬腾（high）
+- 男孩：梁博（high）
+- 耗尽：薛之谦/郭聪明（medium）
+- 自拍：陈慧敏（medium）
+- 色盲：梁咏琪（medium）
+- 要命：丁当（medium）
+- 觥筹：白举纲（high）
+- 让酒：摩登兄弟刘宇宁（high）
+- 记得：张惠妹（high）
+- 说谎：林宥嘉（high）
+- 趁早：张惠妹（high）
+- 路口：张震岳（high）
+- 迟迟：薛之谦（high）
+- 遗憾：许美静（high）
+- 难道：羽泉（medium）
+- 领悟：辛晓琪（high）
+- 麻雀：李荣浩（high）
+- 4am：Justin Stone（medium）
+- 不将就：李荣浩（high）
+- 不找了：郭旭（high）
+- 不等你：汪苏泷（medium）
+- 代名词：en (王翊恩)（high）
+- 作曲家：李荣浩（high）
+- 十二楼：莫文蔚（high）
+- 南山南：马頔（high）
+- 太坦白：李荣浩（high）
+- 小幸运：田馥甄（high）
+- 忘了她：阙智光（medium）
+- 慢慢等：韦礼安（high）
+- 我们俩：郭顶（high）
+- 我很忙：周杰伦（medium）
+- 我要你：任素汐（high）
+- 探险家：G.E.M.邓紫棋（medium）
+- 有没有：韦礼安（high）
+- 梦一场：那英（high）
+- 水星记：郭顶（high）
+- 流浪记：杨宗纬（high）
+- 烂笑话：薛之谦（medium）
+- 独角戏：许茹芸（high）
+- 真没睡：阿张（medium）
+- 空白格：蔡健雅（high）
+- 红玫瑰：陈奕迅（high）
+- 褪黑素：林宥嘉（medium）
+- 谢谢侬：陈奕迅（high）
+- 达尔文：蔡健雅（high）
+- 鹿回头：陈楚生（medium）
+- 一次就好：杨宗纬（high）
+- 你的拥抱：王心凌（medium）
+- 你要的爱：戴佩妮（high）
+- 写给黄淮：解忧邵帅（high）
+- 千金散尽：小魂（medium）
+- 友情卡片：陈奕迅（medium）
+- 双鱼玉佩：Ice Paper（high）
+- 喜剧之王：李荣浩（high）
+- 夜游歌神：Ice Paper（medium）
+- 天外来物：薛之谦（high）
+- 天若有情：袁凤瑛（medium）
+- 失恋无罪：A-Lin（high）
+- 好久不见：陈奕迅（high）
+- 孤独患者：陈奕迅（high）
+- 寒鸦少年：华晨宇（high）
+- 年少有为：李荣浩（high）
+- 往日如风：齐秦（medium）
+- 忽然之间：莫文蔚（high）
+- 恍如隔世：陈奕迅（medium）
+- 懂得寂寞：陈奕迅（medium）
+- 我不知道：陈伟霆（medium）
+- 我不难过：孙燕姿（high）
+- 我好想你：苏打绿（high）
+- 我怀念的：孙燕姿（high）
+- 我爱的人：陈小春（high）
+- 我要的爱：戴佩妮（high）
+- 或许我们：王蓝茵（medium）
+- 摩登爱情：刘美麟（medium）
+- 新不了情：万芳（high）
+- 方圆几里：薛之谦（high）
+- 无关于你：阿YueYue（medium）
+- 无法停靠：柯泯薰（medium）
+- 最远的你：车继铃（medium）
+- 有生之年：张远（medium）
+- 残酷月光：林宥嘉（high）
+- 浓缩蓝鲸：王睿卓（medium）
+- 爱人错过：告五人（high）
+- 爱我别走：张震岳（high）
+- 爱的代价：张艾嘉（high）
+- 独家记忆：陈小春（high）
+- 理想三旬：陈鸿宇（high）
+- 疑难杂症：陈粒（medium）
+- 破镜重圆：指南针乐队（medium）
+- 竹篮打水：徐秉龙（medium）
+- 致你所爱：房东的猫（medium）
+- 落地之前：郭顶（medium）
+- 说给你听：李行亮（medium）
+- 轻描淡写：陈奕迅（medium）
+- 近我者甜：鹿晗（medium）
+- 迷途之中：李荣浩（medium）
+- 逝去的爱：欧阳菲菲（medium）
+- 那就晚安：张远（medium）
+- 都市沙漠：陶喆（medium）
+- 需要人陪：王力宏（high）
+- 风华正茂：李宇春（medium）
+- 黄色枫叶：薛之谦（high）
+- 黑色柳丁：陶喆（high）
+- Simon：丁世光（medium）
+- 不要再说了：陈奕迅（medium）
+- 不跟你好了：于冬然（medium）
+- 会呼吸的痛：梁静茹（high）
+- 会痛的石头：萧敬腾（high）
+- 你给我听好：陈奕迅（high）
+- 八月二十九：夏日入侵企画（medium）
+- 其实都没有：杨宗纬（high）
+- 出现又离开：梁博（high）
+- 只是太爱你：张敬轩（high）
+- 可以不是你：不是花火（medium）
+- 可惜不是你：梁静茹（high）
+- 吻得太逼真：张敬轩（high）
+- 如果你爱我：张韶涵（medium）
+- 如果没有你：莫文蔚（high）
+- 如果没确定：房东的猫（medium）
+- 我们都寂寞：陈奕迅（medium）
+- 最长的电影：周杰伦（high）
+- 爱我还是他：陶喆（high）
+- 突然想起你：萧亚轩（high）
+- 算什么男人：周杰伦（high）
+- 红色高跟鞋：蔡健雅（high）
+- 给我一个吻：张露（medium）
+- 给自己的歌：李宗盛（high）
+- 走钢索的人：李泉（medium）
+- Melody：陶喆（high）
+- 一个人一座城：王北车（medium）
+- 你一定要幸福：何洁（high）
+- 像晴天像雨天：汪苏泷（medium）
+- 某年某月某天：Energy（medium）
+- 流着泪说分手：金志文（high）
+- 走得很慢的人：方大同（medium）
+- 阿拉斯加海湾：菲道尔（high）
+- Tonight：Westlife（medium）
+- 你就不要想起我：田馥甄（high）
+- 土坡上的狗尾草：卢润泽（high）
+- 当我不在你身边：陈奕迅（medium）
+- 怎么说我不爱你：萧敬腾（high）
+- 怪我更爱我自己：王靖雯不胖（medium）
+- 梦在黎明破晓时：张韶涵（medium）
+- 看着我的眼睛说：告五人（medium）
+- 给月亮的三行诗：房东的猫（medium）
+- 阿尔茨海默的爱：梁文音（medium）
+- 一首你不会听的歌：黄霄雲（medium）
+- 在加纳共和国离婚：菲道尔/Dior大颖（high）
+- 天下的乌鸦一般黑：队长（medium）
+- 她来听我的演唱会：张学友（high）
+- 莫比乌斯号的船医：植物椿（medium）
+- Beautiful：Christina Aguilera（medium）
+- 女人不该让男人太累：陈小春（high）
+- 当我再见到你的时候：陈奕迅（medium）
+- 爱你是我最初的梦想：孙俪（medium）
+- 世间美好与你环环相扣：柏松（high）
+- 我喜欢的人都跟你好像：余佳运（medium）
+- 天秤座你好，我也是天平：棱镜（medium）
+- 乖乖啊，今天的你也辛苦了：队长（medium）
+- Home：Michael Bublé（medium）
+- You!：LANY（medium）
+- Creep：Radiohead（high）
+- Emily：Bruno Major（medium）
+- Toxic：Britney Spears（high）
+- Demons：Imagine Dragons（high）
+- Easily：Bruno Major（high）
+- Sharks：Imagine Dragons（high）
+- Suffer：Charlie Puth（medium）
+- Closure：Hayd（medium）
+- Gravity：John Mayer（medium）
+- Hey Jude：The Beatles（high）
+- L.O.V.E：Nat King Cole（medium）
+- Nothing：Bruno Major（medium）
+- Perfect：Ed Sheeran（high）
+- Your Man：Josh Turner（high）
+- Diamonds：Rihanna（high）
+- Free Loop：Daniel Powter（high）
+- Remember：KATIE（medium）
+- Thank You：Dido（high）
+- That's Us：Anson Seabra（high）
+- Apologize：OneRepublic（high）
+- Mam' selle：Art Lund（medium）
+- Moody Wind：Anthony Lazaro（medium）
+- Moon River：Audrey Hepburn（medium）
+- Put It On Me：Matt Maeson（medium）
+- Close To You：The Carpenters（medium）
+- Mad sex cool：Babyface（medium）
+- Miss Riddle：Boz Scaggs（medium）
+- Say It Again：Marie Digby（medium）
+- Shape of You：Ed Sheeran（high）
+- Before You Go：Lewis Capaldi（high）
+- Cry Me A River：Julie London（medium）
+- Feeling Good：Cy Grant（medium）
+- Tainted Love：Gloria Jones（high）
+- What Did I Do?：Hayd（medium）
+- Autumn Leaves：Jo Stafford（medium）
+- Kissing A Fool：George Michael（high）
+- Say Something：A Great Big World（high）
+- Through It All：Charlie Puth（medium）
+- Christmas List：Anson Seabra（medium）
+- Counting Stars：OneRepublic（high）
+- Last Christmas：Wham!（high）
+- Man On A Mission：Oh The Larceny（medium）
+- Outlaws Of Love：Adam Lambert（high）
+- To Be Forgotten：Bruno Major（medium）
+- A Thousand Years：Christina Perri（high）
+- Blue Suede Shoes：Carl Perkins（high）
+- Fly Me To The Moon：Kaye Ballard（medium）
+- Just the Two of Us：Grover Washington Jr. feat. Bill Withers（high）
+- Love You Anymore：Michael Bublé（high）
+- Ain' t No Sunshine：Bill Withers（high）
+- Give Me One Reason：Tracy Chapman（high）
+- Head In The Clouds：Hayd（medium）
+- Hindenburg Lover：Anson Seabra（high）
+- Honeysuckle Rose：Fats Waller（medium）
+- Someone You Loved：Lewis Capaldi（high）
+- Sunday Breakfast：Michael Seyer（medium）
+- Peter Pan Was Right：Anson Seabra（high）
+- Rolling In The Deep：Adele（high）
+- Silhouettes Of You：Isaac Gracie（high）
+- The Sensitive Kind：J.J. Cale（high）
+- Make You Feel My Love：Bob Dylan（high）
+- You Are So Beautiful：Billy Preston（medium）
+- Supermarket Flowers：Ed Sheeran（high）
+- To Let A Good Thing Die：Bruno Major（high）
+- If December Never Ends：Anson Seabra（medium）
+- Somewhere in Ann Arbor：Anson Seabra（high）
+- Welcome To Wonderland：Anson Seabra（high）
+- What A Wonderful World：Louis Armstrong（high）
+- A Thousand Dreams Of You：The Romantic Strings（medium）
+- Can I Have The Day With You：Sam Ock（medium）
+- Can' t Take My Eyes Off You：Frankie Valli（high）
+- Down By The Sally Gardens：Traditional（medium）
+- Dream A Little Dream Of Me：Ozzie Nelson（medium）
+- I Can't Smile Without You：David Martin（medium）
+- The Most Beautiful Thing：Bruno Major（high）
+- Can't Help Falling In Love：Elvis Presley（high）
+- Keep Your Head Up Princess：Anson Seabra（high）
+- Boulevard Of Broken Dreams：Green Day（high）
+- Put Your Head On My Shoulder：Paul Anka（high）
+- Can You Feel The Love Tonight：Elton John（high）
+- I Don' t Mind If You Don' t Mind：Ruel（medium）
+- Lets Fall In Love For The Night：FINNEAS（high）
+- Wake Me Up When September Ends：Green Day（high）
+- (I Love You) for Sentimental Reasons：Deek Watson（medium）

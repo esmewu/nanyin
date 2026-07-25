@@ -1,0 +1,293 @@
+﻿singer,title,language,charCount,originalArtist,confidence,needsReview,source,notes
+Gnight_南音,别,中文,1,薛之谦,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,她,中文,1,苏打绿,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,我,中文,1,蔡依林,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,窗,中文,1,吴青峰,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,蓝,中文,1,陈奕迅,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,不搭,中文,2,李荣浩,high,false,manual_seed,
+Gnight_南音,乞丐,中文,2,刘宇宁,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,人质,中文,2,张惠妹,high,false,manual_seed,
+Gnight_南音,仇敌,中文,2,陈柏宇,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,你走,中文,2,松紧先生,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,出卖,中文,2,那英,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,只你,中文,2,颜人中,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,可乐,中文,2,赵紫骅,high,false,manual_seed,
+Gnight_南音,同类,中文,2,孙燕姿,high,false,manual_seed,
+Gnight_南音,后来,中文,2,刘若英,high,false,manual_seed,
+Gnight_南音,咖啡,中文,2,张学友,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,哪吒,中文,2,GAI周延,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,嘉宾,中文,2,张远,high,false,manual_seed,
+Gnight_南音,嚣张,中文,2,en,high,false,manual_seed,
+Gnight_南音,墙角,中文,2,苟瀚中,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,太阳,中文,2,邱振哲,high,false,manual_seed,
+Gnight_南音,安静,中文,2,周杰伦,high,false,manual_seed,
+Gnight_南音,山海,中文,2,草东没有派对,high,false,manual_seed,
+Gnight_南音,当你,中文,2,王心凌,high,false,manual_seed,
+Gnight_南音,心跳,中文,2,王力宏,high,false,manual_seed,
+Gnight_南音,忽然,中文,2,李志,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,恋人,中文,2,李荣浩,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,想象,中文,2,蔡健雅,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,慢慢,中文,2,张学友,high,false,manual_seed,
+Gnight_南音,懦弱,中文,2,TRASH,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,成全,中文,2,刘若英,high,false,manual_seed,
+Gnight_南音,我们,中文,2,陈奕迅,high,false,manual_seed,
+Gnight_南音,戒烟,中文,2,李荣浩,high,false,manual_seed,
+Gnight_南音,无问,中文,2,毛不易,high,false,manual_seed,
+Gnight_南音,晚安,中文,2,颜人中,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,晚星,中文,2,唐汉霄,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,暗香,中文,2,沙宝亮,high,false,manual_seed,
+Gnight_南音,朝夕,中文,2,檀健次,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,李白,中文,2,李荣浩,high,false,manual_seed,
+Gnight_南音,模特,中文,2,李荣浩,high,false,manual_seed,
+Gnight_南音,歌者,中文,2,田嘉瑞,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,泪桥,中文,2,伍佰,high,false,manual_seed,
+Gnight_南音,浮生,中文,2,刘莱斯,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,淘汰,中文,2,陈奕迅,high,false,manual_seed,
+Gnight_南音,满座,中文,2,李荣浩,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,烟波,中文,2,黄恺/八萬和,high,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,狂妄,中文,2,李昊晨,high,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,王妃,中文,2,萧敬腾,high,false,manual_seed,
+Gnight_南音,男孩,中文,2,梁博,high,false,manual_seed,
+Gnight_南音,耗尽,中文,2,薛之谦/郭聪明,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,自拍,中文,2,陈慧敏,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,色盲,中文,2,梁咏琪,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,要命,中文,2,丁当,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,觥筹,中文,2,白举纲,high,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,让酒,中文,2,摩登兄弟刘宇宁,high,false,manual_seed,
+Gnight_南音,记得,中文,2,张惠妹,high,false,manual_seed,
+Gnight_南音,说谎,中文,2,林宥嘉,high,false,manual_seed,
+Gnight_南音,趁早,中文,2,张惠妹,high,false,manual_seed,
+Gnight_南音,路口,中文,2,张震岳,high,false,manual_seed,
+Gnight_南音,迟迟,中文,2,薛之谦,high,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,遗憾,中文,2,许美静,high,false,manual_seed,
+Gnight_南音,难道,中文,2,羽泉,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,领悟,中文,2,辛晓琪,high,false,manual_seed,
+Gnight_南音,麻雀,中文,2,李荣浩,high,false,manual_seed,
+Gnight_南音,4am,中文,3,Justin Stone,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,不将就,中文,3,李荣浩,high,false,manual_seed,
+Gnight_南音,不找了,中文,3,郭旭,high,false,manual_seed,
+Gnight_南音,不等你,中文,3,汪苏泷,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,代名词,中文,3,en (王翊恩),high,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,作曲家,中文,3,李荣浩,high,false,manual_seed,
+Gnight_南音,十二楼,中文,3,莫文蔚,high,false,manual_seed,
+Gnight_南音,南山南,中文,3,马頔,high,false,manual_seed,
+Gnight_南音,太坦白,中文,3,李荣浩,high,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,小幸运,中文,3,田馥甄,high,false,manual_seed,
+Gnight_南音,忘了她,中文,3,阙智光,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,慢慢等,中文,3,韦礼安,high,false,manual_seed,
+Gnight_南音,我们俩,中文,3,郭顶,high,false,manual_seed,
+Gnight_南音,我很忙,中文,3,周杰伦,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,我要你,中文,3,任素汐,high,false,manual_seed,
+Gnight_南音,探险家,中文,3,G.E.M.邓紫棋,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,有没有,中文,3,韦礼安,high,false,manual_seed,
+Gnight_南音,梦一场,中文,3,那英,high,false,manual_seed,
+Gnight_南音,水星记,中文,3,郭顶,high,false,manual_seed,
+Gnight_南音,流浪记,中文,3,杨宗纬,high,false,manual_seed,
+Gnight_南音,烂笑话,中文,3,薛之谦,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,独角戏,中文,3,许茹芸,high,false,manual_seed,
+Gnight_南音,真没睡,中文,3,阿张,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,空白格,中文,3,蔡健雅,high,false,manual_seed,
+Gnight_南音,红玫瑰,中文,3,陈奕迅,high,false,manual_seed,
+Gnight_南音,褪黑素,中文,3,林宥嘉,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,谢谢侬,中文,3,陈奕迅,high,false,manual_seed,
+Gnight_南音,达尔文,中文,3,蔡健雅,high,false,manual_seed,
+Gnight_南音,鹿回头,中文,3,陈楚生,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,一次就好,中文,4,杨宗纬,high,false,manual_seed,
+Gnight_南音,你的拥抱,中文,4,王心凌,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,你要的爱,中文,4,戴佩妮,high,false,manual_seed,
+Gnight_南音,写给黄淮,中文,4,解忧邵帅,high,false,manual_seed,
+Gnight_南音,千金散尽,中文,4,小魂,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,友情卡片,中文,4,陈奕迅,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,双鱼玉佩,中文,4,Ice Paper,high,false,lyric_search_seed,按歌名/歌词搜索补齐
+Gnight_南音,喜剧之王,中文,4,李荣浩,high,false,manual_seed,
+Gnight_南音,夜游歌神,中文,4,Ice Paper,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,天外来物,中文,4,薛之谦,high,false,manual_seed,
+Gnight_南音,天若有情,中文,4,袁凤瑛,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,失恋无罪,中文,4,A-Lin,high,false,manual_seed,
+Gnight_南音,好久不见,中文,4,陈奕迅,high,false,manual_seed,
+Gnight_南音,孤独患者,中文,4,陈奕迅,high,false,manual_seed,
+Gnight_南音,寒鸦少年,中文,4,华晨宇,high,false,manual_seed,
+Gnight_南音,年少有为,中文,4,李荣浩,high,false,manual_seed,
+Gnight_南音,往日如风,中文,4,齐秦,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,忽然之间,中文,4,莫文蔚,high,false,manual_seed,
+Gnight_南音,恍如隔世,中文,4,陈奕迅,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,懂得寂寞,中文,4,陈奕迅,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,我不知道,中文,4,陈伟霆,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,我不难过,中文,4,孙燕姿,high,false,manual_seed,
+Gnight_南音,我好想你,中文,4,苏打绿,high,false,manual_seed,
+Gnight_南音,我怀念的,中文,4,孙燕姿,high,false,manual_seed,
+Gnight_南音,我爱的人,中文,4,陈小春,high,false,manual_seed,
+Gnight_南音,我要的爱,中文,4,戴佩妮,high,false,manual_seed,
+Gnight_南音,或许我们,中文,4,王蓝茵,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,摩登爱情,中文,4,刘美麟,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,新不了情,中文,4,万芳,high,false,manual_seed,
+Gnight_南音,方圆几里,中文,4,薛之谦,high,false,manual_seed,
+Gnight_南音,无关于你,中文,4,阿YueYue,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,无法停靠,中文,4,柯泯薰,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,最远的你,中文,4,车继铃,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,有生之年,中文,4,张远,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,残酷月光,中文,4,林宥嘉,high,false,manual_seed,
+Gnight_南音,浓缩蓝鲸,中文,4,王睿卓,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,爱人错过,中文,4,告五人,high,false,manual_seed,
+Gnight_南音,爱我别走,中文,4,张震岳,high,false,manual_seed,
+Gnight_南音,爱的代价,中文,4,张艾嘉,high,false,manual_seed,
+Gnight_南音,独家记忆,中文,4,陈小春,high,false,manual_seed,
+Gnight_南音,理想三旬,中文,4,陈鸿宇,high,false,manual_seed,
+Gnight_南音,疑难杂症,中文,4,陈粒,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,破镜重圆,中文,4,指南针乐队,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,竹篮打水,中文,4,徐秉龙,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,致你所爱,中文,4,房东的猫,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,落地之前,中文,4,郭顶,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,说给你听,中文,4,李行亮,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,轻描淡写,中文,4,陈奕迅,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,近我者甜,中文,4,鹿晗,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,迷途之中,中文,4,李荣浩,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,逝去的爱,中文,4,欧阳菲菲,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,那就晚安,中文,4,张远,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,都市沙漠,中文,4,陶喆,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,需要人陪,中文,4,王力宏,high,false,manual_seed,
+Gnight_南音,风华正茂,中文,4,李宇春,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,黄色枫叶,中文,4,薛之谦,high,false,manual_seed,
+Gnight_南音,黑色柳丁,中文,4,陶喆,high,false,manual_seed,
+Gnight_南音,Simon,中文,5,丁世光,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,不要再说了,中文,5,陈奕迅,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,不跟你好了,中文,5,于冬然,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,会呼吸的痛,中文,5,梁静茹,high,false,manual_seed,
+Gnight_南音,会痛的石头,中文,5,萧敬腾,high,false,manual_seed,
+Gnight_南音,你给我听好,中文,5,陈奕迅,high,false,manual_seed,
+Gnight_南音,八月二十九,中文,5,夏日入侵企画,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,其实都没有,中文,5,杨宗纬,high,false,manual_seed,
+Gnight_南音,出现又离开,中文,5,梁博,high,false,manual_seed,
+Gnight_南音,只是太爱你,中文,5,张敬轩,high,false,manual_seed,
+Gnight_南音,可以不是你,中文,5,不是花火,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,可惜不是你,中文,5,梁静茹,high,false,manual_seed,
+Gnight_南音,吻得太逼真,中文,5,张敬轩,high,false,manual_seed,
+Gnight_南音,如果你爱我,中文,5,张韶涵,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,如果没有你,中文,5,莫文蔚,high,false,manual_seed,
+Gnight_南音,如果没确定,中文,5,房东的猫,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,我们都寂寞,中文,5,陈奕迅,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,最长的电影,中文,5,周杰伦,high,false,manual_seed,
+Gnight_南音,爱我还是他,中文,5,陶喆,high,false,manual_seed,
+Gnight_南音,突然想起你,中文,5,萧亚轩,high,false,manual_seed,
+Gnight_南音,算什么男人,中文,5,周杰伦,high,false,manual_seed,
+Gnight_南音,红色高跟鞋,中文,5,蔡健雅,high,false,manual_seed,
+Gnight_南音,给我一个吻,中文,5,张露,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,给自己的歌,中文,5,李宗盛,high,false,manual_seed,
+Gnight_南音,走钢索的人,中文,5,李泉,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,Melody,中文,6,陶喆,high,false,manual_seed,
+Gnight_南音,一个人一座城,中文,6,王北车,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,你一定要幸福,中文,6,何洁,high,false,manual_seed,
+Gnight_南音,像晴天像雨天,中文,6,汪苏泷,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,某年某月某天,中文,6,Energy,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,流着泪说分手,中文,6,金志文,high,false,manual_seed,
+Gnight_南音,走得很慢的人,中文,6,方大同,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,阿拉斯加海湾,中文,6,菲道尔,high,false,manual_seed,
+Gnight_南音,Tonight,中文,7,Westlife,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,你就不要想起我,中文,7,田馥甄,high,false,manual_seed,
+Gnight_南音,土坡上的狗尾草,中文,7,卢润泽,high,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,当我不在你身边,中文,7,陈奕迅,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,怎么说我不爱你,中文,7,萧敬腾,high,false,manual_seed,
+Gnight_南音,怪我更爱我自己,中文,7,王靖雯不胖,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,梦在黎明破晓时,中文,7,张韶涵,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,看着我的眼睛说,中文,7,告五人,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,给月亮的三行诗,中文,7,房东的猫,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,阿尔茨海默的爱,中文,7,梁文音,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,一首你不会听的歌,中文,8,黄霄雲,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,在加纳共和国离婚,中文,8,菲道尔/Dior大颖,high,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,天下的乌鸦一般黑,中文,8,队长,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,她来听我的演唱会,中文,8,张学友,high,false,manual_seed,
+Gnight_南音,莫比乌斯号的船医,中文,8,植物椿,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Beautiful,中文,9,Christina Aguilera,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,女人不该让男人太累,中文,9,陈小春,high,false,manual_seed,
+Gnight_南音,当我再见到你的时候,中文,9,陈奕迅,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,爱你是我最初的梦想,中文,9,孙俪,medium,false,manual_seed,常见版本，待最终校对
+Gnight_南音,世间美好与你环环相扣,中文,10,柏松,high,false,manual_seed,
+Gnight_南音,我喜欢的人都跟你好像,中文,10,余佳运,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,天秤座你好，我也是天平,中文,11,棱镜,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,乖乖啊，今天的你也辛苦了,中文,12,队长,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Home,英文,4,Michael Bublé,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,You!,英文,4,LANY,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Creep,英文,5,Radiohead,high,false,manual_seed,
+Gnight_南音,Emily,英文,5,Bruno Major,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Toxic,英文,5,Britney Spears,high,false,manual_seed,
+Gnight_南音,Demons,英文,6,Imagine Dragons,high,false,manual_seed,
+Gnight_南音,Easily,英文,6,Bruno Major,high,false,manual_seed,
+Gnight_南音,Sharks,英文,6,Imagine Dragons,high,false,manual_seed,
+Gnight_南音,Suffer,英文,6,Charlie Puth,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Closure,英文,7,Hayd,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Gravity,英文,7,John Mayer,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Hey Jude,英文,7,The Beatles,high,false,manual_seed,
+Gnight_南音,L.O.V.E,英文,7,Nat King Cole,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Nothing,英文,7,Bruno Major,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Perfect,英文,7,Ed Sheeran,high,false,manual_seed,
+Gnight_南音,Your Man,英文,7,Josh Turner,high,false,manual_seed,
+Gnight_南音,Diamonds,英文,8,Rihanna,high,false,manual_seed,
+Gnight_南音,Free Loop,英文,8,Daniel Powter,high,false,manual_seed,
+Gnight_南音,Remember,英文,8,KATIE,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Thank You,英文,8,Dido,high,false,manual_seed,
+Gnight_南音,That's Us,英文,8,Anson Seabra,high,false,manual_seed,
+Gnight_南音,Apologize,英文,9,OneRepublic,high,false,manual_seed,
+Gnight_南音,Mam' selle,英文,9,Art Lund,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Moody Wind,英文,9,Anthony Lazaro,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Moon River,英文,9,Audrey Hepburn,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Put It On Me,英文,9,Matt Maeson,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Close To You,英文,10,The Carpenters,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Mad sex cool,英文,10,Babyface,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Miss Riddle,英文,10,Boz Scaggs,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Say It Again,英文,10,Marie Digby,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Shape of You,英文,10,Ed Sheeran,high,false,manual_seed,
+Gnight_南音,Before You Go,英文,11,Lewis Capaldi,high,false,manual_seed,
+Gnight_南音,Cry Me A River,英文,11,Julie London,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Feeling Good,英文,11,Cy Grant,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Tainted Love,英文,11,Gloria Jones,high,false,manual_seed,
+Gnight_南音,What Did I Do?,英文,11,Hayd,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Autumn Leaves,英文,12,Jo Stafford,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Kissing A Fool,英文,12,George Michael,high,false,manual_seed,
+Gnight_南音,Say Something,英文,12,A Great Big World,high,false,manual_seed,
+Gnight_南音,Through It All,英文,12,Charlie Puth,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Christmas List,英文,13,Anson Seabra,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Counting Stars,英文,13,OneRepublic,high,false,manual_seed,
+Gnight_南音,Last Christmas,英文,13,Wham!,high,false,manual_seed,
+Gnight_南音,Man On A Mission,英文,13,Oh The Larceny,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Outlaws Of Love,英文,13,Adam Lambert,high,false,manual_seed,
+Gnight_南音,To Be Forgotten,英文,13,Bruno Major,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,A Thousand Years,英文,14,Christina Perri,high,false,manual_seed,
+Gnight_南音,Blue Suede Shoes,英文,14,Carl Perkins,high,false,manual_seed,
+Gnight_南音,Fly Me To The Moon,英文,14,Kaye Ballard,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Just the Two of Us,英文,14,Grover Washington Jr. feat. Bill Withers,high,false,manual_seed,
+Gnight_南音,Love You Anymore,英文,14,Michael Bublé,high,false,manual_seed,
+Gnight_南音,Ain' t No Sunshine,英文,15,Bill Withers,high,false,manual_seed,
+Gnight_南音,Give Me One Reason,英文,15,Tracy Chapman,high,false,manual_seed,
+Gnight_南音,Head In The Clouds,英文,15,Hayd,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Hindenburg Lover,英文,15,Anson Seabra,high,false,manual_seed,
+Gnight_南音,Honeysuckle Rose,英文,15,Fats Waller,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Someone You Loved,英文,15,Lewis Capaldi,high,false,manual_seed,
+Gnight_南音,Sunday Breakfast,英文,15,Michael Seyer,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Peter Pan Was Right,英文,16,Anson Seabra,high,false,manual_seed,
+Gnight_南音,Rolling In The Deep,英文,16,Adele,high,false,manual_seed,
+Gnight_南音,Silhouettes Of You,英文,16,Isaac Gracie,high,false,manual_seed,
+Gnight_南音,The Sensitive Kind,英文,16,J.J. Cale,high,false,manual_seed,
+Gnight_南音,Make You Feel My Love,英文,17,Bob Dylan,high,false,manual_seed,
+Gnight_南音,You Are So Beautiful,英文,17,Billy Preston,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Supermarket Flowers,英文,18,Ed Sheeran,high,false,manual_seed,
+Gnight_南音,To Let A Good Thing Die,英文,18,Bruno Major,high,false,manual_seed,
+Gnight_南音,If December Never Ends,英文,19,Anson Seabra,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Somewhere in Ann Arbor,英文,19,Anson Seabra,high,false,manual_seed,
+Gnight_南音,Welcome To Wonderland,英文,19,Anson Seabra,high,false,manual_seed,
+Gnight_南音,What A Wonderful World,英文,19,Louis Armstrong,high,false,manual_seed,
+Gnight_南音,A Thousand Dreams Of You,英文,20,The Romantic Strings,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Can I Have The Day With You,英文,21,Sam Ock,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Can' t Take My Eyes Off You,英文,21,Frankie Valli,high,false,manual_seed,
+Gnight_南音,Down By The Sally Gardens,英文,21,Traditional,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Dream A Little Dream Of Me,英文,21,Ozzie Nelson,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,I Can't Smile Without You,英文,21,David Martin,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,The Most Beautiful Thing,英文,21,Bruno Major,high,false,manual_seed,
+Gnight_南音,Can't Help Falling In Love,英文,22,Elvis Presley,high,false,manual_seed,
+Gnight_南音,Keep Your Head Up Princess,英文,22,Anson Seabra,high,false,manual_seed,
+Gnight_南音,Boulevard Of Broken Dreams,英文,23,Green Day,high,false,manual_seed,
+Gnight_南音,Put Your Head On My Shoulder,英文,23,Paul Anka,high,false,manual_seed,
+Gnight_南音,Can You Feel The Love Tonight,英文,24,Elton John,high,false,manual_seed,
+Gnight_南音,I Don' t Mind If You Don' t Mind,英文,24,Ruel,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核
+Gnight_南音,Lets Fall In Love For The Night,英文,25,FINNEAS,high,false,manual_seed,
+Gnight_南音,Wake Me Up When September Ends,英文,25,Green Day,high,false,manual_seed,
+Gnight_南音,(I Love You) for Sentimental Reasons,英文,31,Deek Watson,medium,false,lyric_search_seed,按歌名/歌词搜索补齐；可后续抽样复核

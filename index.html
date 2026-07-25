@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="nanyin">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>南音欠锅厅</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./theme.css?v=20260724a">
+  </head>
+  <body>
+    <main class="min-h-screen bg-base-200">
+      <section class="navbar bg-base-100 shadow-sm px-4 md:px-10 site-header">
+        <span class="site-logo">南音欠锅厅</span>
+        <button id="loginButton" class="login-icon-button" type="button" aria-label="歌手登录">
+          <svg aria-hidden="true" viewBox="0 0 24 24" class="login-icon">
+            <path d="M20 21a8 8 0 0 0-16 0"></path>
+            <path d="M12 13a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z"></path>
+          </svg>
+        </button>
+      </section>
+      <section class="px-4 md:px-10 py-4 md:py-8 max-w-7xl mx-auto">
+        <section id="homeView">
+        <section class="mb-3">
+          <label class="search-control">
+            <svg aria-hidden="true" viewBox="0 0 24 24" class="search-icon">
+              <path d="m21 21-4.35-4.35m1.35-5.15a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z"></path>
+            </svg>
+            <input id="search" class="input input-bordered search-input" placeholder="搜索南音歌手、歌曲、原唱">
+            <button id="clearSearch" class="search-clear hidden" type="button" aria-label="清空搜索">×</button>
+          </label>
+        </section>
+        <section class="tabs tabs-box bg-base-100 shadow-sm w-full mb-4 compact-tabs" role="tablist" aria-label="浏览方式">
+          <button id="singersTab" class="tab tab-active" type="button" role="tab">
+            歌手 <span id="singerCount" class="tab-count">0</span>
+          </button>
+          <button id="songsTab" class="tab" type="button" role="tab">
+            歌曲 <span id="songCount" class="tab-count">0</span>
+          </button>
+        </section>
+        <section>
+          <section id="singersView" class="space-y-3" aria-label="歌手列表">
+            <div id="singers" class="grid gap-3 md:grid-cols-2 lg:grid-cols-3"></div>
+          </section>
+          <section id="songsView" class="hidden" aria-label="歌曲列表">
+            <section class="home-song-filters grid gap-3 mb-3">
+              <label class="form-control"><span class="label-text font-bold">排序</span><select id="sort" class="select select-bordered"><option value="default">默认</option><option value="az">歌名 A-Z</option><option value="length">歌名字数</option><option value="originalArtist">原唱</option><option value="likes">♥</option></select></label>
+              <label class="form-control"><span class="label-text font-bold">语种</span><select id="languageFilter" class="select select-bordered"><option value="all">全部语种</option></select></label>
+              <label class="form-control"><span class="label-text font-bold">类型</span><select id="genreFilter" class="select select-bordered"><option value="all">全部类型</option></select></label>
+            </section>
+            <div class="grid gap-3" id="songs"></div>
+          </section>
+        </section>
+        </section>
+
+        <section id="singerPageView" class="hidden">
+          <button id="backHome" class="btn btn-ghost btn-sm mb-3" type="button">← 返回</button>
+          <section class="card bg-base-100 shadow-xl singer-profile-card">
+            <div class="card-body">
+              <div class="detail-heading">
+                <h1 class="card-title text-3xl" id="detailTitle">歌手页面</h1>
+                <div id="detailReactions" class="detail-reactions"></div>
+              </div>
+              <div id="profile"></div>
+            </div>
+          </section>
+          <section class="detail-panel-switches">
+            <section id="debtPanelSwitch" class="detail-panel-switch" role="button" tabindex="0" data-detail-panel="debts"></section>
+            <section id="libraryPanelSwitch" class="detail-panel-switch" role="button" tabindex="0" data-detail-panel="library"></section>
+          </section>
+          <section id="detailDebtSection" class="detail-panel-content">
+            <section id="debtInlineHeading" class="debt-inline-heading">
+              <button class="btn btn-sm recommend-btn" id="detailDebtAdd" type="button">记账</button>
+            </section>
+            <div id="detailDebtList" class="debt-list"></div>
+          </section>
+          <section id="detailSonglistSection" class="singer-songlist-section detail-panel-content">
+            <section id="songlistControls" class="songlist-controls mb-3">
+              <label class="form-control"><span class="label-text font-bold">排序</span><select id="detailSort" class="select select-bordered"><option value="default">默认</option><option value="az">歌名 A-Z</option><option value="length">歌名字数</option><option value="originalArtist">原唱</option><option value="likes">♥</option></select></label>
+              <label class="form-control"><span class="label-text font-bold">语言</span><select id="detailLanguage" class="select select-bordered"><option value="all">全部</option><option value="中文">中文</option><option value="英文">英文</option></select></label>
+              <button class="btn recommend-btn song-add-button hidden" id="detailAddSong" type="button">添加</button>
+            </section>
+            <div class="grid gap-3" id="detailSongs"></div>
+          </section>
+        </section>
+        <section id="debtPageView" class="hidden">
+          <button id="backSinger" class="btn btn-ghost btn-sm mb-3" type="button">← 返回</button>
+          <section class="debt-page-heading">
+            <h1 class="card-title text-3xl" id="debtPageTitle">欠歌账簿</h1>
+            <button class="btn btn-sm recommend-btn" id="debtPageAdd" type="button">记账</button>
+          </section>
+          <div id="debtPageList" class="debt-list"></div>
+        </section>
+      </section>
+    </main>
+    <div id="bombBurst" class="bomb-burst" aria-hidden="true">
+      <div class="bomb-flash"></div>
+      <div class="bomb-shockwave"></div>
+      <div class="bomb-smoke">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="bomb-flames">
+        <span>🔥</span>
+        <span>🔥</span>
+        <span>🔥</span>
+        <span>🔥</span>
+        <span>🔥</span>
+        <span>🔥</span>
+        <span>🔥</span>
+        <span>🔥</span>
+      </div>
+      <div class="bomb-core">💣</div>
+    </div>
+    <div id="heartBurst" class="heart-burst" aria-hidden="true">
+      <span>♥</span>
+      <span>♥</span>
+      <span>♥</span>
+      <span>♥</span>
+      <span>♥</span>
+      <span>♥</span>
+      <span>♥</span>
+      <span>♥</span>
+    </div>
+    <div id="rainbowBurst" class="rainbow-burst" aria-hidden="true">
+      <div class="rainbow-arc">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="rainbow-sparkles">
+        <span>✦</span>
+        <span>✦</span>
+        <span>✦</span>
+        <span>✦</span>
+        <span>✦</span>
+        <span>✦</span>
+        <span>✦</span>
+        <span>✦</span>
+      </div>
+    </div>
+    <div id="monkeyBurst" class="monkey-burst" aria-hidden="true">
+      <div class="monkey-scene">
+        <div class="monkey-body">🐒</div>
+        <div class="monkey-stick"></div>
+        <img class="wooden-fish" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdxUU1ZdDl6x3_F8AfJyhJuD7tP2eDhvI_zvze0ehbGtc5Gwb5cDKtEGI3YfKM76WQTLfFEo_ovAuC4A75mlle50zAN_WqfBe76oyBo_cf1ZdttVIX-mv1xRlrXYL4OBqvHydWHb2NKhA/s400/mokugyo.png" alt="">
+        <div class="debt-chant debt-chant-one">催债</div>
+        <div class="debt-chant debt-chant-two">催债</div>
+        <div class="debt-chant debt-chant-three">催债</div>
+        <div class="monkey-ripples">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <div id="cryBurst" class="cry-burst" aria-hidden="true">
+      <div class="cry-face">🥲</div>
+      <div class="cry-plus">+1</div>
+      <div class="cry-tears">
+        <span>💧</span>
+        <span>💧</span>
+        <span>💧</span>
+        <span>💧</span>
+        <span>💧</span>
+        <span>💧</span>
+      </div>
+    </div>
+    <div id="tearDebtBurst" class="tear-debt-burst" aria-hidden="true">
+      <div class="debt-paper-left">债</div>
+      <div class="debt-paper-right">债</div>
+      <div class="paper-shreds">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <dialog id="dialog" class="modal">
+      <div class="modal-box app-modal-box">
+        <h3 class="app-modal-title">欠歌记账</h3>
+        <section class="app-form">
+          <label class="app-form-field" for="debtCreditor">
+            <span class="app-field-label">债主</span>
+            <input id="debtCreditor" class="input input-bordered app-input" placeholder="输入名字">
+          </label>
+          <div class="app-form-field">
+            <span class="app-field-label">欠歌数量</span>
+            <div class="counter-control">
+              <button id="debtMinus" class="btn btn-sm" type="button">-</button>
+              <span id="debtCount" class="counter-value">1</span>
+              <button id="debtPlus" class="btn btn-sm" type="button">+</button>
+            </div>
+          </div>
+          <label class="app-form-field" for="debtNote">
+            <span class="app-field-label">备注</span>
+            <textarea id="debtNote" class="textarea textarea-bordered app-input app-textarea" placeholder="例如：生日歌、下次排麦还"></textarea>
+          </label>
+        </section>
+        <div class="modal-action app-modal-actions"><button class="btn app-ghost-btn" data-close>取消</button><button class="btn btn-primary app-primary-btn" id="saveRecommend">记账</button></div>
+      </div>
+    </dialog>
+    <dialog id="editDebtDialog" class="modal">
+      <div class="modal-box app-modal-box">
+        <h3 class="app-modal-title">修改欠歌</h3>
+        <input id="editDebtKey" type="hidden">
+        <section class="app-form">
+          <label class="app-form-field" for="editDebtCreditor">
+            <span class="app-field-label">债主</span>
+            <input id="editDebtCreditor" class="input input-bordered app-input" readonly>
+          </label>
+          <div class="app-form-field">
+            <span class="app-field-label">待还数量</span>
+            <div class="counter-control">
+              <button id="editDebtMinus" class="btn btn-sm" type="button">-</button>
+              <span id="editDebtCount" class="counter-value">1</span>
+              <button id="editDebtPlus" class="btn btn-sm" type="button">+</button>
+            </div>
+          </div>
+          <label class="app-form-field" for="editDebtNote">
+            <span class="app-field-label">备注</span>
+            <textarea id="editDebtNote" class="textarea textarea-bordered app-input app-textarea"></textarea>
+          </label>
+        </section>
+        <div class="modal-action app-modal-actions edit-debt-actions">
+          <button class="btn btn-error btn-outline app-danger-btn" id="deleteDebt" type="button">删除</button>
+          <div class="edit-debt-save-actions">
+            <button class="btn app-ghost-btn" data-close>取消</button>
+            <button class="btn btn-primary app-primary-btn" id="saveDebtEdit">保存修改</button>
+          </div>
+        </div>
+      </div>
+    </dialog>
+    <dialog id="scheduleDialog" class="modal">
+      <div class="modal-box app-modal-box">
+        <h3 class="app-modal-title">修改歌手资料</h3>
+        <section class="app-form">
+          <label class="app-form-field" for="scheduleInput">
+            <span class="app-field-label">在档时段</span>
+            <input id="scheduleInput" class="input input-bordered app-input">
+          </label>
+          <label class="app-form-field" for="tagsInput">
+            <span class="app-field-label">Tags</span>
+            <textarea id="tagsInput" class="textarea textarea-bordered app-input app-textarea" placeholder="用逗号分隔，例如：流行，青叔音，慵懒"></textarea>
+          </label>
+        </section>
+        <div class="modal-action app-modal-actions"><button class="btn app-ghost-btn" data-close>取消</button><button class="btn btn-primary app-primary-btn" id="saveSchedule">保存</button></div>
+      </div>
+    </dialog>
+    <dialog id="addSongDialog" class="modal">
+      <div class="modal-box app-modal-box">
+        <h3 class="app-modal-title">添加歌曲</h3>
+        <section class="app-form">
+          <label class="app-form-field" for="newSongTitle">
+            <span class="app-field-label">歌名</span>
+            <input id="newSongTitle" class="input input-bordered app-input" placeholder="输入歌名">
+          </label>
+          <label class="app-form-field" for="newSongOriginalArtist">
+            <span class="app-field-label">原唱</span>
+            <input id="newSongOriginalArtist" class="input input-bordered app-input" placeholder="输入原唱">
+          </label>
+          <label class="app-form-field" for="newSongYear">
+            <span class="app-field-label">年份</span>
+            <input id="newSongYear" class="input input-bordered app-input" inputmode="numeric" placeholder="例如：2019">
+          </label>
+          <label class="app-form-field" for="newSongLanguage">
+            <span class="app-field-label">语种</span>
+            <select id="newSongLanguage" class="select select-bordered app-input">
+              <option value="中文">中文</option>
+              <option value="英文">英文</option>
+              <option value="粤语">粤语</option>
+              <option value="日文">日文</option>
+              <option value="其他">其他</option>
+            </select>
+          </label>
+        </section>
+        <div class="modal-action app-modal-actions"><button class="btn app-ghost-btn" data-close>取消</button><button class="btn btn-primary app-primary-btn" id="saveNewSong">添加</button></div>
+      </div>
+    </dialog>
+    <dialog id="loginDialog" class="modal">
+      <div class="modal-box app-modal-box">
+        <h3 class="app-modal-title">歌手登录</h3>
+        <section id="loginFormPanel" class="app-form">
+          <label class="app-form-field" for="loginSinger">
+            <span class="app-field-label">歌手</span>
+            <select id="loginSinger" class="select select-bordered app-input"></select>
+          </label>
+          <label class="app-form-field" for="loginPassword">
+            <span class="app-field-label">密码</span>
+            <input id="loginPassword" class="input input-bordered app-input" type="password" placeholder="输入密码">
+          </label>
+          <p id="loginMessage" class="login-message"></p>
+          <div class="modal-action app-modal-actions"><button class="btn app-ghost-btn" data-close>取消</button><button class="btn btn-primary app-primary-btn" id="saveLogin">登录</button></div>
+        </section>
+        <section id="loggedInPanel" class="hidden">
+          <p class="logged-in-copy">当前登录歌手</p>
+          <p id="loggedInSingerName" class="logged-in-name"></p>
+          <div class="modal-action app-modal-actions"><button class="btn app-ghost-btn" data-close>关闭</button><button class="btn btn-outline app-ghost-btn" id="logoutSinger">退出登录</button></div>
+        </section>
+      </div>
+    </dialog>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script>
+    <script src="./v1-singers.js?v=20260723q"></script>
+    <script src="./song-metadata.js?v=20260724c"></script>
+    <script src="./theme.js?v=20260724i"></script>
+  </body>
+</html>

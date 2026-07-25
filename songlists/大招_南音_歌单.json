@@ -1,0 +1,3062 @@
+{
+  "singer": "大招_南音",
+  "singerId": "dazhao",
+  "source": "user-provided text",
+  "updatedAt": "2026-07-24",
+  "rules": "按语种分区；去重；每区按字数从少到多排列。已用 QQ 音乐标题精确匹配、iTunes Search API 与本地资料初步补原唱、发行年份、风格；未命中项保留待补。",
+  "chinese": [
+    {
+      "title": "暗香",
+      "language": "中文",
+      "originalArtist": "沙宝亮",
+      "charCount": 2,
+      "releaseYear": "2003",
+      "genre": "流行"
+    },
+    {
+      "title": "北京",
+      "language": "中文",
+      "originalArtist": "邱比",
+      "charCount": 2,
+      "releaseYear": "2017",
+      "genre": "流行"
+    },
+    {
+      "title": "彩虹",
+      "language": "中文",
+      "originalArtist": "梁静茹",
+      "charCount": 2,
+      "releaseYear": "1999",
+      "genre": "流行"
+    },
+    {
+      "title": "春雪",
+      "language": "中文",
+      "originalArtist": "孟庭苇",
+      "charCount": 2,
+      "releaseYear": "1995",
+      "genre": "流行"
+    },
+    {
+      "title": "冬眠",
+      "language": "中文",
+      "originalArtist": "何勇",
+      "charCount": 2,
+      "releaseYear": "1994",
+      "genre": "流行"
+    },
+    {
+      "title": "断点",
+      "language": "中文",
+      "originalArtist": "张敬轩",
+      "charCount": 2,
+      "releaseYear": "2002",
+      "genre": "流行"
+    },
+    {
+      "title": "过火",
+      "language": "中文",
+      "originalArtist": "张信哲",
+      "charCount": 2,
+      "releaseYear": "1995",
+      "genre": "流行"
+    },
+    {
+      "title": "海鸥",
+      "language": "中文",
+      "originalArtist": "刘家昌",
+      "charCount": 2,
+      "releaseYear": "1971",
+      "genre": "流行"
+    },
+    {
+      "title": "缓缓",
+      "language": "中文",
+      "originalArtist": "张惠妹",
+      "charCount": 2,
+      "releaseYear": "2020",
+      "genre": "流行"
+    },
+    {
+      "title": "黄昏",
+      "language": "中文",
+      "originalArtist": "窦唯",
+      "charCount": 2,
+      "releaseYear": "1995",
+      "genre": "流行"
+    },
+    {
+      "title": "回来",
+      "language": "中文",
+      "originalArtist": "罗琦",
+      "charCount": 2,
+      "releaseYear": "1994",
+      "genre": "流行"
+    },
+    {
+      "title": "记得",
+      "language": "中文",
+      "originalArtist": "张惠妹",
+      "charCount": 2,
+      "releaseYear": "2009",
+      "genre": "流行"
+    },
+    {
+      "title": "剪爱",
+      "language": "中文",
+      "originalArtist": "张惠妹",
+      "charCount": 2,
+      "releaseYear": "1996",
+      "genre": "流行"
+    },
+    {
+      "title": "解脱",
+      "language": "中文",
+      "originalArtist": "蔡龄龄",
+      "charCount": 2,
+      "releaseYear": "1990",
+      "genre": "流行"
+    },
+    {
+      "title": "可乐",
+      "language": "中文",
+      "originalArtist": "赵紫骅",
+      "charCount": 2,
+      "releaseYear": "1996",
+      "genre": "流行"
+    },
+    {
+      "title": "离人",
+      "language": "中文",
+      "originalArtist": "张学友",
+      "charCount": 2,
+      "releaseYear": "1998",
+      "genre": "流行"
+    },
+    {
+      "title": "两半",
+      "language": "中文",
+      "originalArtist": "于黑蛋",
+      "charCount": 2,
+      "releaseYear": "2020",
+      "genre": "流行"
+    },
+    {
+      "title": "流沙",
+      "language": "中文",
+      "originalArtist": "王芷蕾",
+      "charCount": 2,
+      "releaseYear": "1986",
+      "genre": "流行"
+    },
+    {
+      "title": "路口",
+      "language": "中文",
+      "originalArtist": "张震岳",
+      "charCount": 2,
+      "releaseYear": "2006",
+      "genre": "流行"
+    },
+    {
+      "title": "模特",
+      "language": "中文",
+      "originalArtist": "李荣浩",
+      "charCount": 2,
+      "releaseYear": "2013",
+      "genre": "流行"
+    },
+    {
+      "title": "飘雪",
+      "language": "中文",
+      "originalArtist": "陈慧娴",
+      "charCount": 2,
+      "releaseYear": "1992",
+      "genre": "流行"
+    },
+    {
+      "title": "倾城",
+      "language": "中文",
+      "originalArtist": "许美静",
+      "charCount": 2,
+      "releaseYear": "1997",
+      "genre": "流行"
+    },
+    {
+      "title": "情人",
+      "language": "中文",
+      "originalArtist": "Beyond",
+      "charCount": 2,
+      "releaseYear": "1993",
+      "genre": "流行"
+    },
+    {
+      "title": "秋风",
+      "language": "中文",
+      "originalArtist": "陈占美",
+      "charCount": 2,
+      "releaseYear": "1980",
+      "genre": "流行"
+    },
+    {
+      "title": "如烟",
+      "language": "中文",
+      "originalArtist": "常静",
+      "charCount": 2,
+      "releaseYear": "2004",
+      "genre": "流行"
+    },
+    {
+      "title": "色盲",
+      "language": "中文",
+      "originalArtist": "梁咏琪",
+      "charCount": 2,
+      "releaseYear": "2001",
+      "genre": "流行"
+    },
+    {
+      "title": "沙滩",
+      "language": "中文",
+      "originalArtist": "曾淑勤",
+      "charCount": 2,
+      "releaseYear": "1994",
+      "genre": "流行"
+    },
+    {
+      "title": "傻女",
+      "language": "中文",
+      "originalArtist": "陈慧娴",
+      "charCount": 2,
+      "releaseYear": "1988",
+      "genre": "流行"
+    },
+    {
+      "title": "她说",
+      "language": "中文",
+      "originalArtist": "林俊杰",
+      "charCount": 2,
+      "releaseYear": "2010",
+      "genre": "流行"
+    },
+    {
+      "title": "天空",
+      "language": "中文",
+      "originalArtist": "王菲",
+      "charCount": 2,
+      "releaseYear": "1994",
+      "genre": "流行"
+    },
+    {
+      "title": "天天",
+      "language": "中文",
+      "originalArtist": "陶喆",
+      "charCount": 2,
+      "releaseYear": "1999",
+      "genre": "流行"
+    },
+    {
+      "title": "晚风",
+      "language": "中文",
+      "originalArtist": "叶蒨文",
+      "charCount": 2,
+      "releaseYear": "1986",
+      "genre": "流行"
+    },
+    {
+      "title": "味道",
+      "language": "中文",
+      "originalArtist": "辛晓琪",
+      "charCount": 2,
+      "releaseYear": "1994",
+      "genre": "流行"
+    },
+    {
+      "title": "问馋",
+      "language": "中文",
+      "originalArtist": "",
+      "charCount": 2,
+      "releaseYear": "",
+      "genre": ""
+    },
+    {
+      "title": "无赖",
+      "language": "中文",
+      "originalArtist": "胡彦斌",
+      "charCount": 2,
+      "releaseYear": "2002",
+      "genre": "流行"
+    },
+    {
+      "title": "无缘",
+      "language": "中文",
+      "originalArtist": "吕方",
+      "charCount": 2,
+      "releaseYear": "1991",
+      "genre": "流行"
+    },
+    {
+      "title": "小雪",
+      "language": "中文",
+      "originalArtist": "任贤齐",
+      "charCount": 2,
+      "releaseYear": "2001",
+      "genre": "流行"
+    },
+    {
+      "title": "信仰",
+      "language": "中文",
+      "originalArtist": "张信哲",
+      "charCount": 2,
+      "releaseYear": "2000",
+      "genre": "流行"
+    },
+    {
+      "title": "夜机",
+      "language": "中文",
+      "originalArtist": "陈慧娴",
+      "charCount": 2,
+      "releaseYear": "1989",
+      "genre": "流行"
+    },
+    {
+      "title": "予你",
+      "language": "中文",
+      "originalArtist": "唐语霏",
+      "charCount": 2,
+      "releaseYear": "2020",
+      "genre": "流行"
+    },
+    {
+      "title": "遇见",
+      "language": "中文",
+      "originalArtist": "孙燕姿",
+      "charCount": 2,
+      "releaseYear": "2003",
+      "genre": "流行"
+    },
+    {
+      "title": "真爱",
+      "language": "中文",
+      "originalArtist": "张学友",
+      "charCount": 2,
+      "releaseYear": "1994",
+      "genre": "流行"
+    },
+    {
+      "title": "值得",
+      "language": "中文",
+      "originalArtist": "郑秀文",
+      "charCount": 2,
+      "releaseYear": "1995",
+      "genre": "流行"
+    },
+    {
+      "title": "指纹",
+      "language": "中文",
+      "originalArtist": "苏永康",
+      "charCount": 2,
+      "releaseYear": "2000",
+      "genre": "流行"
+    },
+    {
+      "title": "挚友",
+      "language": "中文",
+      "originalArtist": "安俊豪",
+      "charCount": 2,
+      "releaseYear": "2015",
+      "genre": "流行"
+    },
+    {
+      "title": "中毒",
+      "language": "中文",
+      "originalArtist": "봉권",
+      "charCount": 2,
+      "releaseYear": "2016",
+      "genre": "流行"
+    },
+    {
+      "title": "最爱",
+      "language": "中文",
+      "originalArtist": "潘越云",
+      "charCount": 2,
+      "releaseYear": "1986",
+      "genre": "流行"
+    },
+    {
+      "title": "白月光",
+      "language": "中文",
+      "originalArtist": "张信哲",
+      "charCount": 3,
+      "releaseYear": "2004",
+      "genre": "流行"
+    },
+    {
+      "title": "必杀技",
+      "language": "中文",
+      "originalArtist": "古巨基",
+      "charCount": 3,
+      "releaseYear": "2003",
+      "genre": "流行"
+    },
+    {
+      "title": "从前慢",
+      "language": "中文",
+      "originalArtist": "刘胡轶",
+      "charCount": 3,
+      "releaseYear": "2015",
+      "genre": "流行"
+    },
+    {
+      "title": "达尔文",
+      "language": "中文",
+      "originalArtist": "蔡健雅",
+      "charCount": 3,
+      "releaseYear": "2007",
+      "genre": "流行"
+    },
+    {
+      "title": "大风吹",
+      "language": "中文",
+      "originalArtist": "许慧欣",
+      "charCount": 3,
+      "releaseYear": "2004",
+      "genre": "流行"
+    },
+    {
+      "title": "单人券",
+      "language": "中文",
+      "originalArtist": "张齐山",
+      "charCount": 3,
+      "releaseYear": "2022",
+      "genre": "流行"
+    },
+    {
+      "title": "二十二",
+      "language": "中文",
+      "originalArtist": "陶喆",
+      "charCount": 3,
+      "releaseYear": "2002",
+      "genre": "流行"
+    },
+    {
+      "title": "很需要",
+      "language": "中文",
+      "originalArtist": "夏潼潼",
+      "charCount": 3,
+      "releaseYear": "2022",
+      "genre": "流行"
+    },
+    {
+      "title": "很自己",
+      "language": "中文",
+      "originalArtist": "伍家辉",
+      "charCount": 3,
+      "releaseYear": "2011",
+      "genre": "流行"
+    },
+    {
+      "title": "红玫瑰",
+      "language": "中文",
+      "originalArtist": "陈奕迅",
+      "charCount": 3,
+      "releaseYear": "2007",
+      "genre": "流行"
+    },
+    {
+      "title": "红颜旧",
+      "language": "中文",
+      "originalArtist": "刘涛",
+      "charCount": 3,
+      "releaseYear": "2015",
+      "genre": "流行"
+    },
+    {
+      "title": "记事本",
+      "language": "中文",
+      "originalArtist": "陈慧琳",
+      "charCount": 3,
+      "releaseYear": "1998",
+      "genre": "流行"
+    },
+    {
+      "title": "空白格",
+      "language": "中文",
+      "originalArtist": "蔡健雅",
+      "charCount": 3,
+      "releaseYear": "2008",
+      "genre": "流行"
+    },
+    {
+      "title": "庐州月",
+      "language": "中文",
+      "originalArtist": "许嵩",
+      "charCount": 3,
+      "releaseYear": "2009",
+      "genre": "流行"
+    },
+    {
+      "title": "慢半拍",
+      "language": "中文",
+      "originalArtist": "黄靖伦",
+      "charCount": 3,
+      "releaseYear": "2008",
+      "genre": "流行"
+    },
+    {
+      "title": "莫吉托",
+      "language": "中文",
+      "originalArtist": "陈小虎",
+      "charCount": 3,
+      "releaseYear": "2019",
+      "genre": "流行"
+    },
+    {
+      "title": "青花瓷",
+      "language": "中文",
+      "originalArtist": "周杰伦",
+      "charCount": 3,
+      "releaseYear": "2007",
+      "genre": "流行"
+    },
+    {
+      "title": "青玉恋",
+      "language": "中文",
+      "originalArtist": "刘宇",
+      "charCount": 3,
+      "releaseYear": "2026",
+      "genre": "流行"
+    },
+    {
+      "title": "情人劫",
+      "language": "中文",
+      "originalArtist": "伊格赛听/叶里",
+      "charCount": 3,
+      "releaseYear": "2020",
+      "genre": "流行"
+    },
+    {
+      "title": "上海滩",
+      "language": "中文",
+      "originalArtist": "叶丽仪",
+      "charCount": 3,
+      "releaseYear": "1980",
+      "genre": "流行"
+    },
+    {
+      "title": "谁不是",
+      "language": "中文",
+      "originalArtist": "金池",
+      "charCount": 3,
+      "releaseYear": "2020",
+      "genre": "流行"
+    },
+    {
+      "title": "水中花",
+      "language": "中文",
+      "originalArtist": "谭咏麟",
+      "charCount": 3,
+      "releaseYear": "1983",
+      "genre": "流行"
+    },
+    {
+      "title": "褪黑素",
+      "language": "中文",
+      "originalArtist": "林宥嘉",
+      "charCount": 3,
+      "releaseYear": "2025",
+      "genre": "流行"
+    },
+    {
+      "title": "忘了我",
+      "language": "中文",
+      "originalArtist": "杨宗纬",
+      "charCount": 3,
+      "releaseYear": "2013",
+      "genre": "流行"
+    },
+    {
+      "title": "我相信",
+      "language": "中文",
+      "originalArtist": "杨培安",
+      "charCount": 3,
+      "releaseYear": "2006",
+      "genre": "流行"
+    },
+    {
+      "title": "我要你",
+      "language": "中文",
+      "originalArtist": "任素汐",
+      "charCount": 3,
+      "releaseYear": "2025",
+      "genre": "流行"
+    },
+    {
+      "title": "无聊的",
+      "language": "中文",
+      "originalArtist": "小霞",
+      "charCount": 3,
+      "releaseYear": "2021",
+      "genre": "流行"
+    },
+    {
+      "title": "小情歌",
+      "language": "中文",
+      "originalArtist": "白允y",
+      "charCount": 3,
+      "releaseYear": "2025",
+      "genre": "流行"
+    },
+    {
+      "title": "怎么了",
+      "language": "中文",
+      "originalArtist": "Eric周兴哲",
+      "charCount": 3,
+      "releaseYear": "2019",
+      "genre": "流行"
+    },
+    {
+      "title": "找自己",
+      "language": "中文",
+      "originalArtist": "陶喆",
+      "charCount": 3,
+      "releaseYear": "1999",
+      "genre": "流行"
+    },
+    {
+      "title": "左右手",
+      "language": "中文",
+      "originalArtist": "张国荣",
+      "charCount": 3,
+      "releaseYear": "1999",
+      "genre": "流行"
+    },
+    {
+      "title": "作曲家",
+      "language": "中文",
+      "originalArtist": "李荣浩",
+      "charCount": 3,
+      "releaseYear": "2022",
+      "genre": "流行"
+    },
+    {
+      "title": "阿楚姑娘",
+      "language": "中文",
+      "originalArtist": "袁娅维TIA RAY",
+      "charCount": 4,
+      "releaseYear": "2016",
+      "genre": "民谣"
+    },
+    {
+      "title": "爱的代价",
+      "language": "中文",
+      "originalArtist": "张艾嘉",
+      "charCount": 4,
+      "releaseYear": "2009",
+      "genre": "流行"
+    },
+    {
+      "title": "爱的根源",
+      "language": "中文",
+      "originalArtist": "谭咏麟",
+      "charCount": 4,
+      "releaseYear": "1984",
+      "genre": "流行"
+    },
+    {
+      "title": "爱的箴言",
+      "language": "中文",
+      "originalArtist": "罗大佑",
+      "charCount": 4,
+      "releaseYear": "1983",
+      "genre": "流行"
+    },
+    {
+      "title": "爱情御守",
+      "language": "中文",
+      "originalArtist": "庾澄庆",
+      "charCount": 4,
+      "releaseYear": "2003",
+      "genre": "流行"
+    },
+    {
+      "title": "爱如潮水",
+      "language": "中文",
+      "originalArtist": "张信哲",
+      "charCount": 4,
+      "releaseYear": "1993",
+      "genre": "流行"
+    },
+    {
+      "title": "暗里着迷",
+      "language": "中文",
+      "originalArtist": "吉他的天空",
+      "charCount": 4,
+      "releaseYear": "2020",
+      "genre": "流行"
+    },
+    {
+      "title": "沉默是金",
+      "language": "中文",
+      "originalArtist": "张国荣",
+      "charCount": 4,
+      "releaseYear": "1988",
+      "genre": "流行"
+    },
+    {
+      "title": "春风十里",
+      "language": "中文",
+      "originalArtist": "李宇春",
+      "charCount": 4,
+      "releaseYear": "2017",
+      "genre": "流行"
+    },
+    {
+      "title": "大城小爱",
+      "language": "中文",
+      "originalArtist": "王力宏",
+      "charCount": 4,
+      "releaseYear": "2005",
+      "genre": "流行"
+    },
+    {
+      "title": "反对无效",
+      "language": "中文",
+      "originalArtist": "MC 张天赋",
+      "charCount": 4,
+      "releaseYear": "2021",
+      "genre": "流行"
+    },
+    {
+      "title": "富士山下",
+      "language": "中文",
+      "originalArtist": "陈奕迅",
+      "charCount": 4,
+      "releaseYear": "2006",
+      "genre": "流行"
+    },
+    {
+      "title": "告白气球",
+      "language": "中文",
+      "originalArtist": "周杰伦",
+      "charCount": 4,
+      "releaseYear": "2016",
+      "genre": "流行"
+    },
+    {
+      "title": "孤单背影",
+      "language": "中文",
+      "originalArtist": "陈慧娴",
+      "charCount": 4,
+      "releaseYear": "1991",
+      "genre": "流行"
+    },
+    {
+      "title": "过了几天",
+      "language": "中文",
+      "originalArtist": "郭家玮",
+      "charCount": 4,
+      "releaseYear": "2024",
+      "genre": "流行"
+    },
+    {
+      "title": "好好的人",
+      "language": "中文",
+      "originalArtist": "黄恺",
+      "charCount": 4,
+      "releaseYear": "2022",
+      "genre": "流行"
+    },
+    {
+      "title": "好久不见",
+      "language": "中文",
+      "originalArtist": "陈奕迅",
+      "charCount": 4,
+      "releaseYear": "2007",
+      "genre": "流行"
+    },
+    {
+      "title": "红颜如霜",
+      "language": "中文",
+      "originalArtist": "周杰伦",
+      "charCount": 4,
+      "releaseYear": "2022",
+      "genre": "流行"
+    },
+    {
+      "title": "忽然之间",
+      "language": "中文",
+      "originalArtist": "莫文蔚",
+      "charCount": 4,
+      "releaseYear": "2017",
+      "genre": "流行"
+    },
+    {
+      "title": "虎口脱险",
+      "language": "中文",
+      "originalArtist": "老狼",
+      "charCount": 4,
+      "releaseYear": "2002",
+      "genre": "民谣"
+    },
+    {
+      "title": "回到过去",
+      "language": "中文",
+      "originalArtist": "周杰伦",
+      "charCount": 4,
+      "releaseYear": "2002",
+      "genre": "流行"
+    },
+    {
+      "title": "回心转意",
+      "language": "中文",
+      "originalArtist": "黑龙",
+      "charCount": 4,
+      "releaseYear": "2003",
+      "genre": "流行"
+    },
+    {
+      "title": "火柴天堂",
+      "language": "中文",
+      "originalArtist": "齐秦",
+      "charCount": 4,
+      "releaseYear": "1996",
+      "genre": "流行"
+    },
+    {
+      "title": "今夜有雨",
+      "language": "中文",
+      "originalArtist": "h3R3",
+      "charCount": 4,
+      "releaseYear": "2022",
+      "genre": "流行"
+    },
+    {
+      "title": "爵士怨曲",
+      "language": "中文",
+      "originalArtist": "谭咏麟",
+      "charCount": 4,
+      "releaseYear": "1990",
+      "genre": "爵士"
+    },
+    {
+      "title": "可爱女人",
+      "language": "中文",
+      "originalArtist": "周杰伦",
+      "charCount": 4,
+      "releaseYear": "2000",
+      "genre": "流行"
+    },
+    {
+      "title": "浪子心声",
+      "language": "中文",
+      "originalArtist": "许冠杰",
+      "charCount": 4,
+      "releaseYear": "1976",
+      "genre": "流行"
+    },
+    {
+      "title": "淋湿旺角",
+      "language": "中文",
+      "originalArtist": "",
+      "charCount": 4,
+      "releaseYear": "",
+      "genre": ""
+    },
+    {
+      "title": "梦醒时分",
+      "language": "中文",
+      "originalArtist": "陈淑桦",
+      "charCount": 4,
+      "releaseYear": "1989",
+      "genre": "流行"
+    },
+    {
+      "title": "模范情书",
+      "language": "中文",
+      "originalArtist": "老狼",
+      "charCount": 4,
+      "releaseYear": "1996",
+      "genre": "民谣"
+    },
+    {
+      "title": "你不漂亮",
+      "language": "中文",
+      "originalArtist": "巴士那",
+      "charCount": 4,
+      "releaseYear": "2017",
+      "genre": "流行"
+    },
+    {
+      "title": "你还好吗",
+      "language": "中文",
+      "originalArtist": "赵紫骅",
+      "charCount": 4,
+      "releaseYear": "2019",
+      "genre": "流行"
+    },
+    {
+      "title": "你好不好",
+      "language": "中文",
+      "originalArtist": "Eric周兴哲",
+      "charCount": 4,
+      "releaseYear": "2016",
+      "genre": "流行"
+    },
+    {
+      "title": "念念不忘",
+      "language": "中文",
+      "originalArtist": "张靓颖",
+      "charCount": 4,
+      "releaseYear": "2023",
+      "genre": "流行"
+    },
+    {
+      "title": "普通朋友",
+      "language": "中文",
+      "originalArtist": "陶喆",
+      "charCount": 4,
+      "releaseYear": "1999",
+      "genre": "流行"
+    },
+    {
+      "title": "情非得已",
+      "language": "中文",
+      "originalArtist": "半吨兄弟",
+      "charCount": 4,
+      "releaseYear": "2020",
+      "genre": "流行"
+    },
+    {
+      "title": "情人知己",
+      "language": "中文",
+      "originalArtist": "叶蒨文",
+      "charCount": 4,
+      "releaseYear": "1992",
+      "genre": "流行"
+    },
+    {
+      "title": "骚灵情歌",
+      "language": "中文",
+      "originalArtist": "张敬轩",
+      "charCount": 4,
+      "releaseYear": "2006",
+      "genre": "R&B"
+    },
+    {
+      "title": "失落沙洲",
+      "language": "中文",
+      "originalArtist": "徐佳莹",
+      "charCount": 4,
+      "releaseYear": "2009",
+      "genre": "流行"
+    },
+    {
+      "title": "逝去的爱",
+      "language": "中文",
+      "originalArtist": "欧阳菲菲",
+      "charCount": 4,
+      "releaseYear": "1994",
+      "genre": "流行"
+    },
+    {
+      "title": "他不爱我",
+      "language": "中文",
+      "originalArtist": "莫文蔚",
+      "charCount": 4,
+      "releaseYear": "1997",
+      "genre": "流行"
+    },
+    {
+      "title": "同桌的你",
+      "language": "中文",
+      "originalArtist": "老狼",
+      "charCount": 4,
+      "releaseYear": "1994",
+      "genre": "民谣"
+    },
+    {
+      "title": "往事随风",
+      "language": "中文",
+      "originalArtist": "齐秦",
+      "charCount": 4,
+      "releaseYear": "1995",
+      "genre": "流行"
+    },
+    {
+      "title": "忘记拥抱",
+      "language": "中文",
+      "originalArtist": "潘玮柏",
+      "charCount": 4,
+      "releaseYear": "2012",
+      "genre": "流行"
+    },
+    {
+      "title": "我都记得",
+      "language": "中文",
+      "originalArtist": "A-Lin",
+      "charCount": 4,
+      "releaseYear": "2015",
+      "genre": "流行"
+    },
+    {
+      "title": "我很快乐",
+      "language": "中文",
+      "originalArtist": "刘惜君",
+      "charCount": 4,
+      "releaseYear": "2010",
+      "genre": "流行"
+    },
+    {
+      "title": "我要的爱",
+      "language": "中文",
+      "originalArtist": "戴佩妮",
+      "charCount": 4,
+      "releaseYear": "2024",
+      "genre": "流行"
+    },
+    {
+      "title": "我要快乐",
+      "language": "中文",
+      "originalArtist": "张惠妹",
+      "charCount": 4,
+      "releaseYear": "2006",
+      "genre": "流行"
+    },
+    {
+      "title": "想你的夜",
+      "language": "中文",
+      "originalArtist": "关喆",
+      "charCount": 4,
+      "releaseYear": "2009",
+      "genre": "流行"
+    },
+    {
+      "title": "像风一样",
+      "language": "中文",
+      "originalArtist": "薛之谦",
+      "charCount": 4,
+      "releaseYear": "2017",
+      "genre": "流行"
+    },
+    {
+      "title": "小烦孤单",
+      "language": "中文",
+      "originalArtist": "司徒赫伦",
+      "charCount": 4,
+      "releaseYear": "2016",
+      "genre": "流行"
+    },
+    {
+      "title": "笑看风云",
+      "language": "中文",
+      "originalArtist": "郑少秋",
+      "charCount": 4,
+      "releaseYear": "2017",
+      "genre": "流行"
+    },
+    {
+      "title": "心醉心碎",
+      "language": "中文",
+      "originalArtist": "韦礼安",
+      "charCount": 4,
+      "releaseYear": "2012",
+      "genre": "流行"
+    },
+    {
+      "title": "星河水手",
+      "language": "中文",
+      "originalArtist": "刘思鉴",
+      "charCount": 4,
+      "releaseYear": "2022",
+      "genre": "流行"
+    },
+    {
+      "title": "修炼爱情",
+      "language": "中文",
+      "originalArtist": "林俊杰",
+      "charCount": 4,
+      "releaseYear": "2013",
+      "genre": "流行"
+    },
+    {
+      "title": "袖手旁观",
+      "language": "中文",
+      "originalArtist": "齐秦",
+      "charCount": 4,
+      "releaseYear": "1995",
+      "genre": "流行"
+    },
+    {
+      "title": "需要人陪",
+      "language": "中文",
+      "originalArtist": "王力宏",
+      "charCount": 4,
+      "releaseYear": "2010",
+      "genre": "R&B / Soul"
+    },
+    {
+      "title": "烟花易冷",
+      "language": "中文",
+      "originalArtist": "周杰伦",
+      "charCount": 4,
+      "releaseYear": "2010",
+      "genre": "流行"
+    },
+    {
+      "title": "言不由衷",
+      "language": "中文",
+      "originalArtist": "徐佳莹",
+      "charCount": 4,
+      "releaseYear": "2017",
+      "genre": "流行"
+    },
+    {
+      "title": "夜夜夜夜",
+      "language": "中文",
+      "originalArtist": "齐秦",
+      "charCount": 4,
+      "releaseYear": "1996",
+      "genre": "流行"
+    },
+    {
+      "title": "一表人才",
+      "language": "中文",
+      "originalArtist": "Edan 吕爵安/邱锋泽 Feng Ze",
+      "charCount": 4,
+      "releaseYear": "2021",
+      "genre": "流行"
+    },
+    {
+      "title": "一次就好",
+      "language": "中文",
+      "originalArtist": "杨宗纬",
+      "charCount": 4,
+      "releaseYear": "2015",
+      "genre": "流行"
+    },
+    {
+      "title": "一个傻子",
+      "language": "中文",
+      "originalArtist": "杨博然",
+      "charCount": 4,
+      "releaseYear": "2021",
+      "genre": "流行"
+    },
+    {
+      "title": "一生何求",
+      "language": "中文",
+      "originalArtist": "陈百强",
+      "charCount": 4,
+      "releaseYear": "1989",
+      "genre": "流行"
+    },
+    {
+      "title": "一生所爱",
+      "language": "中文",
+      "originalArtist": "卢冠廷/莫文蔚",
+      "charCount": 4,
+      "releaseYear": "1995",
+      "genre": "流行"
+    },
+    {
+      "title": "一世情缘",
+      "language": "中文",
+      "originalArtist": "姜育恒",
+      "charCount": 4,
+      "releaseYear": "1988",
+      "genre": "流行"
+    },
+    {
+      "title": "因为爱情",
+      "language": "中文",
+      "originalArtist": "陈奕迅/王菲",
+      "charCount": 4,
+      "releaseYear": "2011",
+      "genre": "流行"
+    },
+    {
+      "title": "阴天快乐",
+      "language": "中文",
+      "originalArtist": "陈奕迅",
+      "charCount": 4,
+      "releaseYear": "2014",
+      "genre": "流行"
+    },
+    {
+      "title": "友情卡片",
+      "language": "中文",
+      "originalArtist": "陈奕迅",
+      "charCount": 4,
+      "releaseYear": "2000",
+      "genre": "流行"
+    },
+    {
+      "title": "友情岁月",
+      "language": "中文",
+      "originalArtist": "郑伊健",
+      "charCount": 4,
+      "releaseYear": "1996",
+      "genre": "流行"
+    },
+    {
+      "title": "愚人码头",
+      "language": "中文",
+      "originalArtist": "KEY.L刘聪/功夫胖KUNGFU-PEN/GAI周延/盛宇D-SHINE",
+      "charCount": 4,
+      "releaseYear": "2025",
+      "genre": "流行"
+    },
+    {
+      "title": "再见青春",
+      "language": "中文",
+      "originalArtist": "汪峰",
+      "charCount": 4,
+      "releaseYear": "2009",
+      "genre": "摇滚"
+    },
+    {
+      "title": "张三的歌",
+      "language": "中文",
+      "originalArtist": "lisa-xu(蓝爵醺调)",
+      "charCount": 4,
+      "releaseYear": "2026",
+      "genre": "流行"
+    },
+    {
+      "title": "爱久见人心",
+      "language": "中文",
+      "originalArtist": "梁静茹",
+      "charCount": 5,
+      "releaseYear": "2012",
+      "genre": "流行"
+    },
+    {
+      "title": "爱就一个字",
+      "language": "中文",
+      "originalArtist": "半吨兄弟",
+      "charCount": 5,
+      "releaseYear": "2021",
+      "genre": "流行"
+    },
+    {
+      "title": "贝加尔湖畔",
+      "language": "中文",
+      "originalArtist": "李健",
+      "charCount": 5,
+      "releaseYear": "2011",
+      "genre": "民谣"
+    },
+    {
+      "title": "别怕我伤心",
+      "language": "中文",
+      "originalArtist": "张信哲",
+      "charCount": 5,
+      "releaseYear": "1994",
+      "genre": "流行"
+    },
+    {
+      "title": "冬天一个游",
+      "language": "中文",
+      "originalArtist": "Gordon Flanders",
+      "charCount": 5,
+      "releaseYear": "2021",
+      "genre": "流行"
+    },
+    {
+      "title": "给自己的歌",
+      "language": "中文",
+      "originalArtist": "李宗盛",
+      "charCount": 5,
+      "releaseYear": "2016",
+      "genre": "流行"
+    },
+    {
+      "title": "红色高跟鞋",
+      "language": "中文",
+      "originalArtist": "蔡健雅",
+      "charCount": 5,
+      "releaseYear": "2009",
+      "genre": "流行"
+    },
+    {
+      "title": "会呼吸的痛",
+      "language": "中文",
+      "originalArtist": "梁静茹",
+      "charCount": 5,
+      "releaseYear": "2010",
+      "genre": "流行"
+    },
+    {
+      "title": "寂寞的季节",
+      "language": "中文",
+      "originalArtist": "陶喆",
+      "charCount": 5,
+      "releaseYear": "2003",
+      "genre": "流行"
+    },
+    {
+      "title": "寂寞沙洲冷",
+      "language": "中文",
+      "originalArtist": "周传雄",
+      "charCount": 5,
+      "releaseYear": "2005",
+      "genre": "流行"
+    },
+    {
+      "title": "讲不出再见",
+      "language": "中文",
+      "originalArtist": "谭咏麟",
+      "charCount": 5,
+      "releaseYear": "1994",
+      "genre": "流行"
+    },
+    {
+      "title": "紧急联络人",
+      "language": "中文",
+      "originalArtist": "Gareth.T",
+      "charCount": 5,
+      "releaseYear": "2023",
+      "genre": "流行"
+    },
+    {
+      "title": "可惜不是你",
+      "language": "中文",
+      "originalArtist": "梁静茹",
+      "charCount": 5,
+      "releaseYear": "2013",
+      "genre": "流行"
+    },
+    {
+      "title": "旅行中忘记",
+      "language": "中文",
+      "originalArtist": "袁娅维TIA RAY",
+      "charCount": 5,
+      "releaseYear": "2014",
+      "genre": "流行"
+    },
+    {
+      "title": "慢慢喜欢你",
+      "language": "中文",
+      "originalArtist": "莫文蔚",
+      "charCount": 5,
+      "releaseYear": "2018",
+      "genre": "流行"
+    },
+    {
+      "title": "没那么简单",
+      "language": "中文",
+      "originalArtist": "黄小琥",
+      "charCount": 5,
+      "releaseYear": "2009",
+      "genre": "流行"
+    },
+    {
+      "title": "拿走了什么",
+      "language": "中文",
+      "originalArtist": "A-Lin",
+      "charCount": 5,
+      "releaseYear": "2014",
+      "genre": "流行"
+    },
+    {
+      "title": "你把我灌醉",
+      "language": "中文",
+      "originalArtist": "G.E.M. 邓紫棋",
+      "charCount": 5,
+      "releaseYear": "2013",
+      "genre": "流行"
+    },
+    {
+      "title": "年少的你呀",
+      "language": "中文",
+      "originalArtist": "",
+      "charCount": 5,
+      "releaseYear": "",
+      "genre": ""
+    },
+    {
+      "title": "怒放的生命",
+      "language": "中文",
+      "originalArtist": "汪峰",
+      "charCount": 5,
+      "releaseYear": "2012",
+      "genre": "摇滚"
+    },
+    {
+      "title": "其实都没有",
+      "language": "中文",
+      "originalArtist": "杨宗纬",
+      "charCount": 5,
+      "releaseYear": "2013",
+      "genre": "流行"
+    },
+    {
+      "title": "情人的眼泪",
+      "language": "中文",
+      "originalArtist": "林忆莲",
+      "charCount": 5,
+      "releaseYear": "1999",
+      "genre": "流行"
+    },
+    {
+      "title": "如果没有你",
+      "language": "中文",
+      "originalArtist": "莫文蔚",
+      "charCount": 5,
+      "releaseYear": "2008",
+      "genre": "流行"
+    },
+    {
+      "title": "如果云知道",
+      "language": "中文",
+      "originalArtist": "许茹芸",
+      "charCount": 5,
+      "releaseYear": "1996",
+      "genre": "流行"
+    },
+    {
+      "title": "沙漠里的鱼",
+      "language": "中文",
+      "originalArtist": "赵紫骅",
+      "charCount": 5,
+      "releaseYear": "2022",
+      "genre": "流行"
+    },
+    {
+      "title": "深秋的黎明",
+      "language": "中文",
+      "originalArtist": "黎明",
+      "charCount": 5,
+      "releaseYear": "1993",
+      "genre": "流行"
+    },
+    {
+      "title": "岁月里的花",
+      "language": "中文",
+      "originalArtist": "莫文蔚",
+      "charCount": 5,
+      "releaseYear": "2025",
+      "genre": "流行"
+    },
+    {
+      "title": "天才白痴梦",
+      "language": "中文",
+      "originalArtist": "许冠杰",
+      "charCount": 5,
+      "releaseYear": "1975",
+      "genre": "流行"
+    },
+    {
+      "title": "我要找到你",
+      "language": "中文",
+      "originalArtist": "陈明",
+      "charCount": 5,
+      "releaseYear": "2000",
+      "genre": "流行"
+    },
+    {
+      "title": "像风了一样",
+      "language": "中文",
+      "originalArtist": "",
+      "charCount": 5,
+      "releaseYear": "",
+      "genre": ""
+    },
+    {
+      "title": "一生中最爱",
+      "language": "中文",
+      "originalArtist": "谭咏麟",
+      "charCount": 5,
+      "releaseYear": "1991",
+      "genre": "流行"
+    },
+    {
+      "title": "有一种悲伤",
+      "language": "中文",
+      "originalArtist": "A-Lin",
+      "charCount": 5,
+      "releaseYear": "2018",
+      "genre": "流行"
+    },
+    {
+      "title": "月亮不回家",
+      "language": "中文",
+      "originalArtist": "赵紫骅",
+      "charCount": 5,
+      "releaseYear": "2019",
+      "genre": "流行"
+    },
+    {
+      "title": "最长的电影",
+      "language": "中文",
+      "originalArtist": "周杰伦",
+      "charCount": 5,
+      "releaseYear": "2007",
+      "genre": "流行"
+    },
+    {
+      "title": "爱与痛的边缘",
+      "language": "中文",
+      "originalArtist": "王菲",
+      "charCount": 6,
+      "releaseYear": "1994",
+      "genre": "流行"
+    },
+    {
+      "title": "不可能的我们",
+      "language": "中文",
+      "originalArtist": "向洋Nathan Hartono",
+      "charCount": 6,
+      "releaseYear": "2020",
+      "genre": "流行"
+    },
+    {
+      "title": "从开始到现在",
+      "language": "中文",
+      "originalArtist": "张信哲",
+      "charCount": 6,
+      "releaseYear": "2002",
+      "genre": "流行"
+    },
+    {
+      "title": "给电影人情书",
+      "language": "中文",
+      "originalArtist": "",
+      "charCount": 6,
+      "releaseYear": "",
+      "genre": ""
+    },
+    {
+      "title": "漫过城市的雨",
+      "language": "中文",
+      "originalArtist": "张齐山",
+      "charCount": 6,
+      "releaseYear": "2024",
+      "genre": "流行"
+    },
+    {
+      "title": "去北极忘记你",
+      "language": "中文",
+      "originalArtist": "Gareth.T",
+      "charCount": 6,
+      "releaseYear": "2024",
+      "genre": "流行"
+    },
+    {
+      "title": "如果你也听说",
+      "language": "中文",
+      "originalArtist": "张惠妹",
+      "charCount": 6,
+      "releaseYear": "2007",
+      "genre": "流行"
+    },
+    {
+      "title": "三个人的晚餐",
+      "language": "中文",
+      "originalArtist": "王若琳",
+      "charCount": 6,
+      "releaseYear": "2011",
+      "genre": "流行"
+    },
+    {
+      "title": "十点半的地铁",
+      "language": "中文",
+      "originalArtist": "刘锦泽",
+      "charCount": 6,
+      "releaseYear": "2017",
+      "genre": "流行"
+    },
+    {
+      "title": "时间都去哪啦",
+      "language": "中文",
+      "originalArtist": "",
+      "charCount": 6,
+      "releaseYear": "",
+      "genre": ""
+    },
+    {
+      "title": "我是真的爱你",
+      "language": "中文",
+      "originalArtist": "李宗盛",
+      "charCount": 6,
+      "releaseYear": "1994",
+      "genre": "流行"
+    },
+    {
+      "title": "乌兰巴托的夜",
+      "language": "中文",
+      "originalArtist": "索南吉",
+      "charCount": 6,
+      "releaseYear": "2024",
+      "genre": "民谣"
+    },
+    {
+      "title": "一滴泪的时间",
+      "language": "中文",
+      "originalArtist": "孟鹏",
+      "charCount": 6,
+      "releaseYear": "2025",
+      "genre": "流行"
+    },
+    {
+      "title": "一夜一夜一夜",
+      "language": "中文",
+      "originalArtist": "卢广仲",
+      "charCount": 6,
+      "releaseYear": "2025",
+      "genre": "流行"
+    },
+    {
+      "title": "银河爱情故事",
+      "language": "中文",
+      "originalArtist": "刘 洋",
+      "charCount": 6,
+      "releaseYear": "2021",
+      "genre": "流行"
+    },
+    {
+      "title": "永不失联的爱",
+      "language": "中文",
+      "originalArtist": "Eric周兴哲",
+      "charCount": 6,
+      "releaseYear": "2017",
+      "genre": "流行"
+    },
+    {
+      "title": "雨中的恋人们",
+      "language": "中文",
+      "originalArtist": "黄凯芹",
+      "charCount": 6,
+      "releaseYear": "1992",
+      "genre": "流行"
+    },
+    {
+      "title": "最好的都给你",
+      "language": "中文",
+      "originalArtist": "余佳运",
+      "charCount": 6,
+      "releaseYear": "2021",
+      "genre": "流行"
+    },
+    {
+      "title": "My dear",
+      "language": "中文",
+      "originalArtist": "张洢豪",
+      "charCount": 6,
+      "releaseYear": "2025",
+      "genre": "流行"
+    },
+    {
+      "title": "Susan 说",
+      "language": "中文",
+      "originalArtist": "陶喆",
+      "charCount": 6,
+      "releaseYear": "2005",
+      "genre": "流行"
+    },
+    {
+      "title": "阿尔茨海默的爱",
+      "language": "中文",
+      "originalArtist": "梁文音",
+      "charCount": 7,
+      "releaseYear": "2021",
+      "genre": "流行"
+    },
+    {
+      "title": "白天不懂夜的黑",
+      "language": "中文",
+      "originalArtist": "那英",
+      "charCount": 7,
+      "releaseYear": "1995",
+      "genre": "流行"
+    },
+    {
+      "title": "当我想你的时候",
+      "language": "中文",
+      "originalArtist": "汪峰",
+      "charCount": 7,
+      "releaseYear": "2009",
+      "genre": "摇滚"
+    },
+    {
+      "title": "等到花儿也谢了",
+      "language": "中文",
+      "originalArtist": "子墨爱唱歌",
+      "charCount": 7,
+      "releaseYear": "2020",
+      "genre": "流行"
+    },
+    {
+      "title": "多远都要在一起",
+      "language": "中文",
+      "originalArtist": "G.E.M. 邓紫棋",
+      "charCount": 7,
+      "releaseYear": "2015",
+      "genre": "流行"
+    },
+    {
+      "title": "让我欢喜让我忧",
+      "language": "中文",
+      "originalArtist": "周华健",
+      "charCount": 7,
+      "releaseYear": "1991",
+      "genre": "流行"
+    },
+    {
+      "title": "让我一次爱个够",
+      "language": "中文",
+      "originalArtist": "庾澄庆",
+      "charCount": 7,
+      "releaseYear": "1989",
+      "genre": "流行"
+    },
+    {
+      "title": "人生何处不相逢",
+      "language": "中文",
+      "originalArtist": "陈慧娴",
+      "charCount": 7,
+      "releaseYear": "1988",
+      "genre": "流行"
+    },
+    {
+      "title": "听说爱情回来过",
+      "language": "中文",
+      "originalArtist": "林忆莲",
+      "charCount": 7,
+      "releaseYear": "1995",
+      "genre": "流行"
+    },
+    {
+      "title": "我的未来不是梦",
+      "language": "中文",
+      "originalArtist": "张雨生",
+      "charCount": 7,
+      "releaseYear": "1988",
+      "genre": "流行"
+    },
+    {
+      "title": "野百合也有春天",
+      "language": "中文",
+      "originalArtist": "罗大佑",
+      "charCount": 7,
+      "releaseYear": "1989",
+      "genre": "流行"
+    },
+    {
+      "title": "因为单身的缘故",
+      "language": "中文",
+      "originalArtist": "杨宗纬",
+      "charCount": 7,
+      "releaseYear": "2011",
+      "genre": "流行"
+    },
+    {
+      "title": "月亮代表谁的心",
+      "language": "中文",
+      "originalArtist": "陶喆",
+      "charCount": 7,
+      "releaseYear": "2002",
+      "genre": "流行"
+    },
+    {
+      "title": "这样爱你对不对",
+      "language": "中文",
+      "originalArtist": "陈淑桦",
+      "charCount": 7,
+      "releaseYear": "1991",
+      "genre": "流行"
+    },
+    {
+      "title": "寂寞是因为思念谁",
+      "language": "中文",
+      "originalArtist": "景岗山",
+      "charCount": 8,
+      "releaseYear": "1994",
+      "genre": "流行"
+    },
+    {
+      "title": "刻在我心里的名字",
+      "language": "中文",
+      "originalArtist": "Aggylow",
+      "charCount": 8,
+      "releaseYear": "2023",
+      "genre": "流行"
+    },
+    {
+      "title": "你怎么舍得我难过",
+      "language": "中文",
+      "originalArtist": "黄品源",
+      "charCount": 8,
+      "releaseYear": "1990",
+      "genre": "流行"
+    },
+    {
+      "title": "无情的雨无情的你",
+      "language": "中文",
+      "originalArtist": "齐秦",
+      "charCount": 8,
+      "releaseYear": "1994",
+      "genre": "流行"
+    },
+    {
+      "title": "有没有那么一首歌",
+      "language": "中文",
+      "originalArtist": "张茜（张惜淇）",
+      "charCount": 8,
+      "releaseYear": "2020",
+      "genre": "流行"
+    },
+    {
+      "title": "22天的小概率事件",
+      "language": "中文",
+      "originalArtist": "Sasablue",
+      "charCount": 9,
+      "releaseYear": "2023",
+      "genre": "流行"
+    },
+    {
+      "title": "春色悠悠不及你荡漾",
+      "language": "中文",
+      "originalArtist": "陈婧霏",
+      "charCount": 9,
+      "releaseYear": "2024",
+      "genre": "流行"
+    },
+    {
+      "title": "关于孤独我想说的话",
+      "language": "中文",
+      "originalArtist": "隔壁老樊_樊凯杰",
+      "charCount": 9,
+      "releaseYear": "2019",
+      "genre": "流行"
+    },
+    {
+      "title": "想你，醒在0:03",
+      "language": "中文",
+      "originalArtist": "庾澄庆",
+      "charCount": 9,
+      "releaseYear": "1997",
+      "genre": "流行"
+    },
+    {
+      "title": "祝你爱我到天荒地老",
+      "language": "中文",
+      "originalArtist": "",
+      "charCount": 9,
+      "releaseYear": "",
+      "genre": ""
+    },
+    {
+      "title": "Beautiful",
+      "language": "中文",
+      "originalArtist": "Christina Aguilera",
+      "charCount": 9,
+      "releaseYear": "2004",
+      "genre": "流行"
+    },
+    {
+      "title": "Last dance",
+      "language": "中文",
+      "originalArtist": "伍佰 & China Blue",
+      "charCount": 9,
+      "releaseYear": "1996",
+      "genre": "流行"
+    },
+    {
+      "title": "别让我的眼泪陪我过夜",
+      "language": "中文",
+      "originalArtist": "张柏鸣",
+      "charCount": 10,
+      "releaseYear": "",
+      "genre": "流行"
+    },
+    {
+      "title": "你会成为你想的那个人",
+      "language": "中文",
+      "originalArtist": "金叙宏",
+      "charCount": 10,
+      "releaseYear": "2020",
+      "genre": "流行"
+    },
+    {
+      "title": "你是不是我最疼爱的人",
+      "language": "中文",
+      "originalArtist": "蓝岚/柏菲音乐",
+      "charCount": 10,
+      "releaseYear": "2011",
+      "genre": "流行"
+    },
+    {
+      "title": "Kiss goodbye",
+      "language": "中文",
+      "originalArtist": "王力宏",
+      "charCount": 11,
+      "releaseYear": "2005",
+      "genre": "流行"
+    },
+    {
+      "title": "R&b All Night",
+      "language": "中文",
+      "originalArtist": "KnowKnow/Higher Brothers",
+      "charCount": 11,
+      "releaseYear": "2019",
+      "genre": "R&B"
+    },
+    {
+      "title": "Lost you twice",
+      "language": "中文",
+      "originalArtist": "卢广仲",
+      "charCount": 12,
+      "releaseYear": "2025",
+      "genre": "流行"
+    },
+    {
+      "title": "Waiting for love",
+      "language": "中文",
+      "originalArtist": "Romy Wave",
+      "charCount": 14,
+      "releaseYear": "2024",
+      "genre": "流行"
+    }
+  ],
+  "cantonese": [
+    {
+      "title": "喜欢你",
+      "language": "粤语",
+      "originalArtist": "BEYOND",
+      "charCount": 3,
+      "releaseYear": "1988",
+      "genre": "摇滚"
+    },
+    {
+      "title": "风继续吹",
+      "language": "粤语",
+      "originalArtist": "张国荣",
+      "charCount": 4,
+      "releaseYear": "1983",
+      "genre": "流行"
+    },
+    {
+      "title": "风在起时",
+      "language": "粤语",
+      "originalArtist": "天意",
+      "charCount": 4,
+      "releaseYear": "",
+      "genre": "流行"
+    },
+    {
+      "title": "千千阙歌",
+      "language": "粤语",
+      "originalArtist": "陈慧娴",
+      "charCount": 4,
+      "releaseYear": "2013",
+      "genre": "流行"
+    },
+    {
+      "title": "夕阳醉了",
+      "language": "粤语",
+      "originalArtist": "张学友",
+      "charCount": 4,
+      "releaseYear": "1989",
+      "genre": "流行"
+    },
+    {
+      "title": "让一切随风",
+      "language": "粤语",
+      "originalArtist": "钟镇涛",
+      "charCount": 5,
+      "releaseYear": "1987",
+      "genre": "流行"
+    },
+    {
+      "title": "月半小夜曲",
+      "language": "粤语",
+      "originalArtist": "李克勤",
+      "charCount": 5,
+      "releaseYear": "1987",
+      "genre": "流行"
+    }
+  ],
+  "minnan": [
+    {
+      "title": "命运的深渊",
+      "language": "闽南语",
+      "originalArtist": "齐秦",
+      "charCount": 5,
+      "releaseYear": "1995",
+      "genre": "流行"
+    }
+  ],
+  "english": [
+    {
+      "title": "13",
+      "language": "英文",
+      "originalArtist": "LANY",
+      "charCount": 2,
+      "releaseYear": "2017",
+      "genre": "流行"
+    },
+    {
+      "title": "JDS",
+      "language": "英文",
+      "originalArtist": "True Aggression Official",
+      "charCount": 3,
+      "releaseYear": "2025",
+      "genre": "流行"
+    },
+    {
+      "title": "Try",
+      "language": "英文",
+      "originalArtist": "Colbie Caillat",
+      "charCount": 3,
+      "releaseYear": "2014",
+      "genre": "流行"
+    },
+    {
+      "title": "Baby",
+      "language": "英文",
+      "originalArtist": "Justin Bieber",
+      "charCount": 4,
+      "releaseYear": "2010",
+      "genre": "流行"
+    },
+    {
+      "title": "Fire",
+      "language": "英文",
+      "originalArtist": "Babyface/Des'ree",
+      "charCount": 4,
+      "releaseYear": "2014",
+      "genre": "流行"
+    },
+    {
+      "title": "Home",
+      "language": "英文",
+      "originalArtist": "Michael Buble",
+      "charCount": 4,
+      "releaseYear": "2005",
+      "genre": "爵士 / Blues"
+    },
+    {
+      "title": "Ride",
+      "language": "英文",
+      "originalArtist": "HYBS",
+      "charCount": 4,
+      "releaseYear": "2021",
+      "genre": "流行"
+    },
+    {
+      "title": "Sway",
+      "language": "英文",
+      "originalArtist": "Michael Bublé",
+      "charCount": 4,
+      "releaseYear": "2004",
+      "genre": "流行"
+    },
+    {
+      "title": "2 soon",
+      "language": "英文",
+      "originalArtist": "keshi",
+      "charCount": 5,
+      "releaseYear": "",
+      "genre": "流行"
+    },
+    {
+      "title": "4ever",
+      "language": "英文",
+      "originalArtist": "Elhé/gabby parafina",
+      "charCount": 5,
+      "releaseYear": "2023",
+      "genre": "流行"
+    },
+    {
+      "title": "For us",
+      "language": "英文",
+      "originalArtist": "V",
+      "charCount": 5,
+      "releaseYear": "2023",
+      "genre": "流行"
+    },
+    {
+      "title": "Hello",
+      "language": "英文",
+      "originalArtist": "Lionel Richie",
+      "charCount": 5,
+      "releaseYear": "2015",
+      "genre": "流行"
+    },
+    {
+      "title": "calico",
+      "language": "英文",
+      "originalArtist": "DPR IAN",
+      "charCount": 6,
+      "releaseYear": "2022",
+      "genre": "流行"
+    },
+    {
+      "title": "Flower",
+      "language": "英文",
+      "originalArtist": "SEVENTEEN (세븐틴)",
+      "charCount": 6,
+      "releaseYear": "2017",
+      "genre": "流行"
+    },
+    {
+      "title": "Tip Toe",
+      "language": "英文",
+      "originalArtist": "moon tang",
+      "charCount": 6,
+      "releaseYear": "2026",
+      "genre": "流行"
+    },
+    {
+      "title": "undone",
+      "language": "英文",
+      "originalArtist": "Tommee Profitt/Fleurie",
+      "charCount": 6,
+      "releaseYear": "2019",
+      "genre": "流行"
+    },
+    {
+      "title": "All of me",
+      "language": "英文",
+      "originalArtist": "John Legend",
+      "charCount": 7,
+      "releaseYear": "1997",
+      "genre": "流行"
+    },
+    {
+      "title": "alonica",
+      "language": "英文",
+      "originalArtist": "LANY",
+      "charCount": 7,
+      "releaseYear": "2023",
+      "genre": "流行"
+    },
+    {
+      "title": "Amazing",
+      "language": "英文",
+      "originalArtist": "George Michael",
+      "charCount": 7,
+      "releaseYear": "2008",
+      "genre": "流行"
+    },
+    {
+      "title": "Angelia",
+      "language": "英文",
+      "originalArtist": "Richard Marx",
+      "charCount": 7,
+      "releaseYear": "1988",
+      "genre": "流行"
+    },
+    {
+      "title": "as It was",
+      "language": "英文",
+      "originalArtist": "Harry Styles",
+      "charCount": 7,
+      "releaseYear": "2022",
+      "genre": "流行"
+    },
+    {
+      "title": "Beer man",
+      "language": "英文",
+      "originalArtist": "The Hit Crew",
+      "charCount": 7,
+      "releaseYear": "2013",
+      "genre": "流行"
+    },
+    {
+      "title": "closure",
+      "language": "英文",
+      "originalArtist": "Hayd",
+      "charCount": 7,
+      "releaseYear": "2021",
+      "genre": "流行"
+    },
+    {
+      "title": "Falling",
+      "language": "英文",
+      "originalArtist": "Chris Mann",
+      "charCount": 7,
+      "releaseYear": "2021",
+      "genre": "流行"
+    },
+    {
+      "title": "Imagine",
+      "language": "英文",
+      "originalArtist": "John Lennon",
+      "charCount": 7,
+      "releaseYear": "1988",
+      "genre": "流行"
+    },
+    {
+      "title": "It's you",
+      "language": "英文",
+      "originalArtist": "keshi",
+      "charCount": 7,
+      "releaseYear": "2017",
+      "genre": "流行"
+    },
+    {
+      "title": "Merry go",
+      "language": "英文",
+      "originalArtist": "DPR IAN",
+      "charCount": 7,
+      "releaseYear": "2022",
+      "genre": "流行"
+    },
+    {
+      "title": "pretend",
+      "language": "英文",
+      "originalArtist": "Mikey_Mike",
+      "charCount": 7,
+      "releaseYear": "2026",
+      "genre": "流行"
+    },
+    {
+      "title": "Roxanne",
+      "language": "英文",
+      "originalArtist": "George Michael",
+      "charCount": 7,
+      "releaseYear": "2013",
+      "genre": "流行"
+    },
+    {
+      "title": "shivers",
+      "language": "英文",
+      "originalArtist": "Ed Sheeran",
+      "charCount": 7,
+      "releaseYear": "2021",
+      "genre": "流行"
+    },
+    {
+      "title": "Supreme",
+      "language": "英文",
+      "originalArtist": "Robbie Williams",
+      "charCount": 7,
+      "releaseYear": "2000",
+      "genre": "流行"
+    },
+    {
+      "title": "Vincent",
+      "language": "英文",
+      "originalArtist": "Don McLean",
+      "charCount": 7,
+      "releaseYear": "2002",
+      "genre": "流行"
+    },
+    {
+      "title": "You and I",
+      "language": "英文",
+      "originalArtist": "Scorpions",
+      "charCount": 7,
+      "releaseYear": "2021",
+      "genre": "流行"
+    },
+    {
+      "title": "Bed I made",
+      "language": "英文",
+      "originalArtist": "Allen Stone",
+      "charCount": 8,
+      "releaseYear": "2026",
+      "genre": "流行"
+    },
+    {
+      "title": "Fast love",
+      "language": "英文",
+      "originalArtist": "George Michael",
+      "charCount": 8,
+      "releaseYear": "2012",
+      "genre": "流行"
+    },
+    {
+      "title": "feelings",
+      "language": "英文",
+      "originalArtist": "FLY COAST/二宮愛",
+      "charCount": 8,
+      "releaseYear": "2015",
+      "genre": "流行"
+    },
+    {
+      "title": "Promises",
+      "language": "英文",
+      "originalArtist": "India Arie",
+      "charCount": 8,
+      "releaseYear": "2018",
+      "genre": "流行"
+    },
+    {
+      "title": "Symmetry",
+      "language": "英文",
+      "originalArtist": "edbl/Tilly Valentine",
+      "charCount": 8,
+      "releaseYear": "2020",
+      "genre": "流行"
+    },
+    {
+      "title": "What's up",
+      "language": "英文",
+      "originalArtist": "4 Non Blondes",
+      "charCount": 8,
+      "releaseYear": "1991",
+      "genre": "流行"
+    },
+    {
+      "title": "Attention",
+      "language": "英文",
+      "originalArtist": "Charlie Puth",
+      "charCount": 9,
+      "releaseYear": "2017",
+      "genre": "流行"
+    },
+    {
+      "title": "Better man",
+      "language": "英文",
+      "originalArtist": "Robbie Williams",
+      "charCount": 9,
+      "releaseYear": "2000",
+      "genre": "流行"
+    },
+    {
+      "title": "Deep green",
+      "language": "英文",
+      "originalArtist": "Christian Kuria",
+      "charCount": 9,
+      "releaseYear": "2022",
+      "genre": "流行"
+    },
+    {
+      "title": "Kiss a girl",
+      "language": "英文",
+      "originalArtist": "Keith Urban",
+      "charCount": 9,
+      "releaseYear": "2008",
+      "genre": "流行"
+    },
+    {
+      "title": "Lego house",
+      "language": "英文",
+      "originalArtist": "Ed Sheeran",
+      "charCount": 9,
+      "releaseYear": "2011",
+      "genre": "流行"
+    },
+    {
+      "title": "Loving you",
+      "language": "英文",
+      "originalArtist": "Marcela Morelo",
+      "charCount": 9,
+      "releaseYear": "2007",
+      "genre": "流行"
+    },
+    {
+      "title": "moody wind",
+      "language": "英文",
+      "originalArtist": "Anthony Lazaro",
+      "charCount": 9,
+      "releaseYear": "2025",
+      "genre": "流行"
+    },
+    {
+      "title": "Moon river",
+      "language": "英文",
+      "originalArtist": "Audrey Hepburn",
+      "charCount": 9,
+      "releaseYear": "2024",
+      "genre": "民谣"
+    },
+    {
+      "title": "Stand by me",
+      "language": "英文",
+      "originalArtist": "SHINee (샤이니)",
+      "charCount": 9,
+      "releaseYear": "2009",
+      "genre": "流行"
+    },
+    {
+      "title": "sweet side",
+      "language": "英文",
+      "originalArtist": "Raquel Rodriguez;SWATKINS STEVE;MATTSON ANDRIS;Moorea Masa;Jess Best",
+      "charCount": 9,
+      "releaseYear": "2021",
+      "genre": "流行"
+    },
+    {
+      "title": "why why why",
+      "language": "英文",
+      "originalArtist": "王嘉尔",
+      "charCount": 9,
+      "releaseYear": "2022",
+      "genre": "流行"
+    },
+    {
+      "title": "anything 4 u",
+      "language": "英文",
+      "originalArtist": "LANY",
+      "charCount": 10,
+      "releaseYear": "2020",
+      "genre": "流行"
+    },
+    {
+      "title": "colorblind",
+      "language": "英文",
+      "originalArtist": "Mokita",
+      "charCount": 10,
+      "releaseYear": "2019",
+      "genre": "流行"
+    },
+    {
+      "title": "I Told You So",
+      "language": "英文",
+      "originalArtist": "Carrie Underwood",
+      "charCount": 10,
+      "releaseYear": "2009",
+      "genre": "流行"
+    },
+    {
+      "title": "Lonely city",
+      "language": "英文",
+      "originalArtist": "Mokita",
+      "charCount": 10,
+      "releaseYear": "2021",
+      "genre": "流行"
+    },
+    {
+      "title": "Miss Riddle",
+      "language": "英文",
+      "originalArtist": "Boz Scaggs",
+      "charCount": 10,
+      "releaseYear": "2001",
+      "genre": "流行"
+    },
+    {
+      "title": "Need you now",
+      "language": "英文",
+      "originalArtist": "Charlie Puth",
+      "charCount": 10,
+      "releaseYear": "2010",
+      "genre": "流行"
+    },
+    {
+      "title": "Paragraphs",
+      "language": "英文",
+      "originalArtist": "Luke Chiang",
+      "charCount": 10,
+      "releaseYear": "2019",
+      "genre": "说唱"
+    },
+    {
+      "title": "Photograph",
+      "language": "英文",
+      "originalArtist": "Brooklyn Duo",
+      "charCount": 10,
+      "releaseYear": "2015",
+      "genre": "说唱"
+    },
+    {
+      "title": "Shape of you",
+      "language": "英文",
+      "originalArtist": "Ed Sheeran",
+      "charCount": 10,
+      "releaseYear": "2022",
+      "genre": "R&B / Soul"
+    },
+    {
+      "title": "Temptation",
+      "language": "英文",
+      "originalArtist": "Diana Krall",
+      "charCount": 10,
+      "releaseYear": "2021",
+      "genre": "流行"
+    },
+    {
+      "title": "boiling milk",
+      "language": "英文",
+      "originalArtist": "",
+      "charCount": 11,
+      "releaseYear": "",
+      "genre": ""
+    },
+    {
+      "title": "City of stars",
+      "language": "英文",
+      "originalArtist": "Ryan Gosling",
+      "charCount": 11,
+      "releaseYear": "2016",
+      "genre": "流行"
+    },
+    {
+      "title": "Glimpse of us",
+      "language": "英文",
+      "originalArtist": "Joji",
+      "charCount": 11,
+      "releaseYear": "2022",
+      "genre": "流行"
+    },
+    {
+      "title": "malibu night",
+      "language": "英文",
+      "originalArtist": "",
+      "charCount": 11,
+      "releaseYear": "",
+      "genre": ""
+    },
+    {
+      "title": "Nothing ever",
+      "language": "英文",
+      "originalArtist": "Rebecka Tornqvist",
+      "charCount": 11,
+      "releaseYear": "",
+      "genre": ""
+    },
+    {
+      "title": "Nowhere to be",
+      "language": "英文",
+      "originalArtist": "Joey Stamper",
+      "charCount": 11,
+      "releaseYear": "2020",
+      "genre": "流行"
+    },
+    {
+      "title": "Paint my love",
+      "language": "英文",
+      "originalArtist": "Michael Learns To Rock",
+      "charCount": 11,
+      "releaseYear": "2015",
+      "genre": "流行"
+    },
+    {
+      "title": "rest assured",
+      "language": "英文",
+      "originalArtist": "Diafrix",
+      "charCount": 11,
+      "releaseYear": "2016",
+      "genre": "流行"
+    },
+    {
+      "title": "So Beautiful",
+      "language": "英文",
+      "originalArtist": "DPR IAN",
+      "charCount": 11,
+      "releaseYear": "2020",
+      "genre": "流行"
+    },
+    {
+      "title": "So far so good",
+      "language": "英文",
+      "originalArtist": "Beady Belle",
+      "charCount": 11,
+      "releaseYear": "2020",
+      "genre": "流行"
+    },
+    {
+      "title": "still the one",
+      "language": "英文",
+      "originalArtist": "Gioldest",
+      "charCount": 11,
+      "releaseYear": "2026",
+      "genre": "流行"
+    },
+    {
+      "title": "All out of love",
+      "language": "英文",
+      "originalArtist": "Air Supply",
+      "charCount": 12,
+      "releaseYear": "1980",
+      "genre": "流行"
+    },
+    {
+      "title": "Autumn leaves",
+      "language": "英文",
+      "originalArtist": "Jo Stafford",
+      "charCount": 12,
+      "releaseYear": "2001",
+      "genre": "民谣"
+    },
+    {
+      "title": "Because of you",
+      "language": "英文",
+      "originalArtist": "Kelly Clarkson",
+      "charCount": 12,
+      "releaseYear": "2004",
+      "genre": "流行"
+    },
+    {
+      "title": "bedtime story",
+      "language": "英文",
+      "originalArtist": "欧阳娜娜",
+      "charCount": 12,
+      "releaseYear": "2022",
+      "genre": "流行"
+    },
+    {
+      "title": "God's country",
+      "language": "英文",
+      "originalArtist": "Blake Shelton",
+      "charCount": 12,
+      "releaseYear": "2019",
+      "genre": "流行"
+    },
+    {
+      "title": "growing pains",
+      "language": "英文",
+      "originalArtist": "Birdy",
+      "charCount": 12,
+      "releaseYear": "2016",
+      "genre": "流行"
+    },
+    {
+      "title": "Holiday party",
+      "language": "英文",
+      "originalArtist": "Dan + Shay",
+      "charCount": 12,
+      "releaseYear": "2022",
+      "genre": "流行"
+    },
+    {
+      "title": "I will survive",
+      "language": "英文",
+      "originalArtist": "Demi Lovato",
+      "charCount": 12,
+      "releaseYear": "2016",
+      "genre": "流行"
+    },
+    {
+      "title": "loose tonight",
+      "language": "英文",
+      "originalArtist": "Hips",
+      "charCount": 12,
+      "releaseYear": "2017",
+      "genre": "流行"
+    },
+    {
+      "title": "No fear no more",
+      "language": "英文",
+      "originalArtist": "Madeon",
+      "charCount": 12,
+      "releaseYear": "2019",
+      "genre": "流行"
+    },
+    {
+      "title": "Ready for love",
+      "language": "英文",
+      "originalArtist": "India Arie",
+      "charCount": 12,
+      "releaseYear": "2022",
+      "genre": "流行"
+    },
+    {
+      "title": "Teenage dream",
+      "language": "英文",
+      "originalArtist": "Katy Perry",
+      "charCount": 12,
+      "releaseYear": "2010",
+      "genre": "流行"
+    },
+    {
+      "title": "Viscous ocean",
+      "language": "英文",
+      "originalArtist": "Beady Belle",
+      "charCount": 12,
+      "releaseYear": "2008",
+      "genre": "流行"
+    },
+    {
+      "title": "Wind of change",
+      "language": "英文",
+      "originalArtist": "Scorpions",
+      "charCount": 12,
+      "releaseYear": "1989",
+      "genre": "摇滚"
+    },
+    {
+      "title": "Falling for you",
+      "language": "英文",
+      "originalArtist": "Colbie Caillat",
+      "charCount": 13,
+      "releaseYear": "2021",
+      "genre": "流行"
+    },
+    {
+      "title": "Half of my heart",
+      "language": "英文",
+      "originalArtist": "John Mayer",
+      "charCount": 13,
+      "releaseYear": "2009",
+      "genre": "摇滚"
+    },
+    {
+      "title": "I feel it coming",
+      "language": "英文",
+      "originalArtist": "The Weeknd/Daft Punk",
+      "charCount": 13,
+      "releaseYear": "2016",
+      "genre": "流行"
+    },
+    {
+      "title": "I wish your love",
+      "language": "英文",
+      "originalArtist": "",
+      "charCount": 13,
+      "releaseYear": "",
+      "genre": ""
+    },
+    {
+      "title": "Jesus to a child",
+      "language": "英文",
+      "originalArtist": "George Michael",
+      "charCount": 13,
+      "releaseYear": "",
+      "genre": ""
+    },
+    {
+      "title": "Pink champagne",
+      "language": "英文",
+      "originalArtist": "Nick Lopez",
+      "charCount": 13,
+      "releaseYear": "2018",
+      "genre": "流行"
+    },
+    {
+      "title": "Stop this world",
+      "language": "英文",
+      "originalArtist": "Diana Krall",
+      "charCount": 13,
+      "releaseYear": "2003",
+      "genre": "流行"
+    },
+    {
+      "title": "temporary love",
+      "language": "英文",
+      "originalArtist": "sunkis 宋秉勤",
+      "charCount": 13,
+      "releaseYear": "2023",
+      "genre": "流行"
+    },
+    {
+      "title": "The Look of Love",
+      "language": "英文",
+      "originalArtist": "Diana Krall",
+      "charCount": 13,
+      "releaseYear": "2009",
+      "genre": "流行"
+    },
+    {
+      "title": "Until I find you",
+      "language": "英文",
+      "originalArtist": "Richard Marx",
+      "charCount": 13,
+      "releaseYear": "",
+      "genre": ""
+    },
+    {
+      "title": "Always on my mind",
+      "language": "英文",
+      "originalArtist": "Sakda Record",
+      "charCount": 14,
+      "releaseYear": "2026",
+      "genre": "流行"
+    },
+    {
+      "title": "Fly me to the moon",
+      "language": "英文",
+      "originalArtist": "Kaye Ballard",
+      "charCount": 14,
+      "releaseYear": "2017",
+      "genre": "民谣"
+    },
+    {
+      "title": "Over the rainbow",
+      "language": "英文",
+      "originalArtist": "Chris Mann",
+      "charCount": 14,
+      "releaseYear": "2008",
+      "genre": "流行"
+    },
+    {
+      "title": "Ross and Rachael",
+      "language": "英文",
+      "originalArtist": "",
+      "charCount": 14,
+      "releaseYear": "",
+      "genre": ""
+    },
+    {
+      "title": "Shape of my heart",
+      "language": "英文",
+      "originalArtist": "Sting",
+      "charCount": 14,
+      "releaseYear": "1993",
+      "genre": "流行"
+    },
+    {
+      "title": "Tequila sunrise",
+      "language": "英文",
+      "originalArtist": "Eagles",
+      "charCount": 14,
+      "releaseYear": "2019",
+      "genre": "流行"
+    },
+    {
+      "title": "Can I walk with you",
+      "language": "英文",
+      "originalArtist": "India Arie",
+      "charCount": 15,
+      "releaseYear": "2026",
+      "genre": "流行"
+    },
+    {
+      "title": "Girl from Ipanema",
+      "language": "英文",
+      "originalArtist": "Olivia Ong",
+      "charCount": 15,
+      "releaseYear": "2005",
+      "genre": "流行"
+    },
+    {
+      "title": "give me one reason",
+      "language": "英文",
+      "originalArtist": "Tracy Chapman",
+      "charCount": 15,
+      "releaseYear": "1998",
+      "genre": "爵士 / Blues"
+    },
+    {
+      "title": "Head in the clouds",
+      "language": "英文",
+      "originalArtist": "Hayd",
+      "charCount": 15,
+      "releaseYear": "2021",
+      "genre": "流行"
+    },
+    {
+      "title": "Hotel California",
+      "language": "英文",
+      "originalArtist": "Eagles",
+      "charCount": 15,
+      "releaseYear": "1976",
+      "genre": "摇滚"
+    },
+    {
+      "title": "Moves Like Jagger",
+      "language": "英文",
+      "originalArtist": "Maroon 5",
+      "charCount": 15,
+      "releaseYear": "2013",
+      "genre": "流行"
+    },
+    {
+      "title": "Raining on Sunday",
+      "language": "英文",
+      "originalArtist": "Keith Urban",
+      "charCount": 15,
+      "releaseYear": "2002",
+      "genre": "流行"
+    },
+    {
+      "title": "Someone you loved",
+      "language": "英文",
+      "originalArtist": "Lewis Capaldi",
+      "charCount": 15,
+      "releaseYear": "2023",
+      "genre": "R&B / Soul"
+    },
+    {
+      "title": "you'll think of me",
+      "language": "英文",
+      "originalArtist": "Keith Urban",
+      "charCount": 15,
+      "releaseYear": "2002",
+      "genre": "流行"
+    },
+    {
+      "title": "I'm not the only one",
+      "language": "英文",
+      "originalArtist": "Sam Smith",
+      "charCount": 16,
+      "releaseYear": "2013",
+      "genre": "流行"
+    },
+    {
+      "title": "Peter pan was right",
+      "language": "英文",
+      "originalArtist": "Anson Seabra",
+      "charCount": 16,
+      "releaseYear": "2022",
+      "genre": "流行"
+    },
+    {
+      "title": "Right here waiting",
+      "language": "英文",
+      "originalArtist": "Richard Marx",
+      "charCount": 16,
+      "releaseYear": "1988",
+      "genre": "流行"
+    },
+    {
+      "title": "something about us",
+      "language": "英文",
+      "originalArtist": "Daft Punk",
+      "charCount": 16,
+      "releaseYear": "2001",
+      "genre": "流行"
+    },
+    {
+      "title": "Tonight I Wanna Cry",
+      "language": "英文",
+      "originalArtist": "Keith Urban",
+      "charCount": 16,
+      "releaseYear": "2003",
+      "genre": "流行"
+    },
+    {
+      "title": "dancing with my phone",
+      "language": "英文",
+      "originalArtist": "Kyle Nitram",
+      "charCount": 18,
+      "releaseYear": "2023",
+      "genre": "流行"
+    },
+    {
+      "title": "Endless summer night",
+      "language": "英文",
+      "originalArtist": "Richard Marx",
+      "charCount": 18,
+      "releaseYear": "2026",
+      "genre": "流行"
+    },
+    {
+      "title": "Every breath you take",
+      "language": "英文",
+      "originalArtist": "The Police",
+      "charCount": 18,
+      "releaseYear": "2014",
+      "genre": "流行"
+    },
+    {
+      "title": "On the Night Like This",
+      "language": "英文",
+      "originalArtist": "Coldiac",
+      "charCount": 18,
+      "releaseYear": "2004",
+      "genre": "流行"
+    },
+    {
+      "title": "Quando Quando Quando",
+      "language": "英文",
+      "originalArtist": "Michael Bublé",
+      "charCount": 18,
+      "releaseYear": "2011",
+      "genre": "流行"
+    },
+    {
+      "title": "We don't talk anymore",
+      "language": "英文",
+      "originalArtist": "Charlie Puth",
+      "charCount": 18,
+      "releaseYear": "2016",
+      "genre": "流行"
+    },
+    {
+      "title": "Love will keep us alive",
+      "language": "英文",
+      "originalArtist": "Eagles",
+      "charCount": 19,
+      "releaseYear": "1994",
+      "genre": "摇滚"
+    },
+    {
+      "title": "somewhere only we know",
+      "language": "英文",
+      "originalArtist": "Keane",
+      "charCount": 19,
+      "releaseYear": "2004",
+      "genre": "流行"
+    },
+    {
+      "title": "the joker and the queen",
+      "language": "英文",
+      "originalArtist": "Ed Sheeran/Taylor Swift",
+      "charCount": 19,
+      "releaseYear": "2022",
+      "genre": "摇滚"
+    },
+    {
+      "title": "I'll still be loving you",
+      "language": "英文",
+      "originalArtist": "Restless Heart",
+      "charCount": 20,
+      "releaseYear": "1998",
+      "genre": "流行"
+    },
+    {
+      "title": "The Way You Look Tonight",
+      "language": "英文",
+      "originalArtist": "Tony Bennett",
+      "charCount": 20,
+      "releaseYear": "1997",
+      "genre": "流行"
+    },
+    {
+      "title": "Another crack in my heart",
+      "language": "英文",
+      "originalArtist": "Take That",
+      "charCount": 21,
+      "releaseYear": "1993",
+      "genre": "流行"
+    },
+    {
+      "title": "long lost Sunday morning",
+      "language": "英文",
+      "originalArtist": "Tep No",
+      "charCount": 21,
+      "releaseYear": "2019",
+      "genre": "流行"
+    },
+    {
+      "title": "strawberries & cigarette",
+      "language": "英文",
+      "originalArtist": "",
+      "charCount": 22,
+      "releaseYear": "",
+      "genre": ""
+    },
+    {
+      "title": "Nothing's gonna stop us now",
+      "language": "英文",
+      "originalArtist": "Starship",
+      "charCount": 23,
+      "releaseYear": "1987",
+      "genre": "流行"
+    },
+    {
+      "title": "Some things I'll never know",
+      "language": "英文",
+      "originalArtist": "Teddy Swims",
+      "charCount": 23,
+      "releaseYear": "2023",
+      "genre": "流行"
+    },
+    {
+      "title": "Those dancing days are gone",
+      "language": "英文",
+      "originalArtist": "Carla Bruni",
+      "charCount": 23,
+      "releaseYear": "2007",
+      "genre": "流行"
+    },
+    {
+      "title": "Nothing's gonna change my love for you",
+      "language": "英文",
+      "originalArtist": "George Benson",
+      "charCount": 32,
+      "releaseYear": "1985",
+      "genre": "流行"
+    }
+  ],
+  "totals": {
+    "chinese": 239,
+    "cantonese": 7,
+    "minnan": 1,
+    "english": 133,
+    "total": 380
+  }
+}
