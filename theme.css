@@ -402,9 +402,77 @@ body {
   position: relative;
 }
 
+.singer-profile-media {
+  position: relative;
+}
+
 .singer-profile-image {
   height: 360px;
   width: 100%;
+}
+
+.profile-audio-player {
+  align-items: center;
+  backdrop-filter: blur(14px);
+  background: rgba(255, 247, 242, .86);
+  border: 1px solid rgba(23, 37, 84, .08);
+  border-radius: 999px;
+  bottom: 12px;
+  box-shadow: 0 10px 24px rgba(23, 37, 84, .14);
+  color: #172554;
+  display: inline-flex;
+  gap: 8px;
+  max-width: calc(100% - 24px);
+  min-height: 42px;
+  padding: 6px 12px 6px 7px;
+  position: absolute;
+  right: 12px;
+}
+
+.profile-audio-button {
+  align-items: center;
+  background: linear-gradient(135deg, rgba(223, 247, 238, .92) 0%, rgba(220, 238, 255, .88) 100%);
+  border: 1px solid rgba(23, 37, 84, .08);
+  border-radius: 999px;
+  color: #172554;
+  display: inline-flex;
+  flex: 0 0 auto;
+  height: 30px;
+  justify-content: center;
+  padding: 0;
+  width: 30px;
+}
+
+.profile-audio-button:disabled {
+  cursor: default;
+  opacity: .58;
+}
+
+.profile-audio-icon {
+  fill: currentColor;
+  height: 14px;
+  width: 14px;
+}
+
+.profile-audio-pause {
+  display: none;
+}
+
+.profile-audio-playing .profile-audio-play {
+  display: none;
+}
+
+.profile-audio-playing .profile-audio-pause {
+  display: block;
+}
+
+.profile-audio-title {
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .singer-profile-image-empty {
@@ -1555,7 +1623,8 @@ body {
 
 .request-add-button {
   min-height: 44px;
-  width: 100%;
+  margin: 0 auto;
+  width: min(210px, 100%);
 }
 
 .like-button {

@@ -1569,10 +1569,11 @@ function renderProfile(singer) {
 
   $("profile").innerHTML = `
     <section class="singer-profile-body">
-      <div>
+      <div class="singer-profile-media">
         ${singer.image
           ? `<img class="singer-profile-image object-cover rounded-box shadow-md" src="${singer.image}" alt="${singer.name}">`
           : `<div class="singer-profile-image singer-profile-image-empty rounded-box shadow-md" role="img" aria-label="${singer.name}"></div>`}
+        ${previewPlayer(singer)}
       </div>
       <div class="singer-profile-info space-y-3">
         <div class="flex flex-wrap gap-2">
@@ -1582,6 +1583,7 @@ function renderProfile(singer) {
       </div>
     </section>
   `;
+  bindPreviewPlayers();
 }
 
 function songCard(song, options = {}) {
@@ -1653,6 +1655,59 @@ function detailSongs(singer) {
 
 function singerLibraryRows(singer) {
   return rows().filter((song) => song.singerId === singer.id);
+}
+
+function singerPreviewTrack(singer) {
+  const firstSong = singerLibraryRows(singer)[0];
+  return {
+    title: singer.previewTitle || firstSong?.title || "试听待上传",
+    src: singer.previewAudio || ""
+  };
+}
+
+function previewPlayer(singer) {
+  const track = singerPreviewTrack(singer);
+  const label = track.src ? `试听 ${displayName(singer.name)}：${track.title}` : `${displayName(singer.name)} 试听音频待上传`;
+  return `
+    <div class="profile-audio-player" aria-label="${label}">
+      <button class="profile-audio-button" type="button" data-preview-play ${track.src ? `data-preview-src="${track.src}"` : "disabled"} aria-label="${label}">
+        <svg aria-hidden="true" viewBox="0 0 24 24" class="profile-audio-icon profile-audio-play">
+          <polygon points="8 5 19 12 8 19 8 5"></polygon>
+        </svg>
+        <svg aria-hidden="true" viewBox="0 0 24 24" class="profile-audio-icon profile-audio-pause">
+          <rect x="7" y="5" width="4" height="14" rx="1"></rect>
+          <rect x="13" y="5" width="4" height="14" rx="1"></rect>
+        </svg>
+      </button>
+      <span class="profile-audio-title">${track.title}</span>
+      ${track.src ? `<audio preload="none" src="${track.src}"></audio>` : ""}
+    </div>
+  `;
+}
+
+function bindPreviewPlayers() {
+  document.querySelectorAll("[data-preview-play]").forEach((button) => {
+    button.onclick = () => {
+      const player = button.closest(".profile-audio-player");
+      const audio = player?.querySelector("audio");
+      if (!audio) return;
+      document.querySelectorAll(".profile-audio-player audio").forEach((item) => {
+        if (item !== audio) {
+          item.pause();
+          item.closest(".profile-audio-player")?.classList.remove("profile-audio-playing");
+        }
+      });
+      if (audio.paused) {
+        audio.play()
+          .then(() => player.classList.add("profile-audio-playing"))
+          .catch(() => player.classList.remove("profile-audio-playing"));
+      } else {
+        audio.pause();
+        player.classList.remove("profile-audio-playing");
+      }
+      audio.onended = () => player.classList.remove("profile-audio-playing");
+    };
+  });
 }
 
 function singerSongRequests(singerId) {
