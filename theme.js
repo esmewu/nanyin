@@ -755,6 +755,7 @@ let sharedState = {
 let sharedStateReady = false;
 let sharedStateSaveTimer = 0;
 let sharedStateCacheTimer = 0;
+const counterCacheTimers = {};
 const burstCooldowns = {};
 let debtCounter = 1;
 let editDebtCounter = 1;
@@ -875,9 +876,12 @@ function mergeCountersByMax(a = {}, b = {}) {
 }
 
 function cacheCounterState(bucket) {
-  if (bucket === "likes") writeStoredJSON(likeStoreKey, sharedState.likes);
-  if (bucket === "songStars") writeStoredJSON(songStarStoreKey, sharedState.songStars);
-  if (bucket === "singerReactions") writeStoredJSON(singerReactionStoreKey, sharedState.singerReactions);
+  clearTimeout(counterCacheTimers[bucket]);
+  counterCacheTimers[bucket] = setTimeout(() => {
+    if (bucket === "likes") writeStoredJSON(likeStoreKey, sharedState.likes);
+    if (bucket === "songStars") writeStoredJSON(songStarStoreKey, sharedState.songStars);
+    if (bucket === "singerReactions") writeStoredJSON(singerReactionStoreKey, sharedState.singerReactions);
+  }, 240);
 }
 
 function localIncrementCounter(bucket, key, amount = 1) {
@@ -1716,7 +1720,9 @@ function renderSingers() {
               </button>
             </div>
             <div class="singer-card-row">
-              <div class="singer-card-image" role="img" aria-label="${singer.name}" ${singer.image ? `style="background-image: url('${singer.image}')"` : ""}></div>
+              ${singer.image
+                ? `<img class="singer-card-image" src="${singer.image}" alt="${singer.name}" loading="lazy" decoding="async">`
+                : `<div class="singer-card-image" role="img" aria-label="${singer.name}"></div>`}
               <div class="singer-card-content">
                 <h3 class="singer-name">${displayName(singer.name)}</h3>
                 <div class="singer-card-tags">
@@ -1750,7 +1756,7 @@ function renderProfile(singer) {
     <section class="singer-profile-body">
       <div class="singer-profile-media">
         ${singer.image
-          ? `<img class="singer-profile-image object-cover rounded-box shadow-md" src="${singer.image}" alt="${singer.name}">`
+          ? `<img class="singer-profile-image object-cover rounded-box shadow-md" src="${singer.image}" alt="${singer.name}" decoding="async">`
           : `<div class="singer-profile-image singer-profile-image-empty rounded-box shadow-md" role="img" aria-label="${singer.name}"></div>`}
         ${previewPlayer(singer)}
       </div>

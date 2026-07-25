@@ -1628,11 +1628,12 @@ body {
 
 .singer-card-image {
   background: linear-gradient(135deg, #dbeafe 0%, #eadcff 100%);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   bottom: 0;
+  display: block;
+  height: 100%;
   left: 0;
+  object-fit: cover;
+  object-position: center;
   position: absolute;
   top: 0;
   width: 132px;

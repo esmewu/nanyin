@@ -88,11 +88,11 @@ async function handleIncrementApi(request, env) {
     const current = await readState(env);
     const nextBucket = { ...(current[bucket] || {}) };
     nextBucket[key] = Math.max(0, Number(nextBucket[key] || 0) + Number(amount || 1));
-    const nextState = await writeState(env, {
+    await writeState(env, {
       ...current,
       [bucket]: nextBucket
     });
-    return json({ bucket, key, value: nextBucket[key], state: nextState });
+    return json({ bucket, key, value: nextBucket[key] });
   } catch (error) {
     return json({
       error: "Cloudflare Worker increment API error",

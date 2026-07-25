@@ -60,11 +60,11 @@ async function handleRequest(context) {
     const current = await readState(store);
     const nextBucket = { ...(current[bucket] || {}) };
     nextBucket[key] = Math.max(0, Number(nextBucket[key] || 0) + Number(amount || 1));
-    const nextState = await writeState(store, {
+    await writeState(store, {
       ...current,
       [bucket]: nextBucket
     });
-    return json({ bucket, key, value: nextBucket[key], state: nextState });
+    return json({ bucket, key, value: nextBucket[key] });
   } catch (error) {
     return json({
       error: "EdgeOne Blob increment API error",
