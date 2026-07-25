@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="./theme.css?v=20260724a">
+    <link rel="stylesheet" href="./theme.css?v=20260724b">
   </head>
   <body>
     <main class="min-h-screen bg-base-200">
@@ -69,6 +69,7 @@
           </section>
           <section class="detail-panel-switches">
             <section id="debtPanelSwitch" class="detail-panel-switch" role="button" tabindex="0" data-detail-panel="debts"></section>
+            <section id="requestPanelSwitch" class="detail-panel-switch" role="button" tabindex="0" data-detail-panel="requests"></section>
             <section id="libraryPanelSwitch" class="detail-panel-switch" role="button" tabindex="0" data-detail-panel="library"></section>
           </section>
           <section id="detailDebtSection" class="detail-panel-content">
@@ -77,7 +78,20 @@
             </section>
             <div id="detailDebtList" class="debt-list"></div>
           </section>
+          <section id="detailRequestSection" class="detail-panel-content hidden">
+            <section class="debt-inline-heading">
+              <button class="btn btn-sm recommend-btn gradient-action-btn" id="detailRequestAdd" type="button">想听TA唱</button>
+            </section>
+            <div id="detailRequestList" class="grid gap-2"></div>
+          </section>
           <section id="detailSonglistSection" class="singer-songlist-section detail-panel-content">
+            <label id="detailSearchWrap" class="search-control detail-library-search mb-3">
+              <svg aria-hidden="true" viewBox="0 0 24 24" class="search-icon">
+                <path d="m21 21-4.35-4.35m1.35-5.15a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z"></path>
+              </svg>
+              <input id="detailSearch" class="input input-bordered search-input" placeholder="搜索当前歌手曲库">
+              <button id="clearDetailSearch" class="search-clear hidden" type="button" aria-label="清空曲库搜索">×</button>
+            </label>
             <section id="songlistControls" class="songlist-controls mb-3">
               <label class="form-control"><span class="label-text font-bold">排序</span><select id="detailSort" class="select select-bordered"><option value="default">默认</option><option value="az">歌名 A-Z</option><option value="length">歌名字数</option><option value="originalArtist">原唱</option><option value="likes">♥</option></select></label>
               <label class="form-control"><span class="label-text font-bold">语言</span><select id="detailLanguage" class="select select-bordered"><option value="all">全部</option><option value="中文">中文</option><option value="英文">英文</option></select></label>
@@ -268,7 +282,9 @@
     </dialog>
     <dialog id="addSongDialog" class="modal">
       <div class="modal-box app-modal-box">
-        <h3 class="app-modal-title">添加歌曲</h3>
+        <h3 class="app-modal-title" id="songDialogTitle">添加歌曲</h3>
+        <input id="songFormMode" type="hidden" value="add">
+        <input id="editSongKey" type="hidden">
         <section class="app-form">
           <label class="app-form-field" for="newSongTitle">
             <span class="app-field-label">歌名</span>
@@ -293,7 +309,29 @@
             </select>
           </label>
         </section>
-        <div class="modal-action app-modal-actions"><button class="btn app-ghost-btn" data-close>取消</button><button class="btn btn-primary app-primary-btn" id="saveNewSong">添加</button></div>
+        <div class="modal-action app-modal-actions edit-debt-actions">
+          <button class="btn btn-error btn-outline app-danger-btn hidden" id="deleteSong" type="button">删除</button>
+          <div class="edit-debt-save-actions">
+            <button class="btn app-ghost-btn" data-close>取消</button>
+            <button class="btn btn-primary app-primary-btn" id="saveNewSong">添加</button>
+          </div>
+        </div>
+      </div>
+    </dialog>
+    <dialog id="requestSongDialog" class="modal">
+      <div class="modal-box app-modal-box">
+        <h3 class="app-modal-title">想听TA唱</h3>
+        <section class="app-form">
+          <label class="app-form-field" for="requestSongTitle">
+            <span class="app-field-label">歌名</span>
+            <input id="requestSongTitle" class="input input-bordered app-input" placeholder="输入想听的歌">
+          </label>
+          <label class="app-form-field" for="requestSongNote">
+            <span class="app-field-label">留言</span>
+            <textarea id="requestSongNote" class="textarea textarea-bordered app-input app-textarea" placeholder="可选：想听原因、版本、心情"></textarea>
+          </label>
+        </section>
+        <div class="modal-action app-modal-actions"><button class="btn app-ghost-btn" data-close>取消</button><button class="btn btn-primary app-primary-btn" id="saveSongRequest">创建</button></div>
       </div>
     </dialog>
     <dialog id="loginDialog" class="modal">
@@ -321,6 +359,6 @@
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script>
     <script src="./v1-singers.js?v=20260723q"></script>
     <script src="./song-metadata.js?v=20260724c"></script>
-    <script src="./theme.js?v=20260724j"></script>
+    <script src="./theme.js?v=20260724k"></script>
   </body>
 </html>

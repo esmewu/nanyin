@@ -9,7 +9,10 @@ const emptyState = {
   pinnedSongs: {},
   customSongs: [],
   schedules: {},
-  tags: {}
+  tags: {},
+  songEdits: {},
+  deletedSongs: {},
+  songRequests: []
 };
 
 function json(data, status = 200) {

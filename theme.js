@@ -711,6 +711,9 @@ const tagStoreKey = "nanyin-singer-tags";
 const authStoreKey = "nanyin-singer-auth";
 const customSongStoreKey = "nanyin-custom-songs";
 const pinnedSongStoreKey = "nanyin-pinned-songs";
+const songEditStoreKey = "nanyin-song-edits";
+const deletedSongStoreKey = "nanyin-deleted-songs";
+const songRequestStoreKey = "nanyin-song-requests";
 const sharedStateEndpoint = location.hostname.includes("edgeone.") ? "/node-api/state" : "/api/state";
 const singerLoginPassword = "NanYin2026DebtManagement";
 const cnLanguages = ["中文", "粤语", "闽南语"];
@@ -722,7 +725,10 @@ const emptySharedState = {
   pinnedSongs: {},
   customSongs: [],
   schedules: {},
-  tags: {}
+  tags: {},
+  songEdits: {},
+  deletedSongs: {},
+  songRequests: []
 };
 let sharedState = {
   ...emptySharedState,
@@ -732,7 +738,10 @@ let sharedState = {
   pinnedSongs: readStoredJSON(pinnedSongStoreKey, {}),
   customSongs: readStoredJSON(customSongStoreKey, []),
   schedules: readStoredJSON(scheduleStoreKey, {}),
-  tags: readStoredJSON(tagStoreKey, {})
+  tags: readStoredJSON(tagStoreKey, {}),
+  songEdits: readStoredJSON(songEditStoreKey, {}),
+  deletedSongs: readStoredJSON(deletedSongStoreKey, {}),
+  songRequests: readStoredJSON(songRequestStoreKey, [])
 };
 let sharedStateReady = false;
 let sharedStateSaveTimer = 0;
@@ -742,6 +751,7 @@ let debtCounter = 1;
 let editDebtCounter = 1;
 let activeDetailPanel = "debts";
 let lastDetailSingerId = "";
+let detailSongQuery = "";
 
 function readStoredJSON(key, fallback) {
   try {
@@ -763,6 +773,9 @@ function cacheSharedState() {
   writeStoredJSON(customSongStoreKey, sharedState.customSongs);
   writeStoredJSON(scheduleStoreKey, sharedState.schedules);
   writeStoredJSON(tagStoreKey, sharedState.tags);
+  writeStoredJSON(songEditStoreKey, sharedState.songEdits);
+  writeStoredJSON(deletedSongStoreKey, sharedState.deletedSongs);
+  writeStoredJSON(songRequestStoreKey, sharedState.songRequests);
 }
 
 function cacheSharedStateSoon() {
@@ -820,6 +833,33 @@ function readCustomSongs() {
 
 function writeCustomSongs(songs) {
   sharedState.customSongs = songs;
+  saveSharedStateSoon();
+}
+
+function readSongEdits() {
+  return sharedState.songEdits || {};
+}
+
+function writeSongEdits(edits) {
+  sharedState.songEdits = edits;
+  saveSharedStateSoon();
+}
+
+function readDeletedSongs() {
+  return sharedState.deletedSongs || {};
+}
+
+function writeDeletedSongs(deleted) {
+  sharedState.deletedSongs = deleted;
+  saveSharedStateSoon();
+}
+
+function readSongRequests() {
+  return sharedState.songRequests || [];
+}
+
+function writeSongRequests(requests) {
+  sharedState.songRequests = requests;
   saveSharedStateSoon();
 }
 
@@ -911,11 +951,41 @@ function openScheduleDialog() {
 function openAddSongDialog() {
   const singer = singers.find((item) => item.id === routeSingerId());
   if (!canManageSinger(singer)) return;
+  $("songFormMode").value = "add";
+  $("editSongKey").value = "";
+  $("songDialogTitle").textContent = "添加歌曲";
+  $("saveNewSong").textContent = "添加";
+  $("deleteSong").classList.add("hidden");
   $("newSongTitle").value = "";
   $("newSongOriginalArtist").value = "";
   $("newSongYear").value = "";
   $("newSongLanguage").value = "中文";
   $("addSongDialog").showModal();
+}
+
+function openEditSongDialog(encodedKey) {
+  const singer = singers.find((item) => item.id === routeSingerId());
+  if (!canManageSinger(singer)) return;
+  const editKey = decodeURIComponent(encodedKey);
+  const song = singerLibraryRows(singer).find((item) => item.editKey === editKey);
+  if (!song) return;
+  $("songFormMode").value = "edit";
+  $("editSongKey").value = editKey;
+  $("songDialogTitle").textContent = "编辑歌曲";
+  $("saveNewSong").textContent = "保存修改";
+  $("deleteSong").classList.remove("hidden");
+  $("newSongTitle").value = song.title;
+  $("newSongOriginalArtist").value = song.originalArtist || "";
+  $("newSongYear").value = song.releaseYear || "";
+  $("newSongLanguage").value = song.language || "中文";
+  $("addSongDialog").showModal();
+}
+
+function openSongRequestDialog(singer) {
+  if (!singer) return;
+  $("requestSongTitle").value = "";
+  $("requestSongNote").value = "";
+  $("requestSongDialog").showModal();
 }
 
 function songKey(song) {
@@ -973,6 +1043,16 @@ function bindPinButtons() {
       event.preventDefault();
       event.stopPropagation();
       togglePinnedSong(button.dataset.pinKey, button);
+    };
+  });
+}
+
+function bindSongEditButtons() {
+  document.querySelectorAll("[data-song-edit-key]").forEach((button) => {
+    button.onclick = (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      openEditSongDialog(button.dataset.songEditKey);
     };
   });
 }
@@ -1200,42 +1280,54 @@ function renderDebtList(singer, target) {
 }
 
 function rows() {
+  const edits = readSongEdits();
+  const deleted = readDeletedSongs();
   const builtInRows = singers.flatMap((singer) =>
-    singer.songs.map((song) => {
+    singer.songs.map((song, index) => {
       const title = song[0];
       const originalArtist = song[4] || "";
+      const editKey = `builtin:${singer.id}:${index}:${title}:${originalArtist}`;
+      if (deleted[editKey]) return null;
       const metadata = getSongMetadata(singer.id, title, originalArtist);
+      const edit = edits[editKey] || {};
       return {
-        title,
+        title: edit.title || title,
         artist: song[1],
-        language: song[2],
+        language: edit.language || song[2],
         note: song[3],
-        originalArtist: originalArtist || metadata.originalArtist || "",
-        releaseYear: song[5] || metadata.releaseYear || "",
+        originalArtist: edit.originalArtist ?? (originalArtist || metadata.originalArtist || ""),
+        releaseYear: edit.releaseYear ?? (song[5] || metadata.releaseYear || ""),
         genre: song[6] || metadata.genre || "",
         metadataConfidence: metadata.confidence || "",
         singerId: singer.id,
         singer: displayName(singer.name),
-        tags: singerTags(singer)
+        tags: singerTags(singer),
+        editKey,
+        sourceType: "builtin"
       };
-    })
+    }).filter(Boolean)
   );
   const customRows = readCustomSongs().map((song) => {
     const singer = singers.find((item) => item.id === song.singerId);
+    const editKey = `custom:${song.id}`;
+    if (deleted[editKey]) return null;
+    const edit = edits[editKey] || {};
     return {
-      title: song.title,
+      title: edit.title || song.title,
       artist: displayName(singer?.name || song.singer || ""),
-      language: song.language || "中文",
+      language: edit.language || song.language || "中文",
       note: "新增",
-      originalArtist: song.originalArtist || "",
-      releaseYear: song.releaseYear || "",
+      originalArtist: edit.originalArtist ?? (song.originalArtist || ""),
+      releaseYear: edit.releaseYear ?? (song.releaseYear || ""),
       genre: "",
       metadataConfidence: "",
       singerId: song.singerId,
       singer: displayName(singer?.name || song.singer || ""),
-      tags: singer ? singerTags(singer) : []
+      tags: singer ? singerTags(singer) : [],
+      editKey,
+      sourceType: "custom"
     };
-  });
+  }).filter(Boolean);
   return [...builtInRows, ...customRows];
 }
 
@@ -1429,9 +1521,9 @@ function renderSingers() {
               <div class="singer-card-image" role="img" aria-label="${singer.name}" ${singer.image ? `style="background-image: url('${singer.image}')"` : ""}></div>
               <div class="singer-card-content">
                 <h3 class="singer-name">${displayName(singer.name)}</h3>
-                <div class="flex flex-wrap gap-1 mt-2">
+                <div class="singer-card-tags">
                   <span class="tag-chip tag-debt">欠歌 ${owed} 首</span>
-                  ${orderedTags(singerTags(singer)).slice(0, 4).map((tag) => `<span class="${tagClass(tag)}">${tag}</span>`).join("")}
+                  ${orderedTags(singerTags(singer)).map((tag) => `<span class="${tagClass(tag)}">${tag}</span>`).join("")}
                 </div>
                 <p class="singer-card-meta text-xs opacity-60 mt-2">${libraryCount ? `${libraryCount} 首歌曲 · ` : ""}${singerSchedule(singer)}</p>
               </div>
@@ -1477,6 +1569,7 @@ function songCard(song, options = {}) {
   const showSinger = options.showSinger !== false;
   const flat = options.flat === true;
   const canPin = options.canPin === true;
+  const canEdit = options.canEdit === true;
   const pinned = isSongPinned(song);
   const pinnedKeys = Object.keys(readPinnedSongs()).sort();
   const pinnedIndex = pinned ? Math.max(0, pinnedKeys.indexOf(songKey(song))) : -1;
@@ -1497,6 +1590,12 @@ function songCard(song, options = {}) {
           <p class="text-sm opacity-70">${details}</p>
         </div>
         <div class="song-card-actions">
+          ${canEdit ? `<button class="pin-button song-edit-button" type="button" aria-label="编辑 ${song.title}" data-song-edit-key="${encodeURIComponent(song.editKey)}">
+            <svg aria-hidden="true" viewBox="0 0 24 24" class="pin-icon">
+              <path d="M12 20h9"></path>
+              <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"></path>
+            </svg>
+          </button>` : ""}
           ${canPin ? `<button class="pin-button ${pinned ? "pin-button-active" : ""}" type="button" aria-label="${pinned ? `取消置顶 ${song.title}` : `置顶 ${song.title}`}" data-pin-key="${encodedSongKey(song)}">
             <svg aria-hidden="true" viewBox="0 0 24 24" class="pin-icon">
               ${pinned ? `<path d="M6 18h12"></path><path d="m8 10 4 4 4-4"></path><path d="M12 4v10"></path>` : `<path d="M6 6h12"></path><path d="m8 14 4-4 4 4"></path><path d="M12 20V10"></path>`}
@@ -1526,11 +1625,55 @@ function detailSongs(singer) {
   let list = rows().filter((song) => song.singerId === singer.id);
   const language = $("detailLanguage").value;
   if (language !== "all") list = list.filter((song) => song.language === language);
+  const q = detailSongQuery.trim().toLowerCase();
+  if (q) {
+    list = list.filter((song) => [song.title, song.originalArtist, song.releaseYear, song.genre, song.language].join(" ").toLowerCase().includes(q));
+  }
   return sortPinnedFirst(sortSongs(list, $("detailSort").value));
 }
 
 function singerLibraryRows(singer) {
   return rows().filter((song) => song.singerId === singer.id);
+}
+
+function singerSongRequests(singerId) {
+  return readSongRequests().filter((request) => request.singerId === singerId);
+}
+
+function requestSongKey(request) {
+  return `request:${request.singerId}:${request.id || request.createdAt}:${request.title}`;
+}
+
+function requestSongCard(request, index) {
+  const key = requestSongKey(request);
+  const gradientClass = `song-card-pinned song-card-pinned-${(index % 6) + 1}`;
+  return `
+    <article class="card song-card-flat request-song-card ${gradientClass}">
+      <div class="card-body song-card-body flex-row justify-between items-center gap-3">
+        <div class="min-w-0">
+          <h3 class="font-bold text-lg">${request.title}</h3>
+          ${request.note ? `<p class="text-sm opacity-70">${request.note}</p>` : ""}
+        </div>
+        <div class="song-card-actions">
+          <button class="like-button" type="button" aria-label="喜欢 ${request.title}" data-like-key="${encodeURIComponent(key)}">
+            <svg aria-hidden="true" viewBox="0 0 24 24" class="like-icon">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78Z"></path>
+            </svg>
+            <span data-like-count>${readLikes()[key] || 0}</span>
+          </button>
+        </div>
+      </div>
+    </article>
+  `;
+}
+
+function renderSongRequests(singer) {
+  const requests = singerSongRequests(singer.id);
+  $("detailRequestList").className = requests.length ? "grid gap-2" : "detail-empty-list";
+  $("detailRequestList").innerHTML = requests.length
+    ? requests.map(requestSongCard).join("")
+    : "<p class='song-empty-state'>还没有人点歌🤔</p>";
+  bindLikeButtons();
 }
 
 function topSongCategories(singer) {
@@ -1547,18 +1690,23 @@ function topSongCategories(singer) {
 
 function renderDetailPanelSwitches(singer) {
   const libraryCount = singerLibraryRows(singer).length;
-  const topCategories = topSongCategories(singer);
   $("debtPanelSwitch").classList.toggle("detail-panel-active", activeDetailPanel === "debts");
+  $("requestPanelSwitch").classList.toggle("detail-panel-active", activeDetailPanel === "requests");
   $("libraryPanelSwitch").classList.toggle("detail-panel-active", activeDetailPanel === "library");
   $("debtPanelSwitch").innerHTML = `
     <div class="text-sm opacity-60">欠歌账簿</div>
-    <div class="font-bold">待还 ${debtTotal(singer.id)} 首 · 已还 ${repaidTotal(singer.id)} 首</div>
+    <div class="font-bold">待还 ${debtTotal(singer.id)} 首</div>
     <svg class="panel-chevron" aria-hidden="true" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"></path></svg>
   `;
   $("debtPanelSwitch").classList.remove("debt-panel-has-counter");
+  $("requestPanelSwitch").innerHTML = `
+    <div class="text-sm opacity-60">想听TA唱</div>
+    <div class="font-bold">${singerSongRequests(singer.id).length} 首</div>
+    <svg class="panel-chevron" aria-hidden="true" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"></path></svg>
+  `;
   $("libraryPanelSwitch").innerHTML = `
     <div class="text-sm opacity-60">曲库</div>
-    <div class="font-bold">${libraryCount} 首${topCategories.length ? ` · ${topCategories.join(" / ")}` : ""}</div>
+    <div class="font-bold">${libraryCount} 首</div>
     <svg class="panel-chevron" aria-hidden="true" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"></path></svg>
   `;
   $("libraryPanelSwitch").classList.remove("debt-panel-has-counter");
@@ -1585,6 +1733,7 @@ function renderSingerPage() {
   if (lastDetailSingerId !== singer.id) {
     activeDetailPanel = "debts";
     lastDetailSingerId = singer.id;
+    detailSongQuery = "";
   }
   const canManage = canManageSinger(singer);
   $("detailTitle").textContent = displayName(singer.name);
@@ -1605,10 +1754,16 @@ function renderSingerPage() {
   document.querySelector("[data-edit-schedule]")?.addEventListener("click", openScheduleDialog);
   renderDetailPanelSwitches(singer);
   $("detailDebtSection").classList.toggle("hidden", activeDetailPanel !== "debts");
+  $("detailRequestSection").classList.toggle("hidden", activeDetailPanel !== "requests");
+  $("detailRequestAdd").onclick = () => openSongRequestDialog(singer);
+  if (activeDetailPanel === "requests") renderSongRequests(singer);
   const libraryRows = singerLibraryRows(singer);
   const hasSongs = libraryRows.length > 0;
   populateDetailLanguageFilter(singer);
   $("detailSonglistSection").classList.toggle("hidden", activeDetailPanel !== "library");
+  $("detailSearch").value = detailSongQuery;
+  $("detailSearchWrap").classList.toggle("hidden", !hasSongs);
+  $("clearDetailSearch").classList.toggle("hidden", !detailSongQuery);
   $("songlistControls").classList.toggle("hidden", !hasSongs && !canManage);
   $("songlistControls").querySelectorAll(".form-control").forEach((control) => {
     control.classList.toggle("hidden", !hasSongs);
@@ -1621,7 +1776,8 @@ function renderSingerPage() {
   $("detailDebtAdd").onclick = canManage ? openDebtDialog : null;
   if (activeDetailPanel === "library" && hasSongs) {
     $("detailSongs").className = "grid gap-2";
-    $("detailSongs").innerHTML = detailSongs(singer).map((song) => songCard(song, { showSinger: false, flat: true, canPin: canManage })).join("") || "<article class='alert'>没有找到歌曲</article>";
+    $("detailSongs").innerHTML = detailSongs(singer).map((song) => songCard(song, { showSinger: false, flat: true, canPin: canManage, canEdit: canManage })).join("") || "<article class='alert'>没有找到歌曲</article>";
+    bindSongEditButtons();
     bindPinButtons();
     bindLikeButtons();
   } else if (activeDetailPanel === "library") {
@@ -1757,6 +1913,18 @@ $("clearSearch").onclick = () => {
   $(id).oninput = renderRoute;
 });
 
+$("detailSearch").oninput = () => {
+  detailSongQuery = $("detailSearch").value.trim();
+  renderRoute();
+};
+
+$("clearDetailSearch").onclick = () => {
+  detailSongQuery = "";
+  $("detailSearch").value = "";
+  renderRoute();
+  $("detailSearch").focus();
+};
+
 $("singersTab").onclick = () => {
   activeTab = "singers";
   renderRoute();
@@ -1846,20 +2014,72 @@ $("saveNewSong").onclick = () => {
     $("newSongTitle").focus();
     return;
   }
+  const payload = {
+    title,
+    originalArtist: $("newSongOriginalArtist").value.trim(),
+    releaseYear: $("newSongYear").value.trim(),
+    language: $("newSongLanguage").value
+  };
+  if ($("songFormMode").value === "edit") {
+    const editKey = $("editSongKey").value;
+    const edits = readSongEdits();
+    edits[editKey] = payload;
+    writeSongEdits(edits);
+    $("addSongDialog").close();
+    activeDetailPanel = "library";
+    renderRoute();
+    return;
+  }
   const saved = readCustomSongs();
   saved.push({
     id: globalThis.crypto?.randomUUID ? globalThis.crypto.randomUUID() : `${Date.now()}-${Math.random()}`,
     singerId: singer.id,
     singer: displayName(singer.name),
-    title,
-    originalArtist: $("newSongOriginalArtist").value.trim(),
-    releaseYear: $("newSongYear").value.trim(),
-    language: $("newSongLanguage").value,
+    ...payload,
     createdAt: new Date().toISOString()
   });
   writeCustomSongs(saved);
   $("addSongDialog").close();
   activeDetailPanel = "library";
+  renderRoute();
+};
+
+$("deleteSong").onclick = () => {
+  const singer = singers.find((item) => item.id === routeSingerId());
+  if (!canManageSinger(singer)) return;
+  const editKey = $("editSongKey").value;
+  if (!editKey) return;
+  const deleted = readDeletedSongs();
+  deleted[editKey] = true;
+  writeDeletedSongs(deleted);
+  const edits = readSongEdits();
+  delete edits[editKey];
+  writeSongEdits(edits);
+  $("addSongDialog").close();
+  activeDetailPanel = "library";
+  renderRoute();
+};
+
+$("saveSongRequest").onclick = () => {
+  const singer = singers.find((item) => item.id === routeSingerId());
+  if (!singer) return;
+  const title = $("requestSongTitle").value.trim();
+  if (!title) {
+    $("requestSongTitle").focus();
+    return;
+  }
+  const requests = readSongRequests();
+  requests.push({
+    id: globalThis.crypto?.randomUUID ? globalThis.crypto.randomUUID() : `${Date.now()}-${Math.random()}`,
+    singerId: singer.id,
+    singer: displayName(singer.name),
+    title,
+    note: $("requestSongNote").value.trim(),
+    createdAt: new Date().toISOString()
+  });
+  writeSongRequests(requests);
+  $("requestSongDialog").close();
+  activeDetailPanel = "requests";
   renderRoute();
 };
 
