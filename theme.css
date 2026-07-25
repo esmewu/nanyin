@@ -610,8 +610,8 @@ body {
 
   .detail-panel-switch {
     border-radius: 10px;
-    min-height: 64px;
-    padding: 8px 8px 18px;
+    min-height: 54px;
+    padding: 8px;
   }
 
   .detail-panel-switch .font-bold {
@@ -638,13 +638,16 @@ body {
 }
 
 .detail-panel-switch {
+  align-items: center;
   background: #fff7f2;
   border: 1px solid rgba(23, 37, 84, .08);
   border-radius: .75rem;
   box-shadow: 0 8px 20px rgba(23, 37, 84, .06);
   cursor: pointer;
-  min-height: 70px;
-  padding: 9px 12px 18px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 20px;
+  min-height: 58px;
+  padding: 8px 10px;
   position: relative;
   text-align: left;
 }
@@ -661,17 +664,14 @@ body {
 }
 
 .panel-chevron {
-  bottom: 3px;
   fill: none;
   height: 18px;
-  left: 50%;
   opacity: .55;
-  position: absolute;
+  position: static;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 2.4;
-  transform: translateX(-50%);
   width: 18px;
 }
 
@@ -1975,9 +1975,51 @@ body {
   color: #cdf3ff;
 }
 
-[data-theme="nanyin-dark"] .song-card-pinned,
-[data-theme="nanyin-dark"] .detail-panel-active {
+[data-theme="nanyin-dark"] .song-card-pinned {
   color: #172554;
+}
+
+[data-theme="nanyin-dark"] .song-card-pinned .song-card-body h3,
+[data-theme="nanyin-dark"] .song-card-pinned .song-card-body p {
+  color: #172554;
+}
+
+[data-theme="nanyin-dark"] .detail-panel-active {
+  background: linear-gradient(135deg, #312e81 0%, #6d28d9 38%, #be185d 100%);
+  border-color: rgba(196, 181, 253, .45);
+  box-shadow: 0 12px 28px rgba(109, 40, 217, .22);
+  color: #f8fafc;
+}
+
+[data-theme="nanyin-dark"] .detail-panel-active .text-sm,
+[data-theme="nanyin-dark"] .detail-panel-active .font-bold,
+[data-theme="nanyin-dark"] .detail-panel-active .panel-chevron {
+  color: #f8fafc;
+  opacity: 1;
+}
+
+[data-theme="nanyin-dark"] .gradient-action-btn,
+[data-theme="nanyin-dark"] .tag-debt {
+  background: linear-gradient(135deg, #0e7490 0%, #312e81 32%, #6d28d9 66%, #be185d 100%);
+  border-color: rgba(196, 181, 253, .34);
+  box-shadow: 0 10px 24px rgba(109, 40, 217, .22);
+  color: #f8fafc;
+}
+
+[data-theme="nanyin-dark"] .debt-action-btn {
+  background: rgba(15, 23, 42, .45);
+  color: #e0f2fe;
+}
+
+[data-theme="nanyin-dark"] .debt-edit-btn,
+[data-theme="nanyin-dark"] .debt-add-btn,
+[data-theme="nanyin-dark"] .debt-repay-btn,
+[data-theme="nanyin-dark"] .debt-paid {
+  color: #e0f2fe;
+}
+
+[data-theme="nanyin-dark"] .debt-action-btn + .debt-action-btn {
+  border-left-color: rgba(205, 243, 255, .14);
 }
 
 @media (max-width: 640px) {
