@@ -1808,18 +1808,13 @@ function songCard(song, options = {}) {
         </div>
         <div class="song-card-actions">
           ${canEdit ? `<button class="pin-button song-edit-button" type="button" aria-label="编辑 ${song.title}" data-song-edit-key="${encodeURIComponent(song.editKey)}">
-            <svg aria-hidden="true" viewBox="0 0 24 24" class="pin-icon">
-              <path d="M12 20h9"></path>
-              <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"></path>
-            </svg>
+            <span class="material-symbols-rounded pin-icon" aria-hidden="true">edit</span>
           </button>` : ""}
           ${canPin ? `<button class="pin-button ${pinned ? "pin-button-active" : ""}" type="button" aria-label="${pinned ? `取消置顶 ${song.title}` : `置顶 ${song.title}`}" data-pin-key="${encodedSongKey(song)}">
-            <svg aria-hidden="true" viewBox="0 0 24 24" class="pin-icon">
-              ${pinned ? `<path d="M6 18h12"></path><path d="m8 10 4 4 4-4"></path><path d="M12 4v10"></path>` : `<path d="M6 6h12"></path><path d="m8 14 4-4 4 4"></path><path d="M12 20V10"></path>`}
-            </svg>
+            <span class="material-symbols-rounded pin-icon" aria-hidden="true">${pinned ? "vertical_align_bottom" : "vertical_align_top"}</span>
           </button>` : ""}
           <button class="star-button" type="button" aria-label="想听 ${song.title}" data-star-key="${encodedSongKey(song)}" data-star-singer-id="${song.singerId}" data-star-title="${encodeURIComponent(song.title)}">
-            <span class="star-icon" aria-hidden="true"></span>
+            <span class="material-symbols-rounded star-icon" aria-hidden="true">kid_star</span>
           </button>
           <button class="like-button" type="button" aria-label="喜欢 ${song.title}" data-like-key="${encodedSongKey(song)}">
             <svg aria-hidden="true" viewBox="0 0 24 24" class="like-icon">

@@ -6,45 +6,28 @@
     <title>南音欠锅厅</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@900&family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,400..700,0..1,0&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="./theme.css?v=20260725r">
+    <link rel="stylesheet" href="./theme.css?v=20260725s">
   </head>
   <body>
     <main class="min-h-screen bg-base-200">
       <section class="navbar bg-base-100 shadow-sm px-4 md:px-10 site-header">
         <span class="site-logo">南音欠锅厅</span>
         <button id="themeToggle" class="header-icon-button theme-toggle-button" type="button" aria-label="切换深色模式">
-          <svg aria-hidden="true" viewBox="0 0 24 24" class="header-icon theme-moon-icon">
-            <path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.5 6.5 0 0 0 9.8 9.8Z"></path>
-          </svg>
-          <svg aria-hidden="true" viewBox="0 0 24 24" class="header-icon theme-sun-icon">
-            <circle cx="12" cy="12" r="4"></circle>
-            <path d="M12 2v2"></path>
-            <path d="M12 20v2"></path>
-            <path d="m4.93 4.93 1.41 1.41"></path>
-            <path d="m17.66 17.66 1.41 1.41"></path>
-            <path d="M2 12h2"></path>
-            <path d="M20 12h2"></path>
-            <path d="m6.34 17.66-1.41 1.41"></path>
-            <path d="m19.07 4.93-1.41 1.41"></path>
-          </svg>
+          <span class="material-symbols-rounded header-icon theme-moon-icon" aria-hidden="true">dark_mode</span>
+          <span class="material-symbols-rounded header-icon theme-sun-icon" aria-hidden="true">light_mode</span>
         </button>
         <button id="loginButton" class="header-icon-button login-icon-button" type="button" aria-label="歌手登录">
-          <svg aria-hidden="true" viewBox="0 0 24 24" class="login-icon">
-            <path d="M20 21a8 8 0 0 0-16 0"></path>
-            <path d="M12 13a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z"></path>
-          </svg>
+          <span class="material-symbols-rounded login-icon" aria-hidden="true">person</span>
         </button>
       </section>
       <section class="px-4 md:px-10 py-4 md:py-8 max-w-7xl mx-auto">
         <section id="homeView">
         <section class="mb-3">
           <label class="search-control">
-            <svg aria-hidden="true" viewBox="0 0 24 24" class="search-icon">
-              <path d="m21 21-4.35-4.35m1.35-5.15a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z"></path>
-            </svg>
+            <span class="material-symbols-rounded search-icon" aria-hidden="true">search</span>
             <input id="search" class="input input-bordered search-input" placeholder="搜索南音歌手、歌曲、原唱">
             <button id="clearSearch" class="search-clear hidden" type="button" aria-label="清空搜索">×</button>
           </label>
@@ -108,9 +91,7 @@
           <section id="detailSonglistSection" class="singer-songlist-section detail-panel-content">
             <section class="detail-library-toolbar mb-3">
               <label id="detailSearchWrap" class="search-control detail-library-search">
-                <svg aria-hidden="true" viewBox="0 0 24 24" class="search-icon">
-                  <path d="m21 21-4.35-4.35m1.35-5.15a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0Z"></path>
-                </svg>
+                <span class="material-symbols-rounded search-icon" aria-hidden="true">search</span>
                 <input id="detailSearch" class="input input-bordered search-input" placeholder="搜索当前歌手曲库">
                 <button id="clearDetailSearch" class="search-clear hidden" type="button" aria-label="清空曲库搜索">×</button>
               </label>
@@ -406,6 +387,6 @@
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script>
     <script src="./v1-singers.js?v=20260725a"></script>
     <script src="./song-metadata.js?v=20260725d"></script>
-    <script src="./theme.js?v=20260725t"></script>
+    <script src="./theme.js?v=20260725u"></script>
   </body>
 </html>
