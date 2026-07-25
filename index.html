@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="./theme.css?v=20260724b">
+    <link rel="stylesheet" href="./theme.css?v=20260724d">
   </head>
   <body>
     <main class="min-h-screen bg-base-200">
@@ -80,7 +80,7 @@
           </section>
           <section id="detailRequestSection" class="detail-panel-content hidden">
             <section class="debt-inline-heading">
-              <button class="btn btn-sm recommend-btn gradient-action-btn" id="detailRequestAdd" type="button">想听TA唱</button>
+              <button class="btn btn-sm recommend-btn gradient-action-btn request-add-button" id="detailRequestAdd" type="button">想听TA唱</button>
             </section>
             <div id="detailRequestList" class="grid gap-2"></div>
           </section>
@@ -211,6 +211,7 @@
     </div>
     <dialog id="dialog" class="modal">
       <div class="modal-box app-modal-box">
+        <button class="modal-close-x" data-close type="button" aria-label="关闭">×</button>
         <h3 class="app-modal-title">欠歌记账</h3>
         <section class="app-form">
           <label class="app-form-field" for="debtCreditor">
@@ -230,11 +231,12 @@
             <textarea id="debtNote" class="textarea textarea-bordered app-input app-textarea" placeholder="例如：生日歌、下次排麦还"></textarea>
           </label>
         </section>
-        <div class="modal-action app-modal-actions"><button class="btn app-ghost-btn" data-close>取消</button><button class="btn btn-primary app-primary-btn" id="saveRecommend">记账</button></div>
+        <div class="modal-action app-modal-actions"><button class="btn btn-primary app-primary-btn" id="saveRecommend">记账</button></div>
       </div>
     </dialog>
     <dialog id="editDebtDialog" class="modal">
       <div class="modal-box app-modal-box">
+        <button class="modal-close-x" data-close type="button" aria-label="关闭">×</button>
         <h3 class="app-modal-title">修改欠歌</h3>
         <input id="editDebtKey" type="hidden">
         <section class="app-form">
@@ -258,7 +260,6 @@
         <div class="modal-action app-modal-actions edit-debt-actions">
           <button class="btn btn-error btn-outline app-danger-btn" id="deleteDebt" type="button">删除</button>
           <div class="edit-debt-save-actions">
-            <button class="btn app-ghost-btn" data-close>取消</button>
             <button class="btn btn-primary app-primary-btn" id="saveDebtEdit">保存修改</button>
           </div>
         </div>
@@ -266,6 +267,7 @@
     </dialog>
     <dialog id="scheduleDialog" class="modal">
       <div class="modal-box app-modal-box">
+        <button class="modal-close-x" data-close type="button" aria-label="关闭">×</button>
         <h3 class="app-modal-title">修改歌手资料</h3>
         <section class="app-form">
           <label class="app-form-field" for="scheduleInput">
@@ -277,11 +279,12 @@
             <textarea id="tagsInput" class="textarea textarea-bordered app-input app-textarea" placeholder="用逗号分隔，例如：流行，青叔音，慵懒"></textarea>
           </label>
         </section>
-        <div class="modal-action app-modal-actions"><button class="btn app-ghost-btn" data-close>取消</button><button class="btn btn-primary app-primary-btn" id="saveSchedule">保存</button></div>
+        <div class="modal-action app-modal-actions"><button class="btn btn-primary app-primary-btn" id="saveSchedule">保存</button></div>
       </div>
     </dialog>
     <dialog id="addSongDialog" class="modal">
       <div class="modal-box app-modal-box">
+        <button class="modal-close-x" data-close type="button" aria-label="关闭">×</button>
         <h3 class="app-modal-title" id="songDialogTitle">添加歌曲</h3>
         <input id="songFormMode" type="hidden" value="add">
         <input id="editSongKey" type="hidden">
@@ -312,7 +315,6 @@
         <div class="modal-action app-modal-actions edit-debt-actions">
           <button class="btn btn-error btn-outline app-danger-btn hidden" id="deleteSong" type="button">删除</button>
           <div class="edit-debt-save-actions">
-            <button class="btn app-ghost-btn" data-close>取消</button>
             <button class="btn btn-primary app-primary-btn" id="saveNewSong">添加</button>
           </div>
         </div>
@@ -320,6 +322,7 @@
     </dialog>
     <dialog id="requestSongDialog" class="modal">
       <div class="modal-box app-modal-box">
+        <button class="modal-close-x" data-close type="button" aria-label="关闭">×</button>
         <h3 class="app-modal-title">想听TA唱</h3>
         <section class="app-form">
           <label class="app-form-field" for="requestSongTitle">
@@ -331,11 +334,12 @@
             <textarea id="requestSongNote" class="textarea textarea-bordered app-input app-textarea" placeholder="可选：想听原因、版本、心情"></textarea>
           </label>
         </section>
-        <div class="modal-action app-modal-actions"><button class="btn app-ghost-btn" data-close>取消</button><button class="btn btn-primary app-primary-btn" id="saveSongRequest">创建</button></div>
+        <div class="modal-action app-modal-actions"><button class="btn btn-primary app-primary-btn" id="saveSongRequest">创建</button></div>
       </div>
     </dialog>
     <dialog id="loginDialog" class="modal">
       <div class="modal-box app-modal-box">
+        <button class="modal-close-x" data-close type="button" aria-label="关闭">×</button>
         <h3 class="app-modal-title">歌手登录</h3>
         <section id="loginFormPanel" class="app-form">
           <label class="app-form-field" for="loginSinger">
@@ -347,18 +351,18 @@
             <input id="loginPassword" class="input input-bordered app-input" type="password" placeholder="输入密码">
           </label>
           <p id="loginMessage" class="login-message"></p>
-          <div class="modal-action app-modal-actions"><button class="btn app-ghost-btn" data-close>取消</button><button class="btn btn-primary app-primary-btn" id="saveLogin">登录</button></div>
+          <div class="modal-action app-modal-actions"><button class="btn btn-primary app-primary-btn" id="saveLogin">登录</button></div>
         </section>
         <section id="loggedInPanel" class="hidden">
           <p class="logged-in-copy">当前登录歌手</p>
           <p id="loggedInSingerName" class="logged-in-name"></p>
-          <div class="modal-action app-modal-actions"><button class="btn app-ghost-btn" data-close>关闭</button><button class="btn btn-outline app-ghost-btn" id="logoutSinger">退出登录</button></div>
+          <div class="modal-action app-modal-actions"><button class="btn btn-outline app-ghost-btn" id="logoutSinger">退出登录</button></div>
         </section>
       </div>
     </dialog>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script>
     <script src="./v1-singers.js?v=20260723q"></script>
     <script src="./song-metadata.js?v=20260724c"></script>
-    <script src="./theme.js?v=20260724k"></script>
+    <script src="./theme.js?v=20260724n"></script>
   </body>
 </html>

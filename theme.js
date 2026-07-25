@@ -1085,6 +1085,25 @@ function celebrateRainbow() {
   triggerBurst("rainbowBurst", "rainbow-burst-active", 1100, 900);
 }
 
+function celebrateSongRequest() {
+  const now = performance.now();
+  if ((burstCooldowns.songRequest || 0) + 900 > now) return;
+  burstCooldowns.songRequest = now;
+  if (typeof globalThis.confetti !== "function") {
+    celebrateRainbow();
+    return;
+  }
+  globalThis.confetti({
+    particleCount: 72,
+    spread: 68,
+    startVelocity: 28,
+    scalar: .82,
+    origin: { y: .62 },
+    colors: ["#fbcfe8", "#ddd6fe", "#bfdbfe", "#fde68a", "#bbf7d0"],
+    disableForReducedMotion: true
+  });
+}
+
 function celebrateMonkey() {
   triggerBurst("monkeyBurst", "monkey-burst-active", 1800, 1500);
 }
@@ -1646,7 +1665,8 @@ function requestSongKey(request) {
 
 function requestSongCard(request, index) {
   const key = requestSongKey(request);
-  const gradientClass = `song-card-pinned song-card-pinned-${(index % 6) + 1}`;
+  const requestGradientOrder = [4, 2, 1, 3, 5, 6];
+  const gradientClass = `song-card-pinned song-card-pinned-${requestGradientOrder[index % requestGradientOrder.length]}`;
   return `
     <article class="card song-card-flat request-song-card ${gradientClass}">
       <div class="card-body song-card-body flex-row justify-between items-center gap-3">
@@ -2081,6 +2101,7 @@ $("saveSongRequest").onclick = () => {
   $("requestSongDialog").close();
   activeDetailPanel = "requests";
   renderRoute();
+  celebrateSongRequest();
 };
 
 $("deleteDebt").onclick = () => {

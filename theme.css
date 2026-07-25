@@ -97,6 +97,7 @@ body {
   box-shadow: 0 24px 80px rgba(23, 37, 84, .18);
   max-width: min(92vw, 480px);
   padding: 28px 24px 22px;
+  position: relative;
 }
 
 .app-modal-title {
@@ -106,6 +107,31 @@ body {
   letter-spacing: 0;
   line-height: 1.15;
   margin: 0;
+  padding-right: 44px;
+}
+
+.modal-close-x {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  border-radius: 999px;
+  color: #64748b;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 30px;
+  font-weight: 800;
+  height: 42px;
+  justify-content: center;
+  line-height: 1;
+  padding: 0;
+  position: absolute;
+  right: 14px;
+  top: 12px;
+  width: 42px;
+}
+
+.modal-close-x:active {
+  transform: scale(.94);
 }
 
 .app-form {
@@ -221,7 +247,7 @@ body {
 
   .app-modal-actions {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .edit-debt-actions {
@@ -230,7 +256,7 @@ body {
 
   .edit-debt-save-actions {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .app-modal-actions .btn {
@@ -440,8 +466,8 @@ body {
 
   .detail-panel-switch {
     border-radius: 10px;
-    min-height: 76px;
-    padding: 10px 8px 22px;
+    min-height: 64px;
+    padding: 8px 8px 18px;
   }
 
   .detail-panel-switch .font-bold {
@@ -473,8 +499,8 @@ body {
   border-radius: .75rem;
   box-shadow: 0 8px 20px rgba(23, 37, 84, .06);
   cursor: pointer;
-  min-height: 86px;
-  padding: 12px 12px 24px;
+  min-height: 70px;
+  padding: 9px 12px 18px;
   position: relative;
   text-align: left;
 }
@@ -491,7 +517,7 @@ body {
 }
 
 .panel-chevron {
-  bottom: 6px;
+  bottom: 3px;
   fill: none;
   height: 18px;
   left: 50%;
@@ -1522,15 +1548,20 @@ body {
 }
 
 .gradient-action-btn {
-  background: linear-gradient(135deg, #dbeafe 0%, #f2c5ff 100%);
+  background: linear-gradient(135deg, rgba(219, 234, 254, .72) 0%, rgba(242, 197, 255, .62) 100%);
   border-color: rgba(23, 37, 84, .08);
   color: #172554;
 }
 
+.request-add-button {
+  min-height: 44px;
+  width: 100%;
+}
+
 .like-button {
   align-items: center;
-  background: linear-gradient(135deg, #dbeafe 0%, #f2c5ff 100%);
-  border: 1px solid rgba(23, 37, 84, .08);
+  background: linear-gradient(135deg, rgba(219, 234, 254, .6) 0%, rgba(242, 197, 255, .48) 100%);
+  border: 1px solid rgba(23, 37, 84, .06);
   border-radius: 999px;
   color: #172554;
   display: inline-flex;
@@ -1551,8 +1582,8 @@ body {
 
 .pin-button {
   align-items: center;
-  background: #fff7f2;
-  border: 1px solid rgba(23, 37, 84, .08);
+  background: transparent;
+  border: 1px solid rgba(23, 37, 84, .1);
   border-radius: 999px;
   color: #64748b;
   display: inline-flex;
@@ -1562,7 +1593,8 @@ body {
 }
 
 .pin-button-active {
-  background: linear-gradient(135deg, #dbeafe 0%, #f2c5ff 100%);
+  background: transparent;
+  border-color: rgba(23, 37, 84, .14);
   color: #172554;
 }
 
