@@ -4,7 +4,7 @@ const singers = [
     name: "Gnight",
     image: "./assets/gnight.jpg",
     previewTitle: "Miss Riddle",
-    previewAudio: "./assets/audio/gnight-miss-riddle.wav",
+    previewAudio: "./assets/audio/gnight-miss-riddle-preview.wav",
     tags: ["青叔音", "慵懒", "流行", "苦情", "爵士"],
     schedule: "上午 8:00-12:00",
     liveUrl: "",
