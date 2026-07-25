@@ -13,6 +13,21 @@
   --radius-selector: .5rem;
 }
 
+[data-theme="nanyin-dark"] {
+  --color-base-100: #182033;
+  --color-base-200: #101827;
+  --color-base-300: #26324a;
+  --color-base-content: #f7ecdf;
+  --color-primary: #ff8b7a;
+  --color-primary-content: #101827;
+  --color-secondary: #78d3d1;
+  --color-secondary-content: #101827;
+  --color-accent: #ffd58d;
+  --radius-box: .75rem;
+  --radius-field: .5rem;
+  --radius-selector: .5rem;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
 }
@@ -38,7 +53,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-.login-icon-button {
+.header-icon-button {
   align-items: center;
   background: #fff7f2;
   border: 1px solid rgba(23, 37, 84, .08);
@@ -49,16 +64,24 @@ body {
   height: 34px;
   justify-content: center;
   position: absolute;
-  right: 16px;
   top: 50%;
   transform: translateY(-50%);
   width: 34px;
 }
 
-.login-icon-button:active {
+.theme-toggle-button {
+  right: 58px;
+}
+
+.login-icon-button {
+  right: 16px;
+}
+
+.header-icon-button:active {
   transform: translateY(-50%) scale(.94);
 }
 
+.header-icon,
 .login-icon {
   fill: none;
   height: 18px;
@@ -67,6 +90,18 @@ body {
   stroke-linejoin: round;
   stroke-width: 2;
   width: 18px;
+}
+
+.theme-sun-icon {
+  display: none;
+}
+
+[data-theme="nanyin-dark"] .theme-moon-icon {
+  display: none;
+}
+
+[data-theme="nanyin-dark"] .theme-sun-icon {
+  display: block;
 }
 
 .login-message {
@@ -1357,7 +1392,7 @@ body {
 .debt-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 4px;
   margin-top: 8px;
 }
 
@@ -1365,26 +1400,6 @@ body {
   border-top: 1px solid rgba(23, 37, 84, .08);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-}
-
-.debt-count {
-  background: #e0f2fe;
-  border-radius: 999px;
-  color: #1e3a8a;
-  flex: 0 0 auto;
-  font-size: 12px;
-  font-weight: 900;
-  padding: 6px 10px;
-}
-
-.debt-paid-count {
-  background: #dff7ee;
-  border-radius: 999px;
-  color: #216e79;
-  flex: 0 0 auto;
-  font-size: 12px;
-  font-weight: 900;
-  padding: 6px 10px;
 }
 
 .debt-paid {
@@ -1568,43 +1583,43 @@ body {
 }
 
 .tag-voice {
-  background: linear-gradient(135deg, #ffe2ec 0%, #eadcff 100%);
-  color: #8d426c;
-  box-shadow: 0 6px 14px rgba(216, 79, 99, .1);
-}
-
-.tag-genre {
-  background: linear-gradient(135deg, #e7e6ff 0%, #dceeff 100%);
-  color: #3f4a86;
-  box-shadow: 0 6px 14px rgba(63, 74, 134, .1);
-}
-
-.tag-persona {
-  background: linear-gradient(135deg, #fff0cf 0%, #ffdfe0 100%);
-  color: #93513b;
-  box-shadow: 0 6px 14px rgba(147, 81, 59, .1);
-}
-
-.tag-language {
-  background: linear-gradient(135deg, #dff7ee 0%, #dceeff 100%);
+  background: linear-gradient(135deg, #dcfbff 0%, #f5f2c8 100%);
   color: #216e79;
   box-shadow: 0 6px 14px rgba(33, 110, 121, .1);
 }
 
+.tag-genre {
+  background: linear-gradient(135deg, #fff6c2 0%, #ffd7d9 100%);
+  color: #8a5630;
+  box-shadow: 0 6px 14px rgba(138, 86, 48, .1);
+}
+
+.tag-persona {
+  background: linear-gradient(135deg, #eee6ff 0%, #dff3ff 100%);
+  color: #3f4a86;
+  box-shadow: 0 6px 14px rgba(63, 74, 134, .1);
+}
+
+.tag-language {
+  background: linear-gradient(135deg, #ffe2e9 0%, #dce5ff 100%);
+  color: #8d426c;
+  box-shadow: 0 6px 14px rgba(216, 79, 99, .1);
+}
+
 .tag-ability {
-  background: linear-gradient(135deg, #fff6c9 0%, #ffd8cb 100%);
+  background: linear-gradient(135deg, #f9e3d2 0%, #ede8fb 100%);
   color: #8a5630;
   box-shadow: 0 6px 14px rgba(138, 86, 48, .1);
 }
 
 .tag-artist {
-  background: linear-gradient(135deg, #f0ddff 0%, #ffe0f2 100%);
+  background: linear-gradient(135deg, #fbdbef 0%, #d2ffde 100%);
   color: #7a3f86;
   box-shadow: 0 6px 14px rgba(122, 63, 134, .1);
 }
 
 .tag-note {
-  background: linear-gradient(135deg, #f4f1ee 0%, #e8edf3 100%);
+  background: linear-gradient(135deg, #eae3db 0%, #dfeeff 100%);
   color: #667085;
   box-shadow: 0 6px 14px rgba(102, 112, 133, .08);
 }
@@ -1623,9 +1638,14 @@ body {
 
 .request-add-button {
   border-radius: 14px;
+  font-size: 22px;
+  font-weight: 900;
   min-height: 44px;
-  margin: 0 auto;
-  width: min(210px, 100%);
+  margin-left: auto;
+  min-width: 44px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 44px;
 }
 
 .like-button {
@@ -1772,21 +1792,111 @@ body {
 }
 
 .request-song-meta {
-  align-items: baseline;
   color: rgba(36, 31, 31, .66);
-  display: flex;
-  flex-wrap: wrap;
   font-size: 13px;
-  gap: 6px;
   line-height: 1.35;
   margin-top: 4px;
 }
 
-.request-song-signature {
+.request-song-card .song-card-body {
+  align-items: stretch;
+  gap: 0;
+  padding: 0;
+}
+
+.request-song-signer {
+  align-items: center;
+  border: 1px solid rgba(23, 37, 84, .06);
+  border-radius: .75rem 0 0 .75rem;
   color: #7b2f73;
-  font-family: "Ma Shan Zheng", "Noto Serif SC", "Songti SC", "PingFang SC", cursive;
-  font-size: 17px;
-  letter-spacing: 0;
+  display: flex;
+  flex: 0 0 102px;
+  font-family: "Noto Serif SC", "Songti SC", "STSong", "PingFang SC", serif;
+  font-size: 18px;
+  font-weight: 900;
+  justify-content: center;
+  line-height: 1.2;
+  min-height: 66px;
+  overflow: hidden;
+  padding: 6px 10px;
+  text-align: center;
+  word-break: break-all;
+}
+
+.request-song-card .min-w-0 {
+  flex: 1 1 auto;
+  padding: 10px 12px;
+}
+
+.request-song-card .song-card-actions {
+  padding-right: 12px;
+}
+
+[data-theme="nanyin-dark"] .site-logo,
+[data-theme="nanyin-dark"] .singer-name,
+[data-theme="nanyin-dark"] #detailTitle {
+  background: linear-gradient(135deg, #cdf3ff 0%, #cde5ff 42%, #e7d8f8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: #cdf3ff;
+  -webkit-text-fill-color: transparent;
+}
+
+[data-theme="nanyin-dark"] .header-icon-button,
+[data-theme="nanyin-dark"] .app-modal-box,
+[data-theme="nanyin-dark"] .detail-panel-switch,
+[data-theme="nanyin-dark"] .debt-list-item,
+[data-theme="nanyin-dark"] .song-card-flat,
+[data-theme="nanyin-dark"] .singer-card-button,
+[data-theme="nanyin-dark"] .profile-audio-player {
+  background: #182033;
+  border-color: rgba(205, 243, 255, .16);
+  color: #f7ecdf;
+}
+
+[data-theme="nanyin-dark"] .app-input,
+[data-theme="nanyin-dark"] .app-modal-box select.app-input,
+[data-theme="nanyin-dark"] .app-modal-box select.app-input option,
+[data-theme="nanyin-dark"] .counter-control,
+[data-theme="nanyin-dark"] .filter-select {
+  background: #101827;
+  border-color: rgba(205, 243, 255, .18);
+  color: #f7ecdf;
+}
+
+[data-theme="nanyin-dark"] .app-field-label,
+[data-theme="nanyin-dark"] .profile-schedule-text,
+[data-theme="nanyin-dark"] .song-card-body p,
+[data-theme="nanyin-dark"] .request-song-meta,
+[data-theme="nanyin-dark"] .singer-card-meta,
+[data-theme="nanyin-dark"] .debt-empty-state,
+[data-theme="nanyin-dark"] .song-empty-state {
+  color: rgba(247, 236, 223, .72);
+}
+
+[data-theme="nanyin-dark"] .app-modal-title,
+[data-theme="nanyin-dark"] .song-card-body h3,
+[data-theme="nanyin-dark"] .debt-list-item .font-bold {
+  color: #f7ecdf;
+}
+
+[data-theme="nanyin-dark"] .compact-tabs {
+  background: linear-gradient(135deg, #182033 0%, #26324a 100%);
+  border-color: rgba(205, 243, 255, .16);
+}
+
+[data-theme="nanyin-dark"] .compact-tabs .tab {
+  color: rgba(247, 236, 223, .7);
+}
+
+[data-theme="nanyin-dark"] .compact-tabs .tab-active {
+  background: linear-gradient(135deg, #26324a 0%, #314162 100%);
+  color: #cdf3ff;
+}
+
+[data-theme="nanyin-dark"] .song-card-pinned,
+[data-theme="nanyin-dark"] .detail-panel-active {
+  color: #172554;
 }
 
 @media (max-width: 640px) {

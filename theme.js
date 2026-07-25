@@ -709,6 +709,7 @@ const debtStoreKey = "nanyin-song-debts";
 const scheduleStoreKey = "nanyin-singer-schedules";
 const tagStoreKey = "nanyin-singer-tags";
 const authStoreKey = "nanyin-singer-auth";
+const colorModeStoreKey = "nanyin-color-mode";
 const customSongStoreKey = "nanyin-custom-songs";
 const pinnedSongStoreKey = "nanyin-pinned-songs";
 const songEditStoreKey = "nanyin-song-edits";
@@ -962,6 +963,17 @@ function readAuth() {
 
 function writeAuth(auth) {
   writeStoredJSON(authStoreKey, auth);
+}
+
+function currentColorMode() {
+  return localStorage.getItem(colorModeStoreKey) || "light";
+}
+
+function applyColorMode(mode) {
+  const nextMode = mode === "dark" ? "dark" : "light";
+  document.documentElement.dataset.theme = nextMode === "dark" ? "nanyin-dark" : "nanyin";
+  localStorage.setItem(colorModeStoreKey, nextMode);
+  $("themeToggle")?.setAttribute("aria-label", nextMode === "dark" ? "切换浅色模式" : "切换深色模式");
 }
 
 function loggedSingerId() {
@@ -1360,8 +1372,8 @@ function renderDebtList(singer, target) {
             <p class="font-bold">${item.creditor || "未命名债主"}</p>
             ${item.note ? `<p class="text-sm opacity-70">${item.note}</p>` : ""}
             <div class="debt-tags">
-              <span class="debt-count">待还 ${item.count} 首</span>
-              <span class="debt-paid-count">已还 ${item.repaid || 0} 首</span>
+              <span class="tag-chip tag-debt">待还 ${item.count} 首</span>
+              <span class="tag-chip tag-language">已还 ${item.repaid || 0} 首</span>
             </div>
           </div>
           <button class="debt-monkey-button debt-card-monkey-button" type="button" aria-label="催 ${item.creditor || "债主"} 还歌" data-debt-monkey data-debt-key="${itemKey}">
@@ -1803,7 +1815,9 @@ function bindPreviewPlayers() {
 }
 
 function singerSongRequests(singerId) {
-  return readSongRequests().filter((request) => request.singerId === singerId);
+  return readSongRequests()
+    .filter((request) => request.singerId === singerId)
+    .toSorted((a, b) => Date.parse(b.createdAt || 0) - Date.parse(a.createdAt || 0));
 }
 
 function requestSongKey(request) {
@@ -1813,17 +1827,16 @@ function requestSongKey(request) {
 function requestSongCard(request, index) {
   const key = requestSongKey(request);
   const requestGradientOrder = [3, 4, 1, 2, 5, 6, 7];
-  const gradientClass = `song-card-pinned song-card-pinned-${requestGradientOrder[index % requestGradientOrder.length]}`;
-  const requestMeta = [
-    request.note ? `<span>${request.note}</span>` : "",
-    request.signature ? `<span class="request-song-signature">点歌by ${request.signature}</span>` : ""
-  ].filter(Boolean).join("<span aria-hidden='true'>·</span>");
+  const signature = request.signature || "匿名";
   return `
-    <article class="card song-card-flat request-song-card ${gradientClass}">
+    <article class="card song-card-flat request-song-card">
       <div class="card-body song-card-body flex-row justify-between items-center gap-3">
+        <div class="request-song-signer song-card-pinned-${requestGradientOrder[index % requestGradientOrder.length]}">
+          <span>${signature}</span>
+        </div>
         <div class="min-w-0">
           <h3 class="font-bold text-lg">${request.title}</h3>
-          ${requestMeta ? `<p class="request-song-meta">${requestMeta}</p>` : ""}
+          ${request.note ? `<p class="request-song-meta">${request.note}</p>` : ""}
         </div>
         <div class="song-card-actions">
           <button class="like-button" type="button" aria-label="喜欢 ${request.title}" data-like-key="${encodeURIComponent(key)}">
@@ -2030,6 +2043,12 @@ function populateDetailLanguageFilter(singer) {
 }
 
 populateHomeSongFilters();
+applyColorMode(currentColorMode());
+
+$("themeToggle").onclick = () => {
+  applyColorMode(currentColorMode() === "dark" ? "light" : "dark");
+};
+
 $("loginSinger").innerHTML = singers
   .toSorted((a, b) => displayName(a.name).localeCompare(displayName(b.name), "zh-Hans-CN"))
   .map((singer) => `<option value="${singer.id}">${displayName(singer.name)}</option>`)

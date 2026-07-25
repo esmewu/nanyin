@@ -9,13 +9,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="./theme.css?v=20260724g">
+    <link rel="stylesheet" href="./theme.css?v=20260725a">
   </head>
   <body>
     <main class="min-h-screen bg-base-200">
       <section class="navbar bg-base-100 shadow-sm px-4 md:px-10 site-header">
         <span class="site-logo">南音欠锅厅</span>
-        <button id="loginButton" class="login-icon-button" type="button" aria-label="歌手登录">
+        <button id="themeToggle" class="header-icon-button theme-toggle-button" type="button" aria-label="切换深色模式">
+          <svg aria-hidden="true" viewBox="0 0 24 24" class="header-icon theme-moon-icon">
+            <path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.5 6.5 0 0 0 9.8 9.8Z"></path>
+          </svg>
+          <svg aria-hidden="true" viewBox="0 0 24 24" class="header-icon theme-sun-icon">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2"></path>
+            <path d="M12 20v2"></path>
+            <path d="m4.93 4.93 1.41 1.41"></path>
+            <path d="m17.66 17.66 1.41 1.41"></path>
+            <path d="M2 12h2"></path>
+            <path d="M20 12h2"></path>
+            <path d="m6.34 17.66-1.41 1.41"></path>
+            <path d="m19.07 4.93-1.41 1.41"></path>
+          </svg>
+        </button>
+        <button id="loginButton" class="header-icon-button login-icon-button" type="button" aria-label="歌手登录">
           <svg aria-hidden="true" viewBox="0 0 24 24" class="login-icon">
             <path d="M20 21a8 8 0 0 0-16 0"></path>
             <path d="M12 13a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z"></path>
@@ -80,7 +96,7 @@
           </section>
           <section id="detailRequestSection" class="detail-panel-content hidden">
             <section class="debt-inline-heading">
-              <button class="btn btn-sm recommend-btn gradient-action-btn request-add-button" id="detailRequestAdd" type="button">想听TA唱</button>
+              <button class="btn btn-sm recommend-btn gradient-action-btn request-add-button" id="detailRequestAdd" type="button" aria-label="想听TA唱">+</button>
             </section>
             <div id="detailRequestList" class="grid gap-2"></div>
           </section>
@@ -367,6 +383,6 @@
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script>
     <script src="./v1-singers.js?v=20260723q"></script>
     <script src="./song-metadata.js?v=20260724c"></script>
-    <script src="./theme.js?v=20260724q"></script>
+    <script src="./theme.js?v=20260725a"></script>
   </body>
 </html>
