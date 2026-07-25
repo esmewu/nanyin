@@ -706,6 +706,7 @@ const $ = (id) => document.getElementById(id);
 const len = (s) => Array.from(s.replace(/\s/g, "")).length;
 const displayName = (name) => name.replace(/_南音$/u, "");
 const likeStoreKey = "nanyin-song-likes";
+const songStarStoreKey = "nanyin-song-stars";
 const singerReactionStoreKey = "nanyin-singer-reactions";
 const debtStoreKey = "nanyin-song-debts";
 const scheduleStoreKey = "nanyin-singer-schedules";
@@ -726,6 +727,7 @@ const cnLanguages = ["中文", "粤语", "闽南语"];
 const maxPinnedSongs = 10;
 const emptySharedState = {
   likes: {},
+  songStars: {},
   singerReactions: {},
   debts: [],
   pinnedSongs: {},
@@ -739,6 +741,7 @@ const emptySharedState = {
 let sharedState = {
   ...emptySharedState,
   likes: readStoredJSON(likeStoreKey, {}),
+  songStars: readStoredJSON(songStarStoreKey, {}),
   singerReactions: readStoredJSON(singerReactionStoreKey, {}),
   debts: readStoredJSON(debtStoreKey, []),
   pinnedSongs: readStoredJSON(pinnedSongStoreKey, {}),
@@ -792,6 +795,7 @@ function writeStoredJSON(key, value) {
 
 function cacheSharedState() {
   writeStoredJSON(likeStoreKey, sharedState.likes);
+  writeStoredJSON(songStarStoreKey, sharedState.songStars);
   writeStoredJSON(singerReactionStoreKey, sharedState.singerReactions);
   writeStoredJSON(debtStoreKey, sharedState.debts);
   writeStoredJSON(pinnedSongStoreKey, sharedState.pinnedSongs);
@@ -840,6 +844,7 @@ function saveSharedStateSoon() {
           outgoingState = {
             ...outgoingState,
             likes: mergeCountersByMax(latestState.likes, outgoingState.likes),
+            songStars: mergeCountersByMax(latestState.songStars, outgoingState.songStars),
             singerReactions: mergeCountersByMax(latestState.singerReactions, outgoingState.singerReactions)
           };
           sharedState = {
@@ -871,6 +876,7 @@ function mergeCountersByMax(a = {}, b = {}) {
 
 function cacheCounterState(bucket) {
   if (bucket === "likes") writeStoredJSON(likeStoreKey, sharedState.likes);
+  if (bucket === "songStars") writeStoredJSON(songStarStoreKey, sharedState.songStars);
   if (bucket === "singerReactions") writeStoredJSON(singerReactionStoreKey, sharedState.singerReactions);
 }
 
@@ -925,6 +931,10 @@ function readLikes() {
 function writeLikes(likes) {
   sharedState.likes = likes;
   saveSharedStateSoon();
+}
+
+function readSongStars() {
+  return sharedState.songStars || {};
 }
 
 function readCustomSongs() {
@@ -1092,12 +1102,18 @@ function openEditSongDialog(encodedKey) {
   $("addSongDialog").showModal();
 }
 
-function openSongRequestDialog(singer) {
+function openSongRequestDialog(singer, prefillTitle = "") {
   if (!singer) return;
-  $("requestSongTitle").value = "";
+  $("requestSingerId").value = singer.id;
+  $("requestSongTitle").value = prefillTitle;
   $("requestSongNote").value = "";
   $("requestSongSignature").value = "";
   $("requestSongDialog").showModal();
+  if (prefillTitle) {
+    $("requestSongNote").focus();
+  } else {
+    $("requestSongTitle").focus();
+  }
 }
 
 function songKey(song) {
@@ -1106,6 +1122,10 @@ function songKey(song) {
 
 function likeCount(song) {
   return readLikes()[songKey(song)] || 0;
+}
+
+function starCount(song) {
+  return readSongStars()[songKey(song)] || 0;
 }
 
 function isSongPinned(song) {
@@ -1155,6 +1175,31 @@ function bindLikeButtons() {
   });
 }
 
+function bindStarButtons() {
+  document.querySelectorAll("[data-star-key]").forEach((button) => {
+    button.onclick = async (event) => {
+      event.stopPropagation();
+      const key = decodeURIComponent(button.dataset.starKey);
+      const singer = singers.find((item) => item.id === button.dataset.starSingerId);
+      const title = decodeURIComponent(button.dataset.starTitle || "");
+      const optimisticValue = localIncrementCounter("songStars", key);
+      const counter = button.querySelector("[data-star-count]");
+      counter.textContent = optimisticValue;
+      button.classList.add("star-button-pulse");
+      setTimeout(() => button.classList.remove("star-button-pulse"), 520);
+      celebrateStars();
+      openSongRequestDialog(singer, title);
+      if (location.protocol !== "file:" && sharedStateReady) {
+        const serverValue = await incrementCounter("songStars", key, 1, { optimistic: false });
+        counter.textContent = serverValue;
+        document.querySelectorAll(`[data-star-key="${CSS.escape(encodeURIComponent(key))}"] [data-star-count]`).forEach((item) => {
+          item.textContent = serverValue;
+        });
+      }
+    };
+  });
+}
+
 function bindPinButtons() {
   document.querySelectorAll("[data-pin-key]").forEach((button) => {
     button.onclick = (event) => {
@@ -1189,6 +1234,10 @@ function triggerBurst(id, activeClass, duration, cooldown = 700) {
 
 function celebrateHeart() {
   triggerBurst("heartBurst", "heart-burst-active", 900, 650);
+}
+
+function celebrateStars() {
+  triggerBurst("starBurst", "star-burst-active", 1000, 720);
 }
 
 function celebrateDebt() {
@@ -1765,6 +1814,15 @@ function songCard(song, options = {}) {
               ${pinned ? `<path d="M6 18h12"></path><path d="m8 10 4 4 4-4"></path><path d="M12 4v10"></path>` : `<path d="M6 6h12"></path><path d="m8 14 4-4 4 4"></path><path d="M12 20V10"></path>`}
             </svg>
           </button>` : ""}
+          <button class="star-button" type="button" aria-label="想听 ${song.title}" data-star-key="${encodedSongKey(song)}" data-star-singer-id="${song.singerId}" data-star-title="${encodeURIComponent(song.title)}">
+            <svg aria-hidden="true" viewBox="0 0 24 24" class="star-icon">
+              <path d="m12 2.2 2.77 5.61 6.19.9-4.48 4.36 1.06 6.16L12 16.32l-5.54 2.91 1.06-6.16L3.04 8.71l6.19-.9L12 2.2Z"></path>
+              <circle cx="10" cy="10.7" r=".78"></circle>
+              <circle cx="14" cy="10.7" r=".78"></circle>
+              <path d="M9.8 13.3c1.2 1.1 3.2 1.1 4.4 0"></path>
+            </svg>
+            <span data-star-count>${starCount(song)}</span>
+          </button>
           <button class="like-button" type="button" aria-label="喜欢 ${song.title}" data-like-key="${encodedSongKey(song)}">
             <svg aria-hidden="true" viewBox="0 0 24 24" class="like-icon">
               <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78Z"></path>
@@ -1797,7 +1855,10 @@ function renderSongs() {
   updateSongViewToggle("homeSongViewToggle", homeSongViewMode);
   $("songs").className = compact ? "song-card-grid-compact" : "grid gap-2";
   $("songs").innerHTML = list.map((song) => songCard(song, { compact })).join("") || "<article class='alert'>没有找到结果</article>";
-  if (!compact) bindLikeButtons();
+  if (!compact) {
+    bindStarButtons();
+    bindLikeButtons();
+  }
 }
 
 function detailSongs(singer) {
@@ -2030,6 +2091,7 @@ function renderSingerPage() {
     if (!compact) {
       bindSongEditButtons();
       bindPinButtons();
+      bindStarButtons();
       bindLikeButtons();
     }
   } else if (activeDetailPanel === "library") {
@@ -2332,7 +2394,8 @@ $("deleteSong").onclick = () => {
 };
 
 $("saveSongRequest").onclick = () => {
-  const singer = singers.find((item) => item.id === routeSingerId());
+  const targetSingerId = $("requestSingerId").value || routeSingerId();
+  const singer = singers.find((item) => item.id === targetSingerId);
   if (!singer) return;
   const title = $("requestSongTitle").value.trim();
   if (!title) {

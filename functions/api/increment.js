@@ -2,6 +2,7 @@ const stateKey = "shared-state";
 
 const emptyState = {
   likes: {},
+  songStars: {},
   singerReactions: {},
   debts: [],
   pinnedSongs: {},
@@ -52,7 +53,7 @@ export async function onRequest(context) {
 
   try {
     const { bucket, key, amount = 1 } = await request.json();
-    if (!["likes", "singerReactions"].includes(bucket) || typeof key !== "string" || !key) {
+    if (!["likes", "songStars", "singerReactions"].includes(bucket) || typeof key !== "string" || !key) {
       return json({ error: "Invalid increment target" }, 400);
     }
     const current = await readState(env);

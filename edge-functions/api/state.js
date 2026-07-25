@@ -4,6 +4,7 @@ const stateKey = "shared-state.json";
 
 const emptyState = {
   likes: {},
+  songStars: {},
   singerReactions: {},
   debts: [],
   pinnedSongs: {},

@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="./theme.css?v=20260725o">
+    <link rel="stylesheet" href="./theme.css?v=20260725p">
   </head>
   <body>
     <main class="min-h-screen bg-base-200">
@@ -170,6 +170,20 @@
       <span>♥</span>
       <span>♥</span>
       <span>♥</span>
+    </div>
+    <div id="starBurst" class="star-burst" aria-hidden="true">
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
+      <span>★</span>
     </div>
     <div id="rainbowBurst" class="rainbow-burst" aria-hidden="true">
       <div class="rainbow-arc">
@@ -349,6 +363,7 @@
         <button class="modal-close-x" data-close type="button" aria-label="关闭">×</button>
         <h3 class="app-modal-title">想听TA唱</h3>
         <section class="app-form">
+          <input id="requestSingerId" type="hidden">
           <label class="app-form-field" for="requestSongTitle">
             <span class="app-field-label">歌名</span>
             <input id="requestSongTitle" class="input input-bordered app-input" placeholder="输入想听的歌">
@@ -391,6 +406,6 @@
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script>
     <script src="./v1-singers.js?v=20260725a"></script>
     <script src="./song-metadata.js?v=20260725d"></script>
-    <script src="./theme.js?v=20260725p"></script>
+    <script src="./theme.js?v=20260725q"></script>
   </body>
 </html>

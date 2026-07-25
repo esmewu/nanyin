@@ -2,6 +2,7 @@ const stateKey = "shared-state";
 
 const emptyState = {
   likes: {},
+  songStars: {},
   singerReactions: {},
   debts: [],
   pinnedSongs: {},

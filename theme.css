@@ -1012,6 +1012,69 @@ body {
 .heart-burst span:nth-child(7) { --x: -190px; --y: 8px; animation-delay: .2s; }
 .heart-burst span:nth-child(8) { --x: 190px; --y: 4px; animation-delay: .22s; }
 
+.star-burst {
+  display: none;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  position: fixed;
+  z-index: 9997;
+}
+
+.star-burst-active {
+  display: block;
+}
+
+.star-burst span {
+  animation: meteor-fall .92s cubic-bezier(.18, .68, .22, 1) both;
+  color: #facc15;
+  font-size: 22px;
+  font-weight: 900;
+  left: var(--sx);
+  position: absolute;
+  text-shadow: 0 0 14px rgba(250, 204, 21, .78), 0 0 26px rgba(56, 189, 248, .36);
+  top: var(--sy);
+}
+
+.star-burst span::after {
+  background: linear-gradient(90deg, rgba(250, 204, 21, .72), rgba(250, 204, 21, 0));
+  border-radius: 999px;
+  content: "";
+  height: 3px;
+  position: absolute;
+  right: 14px;
+  top: 10px;
+  transform: rotate(-18deg);
+  width: 54px;
+}
+
+.star-burst span:nth-child(1) { --sx: 4vw; --sy: 6vh; --tx: 58vw; --ty: 46vh; animation-delay: .02s; }
+.star-burst span:nth-child(2) { --sx: 20vw; --sy: -2vh; --tx: 72vw; --ty: 52vh; animation-delay: .08s; }
+.star-burst span:nth-child(3) { --sx: 40vw; --sy: 3vh; --tx: 94vw; --ty: 44vh; animation-delay: .14s; }
+.star-burst span:nth-child(4) { --sx: 70vw; --sy: -1vh; --tx: 112vw; --ty: 40vh; animation-delay: .2s; }
+.star-burst span:nth-child(5) { --sx: 2vw; --sy: 24vh; --tx: 52vw; --ty: 78vh; animation-delay: .18s; }
+.star-burst span:nth-child(6) { --sx: 24vw; --sy: 18vh; --tx: 80vw; --ty: 82vh; animation-delay: .24s; }
+.star-burst span:nth-child(7) { --sx: 52vw; --sy: 22vh; --tx: 106vw; --ty: 78vh; animation-delay: .3s; }
+.star-burst span:nth-child(8) { --sx: 80vw; --sy: 16vh; --tx: 122vw; --ty: 70vh; animation-delay: .36s; }
+.star-burst span:nth-child(9) { --sx: 10vw; --sy: 42vh; --tx: 52vw; --ty: 98vh; animation-delay: .34s; }
+.star-burst span:nth-child(10) { --sx: 36vw; --sy: 38vh; --tx: 84vw; --ty: 102vh; animation-delay: .4s; }
+.star-burst span:nth-child(11) { --sx: 58vw; --sy: 44vh; --tx: 106vw; --ty: 104vh; animation-delay: .46s; }
+.star-burst span:nth-child(12) { --sx: 76vw; --sy: 36vh; --tx: 120vw; --ty: 94vh; animation-delay: .5s; }
+
+@keyframes meteor-fall {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 0, 0) rotate(16deg) scale(.72);
+  }
+  12% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(calc(var(--tx) - var(--sx)), calc(var(--ty) - var(--sy)), 0) rotate(16deg) scale(1.08);
+  }
+}
+
 .detail-panel-content {
   padding-bottom: 20px;
 }
@@ -1745,7 +1808,8 @@ body {
   width: 44px;
 }
 
-.like-button {
+.like-button,
+.star-button {
   align-items: center;
   background: linear-gradient(135deg, rgba(219, 234, 254, .6) 0%, rgba(242, 197, 255, .48) 100%);
   border: 1px solid rgba(23, 37, 84, .06);
@@ -1759,6 +1823,11 @@ body {
   gap: 5px;
   min-height: 30px;
   padding: 0 9px;
+}
+
+.star-button {
+  background: linear-gradient(135deg, rgba(254, 249, 195, .72) 0%, rgba(255, 237, 213, .56) 55%, rgba(224, 242, 254, .5) 100%);
+  box-shadow: 0 6px 16px rgba(217, 119, 6, .14);
 }
 
 .song-card-actions {
@@ -1812,12 +1881,17 @@ body {
   100% { transform: translateX(0); }
 }
 
-.like-button:active {
+.like-button:active,
+.star-button:active {
   transform: scale(.96);
 }
 
 .like-button-pulse .like-icon {
   animation: heart-pulse .52s ease-out both;
+}
+
+.star-button-pulse .star-icon {
+  animation: star-pop .56s ease-out both;
 }
 
 .like-icon {
@@ -1827,12 +1901,29 @@ body {
   width: 16px;
 }
 
+.star-icon {
+  fill: #f5c542;
+  height: 17px;
+  stroke: #b7791f;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.2;
+  width: 17px;
+}
+
 @keyframes heart-pulse {
   0% { transform: scale(1); }
   22% { transform: scale(1.36); }
   46% { transform: scale(.92); }
   72% { transform: scale(1.16); }
   100% { transform: scale(1); }
+}
+
+@keyframes star-pop {
+  0% { transform: rotate(0deg) scale(1); }
+  28% { transform: rotate(12deg) scale(1.36); }
+  56% { transform: rotate(-8deg) scale(.94); }
+  100% { transform: rotate(0deg) scale(1); }
 }
 
 .song-card-body {
@@ -2105,12 +2196,18 @@ body {
 [data-theme="nanyin-dark"] .gradient-action-btn,
 [data-theme="nanyin-dark"] .tag-debt,
 [data-theme="nanyin-dark"] .like-button,
+[data-theme="nanyin-dark"] .star-button,
 [data-theme="nanyin-dark"] .debt-monkey-button,
 [data-theme="nanyin-dark"] .singer-reaction-button {
   background: linear-gradient(135deg, #0e7490 0%, #312e81 32%, #6d28d9 66%, #be185d 100%);
   border-color: rgba(196, 181, 253, .34);
   box-shadow: 0 10px 24px rgba(109, 40, 217, .22);
   color: #f8fafc;
+}
+
+[data-theme="nanyin-dark"] .star-icon {
+  fill: #fde68a;
+  stroke: #fef3c7;
 }
 
 [data-theme="nanyin-dark"] .song-card-pinned,
