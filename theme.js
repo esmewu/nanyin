@@ -1692,16 +1692,26 @@ function syncTabForSearch() {
 }
 
 function renderSingers() {
+  const singerSortMode = $("singerSort")?.value || "debts";
+  const libraryCounts = rows().reduce((map, song) => {
+    map.set(song.singerId, (map.get(song.singerId) || 0) + 1);
+    return map;
+  }, new Map());
   const list = visibleSingers().map((singer, index) => ({ singer, index }))
-    .toSorted((a, b) => debtTotal(b.singer.id) - debtTotal(a.singer.id)
-      || displayName(a.singer.name).localeCompare(displayName(b.singer.name), "zh-Hans-CN")
-      || a.index - b.index)
+    .toSorted((a, b) => {
+      const primary = singerSortMode === "library"
+        ? (libraryCounts.get(b.singer.id) || 0) - (libraryCounts.get(a.singer.id) || 0)
+        : debtTotal(b.singer.id) - debtTotal(a.singer.id);
+      return primary
+        || displayName(a.singer.name).localeCompare(displayName(b.singer.name), "zh-Hans-CN")
+        || a.index - b.index;
+    })
     .map((item) => item.singer);
   $("singers").innerHTML = list.length ? list
     .map(
       (singer) => {
         const owed = debtTotal(singer.id);
-        const libraryCount = singerLibraryRows(singer).length;
+        const libraryCount = libraryCounts.get(singer.id) || 0;
         return `
           <article class="card bg-base-100 shadow-md w-full border text-left singer-card-button overflow-hidden" data-id="${singer.id}">
             <div class="singer-reactions" aria-label="${displayName(singer.name)}互动计数">
@@ -2309,6 +2319,11 @@ $("clearDetailSearch").onclick = () => {
 };
 
 $("singersTab").onclick = () => {
+  activeTab = "singers";
+  renderRoute();
+};
+
+$("singerSort").oninput = () => {
   activeTab = "singers";
   renderRoute();
 };

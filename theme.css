@@ -383,6 +383,12 @@ body {
   gap: 12px;
 }
 
+.home-singer-filters {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .home-song-filter-row {
   align-items: end;
   display: grid;
@@ -397,6 +403,7 @@ body {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.home-singer-filters .form-control,
 .home-song-filters .form-control,
 .songlist-controls .form-control {
   align-items: stretch;
@@ -405,12 +412,14 @@ body {
   width: 100%;
 }
 
+.home-singer-filters .label-text,
 .home-song-filters .label-text,
 .songlist-controls .label-text {
   display: block;
   line-height: 1.2;
 }
 
+.home-singer-filters .select,
 .home-song-filters .select,
 .songlist-controls .select {
   height: 40px;
