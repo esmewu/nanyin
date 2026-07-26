@@ -8,10 +8,10 @@
     "japanese": 0,
     "english": 24,
     "total": 526,
-    "originalArtistCompleted": 52,
-    "releaseYearCompleted": 52,
-    "genreCompleted": 52,
-    "pending": 474,
+    "originalArtistCompleted": 76,
+    "releaseYearCompleted": 76,
+    "genreCompleted": 76,
+    "pending": 450,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -39,12 +39,14 @@
       },
       {
         "title": "画",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "赵雷",
+        "releaseYear": "2011",
+        "genre": "民谣",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "累",
@@ -95,12 +97,14 @@
       },
       {
         "title": "瞬",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "郑润泽",
+        "releaseYear": "2021",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "雨",
@@ -141,12 +145,14 @@
       },
       {
         "title": "暗恋",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "张智成",
+        "releaseYear": "2009",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "暗香",
@@ -313,12 +319,14 @@
       },
       {
         "title": "单车",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "陈奕迅",
+        "releaseYear": "2001",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "淡想",
@@ -451,12 +459,14 @@
       },
       {
         "title": "红豆",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "王菲",
+        "releaseYear": "1998",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "蝴蝶",
@@ -626,12 +636,14 @@
       },
       {
         "title": "理想",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "赵雷",
+        "releaseYear": "2014",
+        "genre": "民谣",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "理由",
@@ -735,12 +747,14 @@
       },
       {
         "title": "内疚",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "陈奕迅",
+        "releaseYear": "2011",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "陪陪",
@@ -934,12 +948,14 @@
       },
       {
         "title": "瘦子",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "陶喆",
+        "releaseYear": "2013",
+        "genre": "R&B",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "说谎",
@@ -1571,12 +1587,13 @@
       },
       {
         "title": "程艾影",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "赵雷",
+        "releaseYear": "2016",
+        "genre": "民谣",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "从前慢",
@@ -1616,12 +1633,13 @@
       },
       {
         "title": "东风破",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "周杰伦",
+        "releaseYear": "2003",
+        "genre": "中国风",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "对的人",
@@ -1652,12 +1670,13 @@
       },
       {
         "title": "发如雪",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "周杰伦",
+        "releaseYear": "2005",
+        "genre": "中国风",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "粉雾海",
@@ -1956,12 +1975,13 @@
       },
       {
         "title": "秋意浓",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "张学友",
+        "releaseYear": "1993",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "任我行",
@@ -1974,12 +1994,13 @@
       },
       {
         "title": "如果爱",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "张学友",
+        "releaseYear": "2005",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "如果呢",
@@ -2257,12 +2278,13 @@
       },
       {
         "title": "笑忘书",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "王菲",
+        "releaseYear": "2003",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "谢谢侬",
@@ -2447,12 +2469,13 @@
       },
       {
         "title": "半岛铁盒",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "周杰伦",
+        "releaseYear": "2002",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "半坏街灯",
@@ -2483,12 +2506,13 @@
       },
       {
         "title": "变废为宝",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "薛之谦",
+        "releaseYear": "2020",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "不要说话",
@@ -2538,12 +2562,13 @@
       },
       {
         "title": "匆匆那年",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "王菲",
+        "releaseYear": "2014",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "等你下课",
@@ -2814,12 +2839,13 @@
       },
       {
         "title": "浪漫手机",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "周杰伦",
+        "releaseYear": "2005",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "落花流水",
@@ -2949,12 +2975,13 @@
       },
       {
         "title": "日落大道",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "梁博",
+        "releaseYear": "2015",
+        "genre": "摇滚",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "神秘嘉宾",
@@ -3268,12 +3295,13 @@
       },
       {
         "title": "一念之间",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "张杰",
+        "releaseYear": "2014",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "一派轻松",
@@ -3493,12 +3521,13 @@
       },
       {
         "title": "爱在西元前",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "周杰伦",
+        "releaseYear": "2001",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "巴黎合租屋",
@@ -3583,12 +3612,13 @@
       },
       {
         "title": "反方向的钟",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "周杰伦",
+        "releaseYear": "2000",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "疯狂的朋友",
@@ -3954,12 +3984,13 @@
       },
       {
         "title": "雨下一整晚",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "周杰伦",
+        "releaseYear": "2010",
+        "genre": "中国风",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "月球上的人",
@@ -4008,12 +4039,13 @@
       },
       {
         "title": "爱的飞行日记",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "周杰伦 / 杨瑞代",
+        "releaseYear": "2010",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "爱慢慢慢慢来",

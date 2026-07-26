@@ -7,10 +7,10 @@
     "chinese": 302,
     "english": 49,
     "total": 351,
-    "originalArtistCompleted": 13,
-    "releaseYearCompleted": 13,
-    "genreCompleted": 13,
-    "pending": 338,
+    "originalArtistCompleted": 21,
+    "releaseYearCompleted": 21,
+    "genreCompleted": 21,
+    "pending": 330,
     "cantonese": 0,
     "minnan": 0,
     "japanese": 0,
@@ -722,12 +722,14 @@
       },
       {
         "title": "危险",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "徐佳莹",
+        "releaseYear": "2009",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "威武",
@@ -1055,12 +1057,13 @@
       },
       {
         "title": "刚刚好",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "薛之谦",
+        "releaseYear": "2016",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "冠军相",
@@ -1091,12 +1094,13 @@
       },
       {
         "title": "黑夜中",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "梁博",
+        "releaseYear": "2015",
+        "genre": "摇滚",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "获奖人",
@@ -1354,12 +1358,13 @@
       },
       {
         "title": "笑忘书",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "王菲",
+        "releaseYear": "2003",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "许和平",
@@ -1435,12 +1440,13 @@
       },
       {
         "title": "变废为宝",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "薛之谦",
+        "releaseYear": "2020",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "此生不换",
@@ -2039,12 +2045,13 @@
       },
       {
         "title": "第一个清晨",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "王力宏",
+        "releaseYear": "2005",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "国王与法老",
@@ -2264,12 +2271,13 @@
       },
       {
         "title": "一直很安静",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "阿桑",
+        "releaseYear": "2005",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "有你就朦胧",
@@ -2372,12 +2380,13 @@
       },
       {
         "title": "你还要我怎样",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "薛之谦",
+        "releaseYear": "2013",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "如果你还相信",

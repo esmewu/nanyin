@@ -111,15 +111,17 @@ function makeMarkdown(index) {
   lines.push("");
   lines.push("## 歌曲索引");
   lines.push("");
-  lines.push("| # | 歌名 | 语种 | 歌手数 | 歌手 | 原唱 | 年份 | 风格 | 待补项 | 需确认 |");
-  lines.push("|---:|---|---|---:|---|---|---|---|---|---|");
+  lines.push("| # | 歌名 | 语种 | 歌手数 | 歌手 | 原唱 | 年份 | 风格 | 待补项 | 备注 | 需确认 |");
+  lines.push("|---:|---|---|---:|---|---|---|---|---|---|---|");
   index.songs.forEach((song, i) => {
     lines.push(
       `| ${i + 1} | ${song.title} | ${song.language} | ${song.singerCount} | ${song.singers
         .map((s) => s.name)
         .join("、")} | ${song.metadata.originalArtist || ""} | ${song.metadata.releaseYear || ""} | ${
         song.metadata.genre || ""
-      } | ${song.needsMetadata.join("、")} | ${song.ambiguous ? song.ambiguityReasons.join("；") : ""} |`
+      } | ${song.needsMetadata.join("、")} | ${song.metadata.confirmationNote || ""} | ${
+        song.ambiguous ? song.ambiguityReasons.join("；") : ""
+      } |`
     );
   });
   lines.push("");
@@ -133,13 +135,13 @@ function makePendingMarkdown(index) {
   lines.push("");
   lines.push(`生成时间：${index.generatedAt}`);
   lines.push("");
-  lines.push("| # | 歌名 | 语种 | 待补项 | 候选原唱/备注 | 会唱歌手 | 需确认 |");
-  lines.push("|---:|---|---|---|---|---|---|");
+  lines.push("| # | 歌名 | 语种 | 待补项 | 候选原唱/备注 | 会唱歌手 | 备注 | 需确认 |");
+  lines.push("|---:|---|---|---|---|---|---|---|");
   pending.forEach((song, i) => {
     lines.push(
       `| ${i + 1} | ${song.title} | ${song.language} | ${song.needsMetadata.join("、")} | ${song.candidateOriginalArtists.join(
         "、"
-      )} | ${song.singers.map((s) => s.name).join("、")} | ${
+      )} | ${song.singers.map((s) => s.name).join("、")} | ${song.metadata.confirmationNote || ""} | ${
         song.ambiguous ? song.ambiguityReasons.join("；") : ""
       } |`
     );
@@ -237,6 +239,7 @@ function main() {
         source: metadata.source || "",
         sourceUrl: metadata.sourceUrl || "",
         checkedAt: metadata.checkedAt || "",
+        confirmationNote: metadata.confirmationNote || "",
       },
       candidateOriginalArtists: uniqueSorted(group.candidateOriginalArtists),
       singerSpecificNotes: uniqueSorted(group.notes.filter(isLikelyNote)),

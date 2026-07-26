@@ -11379,7 +11379,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "林宥嘉",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11394,7 +11395,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "王力宏",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11409,7 +11411,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11424,7 +11427,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "Hush!",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11439,7 +11443,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "王力宏",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11454,7 +11459,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "张杰",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11469,7 +11475,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "陶喆",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11484,7 +11491,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "陶喆",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11499,7 +11507,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "张惠妹",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11514,7 +11523,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11529,7 +11539,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "陶喆",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11544,7 +11555,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "王力宏",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11559,7 +11571,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "王力宏",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11574,7 +11587,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "卢广仲",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11589,7 +11603,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11604,7 +11619,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "方大同",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11619,7 +11635,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "方大同",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11634,7 +11651,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "毛不易",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11649,7 +11667,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "毛不易",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11664,7 +11683,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11679,7 +11699,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "王力宏",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11694,7 +11715,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11709,7 +11731,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "陈奕迅",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11724,7 +11747,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦 / 杨瑞代",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11739,7 +11763,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "A-Lin",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11754,7 +11779,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "林俊杰",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11769,7 +11795,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "林俊杰",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11784,7 +11811,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11799,7 +11827,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦 / 阿信",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11814,7 +11843,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "林宥嘉",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11829,7 +11859,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "陆虎",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11844,7 +11875,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "王力宏",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11859,7 +11891,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "林俊杰",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11874,7 +11907,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "萧敬腾",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11889,7 +11923,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "徐若瑄",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11904,7 +11939,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "方大同",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11919,7 +11955,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "陈奕迅",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11934,7 +11971,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "萧敬腾",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11949,7 +11987,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11964,7 +12003,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11979,7 +12019,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -11994,7 +12035,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12009,7 +12051,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "林俊杰",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12024,7 +12067,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "林俊杰",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12039,7 +12083,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周兴哲",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12054,7 +12099,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12069,7 +12115,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "林宥嘉",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12084,7 +12131,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "梁静茹",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12099,7 +12147,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "刘凤瑶",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12114,7 +12163,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "陶喆",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12129,7 +12179,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12144,7 +12195,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12159,7 +12211,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12174,7 +12227,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "杨丞琳",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12189,7 +12243,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12204,7 +12259,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "许嵩",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12219,7 +12275,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "林俊杰",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12234,7 +12291,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "李荣浩",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12249,7 +12307,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "王菲",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12264,7 +12323,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "陈奕迅",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12279,7 +12339,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12294,7 +12355,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "王力宏",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12309,7 +12371,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "林俊杰",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12324,7 +12387,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "林宥嘉",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12339,7 +12403,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12354,7 +12419,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "方大同",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12369,7 +12435,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12384,7 +12451,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "林俊杰",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12399,7 +12467,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "薛之谦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12414,7 +12483,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "王力宏",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12429,7 +12499,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12444,7 +12515,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12459,7 +12531,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "林俊杰",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12474,7 +12547,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "卢广仲",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12489,7 +12563,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "林俊杰",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12504,7 +12579,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12519,7 +12595,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12534,7 +12611,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "王力宏",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12549,7 +12627,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "陈奕迅",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12564,7 +12643,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "陈奕迅",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12579,7 +12659,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "孙燕姿",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12594,7 +12675,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "张杰",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12609,7 +12691,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "F.I.R.",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12624,7 +12707,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12639,7 +12723,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "周杰伦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12654,7 +12739,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "莫文蔚",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12669,7 +12755,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "Justin Bieber",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "英文"
+    "language": "英文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12684,7 +12771,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "孙燕姿",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12699,7 +12787,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "王若琳",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12714,7 +12803,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "梁静茹",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12729,7 +12819,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "莫文蔚",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12744,7 +12835,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "王心凌",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12759,7 +12851,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "颜人中",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12774,7 +12867,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "林宥嘉",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12789,7 +12883,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "廖峻涛",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12804,7 +12899,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "林俊杰",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12819,7 +12915,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "林宥嘉",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12834,7 +12931,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "丁世光",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12849,7 +12947,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "陶喆",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12864,7 +12963,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "胡彦斌",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12879,7 +12979,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "蔡健雅",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12894,7 +12995,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "余佳运",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12909,7 +13011,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "赵紫桦",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12924,7 +13027,8 @@ window.nanyinSongMetadata = [
     "matchedArtist": "郑润泽",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
   },
   {
     "singerId": "",
@@ -12939,6 +13043,983 @@ window.nanyinSongMetadata = [
     "matchedArtist": "萧煌奇",
     "musicBrainzId": "",
     "checkedAt": "2026-07-26",
-    "language": "中文"
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "一念之间",
+    "originalArtist": "张杰",
+    "releaseYear": "2014",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "一念之间",
+    "matchedArtist": "张杰",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "笑忘书",
+    "originalArtist": "王菲",
+    "releaseYear": "2003",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "笑忘书",
+    "matchedArtist": "王菲",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "如果爱",
+    "originalArtist": "张学友",
+    "releaseYear": "2005",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "如果爱",
+    "matchedArtist": "张学友",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "Always Online",
+    "originalArtist": "林俊杰",
+    "releaseYear": "2008",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "Always Online",
+    "matchedArtist": "林俊杰",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "英文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "半岛铁盒",
+    "originalArtist": "周杰伦",
+    "releaseYear": "2002",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "半岛铁盒",
+    "matchedArtist": "周杰伦",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "东风破",
+    "originalArtist": "周杰伦",
+    "releaseYear": "2003",
+    "genre": "中国风",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "东风破",
+    "matchedArtist": "周杰伦",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "刚刚好",
+    "originalArtist": "薛之谦",
+    "releaseYear": "2016",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "刚刚好",
+    "matchedArtist": "薛之谦",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "浪漫手机",
+    "originalArtist": "周杰伦",
+    "releaseYear": "2005",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "浪漫手机",
+    "matchedArtist": "周杰伦",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "明天过后",
+    "originalArtist": "张杰",
+    "releaseYear": "2008",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "明天过后",
+    "matchedArtist": "张杰",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "漠河舞厅",
+    "originalArtist": "柳爽",
+    "releaseYear": "2020",
+    "genre": "民谣",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "漠河舞厅",
+    "matchedArtist": "柳爽",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "霓虹甜心",
+    "originalArtist": "马赛克",
+    "releaseYear": "2012",
+    "genre": "摇滚",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "霓虹甜心",
+    "matchedArtist": "马赛克",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "你啊你啊",
+    "originalArtist": "魏如萱",
+    "releaseYear": "2016",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "你啊你啊",
+    "matchedArtist": "魏如萱",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "你还要我怎样",
+    "originalArtist": "薛之谦",
+    "releaseYear": "2013",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "你还要我怎样",
+    "matchedArtist": "薛之谦",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "日落大道",
+    "originalArtist": "梁博",
+    "releaseYear": "2015",
+    "genre": "摇滚",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "日落大道",
+    "matchedArtist": "梁博",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "说了再见",
+    "originalArtist": "周杰伦",
+    "releaseYear": "2010",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "说了再见",
+    "matchedArtist": "周杰伦",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "天地龙鳞",
+    "originalArtist": "王力宏",
+    "releaseYear": "2021",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "天地龙鳞",
+    "matchedArtist": "王力宏",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "我还想她",
+    "originalArtist": "林俊杰",
+    "releaseYear": "2008",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "我还想她",
+    "matchedArtist": "林俊杰",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "无底洞",
+    "originalArtist": "蔡健雅",
+    "releaseYear": "2003",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "无底洞",
+    "matchedArtist": "蔡健雅",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "心中的日月",
+    "originalArtist": "王力宏",
+    "releaseYear": "2004",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "心中的日月",
+    "matchedArtist": "王力宏",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "行走的鱼",
+    "originalArtist": "徐佳莹",
+    "releaseYear": "2018",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "行走的鱼",
+    "matchedArtist": "徐佳莹",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "一千年以后",
+    "originalArtist": "林俊杰",
+    "releaseYear": "2005",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "一千年以后",
+    "matchedArtist": "林俊杰",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "Forever Love",
+    "originalArtist": "王力宏",
+    "releaseYear": "2004",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "Forever Love",
+    "matchedArtist": "王力宏",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "英文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "Yellow",
+    "originalArtist": "Coldplay",
+    "releaseYear": "2000",
+    "genre": "摇滚",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "Yellow",
+    "matchedArtist": "Coldplay",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "英文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "爱的飞行日记",
+    "originalArtist": "周杰伦 / 杨瑞代",
+    "releaseYear": "2010",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "爱的飞行日记",
+    "matchedArtist": "周杰伦 / 杨瑞代",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "爱在西元前",
+    "originalArtist": "周杰伦",
+    "releaseYear": "2001",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "爱在西元前",
+    "matchedArtist": "周杰伦",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "被驯服的象",
+    "originalArtist": "蔡健雅",
+    "releaseYear": "2013",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "被驯服的象",
+    "matchedArtist": "蔡健雅",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "变废为宝",
+    "originalArtist": "薛之谦",
+    "releaseYear": "2020",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "变废为宝",
+    "matchedArtist": "薛之谦",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "不为谁而作的歌",
+    "originalArtist": "林俊杰",
+    "releaseYear": "2015",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "不为谁而作的歌",
+    "matchedArtist": "林俊杰",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "不值得",
+    "originalArtist": "梦飞船",
+    "releaseYear": "1999",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "不值得",
+    "matchedArtist": "梦飞船",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "程艾影",
+    "originalArtist": "赵雷",
+    "releaseYear": "2016",
+    "genre": "民谣",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "程艾影",
+    "matchedArtist": "赵雷",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "匆匆那年",
+    "originalArtist": "王菲",
+    "releaseYear": "2014",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "匆匆那年",
+    "matchedArtist": "王菲",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "第一个清晨",
+    "originalArtist": "王力宏",
+    "releaseYear": "2005",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "第一个清晨",
+    "matchedArtist": "王力宏",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "发如雪",
+    "originalArtist": "周杰伦",
+    "releaseYear": "2005",
+    "genre": "中国风",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "发如雪",
+    "matchedArtist": "周杰伦",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "反方向的钟",
+    "originalArtist": "周杰伦",
+    "releaseYear": "2000",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "反方向的钟",
+    "matchedArtist": "周杰伦",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "关键词",
+    "originalArtist": "林俊杰",
+    "releaseYear": "2015",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "关键词",
+    "matchedArtist": "林俊杰",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "黑色幽默",
+    "originalArtist": "周杰伦",
+    "releaseYear": "2000",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "黑色幽默",
+    "matchedArtist": "周杰伦",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "黑夜中",
+    "originalArtist": "梁博",
+    "releaseYear": "2015",
+    "genre": "摇滚",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "黑夜中",
+    "matchedArtist": "梁博",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "哪里都是你",
+    "originalArtist": "队长",
+    "releaseYear": "2020",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "哪里都是你",
+    "matchedArtist": "队长",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "秋意浓",
+    "originalArtist": "张学友",
+    "releaseYear": "1993",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "秋意浓",
+    "matchedArtist": "张学友",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "听见下雨的声音",
+    "originalArtist": "魏如昀",
+    "releaseYear": "2013",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "听见下雨的声音",
+    "matchedArtist": "魏如昀",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "突然好想你",
+    "originalArtist": "五月天",
+    "releaseYear": "2008",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "突然好想你",
+    "matchedArtist": "五月天",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "夜空中最亮的星",
+    "originalArtist": "逃跑计划",
+    "releaseYear": "2011",
+    "genre": "摇滚",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "夜空中最亮的星",
+    "matchedArtist": "逃跑计划",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "一直很安静",
+    "originalArtist": "阿桑",
+    "releaseYear": "2005",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "一直很安静",
+    "matchedArtist": "阿桑",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "雨下一整晚",
+    "originalArtist": "周杰伦",
+    "releaseYear": "2010",
+    "genre": "中国风",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "雨下一整晚",
+    "matchedArtist": "周杰伦",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": ""
+  },
+  {
+    "singerId": "",
+    "title": "暗恋",
+    "originalArtist": "张智成",
+    "releaseYear": "2009",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "暗恋",
+    "matchedArtist": "张智成",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
+  },
+  {
+    "singerId": "",
+    "title": "不染",
+    "originalArtist": "毛不易",
+    "releaseYear": "2018",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "不染",
+    "matchedArtist": "毛不易",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
+  },
+  {
+    "singerId": "",
+    "title": "曹操",
+    "originalArtist": "林俊杰",
+    "releaseYear": "2006",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "曹操",
+    "matchedArtist": "林俊杰",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
+  },
+  {
+    "singerId": "",
+    "title": "单车",
+    "originalArtist": "陈奕迅",
+    "releaseYear": "2001",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "单车",
+    "matchedArtist": "陈奕迅",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "粤语",
+    "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
+  },
+  {
+    "singerId": "",
+    "title": "红豆",
+    "originalArtist": "王菲",
+    "releaseYear": "1998",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "红豆",
+    "matchedArtist": "王菲",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
+  },
+  {
+    "singerId": "",
+    "title": "画",
+    "originalArtist": "赵雷",
+    "releaseYear": "2011",
+    "genre": "民谣",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "画",
+    "matchedArtist": "赵雷",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
+  },
+  {
+    "singerId": "",
+    "title": "理想",
+    "originalArtist": "赵雷",
+    "releaseYear": "2014",
+    "genre": "民谣",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "理想",
+    "matchedArtist": "赵雷",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
+  },
+  {
+    "singerId": "",
+    "title": "内疚",
+    "originalArtist": "陈奕迅",
+    "releaseYear": "2011",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "内疚",
+    "matchedArtist": "陈奕迅",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
+  },
+  {
+    "singerId": "",
+    "title": "瘦子",
+    "originalArtist": "陶喆",
+    "releaseYear": "2013",
+    "genre": "R&B",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "瘦子",
+    "matchedArtist": "陶喆",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
+  },
+  {
+    "singerId": "",
+    "title": "瞬",
+    "originalArtist": "郑润泽",
+    "releaseYear": "2021",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "瞬",
+    "matchedArtist": "郑润泽",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
+  },
+  {
+    "singerId": "",
+    "title": "天后",
+    "originalArtist": "陈势安",
+    "releaseYear": "2009",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "天后",
+    "matchedArtist": "陈势安",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
+  },
+  {
+    "singerId": "",
+    "title": "退后",
+    "originalArtist": "周杰伦",
+    "releaseYear": "2006",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "退后",
+    "matchedArtist": "周杰伦",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
+  },
+  {
+    "singerId": "",
+    "title": "危险",
+    "originalArtist": "徐佳莹",
+    "releaseYear": "2009",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "危险",
+    "matchedArtist": "徐佳莹",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
+  },
+  {
+    "singerId": "",
+    "title": "小宇",
+    "originalArtist": "张震岳",
+    "releaseYear": "2007",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "小宇",
+    "matchedArtist": "张震岳",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
+  },
+  {
+    "singerId": "",
+    "title": "演员",
+    "originalArtist": "薛之谦",
+    "releaseYear": "2015",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "演员",
+    "matchedArtist": "薛之谦",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
+  },
+  {
+    "singerId": "",
+    "title": "阴天",
+    "originalArtist": "莫文蔚",
+    "releaseYear": "1999",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "阴天",
+    "matchedArtist": "莫文蔚",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
+  },
+  {
+    "singerId": "",
+    "title": "知足",
+    "originalArtist": "五月天",
+    "releaseYear": "2005",
+    "genre": "流行",
+    "source": "manual curated high-frequency metadata",
+    "sourceUrl": "",
+    "confidence": "medium",
+    "matchedTitle": "知足",
+    "matchedArtist": "五月天",
+    "musicBrainzId": "",
+    "checkedAt": "2026-07-26",
+    "language": "中文",
+    "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
   }
 ];

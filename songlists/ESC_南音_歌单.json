@@ -8,10 +8,10 @@
     "japanese": 0,
     "english": 139,
     "total": 267,
-    "originalArtistCompleted": 3,
-    "releaseYearCompleted": 2,
-    "genreCompleted": 2,
-    "pending": 265,
+    "originalArtistCompleted": 4,
+    "releaseYearCompleted": 3,
+    "genreCompleted": 3,
+    "pending": 264,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -1347,12 +1347,13 @@
       },
       {
         "title": "Yellow",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "Coldplay",
+        "releaseYear": "2000",
+        "genre": "摇滚",
         "language": "英文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "Zombie",

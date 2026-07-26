@@ -8,10 +8,10 @@
     "japanese": 0,
     "english": 1,
     "total": 162,
-    "originalArtistCompleted": 5,
-    "releaseYearCompleted": 5,
-    "genreCompleted": 5,
-    "pending": 157,
+    "originalArtistCompleted": 11,
+    "releaseYearCompleted": 11,
+    "genreCompleted": 11,
+    "pending": 151,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -500,12 +500,13 @@
       },
       {
         "title": "不值得",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "梦飞船",
+        "releaseYear": "1999",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "猜不透",
@@ -518,21 +519,23 @@
       },
       {
         "title": "程艾影",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "赵雷",
+        "releaseYear": "2016",
+        "genre": "民谣",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "黑夜中",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "梁博",
+        "releaseYear": "2015",
+        "genre": "摇滚",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "局外人",
@@ -608,12 +611,13 @@
       },
       {
         "title": "无底洞",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "蔡健雅",
+        "releaseYear": "2003",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "无条件",
@@ -1013,12 +1017,13 @@
       },
       {
         "title": "被驯服的象",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "蔡健雅",
+        "releaseYear": "2013",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "不敢爱别人",
@@ -1049,12 +1054,13 @@
       },
       {
         "title": "反方向的钟",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "周杰伦",
+        "releaseYear": "2000",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "还是会寂寞",

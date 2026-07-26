@@ -8,10 +8,10 @@
     "japanese": 0,
     "english": 118,
     "total": 371,
-    "originalArtistCompleted": 14,
-    "releaseYearCompleted": 14,
-    "genreCompleted": 14,
-    "pending": 357,
+    "originalArtistCompleted": 18,
+    "releaseYearCompleted": 18,
+    "genreCompleted": 18,
+    "pending": 353,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -629,12 +629,14 @@
       },
       {
         "title": "阴天",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "莫文蔚",
+        "releaseYear": "1999",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "鱼仔",
@@ -765,12 +767,13 @@
       },
       {
         "title": "不值得",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "梦飞船",
+        "releaseYear": "1999",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "超能力",
@@ -1299,21 +1302,23 @@
       },
       {
         "title": "漠河舞厅",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "柳爽",
+        "releaseYear": "2020",
+        "genre": "民谣",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "你啊你啊",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "魏如萱",
+        "releaseYear": "2016",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "你的珍藏",

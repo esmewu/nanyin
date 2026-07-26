@@ -8,10 +8,13 @@
     "japanese": 0,
     "english": 3,
     "total": 41,
-    "originalArtistCompleted": 0,
-    "releaseYearCompleted": 0,
-    "genreCompleted": 0,
-    "pending": 41
+    "originalArtistCompleted": 1,
+    "releaseYearCompleted": 1,
+    "genreCompleted": 1,
+    "pending": 40,
+    "cantonese": 0,
+    "minnan": 0,
+    "other": 0
   },
   "songs": {
     "chinese": [
@@ -260,12 +263,13 @@
       },
       {
         "title": "你啊你啊",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "魏如萱",
+        "releaseYear": "2016",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "晚安晚安",

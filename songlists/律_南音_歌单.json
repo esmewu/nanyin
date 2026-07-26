@@ -8,10 +8,10 @@
     "japanese": 16,
     "english": 216,
     "total": 365,
-    "originalArtistCompleted": 23,
-    "releaseYearCompleted": 12,
-    "genreCompleted": 12,
-    "pending": 353,
+    "originalArtistCompleted": 27,
+    "releaseYearCompleted": 16,
+    "genreCompleted": 16,
+    "pending": 349,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -349,12 +349,14 @@
       },
       {
         "title": "阴天",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "莫文蔚",
+        "releaseYear": "1999",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "遇见",
@@ -421,12 +423,13 @@
       },
       {
         "title": "不值得",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "梦飞船",
+        "releaseYear": "1999",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "分手吧",
@@ -475,12 +478,13 @@
       },
       {
         "title": "秋意浓",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "张学友",
+        "releaseYear": "1993",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "太聪明",
@@ -811,12 +815,13 @@
       },
       {
         "title": "行走的鱼",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "徐佳莹",
+        "releaseYear": "2018",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "衣柜歌手",

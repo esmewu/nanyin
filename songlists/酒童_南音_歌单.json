@@ -8,10 +8,10 @@
     "japanese": 0,
     "english": 26,
     "total": 124,
-    "originalArtistCompleted": 1,
-    "releaseYearCompleted": 1,
-    "genreCompleted": 1,
-    "pending": 123,
+    "originalArtistCompleted": 5,
+    "releaseYearCompleted": 5,
+    "genreCompleted": 5,
+    "pending": 119,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -47,12 +47,14 @@
       },
       {
         "title": "单车",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "陈奕迅",
+        "releaseYear": "2001",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "分裂",
@@ -227,12 +229,14 @@
       },
       {
         "title": "危险",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "徐佳莹",
+        "releaseYear": "2009",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "卧室",
@@ -507,12 +511,13 @@
       },
       {
         "title": "浪漫手机",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "周杰伦",
+        "releaseYear": "2005",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "梦特别娇",
@@ -714,12 +719,13 @@
       },
       {
         "title": "雨下一整晚",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "周杰伦",
+        "releaseYear": "2010",
+        "genre": "中国风",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "国际孤独等级",

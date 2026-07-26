@@ -8,10 +8,13 @@
     "japanese": 0,
     "english": 18,
     "total": 121,
-    "originalArtistCompleted": 3,
-    "releaseYearCompleted": 0,
-    "genreCompleted": 0,
-    "pending": 118
+    "originalArtistCompleted": 6,
+    "releaseYearCompleted": 3,
+    "genreCompleted": 3,
+    "pending": 118,
+    "cantonese": 0,
+    "minnan": 0,
+    "other": 0
   },
   "songs": {
     "chinese": [
@@ -89,12 +92,14 @@
       },
       {
         "title": "理想",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "赵雷",
+        "releaseYear": "2014",
+        "genre": "民谣",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "路口",
@@ -197,12 +202,14 @@
       },
       {
         "title": "小宇",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "张震岳",
+        "releaseYear": "2007",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "殉情",
@@ -593,12 +600,13 @@
       },
       {
         "title": "日落大道",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "梁博",
+        "releaseYear": "2015",
+        "genre": "摇滚",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "声律启蒙",
