@@ -1,0 +1,705 @@
+{
+  "singer": "Ab_南音",
+  "singerId": "v1-00",
+  "source": "user-provided text",
+  "updatedAt": "2026-07-25",
+  "rules": "英文歌名已去重，并按去掉空格后的字符数从少到多排列；括号内标注先录入原唱字段，年份和风格后续补入。",
+  "english": [
+    {
+      "title": "GQ",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Bad",
+      "charCount": 3,
+      "originalArtist": "James Bay",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "user-provided-artist"
+    },
+    {
+      "title": "Dive",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Hero",
+      "charCount": 4,
+      "originalArtist": "77 BomBay Street",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "user-provided-artist"
+    },
+    {
+      "title": "Neon",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Crazy",
+      "charCount": 5,
+      "originalArtist": "Gnarls Barkey",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "user-provided-artist"
+    },
+    {
+      "title": "Happy",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Lucky",
+      "charCount": 5,
+      "originalArtist": "Jason Mraz",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "user-provided-artist"
+    },
+    {
+      "title": "Mercy",
+      "charCount": 5,
+      "originalArtist": "Duffy",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "user-provided-artist"
+    },
+    {
+      "title": "Naked",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Rehab",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Sugar",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Bad Guy",
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Gotten",
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Lonely",
+      "charCount": 6,
+      "originalArtist": "Imagine Dragons",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "user-provided-artist"
+    },
+    {
+      "title": "Yellow",
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "9 Crimes",
+      "charCount": 7,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "All I Ask",
+      "charCount": 7,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Animals",
+      "charCount": 7,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Beggin'",
+      "charCount": 7,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Forever",
+      "charCount": 7,
+      "originalArtist": "Lewis Capaldi",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "user-provided-artist"
+    },
+    {
+      "title": "Freedom",
+      "charCount": 7,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Grenade",
+      "charCount": 7,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Happier",
+      "charCount": 7,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Let It Go",
+      "charCount": 7,
+      "originalArtist": "James Bay",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "user-provided-artist"
+    },
+    {
+      "title": "New Girl",
+      "charCount": 7,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Ophelia",
+      "charCount": 7,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Perfect",
+      "charCount": 7,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Say Amen",
+      "charCount": 7,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "The Door",
+      "charCount": 7,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Come Home",
+      "charCount": 8,
+      "originalArtist": "Jace June",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "user-provided-artist"
+    },
+    {
+      "title": "Delicate",
+      "charCount": 8,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Downfall",
+      "charCount": 8,
+      "originalArtist": "Brian Cheng",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "user-provided-artist"
+    },
+    {
+      "title": "Everglow",
+      "charCount": 8,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Freeloop",
+      "charCount": 8,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Half Life",
+      "charCount": 8,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "I See Fire",
+      "charCount": 8,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Let Her Go",
+      "charCount": 8,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Memorise",
+      "charCount": 8,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Skayfall",
+      "charCount": 8,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Stitches",
+      "charCount": 8,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Architect",
+      "charCount": 9,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Fk Me Pumps",
+      "charCount": 9,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Put It On Me",
+      "charCount": 9,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Teenagers",
+      "charCount": 9,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Wellerman",
+      "charCount": 9,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Back In Town",
+      "charCount": 10,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Black Sheep",
+      "charCount": 10,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Empty Space",
+      "charCount": 10,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Make It Rain",
+      "charCount": 10,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "One And Only",
+      "charCount": 10,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "One Day Less",
+      "charCount": 10,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Send My Love",
+      "charCount": 10,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Shape Of You",
+      "charCount": 10,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "All In My Mind",
+      "charCount": 11,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Liquid Lunch",
+      "charCount": 11,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Lose Control",
+      "charCount": 11,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Saving A Life",
+      "charCount": 11,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "The Lazy Song",
+      "charCount": 11,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "What Do I Know",
+      "charCount": 11,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Girls Like You",
+      "charCount": 12,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Love Yourself",
+      "charCount": 12,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Say Something",
+      "charCount": 12,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "The Loneliest",
+      "charCount": 12,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "The Scientist",
+      "charCount": 12,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Wrecking Ball",
+      "charCount": 12,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Counting Stars",
+      "charCount": 13,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Leave A Light On",
+      "charCount": 13,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Nancy Mulligan",
+      "charCount": 13,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Pink Champagne",
+      "charCount": 13,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Easy Come Easy Go",
+      "charCount": 14,
+      "originalArtist": "Imagine Dragons",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "user-provided-artist"
+    },
+    {
+      "title": "She Will Be Loved",
+      "charCount": 14,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Back From The Edge",
+      "charCount": 15,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "I Put A Spell On You",
+      "charCount": 15,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Last Man Standing",
+      "charCount": 15,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Life Is Wonderful",
+      "charCount": 15,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Don't You Remember",
+      "charCount": 16,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Old Time Rock & Roll",
+      "charCount": 16,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Silhouettes Of You",
+      "charCount": 16,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Wonderful Tonight",
+      "charCount": 16,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "You Know I'm No Good",
+      "charCount": 16,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "I Wanna Be Your Slave",
+      "charCount": 17,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Supermarket Flowers",
+      "charCount": 18,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Falling Like The Stars",
+      "charCount": 19,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Like I'm Gonna Lose You",
+      "charCount": 19,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "The Joker And The Queen",
+      "charCount": 19,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "I Don't Want To Change You",
+      "charCount": 21,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    }
+  ]
+}
