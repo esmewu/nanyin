@@ -1190,7 +1190,7 @@ function bindStarButtons() {
       button.classList.add("star-button-pulse");
       setTimeout(() => button.classList.remove("star-button-pulse"), 520);
       celebrateStars();
-      setTimeout(() => openSongRequestDialog(singer, title), 1120);
+      setTimeout(() => openSongRequestDialog(singer, title), 1620);
       if (location.protocol !== "file:" && sharedStateReady) {
         const serverValue = await incrementCounter("songStars", key, 1, { optimistic: false });
         sharedState.songStars = {
@@ -1239,7 +1239,7 @@ function celebrateHeart() {
 }
 
 function celebrateStars() {
-  triggerBurst("starBurst", "star-burst-active", 1000, 720);
+  triggerBurst("starBurst", "star-burst-active", 1550, 900);
 }
 
 function celebrateDebt() {

@@ -1005,6 +1005,7 @@ body {
 .heart-burst span:nth-child(8) { --x: 190px; --y: 4px; animation-delay: .22s; }
 
 .star-burst {
+  contain: layout paint style;
   display: none;
   inset: 0;
   overflow: hidden;
@@ -1019,6 +1020,7 @@ body {
 
 .star-burst span {
   animation: meteor-fall .92s cubic-bezier(.18, .68, .22, 1) both;
+  backface-visibility: hidden;
   color: #facc15;
   font-size: 22px;
   font-weight: 900;
@@ -1026,6 +1028,7 @@ body {
   position: absolute;
   text-shadow: 0 0 14px rgba(250, 204, 21, .78), 0 0 26px rgba(56, 189, 248, .36);
   top: var(--sy);
+  will-change: opacity, transform;
 }
 
 .star-burst span::after {
