@@ -402,8 +402,8 @@ body {
   font-size: 14px;
   justify-content: center;
   line-height: 1.1;
-  min-height: 44px;
-  min-width: 142px;
+  min-height: 0;
+  min-width: 0;
   padding: 6px 8px;
   text-align: center;
   transition: box-shadow .16s ease, transform .16s ease, border-color .16s ease;
