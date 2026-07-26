@@ -403,25 +403,20 @@ body {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.home-singer-filters .form-control,
-.home-song-filters .form-control,
-.songlist-controls .form-control {
+.filter-control {
   align-items: stretch;
   display: grid;
   gap: 6px;
   width: 100%;
 }
 
-.home-singer-filters .label-text,
-.home-song-filters .label-text,
-.songlist-controls .label-text {
+.filter-control .label-text {
   display: block;
+  font-size: 12px;
   line-height: 1.2;
 }
 
-.home-singer-filters .select,
-.home-song-filters .select,
-.songlist-controls .select {
+.filter-control .select {
   height: 40px;
   min-height: 40px;
   width: 100%;
@@ -459,11 +454,6 @@ body {
   font-weight: 800;
   margin-left: 4px;
   opacity: .7;
-}
-
-#songsView .form-control .label-text,
-#singerPageView .form-control .label-text {
-  font-size: 12px;
 }
 
 .detail-heading {

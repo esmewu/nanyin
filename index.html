@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@900&family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,400..700,0..1,0&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="./theme.css?v=20260725v">
+    <link rel="stylesheet" href="./theme.css?v=20260725w">
   </head>
   <body>
     <main class="min-h-screen bg-base-200">
@@ -43,19 +43,19 @@
         <section>
           <section id="singersView" class="space-y-3" aria-label="歌手列表">
             <section class="home-singer-filters mb-3">
-              <label class="form-control"><span class="label-text font-bold">谁的</span><select id="singerSort" class="select select-bordered"><option value="debts">账簿最长</option><option value="library">曲库最强</option></select></label>
+              <label class="form-control filter-control"><span class="label-text font-bold">谁的</span><select id="singerSort" class="select select-bordered"><option value="debts">账簿最长</option><option value="library">曲库最强</option></select></label>
             </section>
             <div id="singers" class="grid gap-3 md:grid-cols-2 lg:grid-cols-3"></div>
           </section>
           <section id="songsView" class="hidden" aria-label="歌曲列表">
             <section class="home-song-filters grid gap-3 mb-3">
               <div class="home-song-filter-row home-song-filter-primary">
-                <label class="form-control home-sort-control"><span class="label-text font-bold">排序</span><select id="sort" class="select select-bordered"><option value="default">默认</option><option value="az">歌名 A-Z</option><option value="length">歌名字数</option><option value="originalArtist">原唱</option><option value="likes">♥</option></select></label>
+                <label class="form-control filter-control home-sort-control"><span class="label-text font-bold">排序</span><select id="sort" class="select select-bordered"><option value="default">默认</option><option value="az">歌名 A-Z</option><option value="length">歌名字数</option><option value="originalArtist">原唱</option><option value="likes">♥</option></select></label>
                 <button id="homeSongViewToggle" class="view-toggle-button" type="button" aria-label="切换歌曲视图"></button>
               </div>
               <div class="home-song-filter-row home-song-filter-secondary">
-                <label class="form-control home-type-control"><span class="label-text font-bold">类型</span><select id="genreFilter" class="select select-bordered"><option value="all">全部类型</option></select></label>
-                <label class="form-control home-language-control"><span class="label-text font-bold">语种</span><select id="languageFilter" class="select select-bordered"><option value="all">全部语种</option></select></label>
+                <label class="form-control filter-control home-type-control"><span class="label-text font-bold">类型</span><select id="genreFilter" class="select select-bordered"><option value="all">全部类型</option></select></label>
+                <label class="form-control filter-control home-language-control"><span class="label-text font-bold">语种</span><select id="languageFilter" class="select select-bordered"><option value="all">全部语种</option></select></label>
               </div>
             </section>
             <div class="grid gap-3" id="songs"></div>
@@ -101,8 +101,8 @@
               <button id="detailSongViewToggle" class="view-toggle-button" type="button" aria-label="切换曲库视图"></button>
             </section>
             <section id="songlistControls" class="songlist-controls mb-3">
-              <label class="form-control"><span class="label-text font-bold">排序</span><select id="detailSort" class="select select-bordered"><option value="default">默认</option><option value="az">歌名 A-Z</option><option value="length">歌名字数</option><option value="originalArtist">原唱</option><option value="likes">♥</option></select></label>
-              <label class="form-control"><span class="label-text font-bold">语言</span><select id="detailLanguage" class="select select-bordered"><option value="all">全部</option><option value="中文">中文</option><option value="英文">英文</option></select></label>
+              <label class="form-control filter-control"><span class="label-text font-bold">排序</span><select id="detailSort" class="select select-bordered"><option value="default">默认</option><option value="az">歌名 A-Z</option><option value="length">歌名字数</option><option value="originalArtist">原唱</option><option value="likes">♥</option></select></label>
+              <label class="form-control filter-control"><span class="label-text font-bold">语言</span><select id="detailLanguage" class="select select-bordered"><option value="all">全部</option><option value="中文">中文</option><option value="英文">英文</option></select></label>
               <button class="btn btn-sm recommend-btn gradient-action-btn request-add-button song-add-button hidden" id="detailAddSong" type="button" aria-label="添加歌曲">+</button>
             </section>
             <div class="grid gap-3" id="detailSongs"></div>
@@ -390,6 +390,6 @@
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.4/dist/confetti.browser.min.js"></script>
     <script src="./v1-singers.js?v=20260726i"></script>
     <script src="./song-metadata.js?v=20260725d"></script>
-    <script src="./theme.js?v=20260725y"></script>
+    <script src="./theme.js?v=20260725z"></script>
   </body>
 </html>
