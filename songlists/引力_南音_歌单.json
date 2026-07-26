@@ -8,10 +8,13 @@
     "japanese": 0,
     "english": 52,
     "total": 180,
-    "originalArtistCompleted": 0,
-    "releaseYearCompleted": 0,
-    "genreCompleted": 0,
-    "pending": 180
+    "originalArtistCompleted": 2,
+    "releaseYearCompleted": 2,
+    "genreCompleted": 2,
+    "pending": 178,
+    "cantonese": 0,
+    "minnan": 0,
+    "other": 0
   },
   "songs": {
     "chinese": [
@@ -350,12 +353,13 @@
       },
       {
         "title": "眼色",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "林宥嘉",
+        "releaseYear": "2008",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "夜车",
@@ -476,12 +480,13 @@
       },
       {
         "title": "天黑黑",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "孙燕姿",
+        "releaseYear": "2000",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "我爱你",

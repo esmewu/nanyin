@@ -8,10 +8,13 @@
     "japanese": 0,
     "english": 123,
     "total": 201,
-    "originalArtistCompleted": 8,
-    "releaseYearCompleted": 0,
-    "genreCompleted": 0,
-    "pending": 193
+    "originalArtistCompleted": 14,
+    "releaseYearCompleted": 6,
+    "genreCompleted": 6,
+    "pending": 195,
+    "cantonese": 0,
+    "minnan": 0,
+    "other": 0
   },
   "songs": {
     "chinese": [
@@ -197,12 +200,13 @@
       },
       {
         "title": "消愁",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "毛不易",
+        "releaseYear": "2017",
+        "genre": "民谣",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "卸妆",
@@ -503,12 +507,13 @@
       },
       {
         "title": "小镇姑娘",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "陶喆",
+        "releaseYear": "1999",
+        "genre": "R&B",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "不对等天体",
@@ -539,12 +544,13 @@
       },
       {
         "title": "黑夜问白天",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "林俊杰",
+        "releaseYear": "2017",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "恨幸福来过",
@@ -602,12 +608,13 @@
       },
       {
         "title": "讨厌红楼梦",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "陶喆",
+        "releaseYear": "2013",
+        "genre": "R&B",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "我要的幸福",
@@ -674,12 +681,13 @@
       },
       {
         "title": "像我这样的人",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "毛不易",
+        "releaseYear": "2017",
+        "genre": "民谣",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "用背脊唱情歌",
@@ -1424,12 +1432,13 @@
       },
       {
         "title": "Love Yourself",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "Justin Bieber",
+        "releaseYear": "2015",
+        "genre": "流行",
         "language": "英文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "Mohe Ballroom",

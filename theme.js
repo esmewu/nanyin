@@ -1544,6 +1544,8 @@ const metadataBySong = new Map();
 function getSongMetadata(singerId, title, originalArtist) {
   return metadataBySong.get(songMetadataKey(singerId, title, originalArtist))
     || metadataBySong.get(songMetadataKey(singerId, title, ""))
+    || metadataBySong.get(songMetadataKey("", title, originalArtist))
+    || metadataBySong.get(songMetadataKey("", title, ""))
     || {};
 }
 

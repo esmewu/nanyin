@@ -8,10 +8,13 @@
     "japanese": 0,
     "english": 139,
     "total": 267,
-    "originalArtistCompleted": 1,
-    "releaseYearCompleted": 0,
-    "genreCompleted": 0,
-    "pending": 266
+    "originalArtistCompleted": 2,
+    "releaseYearCompleted": 1,
+    "genreCompleted": 1,
+    "pending": 266,
+    "cantonese": 0,
+    "minnan": 0,
+    "other": 0
   },
   "songs": {
     "chinese": [
@@ -1901,12 +1904,13 @@
       },
       {
         "title": "Love Yourself",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "Justin Bieber",
+        "releaseYear": "2015",
+        "genre": "流行",
         "language": "英文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "Say Something",

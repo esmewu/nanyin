@@ -8,10 +8,13 @@
     "japanese": 0,
     "english": 54,
     "total": 69,
-    "originalArtistCompleted": 0,
-    "releaseYearCompleted": 0,
-    "genreCompleted": 0,
-    "pending": 69
+    "originalArtistCompleted": 1,
+    "releaseYearCompleted": 1,
+    "genreCompleted": 1,
+    "pending": 68,
+    "cantonese": 0,
+    "minnan": 0,
+    "other": 0
   },
   "songs": {
     "chinese": [
@@ -53,12 +56,13 @@
       },
       {
         "title": "你不在",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "王力宏",
+        "releaseYear": "2007",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "太美丽",

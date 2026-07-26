@@ -5,16 +5,13 @@
 - 中文区：133 首
 - 日文区：1 首
 - 英文区：270 首
-- 韩语区：4 首
-- 西语区：1 首
 - 合计：409 首
-- 原唱字段：已补 0 / 409
-- 发行年份字段：已补 0 / 409
-- 风格字段：已补 0 / 409
-- 仍需人工确认：409 首
-- 已去重：1 首（Bada Bada）
+- 原唱字段：已补 18 / 409
+- 发行年份字段：已补 18 / 409
+- 风格字段：已补 18 / 409
+- 仍需人工确认：391 首
 
-说明：本文件根据用户提供的 RTF 歌单整理生成；当前主要录入歌名。
+说明：本文件根据用户提供的纯文本歌单整理生成；当前主要录入歌名。
 
 ## 中文歌曲
 
@@ -23,8 +20,8 @@
 | 1 | 爱 |  |  |  | 中文 | 1 | pending |
 | 2 | 家 |  |  |  | 中文 | 1 | pending |
 | 3 | 鱼 |  |  |  | 中文 | 1 | pending |
-| 4 | susan说 |  |  |  | 中文 | 1 | pending |
-| 5 | 90%都会 |  |  |  | 中文 | 2 | pending |
+| 4 | susan说 |  |  |  | 中文 | 6 | pending |
+| 5 | 90%都会 |  |  |  | 中文 | 4 | pending |
 | 6 | 爱情 |  |  |  | 中文 | 2 | pending |
 | 7 | 暗恋 |  |  |  | 中文 | 2 | pending |
 | 8 | 偿还 |  |  |  | 中文 | 2 | pending |
@@ -32,11 +29,11 @@
 | 10 | 兜圈 |  |  |  | 中文 | 2 | pending |
 | 11 | 斗牛 |  |  |  | 中文 | 2 | pending |
 | 12 | 耳朵 |  |  |  | 中文 | 2 | pending |
-| 13 | 搁浅 |  |  |  | 中文 | 2 | pending |
+| 13 | 搁浅 | 周杰伦 | 2004 | 流行 | 中文 | 2 | medium |
 | 14 | 蝴蝶 |  |  |  | 中文 | 2 | pending |
 | 15 | 咖啡 |  |  |  | 中文 | 2 | pending |
 | 16 | 苦瓜 |  |  |  | 中文 | 2 | pending |
-| 17 | 浪费 |  |  |  | 中文 | 2 | pending |
+| 17 | 浪费 | 林宥嘉 | 2012 | 流行 | 中文 | 2 | medium |
 | 18 | 李白 |  |  |  | 中文 | 2 | pending |
 | 19 | 流沙 |  |  |  | 中文 | 2 | pending |
 | 20 | 路口 |  |  |  | 中文 | 2 | pending |
@@ -45,13 +42,13 @@
 | 23 | 迷宫 |  |  |  | 中文 | 2 | pending |
 | 24 | 内疚 |  |  |  | 中文 | 2 | pending |
 | 25 | 沙滩 |  |  |  | 中文 | 2 | pending |
-| 26 | 上海1943 |  |  |  | 中文 | 2 | pending |
+| 26 | 上海1943 |  |  |  | 中文 | 6 | pending |
 | 27 | 说谎 |  |  |  | 中文 | 2 | pending |
 | 28 | 天天 |  |  |  | 中文 | 2 | pending |
 | 29 | 唯一 |  |  |  | 中文 | 2 | pending |
 | 30 | 心酸 |  |  |  | 中文 | 2 | pending |
 | 31 | 兄妹 |  |  |  | 中文 | 2 | pending |
-| 32 | 眼色 |  |  |  | 中文 | 2 | pending |
+| 32 | 眼色 | 林宥嘉 | 2008 | 流行 | 中文 | 2 | medium |
 | 33 | 阴天 |  |  |  | 中文 | 2 | pending |
 | 34 | 拥有 |  |  |  | 中文 | 2 | pending |
 | 35 | 鱼仔 |  |  |  | 中文 | 2 | pending |
@@ -62,13 +59,13 @@
 | 40 | 不挑歌 |  |  |  | 中文 | 3 | pending |
 | 41 | 达尔文 |  |  |  | 中文 | 3 | pending |
 | 42 | 凡人歌 |  |  |  | 中文 | 3 | pending |
-| 43 | 花田错 |  |  |  | 中文 | 3 | pending |
+| 43 | 花田错 | 王力宏 | 2005 | R&B | 中文 | 3 | medium |
 | 44 | 旧情歌 |  |  |  | 中文 | 3 | pending |
 | 45 | 旧行李 |  |  |  | 中文 | 3 | pending |
 | 46 | 慢灵魂 |  |  |  | 中文 | 3 | pending |
 | 47 | 毛毛虫 |  |  |  | 中文 | 3 | pending |
 | 48 | 玫瑰香 |  |  |  | 中文 | 3 | pending |
-| 49 | 迷迭香 |  |  |  | 中文 | 3 | pending |
+| 49 | 迷迭香 | 周杰伦 | 2006 | 流行 | 中文 | 3 | medium |
 | 50 | 抛物线 |  |  |  | 中文 | 3 | pending |
 | 51 | 热水澡 |  |  |  | 中文 | 3 | pending |
 | 52 | 如果爱 |  |  |  | 中文 | 3 | pending |
@@ -80,12 +77,12 @@
 | 58 | 太坦白 |  |  |  | 中文 | 3 | pending |
 | 59 | 旺夫相 |  |  |  | 中文 | 3 | pending |
 | 60 | 我爱你 |  |  |  | 中文 | 3 | pending |
-| 61 | 我不配 |  |  |  | 中文 | 3 | pending |
+| 61 | 我不配 | 周杰伦 | 2007 | 流行 | 中文 | 3 | medium |
 | 62 | 无底洞 |  |  |  | 中文 | 3 | pending |
-| 63 | 想自由 |  |  |  | 中文 | 3 | pending |
+| 63 | 想自由 | 林宥嘉 | 2011 | 流行 | 中文 | 3 | medium |
 | 64 | 谢谢侬 |  |  |  | 中文 | 3 | pending |
 | 65 | 夜盲症 |  |  |  | 中文 | 3 | pending |
-| 66 | 园游会 |  |  |  | 中文 | 3 | pending |
+| 66 | 园游会 | 周杰伦 | 2004 | 流行 | 中文 | 3 | medium |
 | 67 | 在梅边 |  |  |  | 中文 | 3 | pending |
 | 68 | 找自己 |  |  |  | 中文 | 3 | pending |
 | 69 | 种生活 |  |  |  | 中文 | 3 | pending |
@@ -103,22 +100,22 @@
 | 81 | 花花世界 |  |  |  | 中文 | 4 | pending |
 | 82 | 坏与更坏 |  |  |  | 中文 | 4 | pending |
 | 83 | 回到过去 |  |  |  | 中文 | 4 | pending |
-| 84 | 几分之几 |  |  |  | 中文 | 4 | pending |
+| 84 | 几分之几 | 卢广仲 | 2018 | 流行 | 中文 | 4 | medium |
 | 85 | 寂寞难耐 |  |  |  | 中文 | 4 | pending |
 | 86 | 结婚钻戒 |  |  |  | 中文 | 4 | pending |
 | 87 | 浪人情歌 |  |  |  | 中文 | 4 | pending |
-| 88 | 你的背包 |  |  |  | 中文 | 4 | pending |
+| 88 | 你的背包 | 陈奕迅 | 2002 | 流行 | 中文 | 4 | medium |
 | 89 | 你听得到 |  |  |  | 中文 | 4 | pending |
 | 90 | 普通朋友 |  |  |  | 中文 | 4 | pending |
 | 91 | 似曾相识 |  |  |  | 中文 | 4 | pending |
 | 92 | 他不爱我 |  |  |  | 中文 | 4 | pending |
-| 93 | 天真有邪 |  |  |  | 中文 | 4 | pending |
+| 93 | 天真有邪 | 林宥嘉 | 2016 | 流行 | 中文 | 4 | medium |
 | 94 | 完美孤独 |  |  |  | 中文 | 4 | pending |
 | 95 | 需要人陪 |  |  |  | 中文 | 4 | pending |
 | 96 | 夜间漫游 |  |  |  | 中文 | 4 | pending |
-| 97 | 一路向北 |  |  |  | 中文 | 4 | pending |
+| 97 | 一路向北 | 周杰伦 | 2005 | 流行 | 中文 | 4 | medium |
 | 98 | 一念之间 |  |  |  | 中文 | 4 | pending |
-| 99 | 依然爱你 |  |  |  | 中文 | 4 | pending |
+| 99 | 依然爱你 | 王力宏 | 2011 | 流行 | 中文 | 4 | medium |
 | 100 | 止战之殇 |  |  |  | 中文 | 4 | pending |
 | 101 | 爱我还是他 |  |  |  | 中文 | 5 | pending |
 | 102 | 爱在西元前 |  |  |  | 中文 | 5 | pending |
@@ -132,7 +129,7 @@
 | 110 | 慢慢喜欢你 |  |  |  | 中文 | 5 | pending |
 | 111 | 挪威的森林 |  |  |  | 中文 | 5 | pending |
 | 112 | 谁来剪月光 |  |  |  | 中文 | 5 | pending |
-| 113 | 讨厌红楼梦 |  |  |  | 中文 | 5 | pending |
+| 113 | 讨厌红楼梦 | 陶喆 | 2013 | R&B | 中文 | 5 | medium |
 | 114 | 突然的自我 |  |  |  | 中文 | 5 | pending |
 | 115 | 幸福摩天轮 |  |  |  | 中文 | 5 | pending |
 | 116 | 夜的第七章 |  |  |  | 中文 | 5 | pending |
@@ -146,11 +143,11 @@
 | 124 | 每天爱你多一些 |  |  |  | 中文 | 7 | pending |
 | 125 | 我要我们在一起 |  |  |  | 中文 | 7 | pending |
 | 126 | 想和你去吹吹风 |  |  |  | 中文 | 7 | pending |
-| 127 | 这世界那么多人 |  |  |  | 中文 | 7 | pending |
+| 127 | 这世界那么多人 | 莫文蔚 | 2021 | 流行 | 中文 | 7 | medium |
 | 128 | 总有一天等到你 |  |  |  | 中文 | 7 | pending |
-| 129 | 春雨里洗过的太阳 |  |  |  | 中文 | 8 | pending |
-| 130 | 刻在我心底的名字 |  |  |  | 中文 | 8 | pending |
-| 131 | 陪你度过漫长岁月 |  |  |  | 中文 | 8 | pending |
+| 129 | 春雨里洗过的太阳 | 王力宏 | 2008 | 流行 | 中文 | 8 | medium |
+| 130 | 刻在我心底的名字 | 卢广仲 | 2020 | 流行 | 中文 | 8 | medium |
+| 131 | 陪你度过漫长岁月 | 陈奕迅 | 2015 | 流行 | 中文 | 8 | medium |
 | 132 | 她来听我的演唱会 |  |  |  | 中文 | 8 | pending |
 | 133 | 你是我心内的一首歌 |  |  |  | 中文 | 9 | pending |
 
@@ -405,7 +402,7 @@
 | 239 | What a Wonderful World |  |  |  | 英文 | 19 | pending |
 | 240 | A Holly Jolly Christmas |  |  |  | 英文 | 20 | pending |
 | 241 | Can't Smile Without You |  |  |  | 英文 | 20 | pending |
-| 242 | Can't Take My Eyes Off You |  |  |  | 英文 | 20 | pending |
+| 242 | Can't Take My Eyes Off You |  |  |  | 英文 | 21 | pending |
 | 243 | Just One of Those Things |  |  |  | 英文 | 20 | pending |
 | 244 | Officially Missing You |  |  |  | 英文 | 20 | pending |
 | 245 | Practical Arrangement |  |  |  | 英文 | 20 | pending |
@@ -431,20 +428,20 @@
 | 265 | The Best Mistake I've Ever Made |  |  |  | 英文 | 26 | pending |
 | 266 | What the World Needs Now Is Love |  |  |  | 英文 | 26 | pending |
 | 267 | I Wish I Could Go Travelling Again |  |  |  | 英文 | 28 | pending |
-| 268 | What Goes Around... Comes Around |  |  |  | 英文 | 31 | pending |
+| 268 | What Goes Around... Comes Around |  |  |  | 英文 | 28 | pending |
 | 269 | You'll Never Find Another Love Like Mine |  |  |  | 英文 | 34 | pending |
 | 270 | It's Beginning to Look a Lot Like Christmas |  |  |  | 英文 | 36 | pending |
 
-## 韩语歌曲
+## korean
 
 | # | 歌名 | 原唱 | 年份 | 风格 | 语种 | 字数 | confidence |
 |---:|---|---|---|---|---|---:|---|
 | 1 | Gee |  |  |  | 韩语 | 3 | pending |
 | 2 | If You |  |  |  | 韩语 | 5 | pending |
 | 3 | Bad Boy |  |  |  | 韩语 | 6 | pending |
-| 4 | It's You |  |  |  | 韩语 | 7 | pending |
+| 4 | It's You |  |  |  | 韩语 | 6 | pending |
 
-## 西语歌曲
+## spanish
 
 | # | 歌名 | 原唱 | 年份 | 风格 | 语种 | 字数 | confidence |
 |---:|---|---|---|---|---|---:|---|
