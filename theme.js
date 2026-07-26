@@ -764,6 +764,18 @@ let detailSongQuery = "";
 let homeSongViewMode = "list";
 let detailSongViewMode = "list";
 let searchRenderTimer = 0;
+let scrollLoadTimer = 0;
+const songRenderBatchSize = 60;
+let homeSongRenderLimit = songRenderBatchSize;
+let detailSongRenderLimit = songRenderBatchSize;
+
+function resetHomeSongBatch() {
+  homeSongRenderLimit = songRenderBatchSize;
+}
+
+function resetDetailSongBatch() {
+  detailSongRenderLimit = songRenderBatchSize;
+}
 
 function readStoredJSON(key, fallback) {
   try {
@@ -1827,13 +1839,38 @@ function updateSongViewToggle(buttonId, mode) {
 
 function renderSongs() {
   const list = visibleSongs();
+  const visibleList = list.slice(0, homeSongRenderLimit);
   const compact = homeSongViewMode === "card";
   updateSongViewToggle("homeSongViewToggle", homeSongViewMode);
   $("songs").className = compact ? "song-card-grid-compact" : "grid gap-2";
-  $("songs").innerHTML = list.map((song) => songCard(song, { compact })).join("") || "<article class='alert'>没有找到结果</article>";
+  $("songs").innerHTML = visibleList.map((song) => songCard(song, { compact })).join("") || "<article class='alert'>没有找到结果</article>";
   if (!compact) {
     bindStarButtons();
     bindLikeButtons();
+  }
+}
+
+function nearPageBottom() {
+  return window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 520;
+}
+
+function loadMoreVisibleSongs() {
+  if (!nearPageBottom()) return;
+  if (!$("homeView").classList.contains("hidden") && activeTab === "songs") {
+    const total = visibleSongs().length;
+    if (homeSongRenderLimit < total) {
+      homeSongRenderLimit += songRenderBatchSize;
+      renderSongs();
+    }
+    return;
+  }
+  if (!$("singerPageView").classList.contains("hidden") && activeDetailPanel === "library") {
+    const singer = singers.find((item) => item.id === routeSingerId());
+    const total = detailSongs(singer).length;
+    if (detailSongRenderLimit < total) {
+      detailSongRenderLimit += songRenderBatchSize;
+      renderSingerPage();
+    }
   }
 }
 
@@ -1996,6 +2033,7 @@ function renderDetailPanelSwitches(singer) {
     button.onclick = () => {
       if (button.dataset.detailPanel === "library" && activeDetailPanel !== "library") {
         detailSongViewMode = "list";
+        resetDetailSongBatch();
       }
       activeDetailPanel = button.dataset.detailPanel;
       renderSingerPage();
@@ -2005,6 +2043,7 @@ function renderDetailPanelSwitches(singer) {
       event.preventDefault();
       if (button.dataset.detailPanel === "library" && activeDetailPanel !== "library") {
         detailSongViewMode = "list";
+        resetDetailSongBatch();
       }
       activeDetailPanel = button.dataset.detailPanel;
       renderSingerPage();
@@ -2023,6 +2062,7 @@ function renderSingerPage() {
     lastDetailSingerId = singer.id;
     detailSongQuery = "";
     detailSongViewMode = "list";
+    resetDetailSongBatch();
   }
   const canManage = canManageSinger(singer);
   $("detailTitle").textContent = displayName(singer.name);
@@ -2067,8 +2107,10 @@ function renderSingerPage() {
   $("detailDebtAdd").onclick = canManage ? openDebtDialog : null;
   if (activeDetailPanel === "library" && hasSongs) {
     const compact = detailSongViewMode === "card";
+    const list = detailSongs(singer);
+    const visibleList = list.slice(0, detailSongRenderLimit);
     $("detailSongs").className = compact ? "song-card-grid-compact" : "grid gap-2";
-    $("detailSongs").innerHTML = detailSongs(singer)
+    $("detailSongs").innerHTML = visibleList
       .map((song) => songCard(song, { showSinger: false, flat: true, canPin: canManage, canEdit: canManage, compact }))
       .join("") || "<article class='alert'>没有找到歌曲</article>";
     if (!compact) {
@@ -2125,6 +2167,7 @@ function renderRoute() {
   else {
     if (lastRouteKind === "singer" && activeTab === "songs") {
       homeSongViewMode = "list";
+      resetHomeSongBatch();
     }
     lastDetailSingerId = "";
     activeDetailPanel = "debts";
@@ -2207,7 +2250,10 @@ $("logoutSinger").onclick = () => {
 
 $("search").oninput = () => {
   clearTimeout(searchRenderTimer);
-  searchRenderTimer = setTimeout(renderRoute, 80);
+  searchRenderTimer = setTimeout(() => {
+    resetHomeSongBatch();
+    renderRoute();
+  }, 80);
 };
 
 ["sort", "languageFilter", "genreFilter"].forEach((id) => {
@@ -2216,6 +2262,7 @@ $("search").oninput = () => {
       homeSongViewMode = "list";
       activeTab = "songs";
     }
+    resetHomeSongBatch();
     renderRoute();
   };
 });
@@ -2223,6 +2270,7 @@ $("search").oninput = () => {
 $("homeSongViewToggle").onclick = () => {
   homeSongViewMode = homeSongViewMode === "card" ? "list" : "card";
   activeTab = "songs";
+  resetHomeSongBatch();
   renderRoute();
 };
 
@@ -2234,22 +2282,28 @@ $("clearSearch").onclick = () => {
 };
 
 ["detailSort", "detailLanguage"].forEach((id) => {
-  $(id).oninput = renderRoute;
+  $(id).oninput = () => {
+    resetDetailSongBatch();
+    renderRoute();
+  };
 });
 
 $("detailSongViewToggle").onclick = () => {
   detailSongViewMode = detailSongViewMode === "card" ? "list" : "card";
+  resetDetailSongBatch();
   renderRoute();
 };
 
 $("detailSearch").oninput = () => {
   detailSongQuery = $("detailSearch").value.trim();
+  resetDetailSongBatch();
   renderRoute();
 };
 
 $("clearDetailSearch").onclick = () => {
   detailSongQuery = "";
   $("detailSearch").value = "";
+  resetDetailSongBatch();
   renderRoute();
   $("detailSearch").focus();
 };
@@ -2262,6 +2316,7 @@ $("singersTab").onclick = () => {
 $("songsTab").onclick = () => {
   if (activeTab !== "songs") homeSongViewMode = "list";
   activeTab = "songs";
+  resetHomeSongBatch();
   renderRoute();
 };
 
@@ -2275,6 +2330,14 @@ $("backSinger").onclick = () => {
   const singer = singers.find((item) => item.id === routeSingerId());
   location.hash = singer ? `#singer/${singer.id}` : "#home";
 };
+
+window.addEventListener("scroll", () => {
+  if (scrollLoadTimer) return;
+  scrollLoadTimer = window.setTimeout(() => {
+    scrollLoadTimer = 0;
+    loadMoreVisibleSongs();
+  }, 120);
+}, { passive: true });
 
 $("debtPageAdd").onclick = openDebtDialog;
 document.querySelectorAll("[data-close]").forEach((button) => {
