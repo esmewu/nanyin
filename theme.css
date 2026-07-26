@@ -404,7 +404,7 @@ body {
   line-height: 1.1;
   min-height: 0;
   min-width: 0;
-  padding: 6px 8px;
+  padding: 10px 16px;
   text-align: center;
   transition: box-shadow .16s ease, transform .16s ease, border-color .16s ease;
 }
