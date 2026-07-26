@@ -80190,7 +80190,7 @@ window.importedSingers = [
   {
     "id": "v1-34",
     "name": "ovo",
-    "image": "",
+    "image": "./assets/v1-nanyin.jpeg",
     "tags": [
       "少年音",
       "流行",
@@ -80203,7 +80203,7 @@ window.importedSingers = [
   {
     "id": "v1-35",
     "name": "双子",
-    "image": "",
+    "image": "./assets/v1-nanyin.jpeg",
     "tags": [
       "青年音",
       "温青",
@@ -104614,7 +104614,7 @@ window.importedSingers = [
   {
     "id": "v1-47",
     "name": "焱燚",
-    "image": "",
+    "image": "./assets/v1-yanyi.png",
     "tags": [
       "青叔音",
       "治愈",
@@ -106595,7 +106595,7 @@ window.importedSingers = [
   {
     "id": "v1-48",
     "name": "枫",
-    "image": "",
+    "image": "./assets/v1-nanyin.jpeg",
     "tags": [
       "青年音",
       "R&B"
@@ -106606,7 +106606,7 @@ window.importedSingers = [
   {
     "id": "v1-49",
     "name": "小辞",
-    "image": "",
+    "image": "./assets/v1-xiaoci.jpeg",
     "tags": [
       "待补资料"
     ],
