@@ -1689,9 +1689,9 @@ function renderHomeSongInsights() {
   if (!target) return;
   const stats = homeSongInsights();
   target.innerHTML = `
-    <span class="tag-chip home-song-insight-pill home-song-insight-genre">${stats.topGenre}${stats.topGenreCount}首</span>
-    <span class="tag-chip home-song-insight-pill home-song-insight-song">${stats.topSongCount}人会唱${stats.topSong}</span>
-    <span class="tag-chip home-song-insight-pill home-song-insight-artist">${stats.topOriginalArtistCount}首${stats.topOriginalArtist}</span>
+    <span class="tag-chip home-feature-pill home-song-insight-pill home-song-insight-genre">${stats.topGenre}${stats.topGenreCount}首</span>
+    <span class="tag-chip home-feature-pill home-song-insight-pill home-song-insight-song">${stats.topSongCount}人会唱${stats.topSong}</span>
+    <span class="tag-chip home-feature-pill home-song-insight-pill home-song-insight-artist">${stats.topOriginalArtistCount}首${stats.topOriginalArtist}</span>
   `;
 }
 

@@ -390,15 +390,6 @@ body {
   justify-content: center;
 }
 
-.home-song-insights .home-song-insight-pill {
-  align-items: center;
-  font-size: 13px;
-  justify-content: center;
-  line-height: 1.1;
-  padding: 9px 13px;
-  text-align: center;
-}
-
 .home-song-insight-genre {
   background: linear-gradient(135deg, #fff6c2 0%, #ffd7d9 100%);
   color: #8a5630;
@@ -428,16 +419,8 @@ body {
 }
 
 .singer-sort-pill {
-  align-items: center;
   border: 1px solid rgba(36, 31, 31, .08);
   cursor: pointer;
-  font-size: 14px;
-  justify-content: center;
-  line-height: 1.1;
-  min-height: 0;
-  min-width: 0;
-  padding: 16px 22px;
-  text-align: center;
   transition: box-shadow .16s ease, transform .16s ease, border-color .16s ease;
 }
 
@@ -1827,14 +1810,14 @@ body {
   white-space: nowrap;
 }
 
-.home-singer-sort .singer-sort-pill {
+.home-feature-pill {
   align-items: center;
-  font-size: 14px;
+  font-size: 13px;
   justify-content: center;
   line-height: 1.1;
   min-height: 0;
   min-width: 0;
-  padding: 10px 16px;
+  padding: 9px 13px;
   text-align: center;
 }
 
