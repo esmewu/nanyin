@@ -8,10 +8,10 @@
     "japanese": 0,
     "english": 0,
     "total": 79,
-    "originalArtistCompleted": 2,
-    "releaseYearCompleted": 2,
-    "genreCompleted": 2,
-    "pending": 77,
+    "originalArtistCompleted": 3,
+    "releaseYearCompleted": 3,
+    "genreCompleted": 3,
+    "pending": 76,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -156,12 +156,13 @@
       },
       {
         "title": "理由",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "赵紫桦",
+        "releaseYear": "2016",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "旅行",

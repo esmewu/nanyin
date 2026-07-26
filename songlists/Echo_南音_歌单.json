@@ -8,10 +8,10 @@
     "japanese": 0,
     "english": 5,
     "total": 366,
-    "originalArtistCompleted": 11,
-    "releaseYearCompleted": 11,
-    "genreCompleted": 11,
-    "pending": 355,
+    "originalArtistCompleted": 14,
+    "releaseYearCompleted": 14,
+    "genreCompleted": 14,
+    "pending": 352,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -70,12 +70,13 @@
       },
       {
         "title": "谁",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "廖峻涛",
+        "releaseYear": "2017",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "瞬",
@@ -169,12 +170,13 @@
       },
       {
         "title": "爱你",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "王心凌",
+        "releaseYear": "2004",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "爱殇",
@@ -340,12 +342,13 @@
       },
       {
         "title": "兜圈",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "林宥嘉",
+        "releaseYear": "2016",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "断竹",

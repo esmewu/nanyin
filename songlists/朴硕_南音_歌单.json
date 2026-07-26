@@ -8,10 +8,10 @@
     "japanese": 0,
     "english": 3,
     "total": 237,
-    "originalArtistCompleted": 24,
-    "releaseYearCompleted": 21,
-    "genreCompleted": 21,
-    "pending": 216,
+    "originalArtistCompleted": 29,
+    "releaseYearCompleted": 27,
+    "genreCompleted": 27,
+    "pending": 210,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -75,12 +75,13 @@
       },
       {
         "title": "谁",
-        "originalArtist": "推荐",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "廖峻涛",
+        "releaseYear": "2017",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "user-provided-note"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "瞬",
@@ -111,12 +112,13 @@
       },
       {
         "title": "不在",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "颜人中",
+        "releaseYear": "2019",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "迟迟",
@@ -184,12 +186,13 @@
       },
       {
         "title": "和你",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "余佳运",
+        "releaseYear": "2017",
+        "genre": "R&B",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "花海",
@@ -239,12 +242,13 @@
       },
       {
         "title": "理由",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "赵紫桦",
+        "releaseYear": "2016",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "立剑",
@@ -339,12 +343,13 @@
       },
       {
         "title": "情歌",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "梁静茹",
+        "releaseYear": "2009",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "若梦",
@@ -548,12 +553,13 @@
       },
       {
         "title": "雨天",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "孙燕姿",
+        "releaseYear": "2006",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "着魔",

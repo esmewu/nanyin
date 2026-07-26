@@ -8,10 +8,10 @@
     "japanese": 0,
     "english": 8,
     "total": 199,
-    "originalArtistCompleted": 37,
-    "releaseYearCompleted": 37,
-    "genreCompleted": 37,
-    "pending": 162,
+    "originalArtistCompleted": 42,
+    "releaseYearCompleted": 42,
+    "genreCompleted": 42,
+    "pending": 157,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -20,12 +20,13 @@
     "chinese": [
       {
         "title": "爱",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "莫文蔚",
+        "releaseYear": "2002",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "枫",
@@ -39,12 +40,13 @@
       },
       {
         "title": "你",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "郑润泽",
+        "releaseYear": "2021",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "瞬",
@@ -278,12 +280,13 @@
       },
       {
         "title": "迷宫",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "王若琳",
+        "releaseYear": "2008",
+        "genre": "爵士",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "模特",
@@ -462,12 +465,13 @@
       },
       {
         "title": "一口",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "丁世光",
+        "releaseYear": "2017",
+        "genre": "R&B",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "意外",
@@ -490,12 +494,13 @@
       },
       {
         "title": "月光",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "胡彦斌",
+        "releaseYear": "2004",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "着魔",

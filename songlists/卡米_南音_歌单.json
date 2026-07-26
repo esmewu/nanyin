@@ -8,10 +8,10 @@
     "japanese": 0,
     "english": 15,
     "total": 133,
-    "originalArtistCompleted": 16,
-    "releaseYearCompleted": 16,
-    "genreCompleted": 16,
-    "pending": 117,
+    "originalArtistCompleted": 18,
+    "releaseYearCompleted": 18,
+    "genreCompleted": 18,
+    "pending": 115,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -92,12 +92,13 @@
       },
       {
         "title": "蝴蝶",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "陶喆",
+        "releaseYear": "2002",
+        "genre": "R&B",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "回留",
@@ -290,12 +291,13 @@
       },
       {
         "title": "一口",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "丁世光",
+        "releaseYear": "2017",
+        "genre": "R&B",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "月食",

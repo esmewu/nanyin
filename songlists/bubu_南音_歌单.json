@@ -8,10 +8,10 @@
     "japanese": 0,
     "english": 123,
     "total": 201,
-    "originalArtistCompleted": 14,
-    "releaseYearCompleted": 6,
-    "genreCompleted": 6,
-    "pending": 195,
+    "originalArtistCompleted": 15,
+    "releaseYearCompleted": 7,
+    "genreCompleted": 7,
+    "pending": 194,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -155,12 +155,13 @@
       },
       {
         "title": "生生",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "林俊杰",
+        "releaseYear": "2014",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "思念",

@@ -8,10 +8,10 @@
     "japanese": 16,
     "english": 216,
     "total": 365,
-    "originalArtistCompleted": 20,
-    "releaseYearCompleted": 9,
-    "genreCompleted": 9,
-    "pending": 356,
+    "originalArtistCompleted": 23,
+    "releaseYearCompleted": 12,
+    "genreCompleted": 12,
+    "pending": 353,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -165,12 +165,13 @@
       },
       {
         "title": "和你",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "余佳运",
+        "releaseYear": "2017",
+        "genre": "R&B",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "幻听",
@@ -202,12 +203,13 @@
       },
       {
         "title": "迷宫",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "王若琳",
+        "releaseYear": "2008",
+        "genre": "爵士",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "情话",
@@ -328,12 +330,13 @@
       },
       {
         "title": "一口",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "丁世光",
+        "releaseYear": "2017",
+        "genre": "R&B",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "一天",
