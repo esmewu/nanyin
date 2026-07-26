@@ -393,6 +393,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  justify-content: center;
 }
 
 .singer-sort-pill {
@@ -404,13 +405,17 @@ body {
   line-height: 1.1;
   min-height: 0;
   min-width: 0;
-  padding: 10px 16px;
+  padding: 16px 22px;
   text-align: center;
   transition: box-shadow .16s ease, transform .16s ease, border-color .16s ease;
 }
 
 .singer-sort-pill:active {
   transform: scale(.98);
+}
+
+.singer-sort-hidden {
+  display: none !important;
 }
 
 .singer-sort-pill-active {
