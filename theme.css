@@ -396,12 +396,16 @@ body {
 }
 
 .singer-sort-pill {
+  align-items: center;
   border: 1px solid rgba(36, 31, 31, .08);
   cursor: pointer;
-  font-size: 14px;
+  font-size: 15px;
   justify-content: center;
-  min-height: 34px;
-  padding: 8px 14px;
+  line-height: 1.1;
+  min-height: 44px;
+  min-width: 142px;
+  padding: 11px 18px;
+  text-align: center;
   transition: box-shadow .16s ease, transform .16s ease, border-color .16s ease;
 }
 
@@ -422,6 +426,16 @@ body {
 .singer-sort-debts {
   background: linear-gradient(135deg, #ffd0bd 0%, #ffe29a 34%, #f2c5ff 68%, #ffd4e5 100%);
   color: #7b2f73;
+}
+
+.singer-sort-bomb {
+  background: linear-gradient(135deg, #fff6c2 0%, #ffd7d9 100%);
+  color: #8a5630;
+}
+
+.singer-sort-rainbow {
+  background: linear-gradient(135deg, #dcfbff 0%, #f5f2c8 100%);
+  color: #216e79;
 }
 
 .home-song-filter-row {
@@ -2239,6 +2253,16 @@ body {
 [data-theme="nanyin-dark"] .singer-sort-library {
   background: linear-gradient(135deg, #334155 0%, #1e3a8a 100%);
   color: #f8fafc;
+}
+
+[data-theme="nanyin-dark"] .singer-sort-bomb {
+  background: linear-gradient(135deg, #92400e 0%, #be185d 100%);
+  color: #fff7ed;
+}
+
+[data-theme="nanyin-dark"] .singer-sort-rainbow {
+  background: linear-gradient(135deg, #0e7490 0%, #047857 100%);
+  color: #f0fdfa;
 }
 
 [data-theme="nanyin-dark"] .singer-sort-pill {
