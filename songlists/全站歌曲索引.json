@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-26T06:42:18.979Z",
+  "generatedAt": "2026-07-26T06:46:57.156Z",
   "summary": {
-    "uniqueSongs": 4644,
-    "singerSongRecords": 7897,
+    "uniqueSongs": 4747,
+    "singerSongRecords": 8019,
     "completeMetadata": 553,
-    "pendingMetadata": 4091,
-    "ambiguousSongs": 1050
+    "pendingMetadata": 4194,
+    "ambiguousSongs": 1066
   },
   "songs": [
     {
@@ -97,6 +97,91 @@
       ],
       "ambiguous": false,
       "ambiguityReasons": []
+    },
+    {
+      "key": "爱",
+      "title": "爱",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 8,
+      "singers": [
+        {
+          "id": "v1-15",
+          "name": "板栗",
+          "title": "爱",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-11",
+          "name": "尘",
+          "title": "爱",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-27",
+          "name": "乔亦",
+          "title": "爱",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-04",
+          "name": "山药",
+          "title": "爱",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-12",
+          "name": "象牙舟",
+          "title": "爱",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-14",
+          "name": "枕柯",
+          "title": "爱",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-13",
+          "name": "DTT",
+          "title": "爱",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "爱",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
     },
     {
       "key": "才二十三",
@@ -743,84 +828,6 @@
           "id": "v1-29",
           "name": "FATE",
           "title": "雨天",
-          "language": "中文",
-          "note": ""
-        }
-      ],
-      "metadata": {
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
-        "confidence": "",
-        "source": "",
-        "sourceUrl": "",
-        "checkedAt": ""
-      },
-      "candidateOriginalArtists": [],
-      "singerSpecificNotes": [],
-      "needsMetadata": [
-        "原唱",
-        "年份",
-        "风格"
-      ],
-      "ambiguous": true,
-      "ambiguityReasons": [
-        "短中文歌名，可能重名"
-      ]
-    },
-    {
-      "key": "爱",
-      "title": "爱",
-      "language": "中文",
-      "aliases": [],
-      "singerCount": 7,
-      "singers": [
-        {
-          "id": "v1-15",
-          "name": "板栗",
-          "title": "爱",
-          "language": "中文",
-          "note": ""
-        },
-        {
-          "id": "v1-11",
-          "name": "尘",
-          "title": "爱",
-          "language": "中文",
-          "note": ""
-        },
-        {
-          "id": "v1-27",
-          "name": "乔亦",
-          "title": "爱",
-          "language": "中文",
-          "note": ""
-        },
-        {
-          "id": "v1-04",
-          "name": "山药",
-          "title": "爱",
-          "language": "中文",
-          "note": ""
-        },
-        {
-          "id": "v1-12",
-          "name": "象牙舟",
-          "title": "爱",
-          "language": "中文",
-          "note": ""
-        },
-        {
-          "id": "v1-14",
-          "name": "枕柯",
-          "title": "爱",
-          "language": "中文",
-          "note": ""
-        },
-        {
-          "id": "v1-13",
-          "name": "DTT",
-          "title": "爱",
           "language": "中文",
           "note": ""
         }
@@ -12639,6 +12646,61 @@
       "ambiguityReasons": []
     },
     {
+      "key": "男孩别哭",
+      "title": "男孩别哭",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 4,
+      "singers": [
+        {
+          "id": "v1-12",
+          "name": "象牙舟",
+          "title": "男孩别哭",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-17",
+          "name": "引力",
+          "title": "男孩别哭",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-31",
+          "name": "ESC",
+          "title": "男孩别哭",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "男孩别哭",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "你啊你啊",
       "title": "你啊你啊",
       "language": "中文",
@@ -17737,6 +17799,56 @@
       ]
     },
     {
+      "key": "飞",
+      "title": "飞",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 3,
+      "singers": [
+        {
+          "id": "v1-11",
+          "name": "尘",
+          "title": "飞",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-29",
+          "name": "FATE",
+          "title": "飞",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "飞",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
+    },
+    {
       "key": "飞机场的十点半",
       "title": "飞机场的十点半",
       "language": "中文",
@@ -18071,6 +18183,56 @@
       ],
       "ambiguous": false,
       "ambiguityReasons": []
+    },
+    {
+      "key": "光",
+      "title": "光",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 3,
+      "singers": [
+        {
+          "id": "v1-08",
+          "name": "猫欢喜",
+          "title": "光",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-17",
+          "name": "引力",
+          "title": "光",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "光",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
     },
     {
       "key": "鬼",
@@ -19675,6 +19837,54 @@
       "ambiguityReasons": []
     },
     {
+      "key": "玛卡瑞纳",
+      "title": "玛卡瑞纳",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 3,
+      "singers": [
+        {
+          "id": "v1-13",
+          "name": "DTT",
+          "title": "玛卡瑞纳",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-31",
+          "name": "ESC",
+          "title": "玛卡瑞纳",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "玛卡瑞纳",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "慢灵魂",
       "title": "慢灵魂",
       "language": "中文",
@@ -20179,54 +20389,6 @@
           "id": "v1-05",
           "name": "Coffee",
           "title": "那沙漠里的水",
-          "language": "中文",
-          "note": ""
-        }
-      ],
-      "metadata": {
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
-        "confidence": "",
-        "source": "",
-        "sourceUrl": "",
-        "checkedAt": ""
-      },
-      "candidateOriginalArtists": [],
-      "singerSpecificNotes": [],
-      "needsMetadata": [
-        "原唱",
-        "年份",
-        "风格"
-      ],
-      "ambiguous": false,
-      "ambiguityReasons": []
-    },
-    {
-      "key": "男孩别哭",
-      "title": "男孩别哭",
-      "language": "中文",
-      "aliases": [],
-      "singerCount": 3,
-      "singers": [
-        {
-          "id": "v1-12",
-          "name": "象牙舟",
-          "title": "男孩别哭",
-          "language": "中文",
-          "note": ""
-        },
-        {
-          "id": "v1-17",
-          "name": "引力",
-          "title": "男孩别哭",
-          "language": "中文",
-          "note": ""
-        },
-        {
-          "id": "v1-31",
-          "name": "ESC",
-          "title": "男孩别哭",
           "language": "中文",
           "note": ""
         }
@@ -27235,6 +27397,58 @@
       "ambiguityReasons": []
     },
     {
+      "key": "moonlight",
+      "title": "Moonlight",
+      "language": "英文",
+      "aliases": [
+        "MOONLIGHT"
+      ],
+      "singerCount": 3,
+      "singers": [
+        {
+          "id": "v1-12",
+          "name": "象牙舟",
+          "title": "Moonlight",
+          "language": "英文",
+          "note": ""
+        },
+        {
+          "id": "v1-29",
+          "name": "FATE",
+          "title": "MOONLIGHT",
+          "language": "英文",
+          "note": ""
+        },
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Moonlight",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "别名：MOONLIGHT"
+      ]
+    },
+    {
       "key": "mr.curiosity",
       "title": "Mr. Curiosity",
       "language": "英文",
@@ -28870,6 +29084,49 @@
           "id": "v1-14",
           "name": "枕柯",
           "title": "背影",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
+    },
+    {
+      "key": "鼻塞",
+      "title": "鼻塞",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 2,
+      "singers": [
+        {
+          "id": "v1-05",
+          "name": "Coffee",
+          "title": "鼻塞",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "鼻塞",
           "language": "中文",
           "note": ""
         }
@@ -31531,49 +31788,6 @@
       "ambiguityReasons": []
     },
     {
-      "key": "飞",
-      "title": "飞",
-      "language": "中文",
-      "aliases": [],
-      "singerCount": 2,
-      "singers": [
-        {
-          "id": "v1-11",
-          "name": "尘",
-          "title": "飞",
-          "language": "中文",
-          "note": ""
-        },
-        {
-          "id": "v1-29",
-          "name": "FATE",
-          "title": "飞",
-          "language": "中文",
-          "note": ""
-        }
-      ],
-      "metadata": {
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
-        "confidence": "",
-        "source": "",
-        "sourceUrl": "",
-        "checkedAt": ""
-      },
-      "candidateOriginalArtists": [],
-      "singerSpecificNotes": [],
-      "needsMetadata": [
-        "原唱",
-        "年份",
-        "风格"
-      ],
-      "ambiguous": true,
-      "ambiguityReasons": [
-        "短中文歌名，可能重名"
-      ]
-    },
-    {
       "key": "飞飞",
       "title": "飞飞",
       "language": "中文",
@@ -32119,6 +32333,47 @@
       ]
     },
     {
+      "key": "高楼freestyle",
+      "title": "高楼Freestyle",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 2,
+      "singers": [
+        {
+          "id": "v1-11",
+          "name": "尘",
+          "title": "高楼Freestyle",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "高楼Freestyle",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "高尚",
       "title": "高尚",
       "language": "中文",
@@ -32496,49 +32751,6 @@
       ],
       "ambiguous": false,
       "ambiguityReasons": []
-    },
-    {
-      "key": "光",
-      "title": "光",
-      "language": "中文",
-      "aliases": [],
-      "singerCount": 2,
-      "singers": [
-        {
-          "id": "v1-08",
-          "name": "猫欢喜",
-          "title": "光",
-          "language": "中文",
-          "note": ""
-        },
-        {
-          "id": "v1-17",
-          "name": "引力",
-          "title": "光",
-          "language": "中文",
-          "note": ""
-        }
-      ],
-      "metadata": {
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
-        "confidence": "",
-        "source": "",
-        "sourceUrl": "",
-        "checkedAt": ""
-      },
-      "candidateOriginalArtists": [],
-      "singerSpecificNotes": [],
-      "needsMetadata": [
-        "原唱",
-        "年份",
-        "风格"
-      ],
-      "ambiguous": true,
-      "ambiguityReasons": [
-        "短中文歌名，可能重名"
-      ]
     },
     {
       "key": "光年之外",
@@ -34828,6 +35040,49 @@
       ]
     },
     {
+      "key": "倦鸟",
+      "title": "倦鸟",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 2,
+      "singers": [
+        {
+          "id": "v1-27",
+          "name": "乔亦",
+          "title": "倦鸟",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "倦鸟",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
+    },
+    {
       "key": "看得最远的地方",
       "title": "看得最远的地方",
       "language": "中文",
@@ -34992,6 +35247,47 @@
       "ambiguityReasons": [
         "短中文歌名，可能重名"
       ]
+    },
+    {
+      "key": "口袋宝贝",
+      "title": "口袋宝贝",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 2,
+      "singers": [
+        {
+          "id": "v1-09",
+          "name": "阿古",
+          "title": "口袋宝贝",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "口袋宝贝",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
     },
     {
       "key": "拉过勾的",
@@ -36242,47 +36538,6 @@
       "ambiguityReasons": [
         "短中文歌名，可能重名"
       ]
-    },
-    {
-      "key": "玛卡瑞纳",
-      "title": "玛卡瑞纳",
-      "language": "中文",
-      "aliases": [],
-      "singerCount": 2,
-      "singers": [
-        {
-          "id": "v1-13",
-          "name": "DTT",
-          "title": "玛卡瑞纳",
-          "language": "中文",
-          "note": ""
-        },
-        {
-          "id": "v1-31",
-          "name": "ESC",
-          "title": "玛卡瑞纳",
-          "language": "中文",
-          "note": ""
-        }
-      ],
-      "metadata": {
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
-        "confidence": "",
-        "source": "",
-        "sourceUrl": "",
-        "checkedAt": ""
-      },
-      "candidateOriginalArtists": [],
-      "singerSpecificNotes": [],
-      "needsMetadata": [
-        "原唱",
-        "年份",
-        "风格"
-      ],
-      "ambiguous": false,
-      "ambiguityReasons": []
     },
     {
       "key": "麦芽糖",
@@ -38054,6 +38309,47 @@
           "id": "v1-29",
           "name": "FATE",
           "title": "你的家",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "你的目光",
+      "title": "你的目光",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 2,
+      "singers": [
+        {
+          "id": "v1-04",
+          "name": "山药",
+          "title": "你的目光",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "你的目光",
           "language": "中文",
           "note": ""
         }
@@ -40631,6 +40927,47 @@
       "ambiguityReasons": []
     },
     {
+      "key": "生而不羁",
+      "title": "生而不羁",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 2,
+      "singers": [
+        {
+          "id": "v1-05",
+          "name": "Coffee",
+          "title": "生而不羁",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "生而不羁",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "盛夏",
       "title": "盛夏",
       "language": "中文",
@@ -43064,6 +43401,47 @@
           "id": "v1-17",
           "name": "引力",
           "title": "我的心真的受伤了",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "我的folykiki",
+      "title": "我的Folykiki",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 2,
+      "singers": [
+        {
+          "id": "v1-12",
+          "name": "象牙舟",
+          "title": "我的Folykiki",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "我的Folykiki",
           "language": "中文",
           "note": ""
         }
@@ -46584,6 +46962,49 @@
       "ambiguityReasons": []
     },
     {
+      "key": "杨过",
+      "title": "杨过",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 2,
+      "singers": [
+        {
+          "id": "v1-05",
+          "name": "Coffee",
+          "title": "杨过",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "杨过",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
+    },
+    {
       "key": "也罢",
       "title": "也罢",
       "language": "中文",
@@ -46896,6 +47317,47 @@
           "id": "v1-10",
           "name": "bubu",
           "title": "夜郎溪",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "夜泊秦淮",
+      "title": "夜泊秦淮",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 2,
+      "singers": [
+        {
+          "id": "v1-11",
+          "name": "尘",
+          "title": "夜泊秦淮",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "夜泊秦淮",
           "language": "中文",
           "note": ""
         }
@@ -49914,6 +50376,49 @@
       ]
     },
     {
+      "key": "子弹",
+      "title": "子弹",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 2,
+      "singers": [
+        {
+          "id": "v1-05",
+          "name": "Coffee",
+          "title": "子弹",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "子弹",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
+    },
+    {
       "key": "自导自演",
       "title": "自导自演",
       "language": "中文",
@@ -49972,6 +50477,47 @@
           "id": "v1-31",
           "name": "ESC",
           "title": "自说自话",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "自证馅饼",
+      "title": "自证馅饼",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 2,
+      "singers": [
+        {
+          "id": "v1-05",
+          "name": "Coffee",
+          "title": "自证馅饼",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "自证馅饼",
           "language": "中文",
           "note": ""
         }
@@ -53408,51 +53954,6 @@
       "ambiguityReasons": []
     },
     {
-      "key": "moonlight",
-      "title": "Moonlight",
-      "language": "英文",
-      "aliases": [
-        "MOONLIGHT"
-      ],
-      "singerCount": 2,
-      "singers": [
-        {
-          "id": "v1-12",
-          "name": "象牙舟",
-          "title": "Moonlight",
-          "language": "英文",
-          "note": ""
-        },
-        {
-          "id": "v1-29",
-          "name": "FATE",
-          "title": "MOONLIGHT",
-          "language": "英文",
-          "note": ""
-        }
-      ],
-      "metadata": {
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
-        "confidence": "",
-        "source": "",
-        "sourceUrl": "",
-        "checkedAt": ""
-      },
-      "candidateOriginalArtists": [],
-      "singerSpecificNotes": [],
-      "needsMetadata": [
-        "原唱",
-        "年份",
-        "风格"
-      ],
-      "ambiguous": true,
-      "ambiguityReasons": [
-        "别名：MOONLIGHT"
-      ]
-    },
-    {
       "key": "myway",
       "title": "My Way",
       "language": "英文",
@@ -54277,6 +54778,51 @@
       ],
       "ambiguous": false,
       "ambiguityReasons": []
+    },
+    {
+      "key": "readyornot",
+      "title": "Ready or Not",
+      "language": "英文",
+      "aliases": [
+        "Ready or Not?"
+      ],
+      "singerCount": 2,
+      "singers": [
+        {
+          "id": "v1-11",
+          "name": "尘",
+          "title": "Ready or Not",
+          "language": "英文",
+          "note": ""
+        },
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Ready or Not?",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "别名：Ready or Not?"
+      ]
     },
     {
       "key": "rehab",
@@ -56695,6 +57241,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "爱乐之城",
+      "title": "爱乐之城",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "爱乐之城",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "爱了很久的朋友",
       "title": "爱了很久的朋友",
       "language": "中文",
@@ -57821,6 +58401,42 @@
       "ambiguityReasons": []
     },
     {
+      "key": "暗影",
+      "title": "暗影",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "暗影",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
+    },
+    {
       "key": "黯",
       "title": "黯",
       "language": "中文",
@@ -57855,6 +58471,40 @@
       "ambiguityReasons": [
         "短中文歌名，可能重名"
       ]
+    },
+    {
+      "key": "凹凸凹",
+      "title": "凹凸凹",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "凹凸凹",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
     },
     {
       "key": "熬夜上瘾",
@@ -58511,6 +59161,42 @@
       "ambiguityReasons": []
     },
     {
+      "key": "摆",
+      "title": "摆",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "摆",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
+    },
+    {
       "key": "搬家",
       "title": "搬家",
       "language": "中文",
@@ -58521,6 +59207,42 @@
           "id": "v1-30",
           "name": "律",
           "title": "搬家",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
+    },
+    {
+      "key": "板栗",
+      "title": "板栗",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "板栗",
           "language": "中文",
           "note": ""
         }
@@ -59513,42 +60235,6 @@
       "ambiguityReasons": []
     },
     {
-      "key": "鼻塞",
-      "title": "鼻塞",
-      "language": "中文",
-      "aliases": [],
-      "singerCount": 1,
-      "singers": [
-        {
-          "id": "v1-05",
-          "name": "Coffee",
-          "title": "鼻塞",
-          "language": "中文",
-          "note": ""
-        }
-      ],
-      "metadata": {
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
-        "confidence": "",
-        "source": "",
-        "sourceUrl": "",
-        "checkedAt": ""
-      },
-      "candidateOriginalArtists": [],
-      "singerSpecificNotes": [],
-      "needsMetadata": [
-        "原唱",
-        "年份",
-        "风格"
-      ],
-      "ambiguous": true,
-      "ambiguityReasons": [
-        "短中文歌名，可能重名"
-      ]
-    },
-    {
       "key": "比尔的歌",
       "title": "比尔的歌",
       "language": "中文",
@@ -60111,6 +60797,40 @@
           "id": "v1-15",
           "name": "板栗",
           "title": "别知己",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "缤纷夏日回忆录",
+      "title": "缤纷夏日回忆录",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "缤纷夏日回忆录",
           "language": "中文",
           "note": ""
         }
@@ -60699,6 +61419,40 @@
           "id": "v1-14",
           "name": "枕柯",
           "title": "不见不离开",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "不讲爱",
+      "title": "不讲爱",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "不讲爱",
           "language": "中文",
           "note": ""
         }
@@ -63039,6 +63793,42 @@
       "ambiguityReasons": []
     },
     {
+      "key": "赤兔",
+      "title": "赤兔",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "赤兔",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
+    },
+    {
       "key": "翅膀",
       "title": "翅膀",
       "language": "中文",
@@ -63331,6 +64121,40 @@
           "id": "v1-30",
           "name": "律",
           "title": "触碰不到的妳",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "传说alegend",
+      "title": "传说A Legend",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "传说A Legend",
           "language": "中文",
           "note": ""
         }
@@ -63797,6 +64621,42 @@
       ],
       "ambiguous": false,
       "ambiguityReasons": []
+    },
+    {
+      "key": "春雨",
+      "title": "春雨",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "春雨",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
     },
     {
       "key": "椿",
@@ -66325,6 +67185,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "第五大道",
+      "title": "第五大道",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "第五大道",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "第一次",
       "title": "第一次",
       "language": "中文",
@@ -67229,6 +68123,40 @@
           "id": "v1-05",
           "name": "Coffee",
           "title": "对你爱不完",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "敦化南路",
+      "title": "敦化南路",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "敦化南路",
           "language": "中文",
           "note": ""
         }
@@ -68373,6 +69301,40 @@
       ]
     },
     {
+      "key": "飞船失事",
+      "title": "飞船失事",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "飞船失事",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "飞鸽",
       "title": "飞鸽",
       "language": "中文",
@@ -68549,6 +69511,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "飞天茅台",
+      "title": "飞天茅台",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "飞天茅台",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "飞蚊症",
       "title": "飞蚊症",
       "language": "中文",
@@ -68661,6 +69657,40 @@
           "id": "v1-27",
           "name": "乔亦",
           "title": "肥仔个头",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "废话说唱",
+      "title": "废话说唱",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "废话说唱",
           "language": "中文",
           "note": ""
         }
@@ -69999,40 +71029,6 @@
       ]
     },
     {
-      "key": "高楼freestyle",
-      "title": "高楼Freestyle",
-      "language": "中文",
-      "aliases": [],
-      "singerCount": 1,
-      "singers": [
-        {
-          "id": "v1-11",
-          "name": "尘",
-          "title": "高楼Freestyle",
-          "language": "中文",
-          "note": ""
-        }
-      ],
-      "metadata": {
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
-        "confidence": "",
-        "source": "",
-        "sourceUrl": "",
-        "checkedAt": ""
-      },
-      "candidateOriginalArtists": [],
-      "singerSpecificNotes": [],
-      "needsMetadata": [
-        "原唱",
-        "年份",
-        "风格"
-      ],
-      "ambiguous": false,
-      "ambiguityReasons": []
-    },
-    {
       "key": "高山低谷",
       "title": "高山低谷",
       "language": "中文",
@@ -70311,6 +71307,40 @@
       "ambiguityReasons": [
         "短中文歌名，可能重名"
       ]
+    },
+    {
+      "key": "个人简介",
+      "title": "个人简介",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "个人简介",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
     },
     {
       "key": "各自安好",
@@ -71663,6 +72693,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "关你屁事啊",
+      "title": "关你屁事啊",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "关你屁事啊",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "关山酒",
       "title": "关山酒",
       "language": "中文",
@@ -71673,6 +72737,40 @@
           "id": "v1-04",
           "name": "山药",
           "title": "关山酒",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "关于50流明的戒断反应",
+      "title": "关于50流明的戒断反应",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "关于50流明的戒断反应",
           "language": "中文",
           "note": ""
         }
@@ -74145,6 +75243,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "黑咖啡",
+      "title": "黑咖啡",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "黑咖啡",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "黑色大楼",
       "title": "黑色大楼",
       "language": "中文",
@@ -75001,6 +76133,74 @@
       "ambiguityReasons": []
     },
     {
+      "key": "花,太阳,彩虹,你",
+      "title": "花,太阳,彩虹,你",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "花,太阳,彩虹,你",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "花花公子",
+      "title": "花花公子",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "花花公子",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "花期",
       "title": "花期",
       "language": "中文",
@@ -75387,6 +76587,40 @@
       ]
     },
     {
+      "key": "幻想彼岸",
+      "title": "幻想彼岸",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "幻想彼岸",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "幻想之痛",
       "title": "幻想之痛",
       "language": "中文",
@@ -75665,6 +76899,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "黄金矿工",
+      "title": "黄金矿工",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "黄金矿工",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "黄雀",
       "title": "黄雀",
       "language": "中文",
@@ -75883,6 +77151,40 @@
           "id": "v1-13",
           "name": "DTT",
           "title": "会读书",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "会魔法的老人",
+      "title": "会魔法的老人",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "会魔法的老人",
           "language": "中文",
           "note": ""
         }
@@ -76459,6 +77761,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "或许都怪你",
+      "title": "或许都怪你",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "或许都怪你",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "姬和不如",
       "title": "姬和不如",
       "language": "中文",
@@ -76469,6 +77805,40 @@
           "id": "v1-11",
           "name": "尘",
           "title": "姬和不如",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "基因彩票",
+      "title": "基因彩票",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "基因彩票",
           "language": "中文",
           "note": ""
         }
@@ -77885,6 +79255,42 @@
           "id": "v1-09",
           "name": "阿古",
           "title": "骄傲",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
+    },
+    {
+      "key": "侥幸",
+      "title": "侥幸",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "侥幸",
           "language": "中文",
           "note": ""
         }
@@ -79707,6 +81113,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "九字印",
+      "title": "九字印",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "九字印",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "酒红色的心",
       "title": "酒红色的心",
       "language": "中文",
@@ -80293,16 +81733,16 @@
       "ambiguityReasons": []
     },
     {
-      "key": "倦鸟",
-      "title": "倦鸟",
+      "key": "诀爱·尽",
+      "title": "诀爱·尽",
       "language": "中文",
       "aliases": [],
       "singerCount": 1,
       "singers": [
         {
-          "id": "v1-27",
-          "name": "乔亦",
-          "title": "倦鸟",
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "诀爱·尽",
           "language": "中文",
           "note": ""
         }
@@ -80323,10 +81763,8 @@
         "年份",
         "风格"
       ],
-      "ambiguous": true,
-      "ambiguityReasons": [
-        "短中文歌名，可能重名"
-      ]
+      "ambiguous": false,
+      "ambiguityReasons": []
     },
     {
       "key": "诀爱尽",
@@ -80669,6 +82107,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "开枪后热吻",
+      "title": "开枪后热吻",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "开枪后热吻",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "开小差",
       "title": "开小差",
       "language": "中文",
@@ -80737,6 +82209,40 @@
       "ambiguityReasons": [
         "短中文歌名，可能重名"
       ]
+    },
+    {
+      "key": "看俺咋玩",
+      "title": "看俺咋玩",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "看俺咋玩",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
     },
     {
       "key": "看不见的人",
@@ -80891,6 +82397,40 @@
           "id": "v1-04",
           "name": "山药",
           "title": "可否轻轻讲我知",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "可口可乐",
+      "title": "可口可乐",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "可口可乐",
           "language": "中文",
           "note": ""
         }
@@ -81335,40 +82875,6 @@
       "ambiguityReasons": [
         "短中文歌名，可能重名"
       ]
-    },
-    {
-      "key": "口袋宝贝",
-      "title": "口袋宝贝",
-      "language": "中文",
-      "aliases": [],
-      "singerCount": 1,
-      "singers": [
-        {
-          "id": "v1-09",
-          "name": "阿古",
-          "title": "口袋宝贝",
-          "language": "中文",
-          "note": ""
-        }
-      ],
-      "metadata": {
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
-        "confidence": "",
-        "source": "",
-        "sourceUrl": "",
-        "checkedAt": ""
-      },
-      "candidateOriginalArtists": [],
-      "singerSpecificNotes": [],
-      "needsMetadata": [
-        "原唱",
-        "年份",
-        "风格"
-      ],
-      "ambiguous": false,
-      "ambiguityReasons": []
     },
     {
       "key": "口的形状",
@@ -82319,6 +83825,42 @@
           "id": "v1-09",
           "name": "阿古",
           "title": "兰州",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
+    },
+    {
+      "key": "蓝鲸",
+      "title": "蓝鲸",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "蓝鲸",
           "language": "中文",
           "note": ""
         }
@@ -84977,6 +86519,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "旅行线",
+      "title": "旅行线",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "旅行线",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "绿光",
       "title": "绿光",
       "language": "中文",
@@ -85527,6 +87103,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "马兰花开二十一",
+      "title": "马兰花开二十一",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "马兰花开二十一",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "马马嘟嘟骑",
       "title": "马马嘟嘟骑",
       "language": "中文",
@@ -85607,6 +87217,40 @@
           "id": "v1-09",
           "name": "阿古",
           "title": "马戏团运动",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "玛格莉塔margarita",
+      "title": "玛格莉塔Margarita",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "玛格莉塔Margarita",
           "language": "中文",
           "note": ""
         }
@@ -87287,6 +88931,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "梦幻上升",
+      "title": "梦幻上升",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "梦幻上升",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "梦时",
       "title": "梦时",
       "language": "中文",
@@ -87297,6 +88975,42 @@
           "id": "v1-04",
           "name": "山药",
           "title": "梦时",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
+    },
+    {
+      "key": "梦魇",
+      "title": "梦魇",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "梦魇",
           "language": "中文",
           "note": ""
         }
@@ -90187,40 +91901,6 @@
       "ambiguityReasons": []
     },
     {
-      "key": "你的目光",
-      "title": "你的目光",
-      "language": "中文",
-      "aliases": [],
-      "singerCount": 1,
-      "singers": [
-        {
-          "id": "v1-04",
-          "name": "山药",
-          "title": "你的目光",
-          "language": "中文",
-          "note": ""
-        }
-      ],
-      "metadata": {
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
-        "confidence": "",
-        "source": "",
-        "sourceUrl": "",
-        "checkedAt": ""
-      },
-      "candidateOriginalArtists": [],
-      "singerSpecificNotes": [],
-      "needsMetadata": [
-        "原唱",
-        "年份",
-        "风格"
-      ],
-      "ambiguous": false,
-      "ambiguityReasons": []
-    },
-    {
       "key": "你的微笑",
       "title": "你的微笑",
       "language": "中文",
@@ -92527,6 +94207,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "陪着你走",
+      "title": "陪着你走",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "陪着你走",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "陪着我的时候想着她",
       "title": "陪着我的时候想着她",
       "language": "中文",
@@ -93199,6 +94913,40 @@
           "id": "v1-08",
           "name": "猫欢喜",
           "title": "破坏王",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "破门而入breakinthegate",
+      "title": "破门而入Break in the gate",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "破门而入Break in the gate",
           "language": "中文",
           "note": ""
         }
@@ -94781,6 +96529,40 @@
       "ambiguityReasons": [
         "短中文歌名，可能重名"
       ]
+    },
+    {
+      "key": "情绪点滴",
+      "title": "情绪点滴",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "情绪点滴",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
     },
     {
       "key": "情已逝",
@@ -97719,6 +99501,42 @@
       "ambiguityReasons": []
     },
     {
+      "key": "弱点",
+      "title": "弱点",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "弱点",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
+    },
+    {
       "key": "撒野",
       "title": "撒野",
       "language": "中文",
@@ -98003,6 +99821,40 @@
           "id": "v1-11",
           "name": "尘",
           "title": "三月不适合做决定",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "散luv",
+      "title": "散Luv",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "散Luv",
           "language": "中文",
           "note": ""
         }
@@ -98789,6 +100641,40 @@
       "ambiguityReasons": [
         "短中文歌名，可能重名"
       ]
+    },
+    {
+      "key": "上一个圣诞节",
+      "title": "上一个圣诞节",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "上一个圣诞节",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
     },
     {
       "key": "上瘾",
@@ -99617,40 +101503,6 @@
       "ambiguityReasons": [
         "短中文歌名，可能重名"
       ]
-    },
-    {
-      "key": "生而不羁",
-      "title": "生而不羁",
-      "language": "中文",
-      "aliases": [],
-      "singerCount": 1,
-      "singers": [
-        {
-          "id": "v1-05",
-          "name": "Coffee",
-          "title": "生而不羁",
-          "language": "中文",
-          "note": ""
-        }
-      ],
-      "metadata": {
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
-        "confidence": "",
-        "source": "",
-        "sourceUrl": "",
-        "checkedAt": ""
-      },
-      "candidateOriginalArtists": [],
-      "singerSpecificNotes": [],
-      "needsMetadata": [
-        "原唱",
-        "年份",
-        "风格"
-      ],
-      "ambiguous": false,
-      "ambiguityReasons": []
     },
     {
       "key": "生活因你而火热",
@@ -101649,6 +103501,42 @@
           "id": "v1-14",
           "name": "枕柯",
           "title": "双子",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
+    },
+    {
+      "key": "水晶",
+      "title": "水晶",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "水晶",
           "language": "中文",
           "note": ""
         }
@@ -103919,6 +105807,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "桃花劫",
+      "title": "桃花劫",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "桃花劫",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "桃花运",
       "title": "桃花运",
       "language": "中文",
@@ -103985,6 +105907,42 @@
       ],
       "ambiguous": false,
       "ambiguityReasons": []
+    },
+    {
+      "key": "讨喜",
+      "title": "讨喜",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "讨喜",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
     },
     {
       "key": "提",
@@ -105437,6 +107395,42 @@
       "ambiguityReasons": []
     },
     {
+      "key": "骰子",
+      "title": "骰子",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "骰子",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
+    },
+    {
       "key": "透明轨迹",
       "title": "透明轨迹",
       "language": "中文",
@@ -106069,6 +108063,40 @@
           "id": "v1-09",
           "name": "阿古",
           "title": "万里长城",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "万岁huzzah",
+      "title": "万岁Huzzah！",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "万岁Huzzah！",
           "language": "中文",
           "note": ""
         }
@@ -106853,6 +108881,40 @@
       ]
     },
     {
+      "key": "卫星satellite",
+      "title": "卫星Satellite",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "卫星Satellite",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "为你的寂寞唱歌",
       "title": "为你的寂寞唱歌",
       "language": "中文",
@@ -107265,6 +109327,40 @@
       "ambiguityReasons": [
         "短中文歌名，可能重名"
       ]
+    },
+    {
+      "key": "闻香识女人",
+      "title": "闻香识女人",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "闻香识女人",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
     },
     {
       "key": "吻别",
@@ -108267,40 +110363,6 @@
           "id": "v1-27",
           "name": "乔亦",
           "title": "我的宣言",
-          "language": "中文",
-          "note": ""
-        }
-      ],
-      "metadata": {
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
-        "confidence": "",
-        "source": "",
-        "sourceUrl": "",
-        "checkedAt": ""
-      },
-      "candidateOriginalArtists": [],
-      "singerSpecificNotes": [],
-      "needsMetadata": [
-        "原唱",
-        "年份",
-        "风格"
-      ],
-      "ambiguous": false,
-      "ambiguityReasons": []
-    },
-    {
-      "key": "我的folykiki",
-      "title": "我的Folykiki",
-      "language": "中文",
-      "aliases": [],
-      "singerCount": 1,
-      "singers": [
-        {
-          "id": "v1-12",
-          "name": "象牙舟",
-          "title": "我的Folykiki",
           "language": "中文",
           "note": ""
         }
@@ -110195,6 +112257,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "我欲乘风",
+      "title": "我欲乘风",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "我欲乘风",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "我愿意",
       "title": "我愿意",
       "language": "中文",
@@ -110541,6 +112637,74 @@
       "ambiguityReasons": []
     },
     {
+      "key": "无底洞+我欲乘风",
+      "title": "无底洞+我欲乘风",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "无底洞+我欲乘风",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "无法坠入爱河",
+      "title": "无法坠入爱河",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "无法坠入爱河",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "无惯例的早晨",
       "title": "无惯例的早晨",
       "language": "中文",
@@ -110757,6 +112921,40 @@
           "id": "v1-27",
           "name": "乔亦",
           "title": "无人可及",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "无人区玫瑰",
+      "title": "无人区玫瑰",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "无人区玫瑰",
           "language": "中文",
           "note": ""
         }
@@ -111229,6 +113427,40 @@
       ]
     },
     {
+      "key": "夕阳落",
+      "title": "夕阳落",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "夕阳落",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "西海情歌",
       "title": "西海情歌",
       "language": "中文",
@@ -111363,6 +113595,42 @@
       ],
       "ambiguous": false,
       "ambiguityReasons": []
+    },
+    {
+      "key": "嘻嘻",
+      "title": "嘻嘻",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "嘻嘻",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
     },
     {
       "key": "习惯失恋",
@@ -111511,6 +113779,74 @@
           "id": "v1-04",
           "name": "山药",
           "title": "戏说因果",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "细嚼慢咽",
+      "title": "细嚼慢咽",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "细嚼慢咽",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "侠盗猎爱手",
+      "title": "侠盗猎爱手",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "侠盗猎爱手",
           "language": "中文",
           "note": ""
         }
@@ -113709,6 +116045,40 @@
       ]
     },
     {
+      "key": "小马的心事",
+      "title": "小马的心事",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "小马的心事",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "小模样",
       "title": "小模样",
       "language": "中文",
@@ -114579,6 +116949,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "心动的旅行",
+      "title": "心动的旅行",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "心动的旅行",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "心里学",
       "title": "心里学",
       "language": "中文",
@@ -115141,6 +117545,40 @@
           "id": "v1-03",
           "name": "不酷",
           "title": "新沈阳",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "新西部",
+      "title": "新西部",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "新西部",
           "language": "中文",
           "note": ""
         }
@@ -117501,42 +119939,6 @@
       ]
     },
     {
-      "key": "杨过",
-      "title": "杨过",
-      "language": "中文",
-      "aliases": [],
-      "singerCount": 1,
-      "singers": [
-        {
-          "id": "v1-05",
-          "name": "Coffee",
-          "title": "杨过",
-          "language": "中文",
-          "note": ""
-        }
-      ],
-      "metadata": {
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
-        "confidence": "",
-        "source": "",
-        "sourceUrl": "",
-        "checkedAt": ""
-      },
-      "candidateOriginalArtists": [],
-      "singerSpecificNotes": [],
-      "needsMetadata": [
-        "原唱",
-        "年份",
-        "风格"
-      ],
-      "ambiguous": true,
-      "ambiguityReasons": [
-        "短中文歌名，可能重名"
-      ]
-    },
-    {
       "key": "杨瑞代",
       "title": "杨瑞代",
       "language": "中文",
@@ -118221,6 +120623,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "夜景nightview",
+      "title": "夜景 Night View",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "夜景 Night View",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "夜空",
       "title": "夜空",
       "language": "中文",
@@ -118257,40 +120693,6 @@
       "ambiguityReasons": [
         "短中文歌名，可能重名"
       ]
-    },
-    {
-      "key": "夜泊秦淮",
-      "title": "夜泊秦淮",
-      "language": "中文",
-      "aliases": [],
-      "singerCount": 1,
-      "singers": [
-        {
-          "id": "v1-11",
-          "name": "尘",
-          "title": "夜泊秦淮",
-          "language": "中文",
-          "note": ""
-        }
-      ],
-      "metadata": {
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
-        "confidence": "",
-        "source": "",
-        "sourceUrl": "",
-        "checkedAt": ""
-      },
-      "candidateOriginalArtists": [],
-      "singerSpecificNotes": [],
-      "needsMetadata": [
-        "原唱",
-        "年份",
-        "风格"
-      ],
-      "ambiguous": false,
-      "ambiguityReasons": []
     },
     {
       "key": "夜色",
@@ -118601,6 +121003,40 @@
       "ambiguityReasons": [
         "短中文歌名，可能重名"
       ]
+    },
+    {
+      "key": "一点就好",
+      "title": "一点就好",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "一点就好",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
     },
     {
       "key": "一点一滴",
@@ -121459,6 +123895,40 @@
       ]
     },
     {
+      "key": "雨霖铃",
+      "title": "雨霖铃",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "雨霖铃",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "雨天雨天",
       "title": "雨天雨天",
       "language": "中文",
@@ -123939,6 +126409,40 @@
       ]
     },
     {
+      "key": "在月升之前",
+      "title": "在月升之前",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "在月升之前",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "在云端",
       "title": "在云端",
       "language": "中文",
@@ -124811,6 +127315,40 @@
       ]
     },
     {
+      "key": "招牌swing",
+      "title": "招牌swing",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "招牌swing",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "找寻",
       "title": "找寻",
       "language": "中文",
@@ -125343,6 +127881,42 @@
           "id": "v1-04",
           "name": "山药",
           "title": "着眼",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
+    },
+    {
+      "key": "珍珠",
+      "title": "珍珠",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "珍珠",
           "language": "中文",
           "note": ""
         }
@@ -127403,6 +129977,42 @@
       "ambiguityReasons": []
     },
     {
+      "key": "专一",
+      "title": "专一",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "专一",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "短中文歌名，可能重名"
+      ]
+    },
+    {
       "key": "转身即心痛",
       "title": "转身即心痛",
       "language": "中文",
@@ -127605,42 +130215,6 @@
       ],
       "ambiguous": false,
       "ambiguityReasons": []
-    },
-    {
-      "key": "子弹",
-      "title": "子弹",
-      "language": "中文",
-      "aliases": [],
-      "singerCount": 1,
-      "singers": [
-        {
-          "id": "v1-05",
-          "name": "Coffee",
-          "title": "子弹",
-          "language": "中文",
-          "note": ""
-        }
-      ],
-      "metadata": {
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
-        "confidence": "",
-        "source": "",
-        "sourceUrl": "",
-        "checkedAt": ""
-      },
-      "candidateOriginalArtists": [],
-      "singerSpecificNotes": [],
-      "needsMetadata": [
-        "原唱",
-        "年份",
-        "风格"
-      ],
-      "ambiguous": true,
-      "ambiguityReasons": [
-        "短中文歌名，可能重名"
-      ]
     },
     {
       "key": "子弹列车",
@@ -127859,40 +130433,6 @@
           "id": "v1-13",
           "name": "DTT",
           "title": "自以为",
-          "language": "中文",
-          "note": ""
-        }
-      ],
-      "metadata": {
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
-        "confidence": "",
-        "source": "",
-        "sourceUrl": "",
-        "checkedAt": ""
-      },
-      "candidateOriginalArtists": [],
-      "singerSpecificNotes": [],
-      "needsMetadata": [
-        "原唱",
-        "年份",
-        "风格"
-      ],
-      "ambiguous": false,
-      "ambiguityReasons": []
-    },
-    {
-      "key": "自证馅饼",
-      "title": "自证馅饼",
-      "language": "中文",
-      "aliases": [],
-      "singerCount": 1,
-      "singers": [
-        {
-          "id": "v1-05",
-          "name": "Coffee",
-          "title": "自证馅饼",
           "language": "中文",
           "note": ""
         }
@@ -128889,6 +131429,40 @@
           "id": "v1-05",
           "name": "Coffee",
           "title": "Abcdefg",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "ackpack",
+      "title": "AckPack",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "AckPack",
           "language": "英文",
           "note": ""
         }
@@ -129935,6 +132509,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "ay-1",
+      "title": "AY-1",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "AY-1",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "babydon'tcry",
       "title": "Baby Don't Cry",
       "language": "英文",
@@ -130649,6 +133257,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "bigsmoke",
+      "title": "Big Smoke",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Big Smoke",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "billiejean",
       "title": "Billie Jean",
       "language": "英文",
@@ -130863,6 +133505,40 @@
           "id": "v1-00",
           "name": "Ab",
           "title": "Black Sheep",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "blackbirrrd",
+      "title": "Blackbirrrd",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Blackbirrrd",
           "language": "英文",
           "note": ""
         }
@@ -131261,6 +133937,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "bonbonbonbon",
+      "title": "Bon Bon Bon Bon",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Bon Bon Bon Bon",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "boom一下你就bap",
       "title": "boom一下你就bap",
       "language": "中文",
@@ -131543,6 +134253,40 @@
           "id": "v1-09",
           "name": "阿古",
           "title": "Byebye Rainday",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "callbacktherain",
+      "title": "Call Back the Rain",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Call Back the Rain",
           "language": "英文",
           "note": ""
         }
@@ -132020,6 +134764,40 @@
           "name": "Coffee",
           "title": "cd盒",
           "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "chain",
+      "title": "Chain",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Chain",
+          "language": "英文",
           "note": ""
         }
       ],
@@ -132759,6 +135537,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "copycat",
+      "title": "Copy Cat",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Copy Cat",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "corazondemelao",
       "title": "Corazon De Melao",
       "language": "英文",
@@ -133201,6 +136013,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "db",
+      "title": "dB",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "dB",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "deadman'sgun",
       "title": "Deadman's Gun",
       "language": "英文",
@@ -133449,6 +136295,40 @@
           "id": "v1-29",
           "name": "FATE",
           "title": "Dilemma",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "dirt",
+      "title": "Dirt",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Dirt",
           "language": "英文",
           "note": ""
         }
@@ -134735,6 +137615,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "fast-trackpathway",
+      "title": "Fast-Track Pathway",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Fast-Track Pathway",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "fearfornobody",
       "title": "Fear for Nobody",
       "language": "英文",
@@ -135927,6 +138841,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "getit",
+      "title": "Get It",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Get It",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "getitbackincum",
       "title": "Get It Back in Cum",
       "language": "英文",
@@ -135995,6 +138943,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "getrhythm",
+      "title": "Get Rhythm",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Get Rhythm",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "getyou",
       "title": "Get You",
       "language": "英文",
@@ -136005,6 +138987,40 @@
           "id": "v1-30",
           "name": "律",
           "title": "Get You",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "get&out",
+      "title": "Get&out",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Get&out",
           "language": "英文",
           "note": ""
         }
@@ -136175,6 +139191,40 @@
           "id": "v1-08",
           "name": "猫欢喜",
           "title": "Glitter&Gold",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "glorilla",
+      "title": "Glorilla",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Glorilla",
           "language": "英文",
           "note": ""
         }
@@ -139297,6 +142347,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "i'mdrunk",
+      "title": "I'm Drunk !",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "I'm Drunk !",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "i'mfeelinggood",
       "title": "I'm Feeling Good",
       "language": "英文",
@@ -139443,6 +142527,40 @@
           "id": "v1-31",
           "name": "ESC",
           "title": "I'm Yours-Jason Mraz",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "icedout",
+      "title": "ICED OUT",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "ICED OUT",
           "language": "英文",
           "note": ""
         }
@@ -140589,6 +143707,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "knowmyname",
+      "title": "Know My Name",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Know My Name",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "koolaid",
       "title": "Kool Aid",
       "language": "英文",
@@ -141677,6 +144829,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "lilith2",
+      "title": "Lilith2",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Lilith2",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "linebyline",
       "title": "Line by Line",
       "language": "英文",
@@ -141687,6 +144873,40 @@
           "id": "v1-31",
           "name": "ESC",
           "title": "Line by Line",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "liquid",
+      "title": "Liquid",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Liquid",
           "language": "英文",
           "note": ""
         }
@@ -143345,6 +146565,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "mask",
+      "title": "MASK",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "MASK",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "mayrain",
       "title": "May Rain",
       "language": "英文",
@@ -143458,6 +146712,40 @@
           "name": "律",
           "title": "Meet Me in Amsterdam",
           "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "mega进化",
+      "title": "Mega进化",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Mega进化",
+          "language": "中文",
           "note": ""
         }
       ],
@@ -144035,6 +147323,40 @@
           "id": "v1-29",
           "name": "FATE",
           "title": "Movie",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "mr.bentley",
+      "title": "Mr. Bentley",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Mr. Bentley",
           "language": "英文",
           "note": ""
         }
@@ -144784,6 +148106,40 @@
           "name": "Ng",
           "title": "Night Changes",
           "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "nightkidz夜之子",
+      "title": "NIGHTKIDZ夜之子",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "NIGHTKIDZ夜之子",
+          "language": "中文",
           "note": ""
         }
       ],
@@ -146881,6 +150237,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "pressureonyou",
+      "title": "Pressure on You",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Pressure on You",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "priceless",
       "title": "Priceless",
       "language": "英文",
@@ -147367,40 +150757,6 @@
           "id": "v1-13",
           "name": "DTT",
           "title": "Rather Be",
-          "language": "英文",
-          "note": ""
-        }
-      ],
-      "metadata": {
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
-        "confidence": "",
-        "source": "",
-        "sourceUrl": "",
-        "checkedAt": ""
-      },
-      "candidateOriginalArtists": [],
-      "singerSpecificNotes": [],
-      "needsMetadata": [
-        "原唱",
-        "年份",
-        "风格"
-      ],
-      "ambiguous": false,
-      "ambiguityReasons": []
-    },
-    {
-      "key": "readyornot",
-      "title": "Ready or Not",
-      "language": "英文",
-      "aliases": [],
-      "singerCount": 1,
-      "singers": [
-        {
-          "id": "v1-11",
-          "name": "尘",
-          "title": "Ready or Not",
           "language": "英文",
           "note": ""
         }
@@ -148785,6 +152141,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "sensitive",
+      "title": "Sensitive",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Sensitive",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "sensitivekind",
       "title": "Sensitive Kind",
       "language": "英文",
@@ -149193,6 +152583,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "sitdown",
+      "title": "Sit Down",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Sit Down",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "sixdegreesofseparation",
       "title": "Six Degrees of Separation",
       "language": "英文",
@@ -149499,6 +152923,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "sofaβed",
+      "title": "Sofa Βed",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Sofa Βed",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "soledad",
       "title": "Soledad",
       "language": "英文",
@@ -149781,6 +153239,40 @@
           "id": "v1-29",
           "name": "FATE",
           "title": "Standing Next to You",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "starcrossingnight",
+      "title": "Star Crossing Night",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Star Crossing Night",
           "language": "英文",
           "note": ""
         }
@@ -152393,6 +155885,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "top",
+      "title": "Top",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Top",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "touchmybody",
       "title": "Touch My Body",
       "language": "英文",
@@ -152607,6 +156133,40 @@
           "id": "v1-29",
           "name": "FATE",
           "title": "Trust Me",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "truthfully",
+      "title": "Truthfully",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Truthfully",
           "language": "英文",
           "note": ""
         }
@@ -154671,6 +158231,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "whoisthebest",
+      "title": "Who Is the Best",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Who Is the Best",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "whyworry",
       "title": "Why Worry",
       "language": "英文",
@@ -155385,6 +158979,40 @@
       "ambiguityReasons": []
     },
     {
+      "key": "youbreakmyheart",
+      "title": "You Break My Heart",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "You Break My Heart",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
       "key": "youdon'tmissyourwater",
       "title": "You Don't Miss Your Water",
       "language": "英文",
@@ -155803,6 +159431,40 @@
           "id": "v1-30",
           "name": "律",
           "title": "ZOE",
+          "language": "英文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "confidence": "",
+        "source": "",
+        "sourceUrl": "",
+        "checkedAt": ""
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [
+        "原唱",
+        "年份",
+        "风格"
+      ],
+      "ambiguous": false,
+      "ambiguityReasons": []
+    },
+    {
+      "key": "βadβoyiscoming",
+      "title": "Βad Βoy Is Coming",
+      "language": "英文",
+      "aliases": [],
+      "singerCount": 1,
+      "singers": [
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "Βad Βoy Is Coming",
           "language": "英文",
           "note": ""
         }
@@ -163288,6 +166950,67 @@
       "ambiguityReasons": []
     },
     {
+      "key": "最爱",
+      "title": "最爱",
+      "language": "中文",
+      "aliases": [],
+      "singerCount": 5,
+      "singers": [
+        {
+          "id": "v1-07",
+          "name": "刀",
+          "title": "最爱",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-01",
+          "name": "火薬",
+          "title": "最爱",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-27",
+          "name": "乔亦",
+          "title": "最爱",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-04",
+          "name": "山药",
+          "title": "最爱",
+          "language": "中文",
+          "note": ""
+        },
+        {
+          "id": "v1-21",
+          "name": "WakeUp",
+          "title": "最爱",
+          "language": "中文",
+          "note": ""
+        }
+      ],
+      "metadata": {
+        "originalArtist": "潘越云",
+        "releaseYear": "1986",
+        "genre": "流行",
+        "confidence": "medium",
+        "source": "user-provided original artist + QQ/iTunes metadata",
+        "sourceUrl": "https://c.y.qq.com/soso/fcgi-bin/client_search_cp?p=1&n=8&w=%E6%9C%80%E7%88%B1&format=json",
+        "checkedAt": "2026-07-24"
+      },
+      "candidateOriginalArtists": [],
+      "singerSpecificNotes": [],
+      "needsMetadata": [],
+      "ambiguous": true,
+      "ambiguityReasons": [
+        "已有多个原唱：潘越云、周慧敏",
+        "短中文歌名，可能重名"
+      ]
+    },
+    {
       "key": "最好的都给你",
       "title": "最好的都给你",
       "language": "中文",
@@ -166515,60 +170238,6 @@
       "needsMetadata": [],
       "ambiguous": false,
       "ambiguityReasons": []
-    },
-    {
-      "key": "最爱",
-      "title": "最爱",
-      "language": "中文",
-      "aliases": [],
-      "singerCount": 4,
-      "singers": [
-        {
-          "id": "v1-07",
-          "name": "刀",
-          "title": "最爱",
-          "language": "中文",
-          "note": ""
-        },
-        {
-          "id": "v1-01",
-          "name": "火薬",
-          "title": "最爱",
-          "language": "中文",
-          "note": ""
-        },
-        {
-          "id": "v1-27",
-          "name": "乔亦",
-          "title": "最爱",
-          "language": "中文",
-          "note": ""
-        },
-        {
-          "id": "v1-04",
-          "name": "山药",
-          "title": "最爱",
-          "language": "中文",
-          "note": ""
-        }
-      ],
-      "metadata": {
-        "originalArtist": "潘越云",
-        "releaseYear": "1986",
-        "genre": "流行",
-        "confidence": "medium",
-        "source": "user-provided original artist + QQ/iTunes metadata",
-        "sourceUrl": "https://c.y.qq.com/soso/fcgi-bin/client_search_cp?p=1&n=8&w=%E6%9C%80%E7%88%B1&format=json",
-        "checkedAt": "2026-07-24"
-      },
-      "candidateOriginalArtists": [],
-      "singerSpecificNotes": [],
-      "needsMetadata": [],
-      "ambiguous": true,
-      "ambiguityReasons": [
-        "已有多个原唱：潘越云、周慧敏",
-        "短中文歌名，可能重名"
-      ]
     },
     {
       "key": "作曲家",
