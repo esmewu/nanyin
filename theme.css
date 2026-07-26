@@ -1796,6 +1796,17 @@ body {
   white-space: nowrap;
 }
 
+.home-singer-sort .singer-sort-pill {
+  align-items: center;
+  font-size: 14px;
+  justify-content: center;
+  line-height: 1.1;
+  min-height: 0;
+  min-width: 0;
+  padding: 16px 22px;
+  text-align: center;
+}
+
 .tag-voice {
   background: linear-gradient(135deg, #dcfbff 0%, #f5f2c8 100%);
   color: #216e79;
