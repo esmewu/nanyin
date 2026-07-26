@@ -383,6 +383,37 @@ body {
   gap: 12px;
 }
 
+.home-song-insights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.home-song-insights .home-song-insight-pill {
+  align-items: center;
+  font-size: 13px;
+  justify-content: center;
+  line-height: 1.1;
+  padding: 9px 13px;
+  text-align: center;
+}
+
+.home-song-insight-genre {
+  background: linear-gradient(135deg, #fff6c2 0%, #ffd7d9 100%);
+  color: #8a5630;
+}
+
+.home-song-insight-song {
+  background: linear-gradient(135deg, #cdf3ff 0%, #cde5ff 25%, #e7d8f8 50%, #ffcbf1 75%, #ffddaa 100%);
+  color: #7b2f73;
+}
+
+.home-song-insight-artist {
+  background: linear-gradient(135deg, #eae3db 0%, #dfeeff 100%);
+  color: #667085;
+}
+
 .home-singer-filters {
   display: grid;
   gap: 12px;
@@ -2268,6 +2299,21 @@ body {
 
 [data-theme="nanyin-dark"] .singer-sort-library {
   background: linear-gradient(135deg, #334155 0%, #1e3a8a 100%);
+  color: #f8fafc;
+}
+
+[data-theme="nanyin-dark"] .home-song-insight-artist {
+  background: linear-gradient(135deg, #334155 0%, #1e3a8a 100%);
+  color: #f8fafc;
+}
+
+[data-theme="nanyin-dark"] .home-song-insight-genre {
+  background: linear-gradient(135deg, #92400e 0%, #be185d 100%);
+  color: #fff7ed;
+}
+
+[data-theme="nanyin-dark"] .home-song-insight-song {
+  background: linear-gradient(135deg, #0e7490 0%, #312e81 32%, #6d28d9 66%, #be185d 100%);
   color: #f8fafc;
 }
 

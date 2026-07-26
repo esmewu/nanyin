@@ -1627,6 +1627,74 @@ function visibleSongs() {
   return mode === "default" ? sortPinnedFirst(sorted) : sorted;
 }
 
+function normalizedSongTitle(title) {
+  return String(title || "")
+    .trim()
+    .replace(/[“”]/g, "\"")
+    .replace(/[’‘]/g, "'")
+    .replace(/\s+/g, " ")
+    .toLowerCase();
+}
+
+function topEntry(entries) {
+  return [...entries]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-Hans-CN"))[0] || ["待补", 0];
+}
+
+function homeSongInsights() {
+  const allSongs = rows();
+  const songDisplay = new Map();
+  const songSingerCounts = new Map();
+  const seenTitlesBySinger = new Map();
+  const genreCounts = new Map();
+  const originalArtistCounts = new Map();
+  const ignoredOriginalArtists = new Set(["待补", "推荐", "看状态", "双倍", "谨慎点歌"]);
+
+  allSongs.forEach((song) => {
+    const titleKey = normalizedSongTitle(song.title);
+    if (titleKey) {
+      if (!songDisplay.has(titleKey)) songDisplay.set(titleKey, song.title);
+      if (!seenTitlesBySinger.has(song.singerId)) seenTitlesBySinger.set(song.singerId, new Set());
+      const seenTitles = seenTitlesBySinger.get(song.singerId);
+      if (!seenTitles.has(titleKey)) {
+        songSingerCounts.set(titleKey, (songSingerCounts.get(titleKey) || 0) + 1);
+        seenTitles.add(titleKey);
+      }
+    }
+
+    const genre = String(song.genre || "").trim();
+    if (genre && genre !== "待补") genreCounts.set(genre, (genreCounts.get(genre) || 0) + 1);
+    const originalArtist = String(song.originalArtist || "").trim();
+    if (originalArtist && !ignoredOriginalArtists.has(originalArtist)) {
+      originalArtistCounts.set(originalArtist, (originalArtistCounts.get(originalArtist) || 0) + 1);
+    }
+  });
+
+  const [topGenre, topGenreCount] = topEntry(genreCounts);
+  const [topSongKey, topSongCount] = topEntry(songSingerCounts);
+  const [topOriginalArtist, topOriginalArtistCount] = topEntry(originalArtistCounts);
+
+  return {
+    topGenre,
+    topGenreCount,
+    topSong: songDisplay.get(topSongKey) || topSongKey,
+    topSongCount,
+    topOriginalArtist,
+    topOriginalArtistCount
+  };
+}
+
+function renderHomeSongInsights() {
+  const target = $("homeSongInsights");
+  if (!target) return;
+  const stats = homeSongInsights();
+  target.innerHTML = `
+    <span class="tag-chip home-song-insight-pill home-song-insight-genre">${stats.topGenre}${stats.topGenreCount}首</span>
+    <span class="tag-chip home-song-insight-pill home-song-insight-song">${stats.topSongCount}人会唱${stats.topSong}</span>
+    <span class="tag-chip home-song-insight-pill home-song-insight-artist">${stats.topOriginalArtistCount}首${stats.topOriginalArtist}</span>
+  `;
+}
+
 function visibleSingers() {
   const q = queryText();
   if (!q) return singers;
@@ -1859,6 +1927,7 @@ function updateSongViewToggle(buttonId, mode) {
 }
 
 function renderSongs() {
+  renderHomeSongInsights();
   const list = visibleSongs();
   const visibleList = list.slice(0, homeSongRenderLimit);
   const compact = homeSongViewMode === "card";
