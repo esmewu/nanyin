@@ -1,0 +1,2059 @@
+{
+  "singer": "不酷_南音",
+  "singerId": "v1-03",
+  "source": "user-provided text",
+  "updatedAt": "2026-07-25",
+  "rules": "中文区和英文区分开；同名歌曲已去重；每区均按字数从少到多排列。英文歌名统一使用 Title Case。括号内标注先录入原唱字段，年份和风格后续补入。",
+  "chinese": [
+    {
+      "title": "等",
+      "charCount": 1,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "还",
+      "charCount": 1,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "灰",
+      "charCount": 1,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "蓝",
+      "charCount": 1,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "瞬",
+      "charCount": 1,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "提",
+      "charCount": 1,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "锈",
+      "charCount": 1,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "跃",
+      "charCount": 1,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "渣",
+      "charCount": 1,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "爱错",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "爱你",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "败将",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "不甘",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "不在",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "成都",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "出卖",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "炊烟",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "春泥",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "底牌",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "发热",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "反复",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "敷衍",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "孤雏",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "归来",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "缓缓",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "幻听",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "患疾",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "剪影",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "渐冷",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "介意",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "借月",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "救赎",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "昆巴",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "泪桥",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "理想",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "恋人",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "烈焰",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "慢慢",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "玫瑰",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "妹子",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "墨山",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "难舍",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "你走",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "逆旅",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "炮灭",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "陪阶",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "陪陪",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "青花",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "情歌",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "人质",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "认可",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "汝南",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "入戏",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "上瘾",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "失格",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "收藏",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "守护",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "宿命",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "天下",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "同类",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "偷心",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "偷走",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "妥协",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "晚安",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "我认",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "习惯",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "想象",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "嚣张",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "心冕",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "心跳",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "虚构",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "一点",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "抑人",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "隐患",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "予你",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "雨爱",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "雨天",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "月光",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "月食",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "越界",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "云长",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "挚友",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "致低",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "租购",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "罪人",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "座位",
+      "charCount": 2,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "安河桥",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "白衬衫",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "壁上观",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "错的人",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "定军山",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "对你说",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "敷勒歌",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "郭源潮",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "海屿你",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "海芋恋",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "黑夜中",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "红绣花",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "虹之间",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "坏杀手",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "计划里",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "没有了",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "茉莉雨",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "那栋楼",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "亲爱的",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "柔光灯",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "是冬天",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "是告别",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "手放开",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "守夜人",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "算了吧",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "探险家",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "跳蚤机",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "同花顺",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "忘了吧",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "我可以",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "我走后",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "武家坡",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "喜欢你",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "想自由",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "小胡同",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "心之火",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "新沈阳",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "愿某人",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "云水谣",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "怎么了",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "栀黑素",
+      "charCount": 3,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "爱过的你",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "巴拉莱卡",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "茶花开了",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "朝阳花开",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "春山外史",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "此生不换",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "当遇见你",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "丢掉听觉",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "东北民谣",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "该怎么办",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "感官先生",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "告白星球",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "过分依赖",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "花海沉船",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "极恶都市",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "今夜有雨",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "就此别过",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "君临天下",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "拉过句的",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "连名带姓",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "落叶归根",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "埋下玫瑰",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "玫瑰窃贼",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "美丽谎言",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "漠河舞厅",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "那就晚安",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "你的秘密",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "你欠我的",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "千金散尽",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "人生大事",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "伤心剩下",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "神魂颠倒",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "市中沙漠",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "示爱嫌疑",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "双鱼玉佩",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "死性不改",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "唐爱堂医",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "万骨催沙",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "危险派对",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "我好想你",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "我要的爱",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "消散对白",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "小城夏天",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "写给黄淮",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "心痛无医",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "心绪缠绕",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "幸福无关",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "一个傻子",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "一荤一素",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "友谊长存",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "再等冬天",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "再见迪叟",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "再见深海",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "字字句句",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "自调周全",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "爱久见人心",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "不要记得我",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "不要再说了",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "出现又离开",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "粉色告白信",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "给你的爱情",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "还是会想你",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "好聚·好散",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "荒漠上行走",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "黄昏到黎明",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "教我怎么忘",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "结束在此刻",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "你不再需要",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "陪在你身边",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "七月七日晴",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "其实都没有",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "如果爱忘了",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "如果没确定",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "如果雨之后",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "山楂树之恋",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "深夜空想家",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "太阳与地球",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "我的心好冷",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "我们的明天",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "我们说好的",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "我又想你了",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "下雪哈尔滨",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "下一个天亮",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "先说谎的人",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "云裳羽衣曲",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "折起的遗憾",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "真爱你的心",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "最初的记忆",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "最后的我们",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "最名的好友",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "PS我爱你",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "等不到的等待",
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "和我一样的人",
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "今夜有人入睡",
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "你不知道的事",
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "你是我的风景",
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "普鲁斯特效应",
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "失约海2.0",
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "十二月的奇迹",
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "我要你别离开",
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "烟火里的尘埃",
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "银河爱情故事",
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "银河静默如迷",
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "永不失联的爱",
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "再也不能相见",
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "他真的对你好呀",
+      "charCount": 7,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "土坡上的狗尾草",
+      "charCount": 7,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "我做什么都不对",
+      "charCount": 7,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "像你这样的朋友",
+      "charCount": 7,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "暗恋是一个人的事",
+      "charCount": 8,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "给我一个理由忘记",
+      "charCount": 8,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "根本你不懂得爱我",
+      "charCount": 8,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "刻在我心底的名字",
+      "charCount": 8,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "凌晨与午夜的距离",
+      "charCount": 8,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "你说你担心的是我",
+      "charCount": 8,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "热铁皮房顶的夏天",
+      "charCount": 8,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "如果分开我也爱你",
+      "charCount": 8,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "四点的海棠花未眠",
+      "charCount": 8,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "在加纳共和国离婚",
+      "charCount": 8,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "把你的名字念一万遍",
+      "charCount": 9,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "在那天回不去的路上",
+      "charCount": 9,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "走向我是为了离开我",
+      "charCount": 9,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "所有美好为你慕名而来",
+      "charCount": 10,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "关于我从未忘记你这件事",
+      "charCount": 11,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    }
+  ],
+  "english": [
+    {
+      "title": "COCO",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "NUNA",
+      "charCount": 4,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Trap",
+      "charCount": 4,
+      "originalArtist": "固话",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "user-provided-artist"
+    },
+    {
+      "title": "Simon",
+      "charCount": 5,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    },
+    {
+      "title": "Bubble",
+      "charCount": 6,
+      "originalArtist": "",
+      "releaseYear": "",
+      "genre": "",
+      "confidence": "pending"
+    }
+  ]
+}
