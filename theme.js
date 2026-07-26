@@ -1481,10 +1481,17 @@ function renderDebtList(singer, target) {
 function rows() {
   const edits = readSongEdits();
   const deleted = readDeletedSongs();
+  const usefulValue = (value) => {
+    const text = String(value || "").trim();
+    return text && text !== "待补" ? text : "";
+  };
   const builtInRows = singers.flatMap((singer) =>
     singer.songs.map((song, index) => {
       const title = song[0];
       const originalArtist = song[4] || "";
+      const rowOriginalArtist = usefulValue(originalArtist);
+      const rowReleaseYear = usefulValue(song[5]);
+      const rowGenre = usefulValue(song[6]);
       const editKey = `builtin:${singer.id}:${index}:${title}:${originalArtist}`;
       if (deleted[editKey]) return null;
       const metadata = getSongMetadata(singer.id, title, originalArtist);
@@ -1494,9 +1501,9 @@ function rows() {
         artist: song[1],
         language: edit.language || song[2],
         note: song[3],
-        originalArtist: edit.originalArtist ?? (originalArtist || metadata.originalArtist || ""),
-        releaseYear: edit.releaseYear ?? (song[5] || metadata.releaseYear || ""),
-        genre: song[6] || metadata.genre || "",
+        originalArtist: edit.originalArtist ?? (metadata.originalArtist || rowOriginalArtist || ""),
+        releaseYear: edit.releaseYear ?? (rowReleaseYear || metadata.releaseYear || ""),
+        genre: edit.genre ?? (rowGenre || metadata.genre || ""),
         metadataConfidence: metadata.confidence || "",
         singerId: singer.id,
         singer: displayName(singer.name),
@@ -1535,10 +1542,30 @@ function songMetadataKey(singerId, title, originalArtist) {
 }
 
 const metadataBySong = new Map();
+const metadataGroupsByTitle = new Map();
 (window.nanyinSongMetadata || []).forEach((item) => {
   metadataBySong.set(songMetadataKey(item.singerId, item.title, item.originalArtist), item);
   if (!metadataBySong.has(songMetadataKey(item.singerId, item.title, ""))) {
     metadataBySong.set(songMetadataKey(item.singerId, item.title, ""), item);
+  }
+  const titleKey = songMetadataKey("", item.title, "");
+  if (!metadataGroupsByTitle.has(titleKey)) metadataGroupsByTitle.set(titleKey, []);
+  metadataGroupsByTitle.get(titleKey).push(item);
+});
+
+const metadataFallbackByTitle = new Map();
+metadataGroupsByTitle.forEach((items, titleKey) => {
+  const artists = new Set(items.map((item) => String(item.originalArtist || "").trim()).filter(Boolean));
+  if (artists.size > 1) return;
+  const best = items.toSorted((a, b) => {
+    const score = (item) =>
+      Number(Boolean(item.originalArtist)) * 4
+      + Number(Boolean(item.releaseYear)) * 2
+      + Number(Boolean(item.genre));
+    return score(b) - score(a);
+  })[0];
+  if (best?.originalArtist || best?.releaseYear || best?.genre) {
+    metadataFallbackByTitle.set(titleKey, best);
   }
 });
 
@@ -1547,6 +1574,7 @@ function getSongMetadata(singerId, title, originalArtist) {
     || metadataBySong.get(songMetadataKey(singerId, title, ""))
     || metadataBySong.get(songMetadataKey("", title, originalArtist))
     || metadataBySong.get(songMetadataKey("", title, ""))
+    || metadataFallbackByTitle.get(songMetadataKey("", title, ""))
     || {};
 }
 
