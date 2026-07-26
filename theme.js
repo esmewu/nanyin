@@ -764,6 +764,7 @@ let detailSongQuery = "";
 let homeSongViewMode = "list";
 let detailSongViewMode = "list";
 let homeSingerSortMode = "debts";
+let homeSongInsightSortMode = "";
 let searchRenderTimer = 0;
 let scrollLoadTimer = 0;
 const songRenderBatchSize = 60;
@@ -1603,6 +1604,39 @@ function sortSongs(list, mode) {
   return list.toSorted(defaultSongCompare);
 }
 
+function sortSongsByInsight(list, mode) {
+  if (!mode) return list;
+  const { songSingerCounts, genreCounts, originalArtistCounts } = songInsightCounts(list);
+  if (mode === "genrePopularity") {
+    return list.toSorted((a, b) => {
+      const genreA = a.genre || "待补";
+      const genreB = b.genre || "待补";
+      return (genreCounts.get(genreB) || 0) - (genreCounts.get(genreA) || 0)
+        || genreA.localeCompare(genreB, "zh-Hans-CN")
+        || defaultSongCompare(a, b);
+    });
+  }
+  if (mode === "songPopularity") {
+    return list.toSorted((a, b) => {
+      const keyA = normalizedSongTitle(a.title);
+      const keyB = normalizedSongTitle(b.title);
+      return (songSingerCounts.get(keyB) || 0) - (songSingerCounts.get(keyA) || 0)
+        || a.title.localeCompare(b.title, "zh-Hans-CN")
+        || defaultSongCompare(a, b);
+    });
+  }
+  if (mode === "originalArtistPopularity") {
+    return list.toSorted((a, b) => {
+      const artistA = a.originalArtist || "待补";
+      const artistB = b.originalArtist || "待补";
+      return (originalArtistCounts.get(artistB) || 0) - (originalArtistCounts.get(artistA) || 0)
+        || artistA.localeCompare(artistB, "zh-Hans-CN")
+        || a.title.localeCompare(b.title, "zh-Hans-CN");
+    });
+  }
+  return list;
+}
+
 function sortPinnedFirst(list) {
   return list.toSorted((a, b) => {
     const pinnedA = isSongPinned(a);
@@ -1625,6 +1659,7 @@ function visibleSongs() {
     return inLanguage && inGenre && (!q || haystack.includes(q));
   });
   const mode = $("sort").value;
+  if (homeSongInsightSortMode) return sortSongsByInsight(list, homeSongInsightSortMode);
   const sorted = sortSongs(list, mode);
   return mode === "default" ? sortPinnedFirst(sorted) : sorted;
 }
@@ -1643,8 +1678,7 @@ function topEntry(entries) {
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-Hans-CN"))[0] || ["待补", 0];
 }
 
-function homeSongInsights() {
-  const allSongs = rows();
+function songInsightCounts(list) {
   const songDisplay = new Map();
   const songSingerCounts = new Map();
   const seenTitlesBySinger = new Map();
@@ -1652,7 +1686,7 @@ function homeSongInsights() {
   const originalArtistCounts = new Map();
   const ignoredOriginalArtists = new Set(["待补", "推荐", "看状态", "双倍", "谨慎点歌"]);
 
-  allSongs.forEach((song) => {
+  list.forEach((song) => {
     const titleKey = normalizedSongTitle(song.title);
     if (titleKey) {
       if (!songDisplay.has(titleKey)) songDisplay.set(titleKey, song.title);
@@ -1672,6 +1706,16 @@ function homeSongInsights() {
     }
   });
 
+  return {
+    songDisplay,
+    songSingerCounts,
+    genreCounts,
+    originalArtistCounts
+  };
+}
+
+function homeSongInsights() {
+  const { songDisplay, songSingerCounts, genreCounts, originalArtistCounts } = songInsightCounts(rows());
   const [topGenre, topGenreCount] = topEntry(genreCounts);
   const [topSongKey, topSongCount] = topEntry(songSingerCounts);
   const [topOriginalArtist, topOriginalArtistCount] = topEntry(originalArtistCounts);
@@ -1691,10 +1735,22 @@ function renderHomeSongInsights() {
   if (!target) return;
   const stats = homeSongInsights();
   target.innerHTML = `
-    <span class="tag-chip home-feature-pill home-song-insight-pill home-song-insight-genre">${stats.topGenre}${stats.topGenreCount}首</span>
-    <span class="tag-chip home-feature-pill home-song-insight-pill home-song-insight-song">${stats.topSongCount}人会唱「${stats.topSong}」</span>
-    <span class="tag-chip home-feature-pill home-song-insight-pill home-song-insight-artist">${stats.topOriginalArtistCount}首${stats.topOriginalArtist}</span>
+    <button class="tag-chip home-feature-pill home-song-insight-pill home-song-insight-genre" type="button" data-home-song-insight-sort="genrePopularity" aria-pressed="${homeSongInsightSortMode === "genrePopularity"}">${stats.topGenre}${stats.topGenreCount}首</button>
+    <button class="tag-chip home-feature-pill home-song-insight-pill home-song-insight-song" type="button" data-home-song-insight-sort="songPopularity" aria-pressed="${homeSongInsightSortMode === "songPopularity"}">${stats.topSongCount}人会唱「${stats.topSong}」</button>
+    <button class="tag-chip home-feature-pill home-song-insight-pill home-song-insight-artist" type="button" data-home-song-insight-sort="originalArtistPopularity" aria-pressed="${homeSongInsightSortMode === "originalArtistPopularity"}">${stats.topOriginalArtistCount}首${stats.topOriginalArtist}</button>
   `;
+  target.querySelectorAll("[data-home-song-insight-sort]").forEach((button) => {
+    const isActive = button.dataset.homeSongInsightSort === homeSongInsightSortMode;
+    button.classList.toggle("home-song-insight-pill-active", isActive);
+    button.onclick = () => {
+      homeSongInsightSortMode = isActive ? "" : button.dataset.homeSongInsightSort;
+      $("sort").value = "default";
+      activeTab = "songs";
+      homeSongViewMode = "list";
+      resetHomeSongBatch();
+      renderRoute();
+    };
+  });
 }
 
 function visibleSingers() {
@@ -2354,6 +2410,7 @@ $("search").oninput = () => {
       homeSongViewMode = "list";
       activeTab = "songs";
     }
+    if (id === "sort") homeSongInsightSortMode = "";
     resetHomeSongBatch();
     renderRoute();
   };
