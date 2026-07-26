@@ -1,0 +1,1783 @@
+{
+  "singer": "天译_南音",
+  "singerId": "v1-41",
+  "generatedAt": "2026-07-26T08:01:29.163Z",
+  "rules": "中文区、日文区和英文区分开；同名歌曲已去重；每区均按字数从少到多排列。英文歌名统一使用 Title Case。年份、风格和原唱后续补入。",
+  "summary": {
+    "chinese": 138,
+    "japanese": 0,
+    "english": 56,
+    "total": 194,
+    "originalArtistCompleted": 0,
+    "releaseYearCompleted": 0,
+    "genreCompleted": 0,
+    "pending": 194
+  },
+  "duplicatesRemoved": [
+    "Close to You",
+    "Five Hundred Miles",
+    "I Have and Always Will",
+    "I Think They Call This Love",
+    "Jolene",
+    "Love Is a Verb",
+    "More Than Words",
+    "Perfect",
+    "Put Your Head on My Shoulder",
+    "The Blower's Daughter",
+    "The Rock of Your Love",
+    "Your Man"
+  ],
+  "songs": {
+    "chinese": [
+      {
+        "title": "画",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "笼",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "谁",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "紫",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "阿刁",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "爱河",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "爱情",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "不说",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "不算",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "成全",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "窗外",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "春雪",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "儿时",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "放开",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "鸽子",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "鼓楼",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "回忆",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "泪桥",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "离人",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "李白",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "麻雀",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "慢冷",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "慢慢",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "迷宫",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "模特",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "男孩",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "难道",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "泥巴",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "女孩",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "诺言",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "偏爱",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "青花",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "秋风",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "沙滩",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "山雀",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "少年",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "深蓝",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "偷心",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "晚婚",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "危险",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "唯一",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "西湖",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "想念",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "小雨",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "心酸",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "新娘",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "悬崖",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "野人",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "拥抱",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "最爱",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "艾蜜莉",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "爱一点",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "安和桥",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "半点心",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "不要怕",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "不遗憾",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "程艾影",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "达尔文",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "大风吹",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "大人中",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "二三十",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "哈哈哈",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "胡广生",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "九月底",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "老情歌",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "莉莉安",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "六层楼",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "美人吟",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "女儿情",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "凄美地",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "若把你",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "三人游",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "苏州河",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "童话镇",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "王昭君",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "我们俩",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "想着你",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "向云端",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "小美满",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "野衣裳",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "有没有",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "爱如潮水",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "才二三十",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "电台情歌",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "风吹麦浪",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "告白气球",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "公路之歌",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "滚滚红尘",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "好久不见",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "好想好想",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "金风玉露",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "浪子心声",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "那么骄傲",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "霓虹甜心",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "你啊你啊",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "年少有为",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "十万嬉皮",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "特别的人",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "瓦尔登湖",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "我们的歌",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "乌梅子酱",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "无名的人",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "像风一样",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "行走的鱼",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "需要人陪",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "与我无关",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "贝加尔湖畔",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "出现又离开",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "初恋的地方",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "给自己的歌",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "红色高跟鞋",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "荒漠上行走",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "慢慢喜欢你",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "每个人都会",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "那就这样吧",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "其实都没有",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "若月亮没来",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "弯弯的月亮",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "我的纸飞机",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "我们的时光",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "我是一只鱼",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "有你的快乐",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "最浪漫的事",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "那女孩对我说",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "十点半的地铁",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "世界赠予我的",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "野草与栀子花",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "怨苍天变了心",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "月球风格爱情",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "这条小鱼在乎",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "开往早晨的午夜",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "送你一朵小红花",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "天下乌鸦一般黑",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "我怀疑你曾来过",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "想把我唱给你听",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "杀死那个石家庄人",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "在加纳共和国离婚",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "当你孤单你会想起谁",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "中文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      }
+    ],
+    "japanese": [],
+    "english": [
+      {
+        "title": "IF",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Hang Me",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Jolene",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "My Love",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Please",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Here I Am",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "New Shoe",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Perfect",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Sunrise",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Your Man",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "H.my Gift",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Forgive Me",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Loving You",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Close to You",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Give into Me",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "It's My Life",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Sleeping In",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Built to Last",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Love Is a Verb",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Pretty Woman",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "The Best of Me",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Because of You",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Don't Know Why",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Fare Thee Well",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Love Me Tender",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "You Raise Me Up",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "More Than Words",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Now and Forever",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Tears in Heaven",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "The One You Love",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Change the World",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Fly Me to the Moon",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Love Song2:00am",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "That's All Right",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "You Are Not Alone",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "More Than I Can Say",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Rhythm of the Rain",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Five Hundred Miles",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "I'm in Love with You",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Right Here Waiting",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Wonderful Tonight",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "I Will Always Return",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Jenny Don't Be Hasty",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Take Me to Your Heart",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "The Rock of Your Love",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "I Have and Always Will",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Love Will Keep Us Alive",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "The Blower's Daughter",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Take Me Home Country Road",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "You Are so Beautiful to Me",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Can't Help Falling in Love",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "I Think They Call This Love",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Put Your Head on My Shoulder",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Can You Feel the Love Tonight",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "Nothing Is Gonna Change My Love for You",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      },
+      {
+        "title": "The Girl's Appearance Is a Gift from Hearn",
+        "originalArtist": "",
+        "releaseYear": "",
+        "genre": "",
+        "language": "英文",
+        "source": "用户提供歌单",
+        "confidence": "pending"
+      }
+    ]
+  }
+}
