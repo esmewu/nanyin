@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "scripts": {
+    "song:index": "node scripts/generate-song-index.cjs"
+  },
   "dependencies": {
     "@edgeone/pages-blob": "^0.0.14"
   }
