@@ -389,6 +389,41 @@ body {
   grid-template-columns: minmax(0, 1fr);
 }
 
+.home-singer-sort {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.singer-sort-pill {
+  border: 1px solid rgba(36, 31, 31, .08);
+  cursor: pointer;
+  font-size: 14px;
+  justify-content: center;
+  min-height: 34px;
+  padding: 8px 14px;
+  transition: box-shadow .16s ease, transform .16s ease, border-color .16s ease;
+}
+
+.singer-sort-pill:active {
+  transform: scale(.98);
+}
+
+.singer-sort-pill-active {
+  border-color: rgba(23, 37, 84, .18);
+  box-shadow: 0 8px 18px rgba(23, 37, 84, .12);
+}
+
+.singer-sort-library {
+  background: linear-gradient(135deg, #eae3db 0%, #dfeeff 100%);
+  color: #667085;
+}
+
+.singer-sort-debts {
+  background: linear-gradient(135deg, #ffd0bd 0%, #ffe29a 34%, #f2c5ff 68%, #ffd4e5 100%);
+  color: #7b2f73;
+}
+
 .home-song-filter-row {
   align-items: end;
   display: grid;
@@ -2190,6 +2225,7 @@ body {
 
 [data-theme="nanyin-dark"] .gradient-action-btn,
 [data-theme="nanyin-dark"] .tag-debt,
+[data-theme="nanyin-dark"] .singer-sort-debts,
 [data-theme="nanyin-dark"] .like-button,
 [data-theme="nanyin-dark"] .star-button,
 [data-theme="nanyin-dark"] .debt-monkey-button,
@@ -2198,6 +2234,15 @@ body {
   border-color: rgba(196, 181, 253, .34);
   box-shadow: 0 10px 24px rgba(109, 40, 217, .22);
   color: #f8fafc;
+}
+
+[data-theme="nanyin-dark"] .singer-sort-library {
+  background: linear-gradient(135deg, #334155 0%, #1e3a8a 100%);
+  color: #f8fafc;
+}
+
+[data-theme="nanyin-dark"] .singer-sort-pill {
+  border-color: rgba(196, 181, 253, .28);
 }
 
 [data-theme="nanyin-dark"] .star-icon {

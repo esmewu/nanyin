@@ -763,6 +763,7 @@ let lastRouteKind = "home";
 let detailSongQuery = "";
 let homeSongViewMode = "list";
 let detailSongViewMode = "list";
+let homeSingerSortMode = "debts";
 let searchRenderTimer = 0;
 let scrollLoadTimer = 0;
 const songRenderBatchSize = 60;
@@ -1692,14 +1693,18 @@ function syncTabForSearch() {
 }
 
 function renderSingers() {
-  const singerSortMode = $("singerSort")?.value || "debts";
+  document.querySelectorAll("[data-singer-sort]").forEach((button) => {
+    const isActive = button.dataset.singerSort === homeSingerSortMode;
+    button.classList.toggle("singer-sort-pill-active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
+  });
   const libraryCounts = rows().reduce((map, song) => {
     map.set(song.singerId, (map.get(song.singerId) || 0) + 1);
     return map;
   }, new Map());
   const list = visibleSingers().map((singer, index) => ({ singer, index }))
     .toSorted((a, b) => {
-      const primary = singerSortMode === "library"
+      const primary = homeSingerSortMode === "library"
         ? (libraryCounts.get(b.singer.id) || 0) - (libraryCounts.get(a.singer.id) || 0)
         : debtTotal(b.singer.id) - debtTotal(a.singer.id);
       return primary
@@ -1731,10 +1736,11 @@ function renderSingers() {
               <div class="singer-card-content">
                 <h3 class="singer-name">${displayName(singer.name)}</h3>
                 <div class="singer-card-tags">
-                  <span class="tag-chip tag-debt">欠歌 ${owed} 首</span>
+                  <span class="tag-chip tag-debt">欠歌${owed}</span>
                   ${orderedTags(singerTags(singer)).map((tag) => `<span class="${tagClass(tag)}">${tag}</span>`).join("")}
+                  <span class="tag-chip tag-note">曲库${libraryCount}</span>
                 </div>
-                <p class="singer-card-meta text-xs opacity-60 mt-2">${libraryCount ? `${libraryCount} 首歌曲 · ` : ""}${singerSchedule(singer)}</p>
+                <p class="singer-card-meta text-xs opacity-60 mt-2">${singerSchedule(singer)}</p>
               </div>
             </div>
           </article>
@@ -2323,10 +2329,13 @@ $("singersTab").onclick = () => {
   renderRoute();
 };
 
-$("singerSort").oninput = () => {
-  activeTab = "singers";
-  renderRoute();
-};
+document.querySelectorAll("[data-singer-sort]").forEach((button) => {
+  button.onclick = () => {
+    homeSingerSortMode = button.dataset.singerSort || "debts";
+    activeTab = "singers";
+    renderRoute();
+  };
+});
 
 $("songsTab").onclick = () => {
   if (activeTab !== "songs") homeSongViewMode = "list";
