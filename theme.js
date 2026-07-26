@@ -763,6 +763,7 @@ let lastRouteKind = "home";
 let detailSongQuery = "";
 let homeSongViewMode = "list";
 let detailSongViewMode = "list";
+let searchRenderTimer = 0;
 
 function readStoredJSON(key, fallback) {
   try {
@@ -2101,10 +2102,13 @@ function renderTabs() {
 function renderHome() {
   syncTabForSearch();
   populateHomeSongFilters();
-  renderSingers();
-  renderSongs();
   renderHeader();
   renderTabs();
+  if (activeTab === "songs") {
+    renderSongs();
+  } else {
+    renderSingers();
+  }
 }
 
 function renderRoute() {
@@ -2201,9 +2205,14 @@ $("logoutSinger").onclick = () => {
   renderRoute();
 };
 
-["search", "sort", "languageFilter", "genreFilter"].forEach((id) => {
-  $(id).oninput = (event) => {
-    if (id !== "search" && activeTab !== "songs") {
+$("search").oninput = () => {
+  clearTimeout(searchRenderTimer);
+  searchRenderTimer = setTimeout(renderRoute, 80);
+};
+
+["sort", "languageFilter", "genreFilter"].forEach((id) => {
+  $(id).oninput = () => {
+    if (activeTab !== "songs") {
       homeSongViewMode = "list";
       activeTab = "songs";
     }

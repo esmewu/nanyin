@@ -372,6 +372,12 @@ body {
   box-shadow: 0 5px 12px rgba(147, 81, 59, .12);
 }
 
+#singers,
+#songs,
+#detailSongs {
+  overflow-anchor: none;
+}
+
 .home-song-filters {
   display: grid;
   gap: 12px;
