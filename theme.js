@@ -1709,8 +1709,8 @@ function renderSingers() {
         primary = (libraryCounts.get(b.singer.id) || 0) - (libraryCounts.get(a.singer.id) || 0);
       } else if (homeSingerSortMode === "bomb") {
         primary = singerReactionCount(b.singer.id, "bomb") - singerReactionCount(a.singer.id, "bomb");
-      } else if (homeSingerSortMode === "rainbow") {
-        primary = singerReactionCount(b.singer.id, "rainbow") - singerReactionCount(a.singer.id, "rainbow");
+      } else if (homeSingerSortMode === "requests") {
+        primary = singerSongRequests(b.singer.id).length - singerSongRequests(a.singer.id).length;
       }
       return primary
         || displayName(a.singer.name).localeCompare(displayName(b.singer.name), "zh-Hans-CN")
