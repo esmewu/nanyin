@@ -713,8 +713,6 @@ const scheduleStoreKey = "nanyin-singer-schedules";
 const tagStoreKey = "nanyin-singer-tags";
 const authStoreKey = "nanyin-singer-auth";
 const colorModeStoreKey = "nanyin-color-mode";
-const homeSongViewStoreKey = "nanyin-home-song-view";
-const detailSongViewStoreKey = "nanyin-detail-song-view";
 const customSongStoreKey = "nanyin-custom-songs";
 const pinnedSongStoreKey = "nanyin-pinned-songs";
 const songEditStoreKey = "nanyin-song-edits";
@@ -761,32 +759,16 @@ let debtCounter = 1;
 let editDebtCounter = 1;
 let activeDetailPanel = "debts";
 let lastDetailSingerId = "";
+let lastRouteKind = "home";
 let detailSongQuery = "";
-let homeSongViewMode = readViewMode(homeSongViewStoreKey);
-let detailSongViewMode = readViewMode(detailSongViewStoreKey);
+let homeSongViewMode = "list";
+let detailSongViewMode = "list";
 
 function readStoredJSON(key, fallback) {
   try {
     return JSON.parse(localStorage.getItem(key)) || fallback;
   } catch {
     return fallback;
-  }
-}
-
-function readViewMode(key) {
-  try {
-    const mode = localStorage.getItem(key);
-    return mode === "card" ? "card" : "list";
-  } catch {
-    return "list";
-  }
-}
-
-function writeViewMode(key, mode) {
-  try {
-    localStorage.setItem(key, mode);
-  } catch {
-    // Ignore private browsing storage failures; view mode can stay in memory.
   }
 }
 
@@ -2011,12 +1993,18 @@ function renderDetailPanelSwitches(singer) {
   $("libraryPanelSwitch").classList.remove("debt-panel-has-counter");
   document.querySelectorAll("[data-detail-panel]").forEach((button) => {
     button.onclick = () => {
+      if (button.dataset.detailPanel === "library" && activeDetailPanel !== "library") {
+        detailSongViewMode = "list";
+      }
       activeDetailPanel = button.dataset.detailPanel;
       renderSingerPage();
     };
     button.onkeydown = (event) => {
       if (event.key !== "Enter" && event.key !== " ") return;
       event.preventDefault();
+      if (button.dataset.detailPanel === "library" && activeDetailPanel !== "library") {
+        detailSongViewMode = "list";
+      }
       activeDetailPanel = button.dataset.detailPanel;
       renderSingerPage();
     };
@@ -2033,6 +2021,7 @@ function renderSingerPage() {
     activeDetailPanel = "debts";
     lastDetailSingerId = singer.id;
     detailSongQuery = "";
+    detailSongViewMode = "list";
   }
   const canManage = canManageSinger(singer);
   $("detailTitle").textContent = displayName(singer.name);
@@ -2130,10 +2119,14 @@ function renderRoute() {
   $("debtPageView").classList.add("hidden");
   if (hasSinger) renderSingerPage();
   else {
+    if (lastRouteKind === "singer" && activeTab === "songs") {
+      homeSongViewMode = "list";
+    }
     lastDetailSingerId = "";
     activeDetailPanel = "debts";
     renderHome();
   }
+  lastRouteKind = hasSinger ? "singer" : "home";
 }
 
 function sortedUnique(values) {
@@ -2210,14 +2203,16 @@ $("logoutSinger").onclick = () => {
 
 ["search", "sort", "languageFilter", "genreFilter"].forEach((id) => {
   $(id).oninput = (event) => {
-    if (id !== "search") activeTab = "songs";
+    if (id !== "search" && activeTab !== "songs") {
+      homeSongViewMode = "list";
+      activeTab = "songs";
+    }
     renderRoute();
   };
 });
 
 $("homeSongViewToggle").onclick = () => {
   homeSongViewMode = homeSongViewMode === "card" ? "list" : "card";
-  writeViewMode(homeSongViewStoreKey, homeSongViewMode);
   activeTab = "songs";
   renderRoute();
 };
@@ -2235,7 +2230,6 @@ $("clearSearch").onclick = () => {
 
 $("detailSongViewToggle").onclick = () => {
   detailSongViewMode = detailSongViewMode === "card" ? "list" : "card";
-  writeViewMode(detailSongViewStoreKey, detailSongViewMode);
   renderRoute();
 };
 
@@ -2257,6 +2251,7 @@ $("singersTab").onclick = () => {
 };
 
 $("songsTab").onclick = () => {
+  if (activeTab !== "songs") homeSongViewMode = "list";
   activeTab = "songs";
   renderRoute();
 };
