@@ -8,10 +8,10 @@
     "japanese": 0,
     "english": 3,
     "total": 41,
-    "originalArtistCompleted": 1,
-    "releaseYearCompleted": 1,
-    "genreCompleted": 1,
-    "pending": 40,
+    "originalArtistCompleted": 2,
+    "releaseYearCompleted": 2,
+    "genreCompleted": 2,
+    "pending": 39,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -182,12 +182,14 @@
       },
       {
         "title": "我爱你",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "卢广仲",
+        "releaseYear": "2011",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按唱见常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "香奈儿",

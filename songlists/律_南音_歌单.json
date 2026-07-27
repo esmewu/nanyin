@@ -8,10 +8,10 @@
     "japanese": 16,
     "english": 216,
     "total": 365,
-    "originalArtistCompleted": 27,
-    "releaseYearCompleted": 16,
-    "genreCompleted": 16,
-    "pending": 349,
+    "originalArtistCompleted": 36,
+    "releaseYearCompleted": 25,
+    "genreCompleted": 25,
+    "pending": 340,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -213,12 +213,14 @@
       },
       {
         "title": "情话",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "徐良 / 孙羽幽",
+        "releaseYear": "2010",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按唱见常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "人是",
@@ -267,12 +269,14 @@
       },
       {
         "title": "我想",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "王力宏",
+        "releaseYear": "1999",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按唱见常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "舞娘",
@@ -451,12 +455,13 @@
       },
       {
         "title": "九月底",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "余佳运",
+        "releaseYear": "2017",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "离心力",
@@ -516,12 +521,14 @@
       },
       {
         "title": "同花顺",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "Jony J",
+        "releaseYear": "2017",
+        "genre": "说唱",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "歌名可能重名；按唱见常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "新宝島",
@@ -653,12 +660,14 @@
       },
       {
         "title": "那个女孩",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "张泽熙",
+        "releaseYear": "2017",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "歌名可能重名；按唱见常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "妳的甜蜜",
@@ -689,12 +698,13 @@
       },
       {
         "title": "如果可以",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "韦礼安",
+        "releaseYear": "2021",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "肆意的河",
@@ -853,12 +863,13 @@
       },
       {
         "title": "别问很可怕",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "J.Sheon",
+        "releaseYear": "2018",
+        "genre": "R&B",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "二三四个字",
@@ -944,12 +955,13 @@
       },
       {
         "title": "想念拟人化",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "孟慧圆",
+        "releaseYear": "2020",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "星星堆满天",
@@ -1116,12 +1128,13 @@
       },
       {
         "title": "我要我们在一起",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "范晓萱",
+        "releaseYear": "1999",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "一场游戏一场梦",

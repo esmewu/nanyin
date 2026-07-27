@@ -8,10 +8,10 @@
     "japanese": 0,
     "english": 18,
     "total": 121,
-    "originalArtistCompleted": 6,
-    "releaseYearCompleted": 3,
-    "genreCompleted": 3,
-    "pending": 118,
+    "originalArtistCompleted": 8,
+    "releaseYearCompleted": 5,
+    "genreCompleted": 5,
+    "pending": 116,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -47,12 +47,14 @@
       },
       {
         "title": "鸽子",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "宋冬野",
+        "releaseYear": "2012",
+        "genre": "民谣",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按唱见常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "海浪",
@@ -817,12 +819,13 @@
       },
       {
         "title": "想念拟人化",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "孟慧圆",
+        "releaseYear": "2020",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "新西部爱情",

@@ -10,10 +10,10 @@
     "korean": 4,
     "spanish": 1,
     "total": 409,
-    "originalArtistCompleted": 33,
-    "releaseYearCompleted": 33,
-    "genreCompleted": 33,
-    "pending": 376,
+    "originalArtistCompleted": 35,
+    "releaseYearCompleted": 35,
+    "genreCompleted": 35,
+    "pending": 374,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -573,12 +573,14 @@
       },
       {
         "title": "我爱你",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "卢广仲",
+        "releaseYear": "2011",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按唱见常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "我不配",
@@ -1172,12 +1174,13 @@
       },
       {
         "title": "我要我们在一起",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "范晓萱",
+        "releaseYear": "1999",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "想和你去吹吹风",

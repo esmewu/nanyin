@@ -8,10 +8,10 @@
     "japanese": 0,
     "english": 123,
     "total": 201,
-    "originalArtistCompleted": 19,
-    "releaseYearCompleted": 11,
-    "genreCompleted": 11,
-    "pending": 190,
+    "originalArtistCompleted": 22,
+    "releaseYearCompleted": 15,
+    "genreCompleted": 15,
+    "pending": 186,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -269,12 +269,14 @@
       },
       {
         "title": "奥特曼",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "旅行团乐队",
+        "releaseYear": "2013",
+        "genre": "摇滚",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "歌名可能重名；按唱见常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "单相思",
@@ -305,12 +307,13 @@
       },
       {
         "title": "怪天气",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "yihuik苡慧",
+        "releaseYear": "2021",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "红辣椒",
@@ -323,12 +326,13 @@
       },
       {
         "title": "九月底",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "余佳运",
+        "releaseYear": "2017",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "浪流连",
@@ -341,12 +345,13 @@
       },
       {
         "title": "心乱飞",
-        "originalArtist": "看状态",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "王力宏",
+        "releaseYear": "2005",
+        "genre": "R&B",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "user-provided-note"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "夜郎溪",

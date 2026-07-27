@@ -7,10 +7,10 @@
     "chinese": 302,
     "english": 49,
     "total": 351,
-    "originalArtistCompleted": 21,
-    "releaseYearCompleted": 21,
-    "genreCompleted": 21,
-    "pending": 330,
+    "originalArtistCompleted": 24,
+    "releaseYearCompleted": 24,
+    "genreCompleted": 24,
+    "pending": 327,
     "cantonese": 0,
     "minnan": 0,
     "japanese": 0,
@@ -374,12 +374,14 @@
       },
       {
         "title": "轨迹",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "周杰伦",
+        "releaseYear": "2003",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按唱见常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "孩子",
@@ -676,12 +678,14 @@
       },
       {
         "title": "绅士",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "薛之谦",
+        "releaseYear": "2015",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名可能重名；按唱见常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "生生",
@@ -1766,12 +1770,14 @@
       },
       {
         "title": "我的美丽",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "小霞",
+        "releaseYear": "2015",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "manual curated high-frequency metadata",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "歌名可能重名；按唱见常见版本默认归入，待歌手本人确认"
       },
       {
         "title": "我还没走",
