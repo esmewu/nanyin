@@ -390,6 +390,19 @@ body {
   justify-content: center;
 }
 
+.home-song-insight-main,
+.home-song-insight-secondary {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.home-song-insight-secondary {
+  margin-top: 2px;
+}
+
 .home-song-insight-pill {
   appearance: none;
   cursor: pointer;
@@ -418,6 +431,45 @@ body {
 .home-song-insight-artist {
   background: linear-gradient(135deg, #eae3db 0%, #dfeeff 100%);
   color: #667085;
+}
+
+.home-song-insight-subpill {
+  appearance: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1;
+  padding: 5px 8px;
+}
+
+.home-song-insight-subpill-1 {
+  background: linear-gradient(135deg, #ffe2e9 0%, #dce5ff 100%);
+  color: #8d426c;
+  box-shadow: 0 6px 14px rgba(216, 79, 99, .1);
+}
+
+.home-song-insight-subpill-2 {
+  background: linear-gradient(135deg, #dcfbff 0%, #f5f2c8 100%);
+  color: #216e79;
+  box-shadow: 0 6px 14px rgba(33, 110, 121, .1);
+}
+
+.home-song-insight-subpill-3 {
+  background: linear-gradient(135deg, #eee6ff 0%, #dff3ff 100%);
+  color: #3f4a86;
+  box-shadow: 0 6px 14px rgba(63, 74, 134, .1);
+}
+
+.home-song-insight-subpill-4 {
+  background: linear-gradient(135deg, #f9e3d2 0%, #ede8fb 100%);
+  color: #8a5630;
+  box-shadow: 0 6px 14px rgba(138, 86, 48, .1);
+}
+
+.home-song-insight-subpill-5 {
+  background: linear-gradient(135deg, #fbdbef 0%, #d2ffde 100%);
+  color: #7a3f86;
+  box-shadow: 0 6px 14px rgba(122, 63, 134, .1);
 }
 
 .home-singer-filters {
@@ -2030,6 +2082,12 @@ body {
   margin-top: 2px;
 }
 
+.song-card-body .song-card-singers {
+  color: rgba(23, 37, 84, .58);
+  font-weight: 700;
+  margin-top: 5px;
+}
+
 .song-card-flat {
   background: #fff7f2;
   border: 1px solid rgba(23, 37, 84, .08);
@@ -2057,6 +2115,11 @@ body {
 }
 
 .song-card-pinned {
+  border-color: rgba(123, 47, 115, .1);
+  box-shadow: 0 10px 24px rgba(123, 47, 115, .08);
+}
+
+.song-card-insight-highlight {
   border-color: rgba(123, 47, 115, .1);
   box-shadow: 0 10px 24px rgba(123, 47, 115, .08);
 }

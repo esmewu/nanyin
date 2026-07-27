@@ -765,6 +765,7 @@ let homeSongViewMode = "list";
 let detailSongViewMode = "list";
 let homeSingerSortMode = "debts";
 let homeSongInsightSortMode = "";
+let homeSongInsightValue = "";
 let searchRenderTimer = 0;
 let scrollLoadTimer = 0;
 const songRenderBatchSize = 60;
@@ -1118,11 +1119,17 @@ function openSongRequestDialog(singer, prefillTitle = "") {
 }
 
 function songKey(song) {
+  if (song.interactionKey) return song.interactionKey;
   return `${song.singerId}:${song.title}:${song.originalArtist}`;
 }
 
 function likeCount(song) {
-  return readLikes()[songKey(song)] || 0;
+  const likes = readLikes();
+  const key = songKey(song);
+  const legacyTotal = (song.likeKeys || [])
+    .filter((item) => item !== key)
+    .reduce((sum, item) => sum + (likes[item] || 0), 0);
+  return (likes[key] || 0) + legacyTotal;
 }
 
 function starCount(song) {
@@ -1159,17 +1166,18 @@ function bindLikeButtons() {
     button.onclick = async (event) => {
       event.stopPropagation();
       const key = decodeURIComponent(button.dataset.likeKey);
+      const baseValue = Number(button.dataset.likeBase || 0);
       const optimisticValue = localIncrementCounter("likes", key);
       const counter = button.querySelector("[data-like-count]");
-      counter.textContent = optimisticValue;
+      counter.textContent = baseValue + optimisticValue;
       button.classList.add("like-button-pulse");
       setTimeout(() => button.classList.remove("like-button-pulse"), 360);
       celebrateHeart();
       if (location.protocol !== "file:" && sharedStateReady) {
         const serverValue = await incrementCounter("likes", key, 1, { optimistic: false });
-        counter.textContent = serverValue;
+        counter.textContent = baseValue + serverValue;
         document.querySelectorAll(`[data-like-key="${CSS.escape(encodeURIComponent(key))}"] [data-like-count]`).forEach((item) => {
-          item.textContent = serverValue;
+          item.textContent = baseValue + serverValue;
         });
       }
     };
@@ -1692,6 +1700,96 @@ function visibleSongs() {
   return mode === "default" ? sortPinnedFirst(sorted) : sorted;
 }
 
+function metadataScore(song) {
+  return Number(Boolean(song.originalArtist && song.originalArtist !== "待补")) * 8
+    + Number(Boolean(song.releaseYear && song.releaseYear !== "待补")) * 4
+    + Number(Boolean(song.genre && song.genre !== "待补")) * 2
+    + Number(Boolean(song.language && song.language !== "待补"));
+}
+
+function homeMergedSongs() {
+  const merged = new Map();
+  const source = visibleSongs();
+  source.forEach((song) => {
+    const key = normalizedSongTitle(song.title);
+    if (!key) return;
+    const singerName = displayName(song.singer || song.artist || "");
+    if (!merged.has(key)) {
+      merged.set(key, {
+        ...song,
+        singer: singerName,
+        singers: singerName ? [singerName] : [],
+        singerIds: song.singerId ? [song.singerId] : [],
+        likeKeys: [`${song.singerId}:${song.title}:${song.originalArtist}`],
+        interactionKey: `home:${key}`
+      });
+      return;
+    }
+    const item = merged.get(key);
+    if (singerName && !item.singers.includes(singerName)) item.singers.push(singerName);
+    if (song.singerId && !item.singerIds.includes(song.singerId)) item.singerIds.push(song.singerId);
+    const likeKey = `${song.singerId}:${song.title}:${song.originalArtist}`;
+    if (!item.likeKeys.includes(likeKey)) item.likeKeys.push(likeKey);
+    if (metadataScore(song) > metadataScore(item)) {
+      item.originalArtist = song.originalArtist;
+      item.releaseYear = song.releaseYear;
+      item.genre = song.genre;
+      item.language = song.language;
+      item.metadataConfidence = song.metadataConfidence;
+    }
+  });
+  const list = [...merged.values()].map((song) => ({
+    ...song,
+    singer: song.singers.join("、"),
+    singerId: song.singerIds[0] || song.singerId
+  }));
+  if (homeSongInsightSortMode) return sortHomeMergedSongsByInsight(list, source);
+  const mode = $("sort").value;
+  const sorted = sortSongs(list, mode);
+  return mode === "default" ? sortPinnedFirst(sorted) : sorted;
+}
+
+function sortHomeMergedSongsByInsight(list, source) {
+  const { songSingerCounts, genreCounts, originalArtistCounts } = songInsightCounts(source);
+  if (homeSongInsightSortMode === "genrePopularity") {
+    return list.toSorted((a, b) => {
+      const selectedA = homeSongInsightValue && a.genre === homeSongInsightValue;
+      const selectedB = homeSongInsightValue && b.genre === homeSongInsightValue;
+      if (selectedA !== selectedB) return selectedA ? -1 : 1;
+      const genreA = a.genre || "待补";
+      const genreB = b.genre || "待补";
+      return (genreCounts.get(genreB) || 0) - (genreCounts.get(genreA) || 0)
+        || genreA.localeCompare(genreB, "zh-Hans-CN")
+        || defaultSongCompare(a, b);
+    });
+  }
+  if (homeSongInsightSortMode === "songPopularity") {
+    return list.toSorted((a, b) => {
+      const keyA = normalizedSongTitle(a.title);
+      const keyB = normalizedSongTitle(b.title);
+      const selectedA = homeSongInsightValue && keyA === homeSongInsightValue;
+      const selectedB = homeSongInsightValue && keyB === homeSongInsightValue;
+      if (selectedA !== selectedB) return selectedA ? -1 : 1;
+      return (songSingerCounts.get(keyB) || 0) - (songSingerCounts.get(keyA) || 0)
+        || a.title.localeCompare(b.title, "zh-Hans-CN")
+        || defaultSongCompare(a, b);
+    });
+  }
+  if (homeSongInsightSortMode === "originalArtistPopularity") {
+    return list.toSorted((a, b) => {
+      const artistA = a.originalArtist || "待补";
+      const artistB = b.originalArtist || "待补";
+      const selectedA = homeSongInsightValue && artistA === homeSongInsightValue;
+      const selectedB = homeSongInsightValue && artistB === homeSongInsightValue;
+      if (selectedA !== selectedB) return selectedA ? -1 : 1;
+      return (originalArtistCounts.get(artistB) || 0) - (originalArtistCounts.get(artistA) || 0)
+        || artistA.localeCompare(artistB, "zh-Hans-CN")
+        || a.title.localeCompare(b.title, "zh-Hans-CN");
+    });
+  }
+  return list;
+}
+
 function normalizedSongTitle(title) {
   return String(title || "")
     .trim()
@@ -1706,25 +1804,32 @@ function topEntry(entries) {
     .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-Hans-CN"))[0] || ["待补", 0];
 }
 
+function topEntries(entries, start = 0, end = 5) {
+  return [...entries]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "zh-Hans-CN"))
+    .slice(start, end);
+}
+
 function songInsightCounts(list) {
   const songDisplay = new Map();
   const songSingerCounts = new Map();
-  const seenTitlesBySinger = new Map();
   const genreCounts = new Map();
   const originalArtistCounts = new Map();
+  const uniqueSingerSongs = new Map();
   const ignoredOriginalArtists = new Set(["待补", "推荐", "看状态", "双倍", "谨慎点歌"]);
 
   list.forEach((song) => {
     const titleKey = normalizedSongTitle(song.title);
-    if (titleKey) {
-      if (!songDisplay.has(titleKey)) songDisplay.set(titleKey, song.title);
-      if (!seenTitlesBySinger.has(song.singerId)) seenTitlesBySinger.set(song.singerId, new Set());
-      const seenTitles = seenTitlesBySinger.get(song.singerId);
-      if (!seenTitles.has(titleKey)) {
-        songSingerCounts.set(titleKey, (songSingerCounts.get(titleKey) || 0) + 1);
-        seenTitles.add(titleKey);
-      }
-    }
+    if (!titleKey) return;
+    if (!songDisplay.has(titleKey)) songDisplay.set(titleKey, song.title);
+    const uniqueKey = `${song.singerId}:${titleKey}`;
+    const existing = uniqueSingerSongs.get(uniqueKey);
+    if (!existing || metadataScore(song) > metadataScore(existing)) uniqueSingerSongs.set(uniqueKey, song);
+  });
+
+  uniqueSingerSongs.forEach((song) => {
+    const titleKey = normalizedSongTitle(song.title);
+    songSingerCounts.set(titleKey, (songSingerCounts.get(titleKey) || 0) + 1);
 
     const genre = String(song.genre || "").trim();
     if (genre && genre !== "待补") genreCounts.set(genre, (genreCounts.get(genre) || 0) + 1);
@@ -1747,31 +1852,78 @@ function homeSongInsights() {
   const [topGenre, topGenreCount] = topEntry(genreCounts);
   const [topSongKey, topSongCount] = topEntry(songSingerCounts);
   const [topOriginalArtist, topOriginalArtistCount] = topEntry(originalArtistCounts);
+  const topGenres = topEntries(genreCounts, 0, 5).map(([name, count]) => ({ name, count }));
+  const topSongs = topEntries(songSingerCounts, 0, 5).map(([key, count]) => ({
+    name: songDisplay.get(key) || key,
+    count
+  }));
+  const topOriginalArtists = topEntries(originalArtistCounts, 0, 5).map(([name, count]) => ({ name, count }));
 
   return {
     topGenre,
     topGenreCount,
+    topSongKey,
     topSong: songDisplay.get(topSongKey) || topSongKey,
     topSongCount,
     topOriginalArtist,
-    topOriginalArtistCount
+    topOriginalArtistCount,
+    topGenres,
+    topSongs,
+    topOriginalArtists
   };
+}
+
+function moveActiveInsightFirst(items) {
+  const activeIndex = items.findIndex((item) => item.value === homeSongInsightValue);
+  if (activeIndex <= 0) return items;
+  return [items[activeIndex], ...items.slice(0, activeIndex), ...items.slice(activeIndex + 1)];
+}
+
+function homeSongInsightSecondaryItems(stats) {
+  const itemsByMode = {
+    genrePopularity: stats.topGenres.slice(1, 5).map(({ name, count }) => ({
+      mode: "genrePopularity",
+      value: name,
+      label: `${name}${count}首`
+    })),
+    songPopularity: stats.topSongs.slice(1, 5).map(({ name, count }) => ({
+      mode: "songPopularity",
+      value: normalizedSongTitle(name),
+      label: `${count}人会唱「${name}」`
+    })),
+    originalArtistPopularity: stats.topOriginalArtists.slice(1, 5).map(({ name, count }) => ({
+      mode: "originalArtistPopularity",
+      value: name,
+      label: `${count}首${name}`
+    }))
+  };
+  return moveActiveInsightFirst(itemsByMode[homeSongInsightSortMode] || [])
+    .map((item) => ({
+      ...item,
+      active: item.mode === homeSongInsightSortMode && item.value === homeSongInsightValue
+    }));
 }
 
 function renderHomeSongInsights() {
   const target = $("homeSongInsights");
   if (!target) return;
   const stats = homeSongInsights();
+  const secondaryItems = homeSongInsightSecondaryItems(stats);
   target.innerHTML = `
-    <button class="tag-chip home-feature-pill home-song-insight-pill home-song-insight-genre" type="button" data-home-song-insight-sort="genrePopularity" aria-pressed="${homeSongInsightSortMode === "genrePopularity"}">${stats.topGenre}${stats.topGenreCount}首</button>
-    <button class="tag-chip home-feature-pill home-song-insight-pill home-song-insight-song" type="button" data-home-song-insight-sort="songPopularity" aria-pressed="${homeSongInsightSortMode === "songPopularity"}">${stats.topSongCount}人会唱「${stats.topSong}」</button>
-    <button class="tag-chip home-feature-pill home-song-insight-pill home-song-insight-artist" type="button" data-home-song-insight-sort="originalArtistPopularity" aria-pressed="${homeSongInsightSortMode === "originalArtistPopularity"}">${stats.topOriginalArtistCount}首${stats.topOriginalArtist}</button>
+    <div class="home-song-insight-main">
+      <button class="tag-chip home-feature-pill home-song-insight-pill home-song-insight-song" type="button" data-home-song-insight-sort="songPopularity" data-home-song-insight-value="${stats.topSongKey}" aria-pressed="${homeSongInsightSortMode === "songPopularity" && homeSongInsightValue === stats.topSongKey}">${stats.topSongCount}人会唱「${stats.topSong}」</button>
+      <button class="tag-chip home-feature-pill home-song-insight-pill home-song-insight-artist" type="button" data-home-song-insight-sort="originalArtistPopularity" data-home-song-insight-value="${stats.topOriginalArtist}" aria-pressed="${homeSongInsightSortMode === "originalArtistPopularity" && homeSongInsightValue === stats.topOriginalArtist}">${stats.topOriginalArtistCount}首${stats.topOriginalArtist}</button>
+      <button class="tag-chip home-feature-pill home-song-insight-pill home-song-insight-genre" type="button" data-home-song-insight-sort="genrePopularity" data-home-song-insight-value="${stats.topGenre}" aria-pressed="${homeSongInsightSortMode === "genrePopularity" && homeSongInsightValue === stats.topGenre}">${stats.topGenre}${stats.topGenreCount}首</button>
+    </div>
+    ${secondaryItems.length ? `<div class="home-song-insight-secondary">${secondaryItems.map((item, index) => `<button class="tag-chip home-song-insight-subpill home-song-insight-subpill-${(index % 5) + 1}" type="button" data-home-song-insight-sort="${item.mode}" data-home-song-insight-value="${item.value}" aria-pressed="${item.active}">${item.label}</button>`).join("")}</div>` : ""}
   `;
   target.querySelectorAll("[data-home-song-insight-sort]").forEach((button) => {
-    const isActive = button.dataset.homeSongInsightSort === homeSongInsightSortMode;
+    const isActive = button.dataset.homeSongInsightSort === homeSongInsightSortMode
+      && button.dataset.homeSongInsightValue === homeSongInsightValue;
     button.classList.toggle("home-song-insight-pill-active", isActive);
     button.onclick = () => {
       homeSongInsightSortMode = isActive ? "" : button.dataset.homeSongInsightSort;
+      homeSongInsightValue = isActive ? "" : button.dataset.homeSongInsightValue;
       $("sort").value = "default";
       activeTab = "songs";
       homeSongViewMode = "list";
@@ -1852,10 +2004,7 @@ function renderSingers() {
     button.classList.toggle("singer-sort-pill-active", isActive);
     button.setAttribute("aria-pressed", String(isActive));
   });
-  const libraryCounts = rows().reduce((map, song) => {
-    map.set(song.singerId, (map.get(song.singerId) || 0) + 1);
-    return map;
-  }, new Map());
+  const libraryCounts = singerLibraryCounts();
   const list = visibleSingers().map((singer, index) => ({ singer, index }))
     .toSorted((a, b) => {
       let primary = debtTotal(b.singer.id) - debtTotal(a.singer.id);
@@ -1916,6 +2065,15 @@ function renderSingers() {
   bindSingerReactionButtons();
 }
 
+function singerLibraryCounts() {
+  const titlesBySinger = rows().reduce((map, song) => {
+    if (!map.has(song.singerId)) map.set(song.singerId, new Set());
+    map.get(song.singerId).add(normalizedSongTitle(song.title));
+    return map;
+  }, new Map());
+  return new Map([...titlesBySinger.entries()].map(([singerId, titles]) => [singerId, titles.size]));
+}
+
 function renderProfile(singer) {
   if (!singer) {
     $("profile").innerHTML = "";
@@ -1951,10 +2109,12 @@ function songCard(song, options = {}) {
   const pinnedKeys = Object.keys(readPinnedSongs()).sort();
   const pinnedIndex = pinned ? Math.max(0, pinnedKeys.indexOf(songKey(song))) : -1;
   const pinnedClass = pinned ? `song-card-pinned song-card-pinned-${(pinnedIndex % 7) + 1}` : "";
+  const insightIndex = Number.isInteger(options.insightHighlightIndex) ? options.insightHighlightIndex : -1;
+  const insightClass = insightIndex >= 0 ? `song-card-insight-highlight song-card-pinned-${(insightIndex % 7) + 1}` : "";
   const baseClass = flat ? "song-card-flat" : "bg-base-100 md:bg-base-200 border border-base-300";
   if (compact) {
     return `
-      <article class="card ${baseClass} ${pinnedClass} song-card-compact">
+      <article class="card ${baseClass} ${pinnedClass} ${insightClass} song-card-compact">
         <div class="card-body song-card-body">
           <h3 class="font-bold">${song.title}</h3>
         </div>
@@ -1962,19 +2122,20 @@ function songCard(song, options = {}) {
     `;
   }
   const details = [
-    showSinger ? song.singer : "",
     `原唱：${song.originalArtist || "待补"}`,
     song.releaseYear || "",
     song.genre || "",
     song.language
   ].filter(Boolean).join(" · ");
+  const singerLine = showSinger && song.singer ? `<p class="song-card-singers">${song.singer}</p>` : "";
 
   return `
-    <article class="card ${baseClass} ${pinnedClass}">
+    <article class="card ${baseClass} ${pinnedClass} ${insightClass}">
       <div class="card-body song-card-body flex-row justify-between items-center gap-3">
         <div class="min-w-0">
           <h3 class="font-bold text-lg">${song.title}</h3>
           <p class="text-sm opacity-70">${details}</p>
+          ${singerLine}
         </div>
         <div class="song-card-actions">
           ${canEdit ? `<button class="pin-button song-edit-button" type="button" aria-label="编辑 ${song.title}" data-song-edit-key="${encodeURIComponent(song.editKey)}">
@@ -1986,7 +2147,7 @@ function songCard(song, options = {}) {
           <button class="star-button" type="button" aria-label="想听 ${song.title}" data-star-key="${encodedSongKey(song)}" data-star-singer-id="${song.singerId}" data-star-title="${encodeURIComponent(song.title)}">
             <span class="material-symbols-rounded star-icon" aria-hidden="true">kid_star</span>
           </button>
-          <button class="like-button" type="button" aria-label="喜欢 ${song.title}" data-like-key="${encodedSongKey(song)}">
+          <button class="like-button" type="button" aria-label="喜欢 ${song.title}" data-like-key="${encodedSongKey(song)}" data-like-base="${Math.max(0, likeCount(song) - (readLikes()[songKey(song)] || 0))}">
             <svg aria-hidden="true" viewBox="0 0 24 24" class="like-icon">
               <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78Z"></path>
             </svg>
@@ -2014,12 +2175,15 @@ function updateSongViewToggle(buttonId, mode) {
 
 function renderSongs() {
   renderHomeSongInsights();
-  const list = visibleSongs();
+  const list = homeMergedSongs();
   const visibleList = list.slice(0, homeSongRenderLimit);
   const compact = homeSongViewMode === "card";
+  const shouldHighlightInsights = ["songPopularity", "originalArtistPopularity"].includes(homeSongInsightSortMode);
   updateSongViewToggle("homeSongViewToggle", homeSongViewMode);
   $("songs").className = compact ? "song-card-grid-compact" : "grid gap-2";
-  $("songs").innerHTML = visibleList.map((song) => songCard(song, { compact })).join("") || "<article class='alert'>没有找到结果</article>";
+  $("songs").innerHTML = visibleList
+    .map((song, index) => songCard(song, { compact, insightHighlightIndex: shouldHighlightInsights && index < 10 ? index : -1 }))
+    .join("") || "<article class='alert'>没有找到结果</article>";
   if (!compact) {
     bindStarButtons();
     bindLikeButtons();
@@ -2033,7 +2197,7 @@ function nearPageBottom() {
 function loadMoreVisibleSongs() {
   if (!nearPageBottom()) return;
   if (!$("homeView").classList.contains("hidden") && activeTab === "songs") {
-    const total = visibleSongs().length;
+    const total = homeMergedSongs().length;
     if (homeSongRenderLimit < total) {
       homeSongRenderLimit += songRenderBatchSize;
       renderSongs();
@@ -2178,7 +2342,7 @@ function topSongCategories(singer) {
 }
 
 function renderDetailPanelSwitches(singer) {
-  const libraryCount = singerLibraryRows(singer).length;
+  const libraryCount = singerLibraryCounts().get(singer.id) || 0;
   $("debtPanelSwitch").classList.toggle("detail-panel-active", activeDetailPanel === "debts");
   $("requestPanelSwitch").classList.toggle("detail-panel-active", activeDetailPanel === "requests");
   $("libraryPanelSwitch").classList.toggle("detail-panel-active", activeDetailPanel === "library");
@@ -2306,7 +2470,7 @@ function renderSingerPage() {
 
 function renderHeader() {
   $("singerCount").textContent = visibleSingers().length;
-  $("songCount").textContent = visibleSongs().length;
+  $("songCount").textContent = homeMergedSongs().length;
   $("clearSearch").classList.toggle("hidden", !queryText());
 }
 
@@ -2438,7 +2602,10 @@ $("search").oninput = () => {
       homeSongViewMode = "list";
       activeTab = "songs";
     }
-    if (id === "sort") homeSongInsightSortMode = "";
+    if (id === "sort") {
+      homeSongInsightSortMode = "";
+      homeSongInsightValue = "";
+    }
     resetHomeSongBatch();
     renderRoute();
   };
