@@ -1753,9 +1753,19 @@ function homeMergedSongs() {
   }));
   if (homeSongInsightSortMode) return sortHomeMergedSongsByInsight(list, source);
   const mode = $("sort").value;
-  if (mode === "default") return list.toSorted(naturalSongCompare);
+  if (mode === "default") return list.toSorted(homeDefaultSongCompare);
   const sorted = sortSongs(list, mode);
   return sorted;
+}
+
+function homeDefaultSongCompare(a, b) {
+  const pinnedA = Boolean(a.pinnedSingerTags?.length);
+  const pinnedB = Boolean(b.pinnedSingerTags?.length);
+  if (pinnedA !== pinnedB) return pinnedA ? -1 : 1;
+  if (pinnedA && pinnedB) {
+    return likeCount(b) - likeCount(a) || naturalSongCompare(a, b);
+  }
+  return naturalSongCompare(a, b);
 }
 
 function sortHomeMergedSongsByInsight(list, source) {
