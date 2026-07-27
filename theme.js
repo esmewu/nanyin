@@ -1608,6 +1608,10 @@ function songLanguageRank(song) {
 function defaultSongCompare(a, b) {
   const liked = likeCount(b) - likeCount(a);
   if (liked) return liked;
+  return naturalSongCompare(a, b);
+}
+
+function naturalSongCompare(a, b) {
   const languageRank = songLanguageRank(a) - songLanguageRank(b);
   if (languageRank) return languageRank;
   if (cnLanguages.includes(a.language) && cnLanguages.includes(b.language)) {
@@ -1745,8 +1749,9 @@ function homeMergedSongs() {
   }));
   if (homeSongInsightSortMode) return sortHomeMergedSongsByInsight(list, source);
   const mode = $("sort").value;
+  if (mode === "default") return list.toSorted(naturalSongCompare);
   const sorted = sortSongs(list, mode);
-  return mode === "default" ? sortPinnedFirst(sorted) : sorted;
+  return sorted;
 }
 
 function sortHomeMergedSongsByInsight(list, source) {
