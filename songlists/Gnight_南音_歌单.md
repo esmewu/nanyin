@@ -38,7 +38,7 @@
 | 22 | 安静 | 周杰伦 | 2019 | 流行 | 2 |
 | 23 | 山海 | 草东没有派对 | 2016 | 摇滚 | 2 |
 | 24 | 当你 | 王心凌 | 2005 | 流行 | 2 |
-| 25 | 心跳 | 王力宏 | 2008 | R&B / Soul | 2 |
+| 25 | 心跳 | 王力宏 | 2008 | R&B | 2 |
 | 26 | 忽然 | 李志 | 2013 | 民谣 | 2 |
 | 27 | 恋人 | 李荣浩 | 2024 | 流行 | 2 |
 | 28 | 想象 | 蔡健雅 | 2009 | 流行 | 2 |
@@ -135,7 +135,7 @@
 | 119 | 我要的爱 | 戴佩妮 | 2001 | 流行 | 4 |
 | 120 | 或许我们 | 王蓝茵 | 2020 | 流行 | 4 |
 | 121 | 摩登爱情 | 刘美麟 | 2020 | 流行 | 4 |
-| 122 | 新不了情 | 万芳 | 1995 | 爵士 / Blues | 4 |
+| 122 | 新不了情 | 万芳 | 1995 | 爵士 | 4 |
 | 123 | 方圆几里 | 薛之谦 | 2013 | 流行 | 4 |
 | 124 | 无关于你 | 阿YueYue | 2022 | 流行 | 4 |
 | 125 | 无法停靠 | 柯泯薰 | 2020 | 流行 | 4 |
@@ -159,11 +159,11 @@
 | 143 | 迷途之中 | 李荣浩 | 2022 | 流行 | 4 |
 | 144 | 逝去的爱 | 欧阳菲菲 | 1994 | 流行 | 4 |
 | 145 | 那就晚安 | 张远 | 2022 | 流行 | 4 |
-| 146 | 都市沙漠 | 陶喆 | 1999 | R&B / Soul | 4 |
-| 147 | 需要人陪 | 王力宏 | 2010 | R&B / Soul | 4 |
+| 146 | 都市沙漠 | 陶喆 | 1999 | R&B | 4 |
+| 147 | 需要人陪 | 王力宏 | 2010 | R&B | 4 |
 | 148 | 风华正茂 | 李宇春 | 2021 | 流行 | 4 |
 | 149 | 黄色枫叶 | 薛之谦 | 2009 | 流行 | 4 |
-| 150 | 黑色柳丁 | 陶喆 | 2003 | R&B / Soul | 4 |
+| 150 | 黑色柳丁 | 陶喆 | 2003 | R&B | 4 |
 | 151 | Simon | 丁世光 | 2017 | 流行 | 5 |
 | 152 | 不要再说了 | 邓见超 | 2019 | 流行 | 5 |
 | 153 | 不跟你好了 | 于冬然 | 2023 | 流行 | 5 |
@@ -182,20 +182,20 @@
 | 166 | 如果没确定 | 房东的猫 | 2024 | 流行 | 5 |
 | 167 | 我们都寂寞 | 陈奕迅 | 2003 | 流行 | 5 |
 | 168 | 最长的电影 | 周杰伦 | 2007 | 流行 | 5 |
-| 169 | 爱我还是他 | 陶喆 | 2005 | R&B / Soul | 5 |
+| 169 | 爱我还是他 | 陶喆 | 2005 | R&B | 5 |
 | 170 | 突然想起你 | 萧亚轩 | 1999 | 流行 | 5 |
 | 171 | 算什么男人 | 周杰伦 | 2014 | 流行 | 5 |
 | 172 | 红色高跟鞋 | 蔡健雅 | 2009 | 流行 | 5 |
 | 173 | 给我一个吻 | 张露 | 2015 | 流行 | 5 |
 | 174 | 给自己的歌 | 李宗盛 | 2016 | 流行 | 5 |
 | 175 | 走钢索的人 | 李泉 | 1999 | 流行 | 5 |
-| 176 | Melody | 陶喆 | 2003 | R&B / Soul | 6 |
+| 176 | Melody | 陶喆 | 2003 | R&B | 6 |
 | 177 | 一个人一座城 | 王北车 | 2019 | 流行 | 6 |
 | 178 | 你一定要幸福 | 何洁 | 2006 | 流行 | 6 |
 | 179 | 像晴天像雨天 | 汪苏泷 | 2025 | 流行 | 6 |
 | 180 | 某年某月某天 | Energy | 2003 | 流行 | 6 |
 | 181 | 流着泪说分手 | 金志文 | 2012 | 流行 | 6 |
-| 182 | 走得很慢的人 | 方大同 | 2024 | R&B / Soul | 6 |
+| 182 | 走得很慢的人 | 方大同 | 2024 | R&B | 6 |
 | 183 | 阿拉斯加海湾 | 菲道尔 | 2020 | 流行 | 6 |
 | 184 | Tonight | Westlife | 2011 | 流行 | 7 |
 | 185 | 你就不要想起我 | 田馥甄 | 2013 | 流行 | 7 |
@@ -225,7 +225,7 @@
 
 | # | 歌名 | 原唱 | 发行年份 | 风格 | 字数 |
 |---:|---|---|---:|---|---:|
-| 1 | Home | Michael Bublé | 2005 | 爵士 / Blues | 4 |
+| 1 | Home | Michael Bublé | 2005 | 爵士 | 4 |
 | 2 | You! | LANY | 2022 | 流行 | 4 |
 | 3 | Creep | Radiohead | 2001 | 摇滚 | 5 |
 | 4 | Emily | Bruno Major | 2020 | 流行 | 5 |
@@ -233,20 +233,20 @@
 | 6 | Demons | Imagine Dragons | 2023 | 摇滚 | 6 |
 | 7 | Easily | Bruno Major | 2017 | 流行 | 6 |
 | 8 | Sharks | Imagine Dragons | 2022 | 摇滚 | 6 |
-| 9 | Suffer | Charlie Puth | 2015 | R&B / Soul | 6 |
+| 9 | Suffer | Charlie Puth | 2015 | R&B | 6 |
 | 10 | Closure | Hayd | 2021 | 流行 | 7 |
-| 11 | Gravity | John Mayer | 2006 | R&B / Soul | 7 |
+| 11 | Gravity | John Mayer | 2006 | R&B | 7 |
 | 12 | Hey Jude | The Beatles | 1979 | 摇滚 | 7 |
 | 13 | L.O.V.E | Nat King Cole | 2002 | 民谣 | 7 |
 | 14 | Nothing | Bruno Major | 2019 | 流行 | 7 |
 | 15 | Perfect | Ed Sheeran | 2023 | 流行 | 7 |
 | 16 | Your Man | Josh Turner | 2005 | 流行 | 7 |
-| 17 | Diamonds | Rihanna | 2014 | R&B / Soul | 8 |
+| 17 | Diamonds | Rihanna | 2014 | R&B | 8 |
 | 18 | Free Loop | Daniel Powter | 2010 | 流行 | 8 |
 | 19 | Remember | KATIE | 2018 | 流行 | 8 |
 | 20 | Thank You | Dido | 2006 | 流行 | 8 |
 | 21 | That's Us | Anson Seabra | 2019 | 流行 | 8 |
-| 22 | Apologize | OneRepublic | 2013 | R&B / Soul | 9 |
+| 22 | Apologize | OneRepublic | 2013 | R&B | 9 |
 | 23 | Mam' Selle | Art Lund | 1947 | 流行 | 9 |
 | 24 | Moody Wind | Anthony Lazaro | 2025 | 流行 | 9 |
 | 25 | Moon River | Audrey Hepburn | 2024 | 民谣 | 9 |
@@ -255,7 +255,7 @@
 | 28 | Mad Sex Cool | Babyface | 2005 | 流行 | 10 |
 | 29 | Miss Riddle | Boz Scaggs | 2001 | 流行 | 10 |
 | 30 | Say It Again | Marie Digby | 2008 | 摇滚 | 10 |
-| 31 | Shape Of You | Ed Sheeran | 2022 | R&B / Soul | 10 |
+| 31 | Shape Of You | Ed Sheeran | 2022 | R&B | 10 |
 | 32 | Before You Go | Lewis Capaldi | 2019 | 摇滚 | 11 |
 | 33 | Cry Me A River | Julie London | 2004 | 流行 | 11 |
 | 34 | Feeling Good | Cy Grant | 1964 | 民谣 | 11 |
@@ -263,10 +263,10 @@
 | 36 | What Did I Do? | Hayd | 2021 | 流行 | 11 |
 | 37 | Autumn Leaves | Jo Stafford | 2001 | 民谣 | 12 |
 | 38 | Kissing A Fool | George Michael | 2009 | 流行 | 12 |
-| 39 | Say Something | A Great Big World | 2018 | R&B / Soul | 12 |
+| 39 | Say Something | A Great Big World | 2018 | R&B | 12 |
 | 40 | Through It All | Charlie Puth | 2018 | 流行 | 12 |
 | 41 | Christmas List | Anson Seabra | 2022 | 流行 | 13 |
-| 42 | Counting Stars | OneRepublic | 2016 | R&B / Soul | 13 |
+| 42 | Counting Stars | OneRepublic | 2016 | R&B | 13 |
 | 43 | Last Christmas | Wham! | 2019 | 流行 | 13 |
 | 44 | Man On A Mission | Oh The Larceny | 2017 | 流行 | 13 |
 | 45 | Outlaws Of Love | Adam Lambert | 2012 | 摇滚 | 13 |
@@ -277,17 +277,17 @@
 | 50 | Just The Two Of Us | Grover Washington Jr. feat. Bill Withers | 2022 | 流行 | 14 |
 | 51 | Love You Anymore | Michael Bublé | 2019 | 流行 | 14 |
 | 52 | Ain't No Sunshine | Bill Withers | 1971 | 流行 | 15 |
-| 53 | Give Me One Reason | Tracy Chapman | 1998 | 爵士 / Blues | 15 |
+| 53 | Give Me One Reason | Tracy Chapman | 1998 | 爵士 | 15 |
 | 54 | Head In The Clouds | Hayd | 2021 | 流行 | 15 |
 | 55 | Hindenburg Lover | Anson Seabra | 2020 | 流行 | 15 |
 | 56 | Honeysuckle Rose | Fats Waller | 2011 | 民谣 | 15 |
-| 57 | Someone You Loved | Lewis Capaldi | 2023 | R&B / Soul | 15 |
+| 57 | Someone You Loved | Lewis Capaldi | 2023 | R&B | 15 |
 | 58 | Sunday Breakfast | Michael Seyer | 2019 | 流行 | 15 |
 | 59 | Peter Pan Was Right | Anson Seabra | 2022 | 流行 | 16 |
-| 60 | Rolling In The Deep | Adele | 2011 | R&B / Soul | 16 |
+| 60 | Rolling In The Deep | Adele | 2011 | R&B | 16 |
 | 61 | Silhouettes Of You | Isaac Gracie | 2017 | 流行 | 16 |
 | 62 | The Sensitive Kind | J.J. Cale | 1979 | 流行 | 16 |
-| 63 | Make You Feel My Love | Bob Dylan | 1999 | R&B / Soul | 17 |
+| 63 | Make You Feel My Love | Bob Dylan | 1999 | R&B | 17 |
 | 64 | You Are So Beautiful | Billy Preston | 2004 | 流行 | 17 |
 | 65 | Supermarket Flowers | Ed Sheeran | 2022 | 流行 | 18 |
 | 66 | To Let A Good Thing Die | Bruno Major | 2020 | 流行 | 18 |

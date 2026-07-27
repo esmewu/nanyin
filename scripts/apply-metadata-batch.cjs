@@ -267,6 +267,18 @@ function songLength(title, language) {
   return [...String(title).replace(/[^\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Hangul}A-Za-z0-9]/gu, "")].length;
 }
 
+function normalizeGenre(genre) {
+  return (
+    {
+      "R&B / Soul": "R&B",
+      Soul: "R&B",
+      粤语: "流行",
+      国风: "中国风",
+      "爵士 / Blues": "爵士",
+    }[genre] || genre
+  );
+}
+
 function sectionLabel(section) {
   return {
     chinese: "中文歌曲",
@@ -348,6 +360,7 @@ function writeMetadata(entries) {
     byKey.set(`${item.singerId || ""}::${normalizeTitle(item.title)}`, {
       ...(byKey.get(`${item.singerId || ""}::${normalizeTitle(item.title)}`) || {}),
       ...item,
+      genre: normalizeGenre(item.genre),
     });
   }
   fs.writeFileSync(METADATA_FILE, `window.nanyinSongMetadata = ${JSON.stringify([...byKey.values()], null, 2)};\n`);
@@ -368,7 +381,7 @@ function updateSonglists(entries) {
         if (!metadata) continue;
         song.originalArtist = metadata.originalArtist;
         song.releaseYear = metadata.releaseYear;
-        song.genre = metadata.genre;
+        song.genre = normalizeGenre(metadata.genre);
         song.confidence = metadata.confidence;
         song.source = metadata.source;
         song.checkedAt = metadata.checkedAt;

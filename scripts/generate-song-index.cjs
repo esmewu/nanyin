@@ -67,6 +67,18 @@ function inferLanguage(languages) {
   })[0]?.[0] || "待补";
 }
 
+function normalizeGenre(genre) {
+  return (
+    {
+      "R&B / Soul": "R&B",
+      Soul: "R&B",
+      粤语: "流行",
+      国风: "中国风",
+      "爵士 / Blues": "爵士",
+    }[genre] || genre
+  );
+}
+
 function isLikelyNote(value) {
   if (!value) return false;
   return NOTE_WORDS.some((word) => String(value).includes(word));
@@ -92,7 +104,11 @@ function bestMetadata(entries) {
         Number(Boolean(m.genre));
       return score(b) - score(a);
     });
-  return sorted[0] || {};
+  const metadata = sorted[0] || {};
+  return {
+    ...metadata,
+    genre: normalizeGenre(metadata.genre),
+  };
 }
 
 function makeMarkdown(index) {

@@ -266,7 +266,7 @@
       "charCount": 2,
       "originalArtist": "古巨基",
       "releaseYear": "1999",
-      "genre": "粤语",
+      "genre": "流行",
       "confidence": "medium"
     },
     {
@@ -274,7 +274,7 @@
       "charCount": 2,
       "originalArtist": "戴荃",
       "releaseYear": "2015",
-      "genre": "国风",
+      "genre": "中国风",
       "confidence": "medium"
     },
     {
@@ -378,7 +378,7 @@
       "charCount": 2,
       "originalArtist": "周慧敏",
       "releaseYear": "1993",
-      "genre": "粤语",
+      "genre": "流行",
       "confidence": "medium"
     },
     {
@@ -530,7 +530,7 @@
       "charCount": 3,
       "originalArtist": "陈奕迅",
       "releaseYear": "2015",
-      "genre": "粤语",
+      "genre": "流行",
       "confidence": "medium"
     },
     {
@@ -626,7 +626,7 @@
       "charCount": 4,
       "originalArtist": "Beyond",
       "releaseYear": "1993",
-      "genre": "粤语",
+      "genre": "流行",
       "confidence": "medium"
     },
     {
@@ -786,7 +786,7 @@
       "charCount": 4,
       "originalArtist": "张学友",
       "releaseYear": "1989",
-      "genre": "粤语",
+      "genre": "流行",
       "confidence": "medium"
     },
     {
@@ -1002,7 +1002,7 @@
       "charCount": 5,
       "originalArtist": "谭咏麟",
       "releaseYear": "1991",
-      "genre": "粤语",
+      "genre": "流行",
       "confidence": "medium"
     },
     {
@@ -1244,7 +1244,7 @@
       "charCount": 5,
       "originalArtist": "Bobby Hebb",
       "releaseYear": "1966",
-      "genre": "Soul",
+      "genre": "R&B",
       "confidence": "medium"
     },
     {
@@ -1308,7 +1308,7 @@
       "charCount": 9,
       "originalArtist": "Leon Russell",
       "releaseYear": "1970",
-      "genre": "Soul",
+      "genre": "R&B",
       "confidence": "medium"
     },
     {
@@ -1324,7 +1324,7 @@
       "charCount": 9,
       "originalArtist": "Sam Smith",
       "releaseYear": "2014",
-      "genre": "Soul",
+      "genre": "R&B",
       "confidence": "medium"
     },
     {
@@ -1348,7 +1348,7 @@
       "charCount": 9,
       "originalArtist": "Ben E. King",
       "releaseYear": "1961",
-      "genre": "Soul",
+      "genre": "R&B",
       "confidence": "medium"
     },
     {
@@ -1468,7 +1468,7 @@
       "charCount": 14,
       "originalArtist": "Stevie Wonder",
       "releaseYear": "1976",
-      "genre": "Soul",
+      "genre": "R&B",
       "confidence": "medium"
     },
     {
@@ -1476,7 +1476,7 @@
       "charCount": 14,
       "originalArtist": "Grover Washington Jr. / Bill Withers",
       "releaseYear": "1980",
-      "genre": "Soul",
+      "genre": "R&B",
       "confidence": "medium"
     },
     {
@@ -1492,7 +1492,7 @@
       "charCount": 15,
       "originalArtist": "Bill Withers",
       "releaseYear": "1971",
-      "genre": "Soul",
+      "genre": "R&B",
       "confidence": "medium"
     },
     {
@@ -1540,7 +1540,7 @@
       "charCount": 16,
       "originalArtist": "Sam Smith",
       "releaseYear": "2014",
-      "genre": "Soul",
+      "genre": "R&B",
       "confidence": "medium"
     },
     {

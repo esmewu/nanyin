@@ -32,7 +32,7 @@
 | 安静 | 周杰伦 | 2019 | 流行 | medium | MusicBrainz recording search |
 | 山海 | 草东没有派对 | 2016 | 摇滚 | medium | MusicBrainz recording search |
 | 当你 | 王心凌 | 2005 | 流行 | medium | MusicBrainz recording search |
-| 心跳 | 王力宏 | 2008 | R&B / Soul | medium | MusicBrainz recording search |
+| 心跳 | 王力宏 | 2008 | R&B | medium | MusicBrainz recording search |
 | 忽然 | 李志 | 2013 | 民谣 | medium | MusicBrainz recording search |
 | 恋人 | 李荣浩 | 2024 | 流行 | medium | MusicBrainz recording search |
 | 想象 | 蔡健雅 | 2009 | 流行 | medium | user-provided pending metadata table |
@@ -129,7 +129,7 @@
 | 我要的爱 | 戴佩妮 | 2001 | 流行 | medium | user-provided pending metadata table |
 | 或许我们 | 王蓝茵 | 2020 | 流行 | medium | user-provided pending metadata table |
 | 摩登爱情 | 刘美麟 | 2020 | 流行 | medium | user-provided pending metadata table |
-| 新不了情 | 万芳 | 1995 | 爵士 / Blues | medium | MusicBrainz recording search |
+| 新不了情 | 万芳 | 1995 | 爵士 | medium | MusicBrainz recording search |
 | 方圆几里 | 薛之谦 | 2013 | 流行 | medium | MusicBrainz recording search |
 | 无关于你 | 阿YueYue | 2022 | 流行 | medium | user-provided pending metadata table |
 | 无法停靠 | 柯泯薰 | 2020 | 流行 | medium | user-provided pending metadata table |
@@ -153,11 +153,11 @@
 | 迷途之中 | 李荣浩 | 2022 | 流行 | medium | user-provided pending metadata table |
 | 逝去的爱 | 欧阳菲菲 | 1994 | 流行 | medium | MusicBrainz recording search |
 | 那就晚安 | 张远 | 2022 | 流行 | medium | user-provided pending metadata table |
-| 都市沙漠 | 陶喆 | 1999 | R&B / Soul | medium | user-provided pending metadata table |
-| 需要人陪 | 王力宏 | 2010 | R&B / Soul | medium | MusicBrainz recording search |
+| 都市沙漠 | 陶喆 | 1999 | R&B | medium | user-provided pending metadata table |
+| 需要人陪 | 王力宏 | 2010 | R&B | medium | MusicBrainz recording search |
 | 风华正茂 | 李宇春 | 2021 | 流行 | medium | user-provided pending metadata table |
 | 黄色枫叶 | 薛之谦 | 2009 | 流行 | medium | MusicBrainz recording search |
-| 黑色柳丁 | 陶喆 | 2003 | R&B / Soul | medium | MusicBrainz recording search |
+| 黑色柳丁 | 陶喆 | 2003 | R&B | medium | MusicBrainz recording search |
 | Simon | 丁世光 | 2017 | 流行 | medium | MusicBrainz recording search |
 | 不要再说了 | 邓见超 | 2019 | 流行 | medium | user-provided pending metadata table |
 | 不跟你好了 | 于冬然 | 2023 | 流行 | medium | user-provided pending metadata table |
@@ -176,20 +176,20 @@
 | 如果没确定 | 房东的猫 | 2024 | 流行 | medium | user-provided pending metadata table |
 | 我们都寂寞 | 陈奕迅 | 2003 | 流行 | medium | MusicBrainz recording search |
 | 最长的电影 | 周杰伦 | 2007 | 流行 | medium | MusicBrainz recording search |
-| 爱我还是他 | 陶喆 | 2005 | R&B / Soul | medium | MusicBrainz recording search |
+| 爱我还是他 | 陶喆 | 2005 | R&B | medium | MusicBrainz recording search |
 | 突然想起你 | 萧亚轩 | 1999 | 流行 | medium | MusicBrainz recording search |
 | 算什么男人 | 周杰伦 | 2014 | 流行 | medium | MusicBrainz recording search |
 | 红色高跟鞋 | 蔡健雅 | 2009 | 流行 | medium | MusicBrainz recording search |
 | 给我一个吻 | 张露 | 2015 | 流行 | medium | MusicBrainz recording search |
 | 给自己的歌 | 李宗盛 | 2016 | 流行 | medium | MusicBrainz recording search |
 | 走钢索的人 | 李泉 | 1999 | 流行 | medium | MusicBrainz recording search |
-| Melody | 陶喆 | 2003 | R&B / Soul | medium | MusicBrainz recording search |
+| Melody | 陶喆 | 2003 | R&B | medium | MusicBrainz recording search |
 | 一个人一座城 | 王北车 | 2019 | 流行 | medium | user-provided pending metadata table |
 | 你一定要幸福 | 何洁 | 2006 | 流行 | medium | MusicBrainz recording search |
 | 像晴天像雨天 | 汪苏泷 | 2025 | 流行 | medium | MusicBrainz recording search |
 | 某年某月某天 | Energy | 2003 | 流行 | medium | user-provided pending metadata table |
 | 流着泪说分手 | 金志文 | 2012 | 流行 | medium | MusicBrainz recording search |
-| 走得很慢的人 | 方大同 | 2024 | R&B / Soul | medium | user-provided pending metadata table |
+| 走得很慢的人 | 方大同 | 2024 | R&B | medium | user-provided pending metadata table |
 | 阿拉斯加海湾 | 菲道尔 | 2020 | 流行 | medium | user-provided pending metadata table |
 | Tonight | Westlife | 2011 | 流行 | medium | MusicBrainz recording search |
 | 你就不要想起我 | 田馥甄 | 2013 | 流行 | medium | MusicBrainz recording search |
@@ -214,7 +214,7 @@
 | 我喜欢的人都跟你好像 | 余佳运 | 2018 | 流行 | medium | user-provided pending metadata table |
 | 天秤座你好，我也是天平 | 棱镜 | 2021 | 流行 | medium | user-provided pending metadata table |
 | 乖乖啊，今天的你也辛苦了 | 队长 | 2023 | 流行 | medium | user-provided pending metadata table |
-| Home | Michael Bublé | 2005 | 爵士 / Blues | medium | MusicBrainz recording search |
+| Home | Michael Bublé | 2005 | 爵士 | medium | MusicBrainz recording search |
 | You! | LANY | 2022 | 流行 | medium | MusicBrainz recording search |
 | Creep | Radiohead | 2001 | 摇滚 | medium | MusicBrainz recording search |
 | Emily | Bruno Major | 2020 | 流行 | medium | user-provided pending metadata table |
@@ -222,20 +222,20 @@
 | Demons | Imagine Dragons | 2023 | 摇滚 | medium | MusicBrainz recording search |
 | Easily | Bruno Major | 2017 | 流行 | medium | MusicBrainz recording search |
 | Sharks | Imagine Dragons | 2022 | 摇滚 | medium | MusicBrainz recording search |
-| Suffer | Charlie Puth | 2015 | R&B / Soul | medium | MusicBrainz recording search |
+| Suffer | Charlie Puth | 2015 | R&B | medium | MusicBrainz recording search |
 | Closure | Hayd | 2021 | 流行 | medium | MusicBrainz recording search |
-| Gravity | John Mayer | 2006 | R&B / Soul | medium | MusicBrainz recording search |
+| Gravity | John Mayer | 2006 | R&B | medium | MusicBrainz recording search |
 | Hey Jude | The Beatles | 1979 | 摇滚 | medium | MusicBrainz recording search |
 | L.O.V.E | Nat King Cole | 2002 | 民谣 | medium | MusicBrainz recording search |
 | Nothing | Bruno Major | 2019 | 流行 | medium | MusicBrainz recording search |
 | Perfect | Ed Sheeran | 2023 | 流行 | medium | MusicBrainz recording search |
 | Your Man | Josh Turner | 2005 | 流行 | medium | MusicBrainz recording search |
-| Diamonds | Rihanna | 2014 | R&B / Soul | medium | MusicBrainz recording search |
+| Diamonds | Rihanna | 2014 | R&B | medium | MusicBrainz recording search |
 | Free Loop | Daniel Powter | 2010 | 流行 | medium | MusicBrainz recording search |
 | Remember | KATIE | 2018 | 流行 | medium | MusicBrainz recording search |
 | Thank You | Dido | 2006 | 流行 | medium | MusicBrainz recording search |
 | That's Us | Anson Seabra | 2019 | 流行 | medium | MusicBrainz recording search |
-| Apologize | OneRepublic | 2013 | R&B / Soul | medium | MusicBrainz recording search |
+| Apologize | OneRepublic | 2013 | R&B | medium | MusicBrainz recording search |
 | Mam' Selle | Art Lund | 1947 | 流行 | medium | user-provided pending metadata table |
 | Moody Wind | Anthony Lazaro | 2025 | 流行 | medium | MusicBrainz recording search |
 | Moon River | Audrey Hepburn | 2024 | 民谣 | medium | MusicBrainz recording search |
@@ -244,7 +244,7 @@
 | Mad Sex Cool | Babyface | 2005 | 流行 | medium | user-provided pending metadata table |
 | Miss Riddle | Boz Scaggs | 2001 | 流行 | medium | MusicBrainz recording search |
 | Say It Again | Marie Digby | 2008 | 摇滚 | medium | MusicBrainz recording search |
-| Shape Of You | Ed Sheeran | 2022 | R&B / Soul | medium | MusicBrainz recording search |
+| Shape Of You | Ed Sheeran | 2022 | R&B | medium | MusicBrainz recording search |
 | Before You Go | Lewis Capaldi | 2019 | 摇滚 | medium | MusicBrainz recording search |
 | Cry Me A River | Julie London | 2004 | 流行 | medium | MusicBrainz recording search |
 | Feeling Good | Cy Grant | 1964 | 民谣 | medium | user-provided pending metadata table |
@@ -252,10 +252,10 @@
 | What Did I Do? | Hayd | 2021 | 流行 | medium | MusicBrainz recording search |
 | Autumn Leaves | Jo Stafford | 2001 | 民谣 | medium | MusicBrainz recording search |
 | Kissing A Fool | George Michael | 2009 | 流行 | medium | MusicBrainz recording search |
-| Say Something | A Great Big World | 2018 | R&B / Soul | medium | MusicBrainz recording search |
+| Say Something | A Great Big World | 2018 | R&B | medium | MusicBrainz recording search |
 | Through It All | Charlie Puth | 2018 | 流行 | medium | MusicBrainz recording search |
 | Christmas List | Anson Seabra | 2022 | 流行 | medium | MusicBrainz recording search |
-| Counting Stars | OneRepublic | 2016 | R&B / Soul | medium | MusicBrainz recording search |
+| Counting Stars | OneRepublic | 2016 | R&B | medium | MusicBrainz recording search |
 | Last Christmas | Wham! | 2019 | 流行 | medium | MusicBrainz recording search |
 | Man On A Mission | Oh The Larceny | 2017 | 流行 | medium | MusicBrainz recording search |
 | Outlaws Of Love | Adam Lambert | 2012 | 摇滚 | medium | MusicBrainz recording search |
@@ -266,17 +266,17 @@
 | Just The Two Of Us | Grover Washington Jr. feat. Bill Withers | 2022 | 流行 | medium | MusicBrainz recording search |
 | Love You Anymore | Michael Bublé | 2019 | 流行 | medium | MusicBrainz recording search |
 | Ain't No Sunshine | Bill Withers | 1971 | 流行 | medium | user-provided pending metadata table |
-| Give Me One Reason | Tracy Chapman | 1998 | 爵士 / Blues | medium | MusicBrainz recording search |
+| Give Me One Reason | Tracy Chapman | 1998 | 爵士 | medium | MusicBrainz recording search |
 | Head In The Clouds | Hayd | 2021 | 流行 | medium | MusicBrainz recording search |
 | Hindenburg Lover | Anson Seabra | 2020 | 流行 | medium | MusicBrainz recording search |
 | Honeysuckle Rose | Fats Waller | 2011 | 民谣 | medium | MusicBrainz recording search |
-| Someone You Loved | Lewis Capaldi | 2023 | R&B / Soul | medium | MusicBrainz recording search |
+| Someone You Loved | Lewis Capaldi | 2023 | R&B | medium | MusicBrainz recording search |
 | Sunday Breakfast | Michael Seyer | 2019 | 流行 | medium | user-provided pending metadata table |
 | Peter Pan Was Right | Anson Seabra | 2022 | 流行 | medium | MusicBrainz recording search |
-| Rolling In The Deep | Adele | 2011 | R&B / Soul | medium | MusicBrainz recording search |
+| Rolling In The Deep | Adele | 2011 | R&B | medium | MusicBrainz recording search |
 | Silhouettes Of You | Isaac Gracie | 2017 | 流行 | medium | MusicBrainz recording search |
 | The Sensitive Kind | J.J. Cale | 1979 | 流行 | medium | user-provided pending metadata table |
-| Make You Feel My Love | Bob Dylan | 1999 | R&B / Soul | medium | MusicBrainz recording search |
+| Make You Feel My Love | Bob Dylan | 1999 | R&B | medium | MusicBrainz recording search |
 | You Are So Beautiful | Billy Preston | 2004 | 流行 | medium | MusicBrainz recording search |
 | Supermarket Flowers | Ed Sheeran | 2022 | 流行 | medium | MusicBrainz recording search |
 | To Let A Good Thing Die | Bruno Major | 2020 | 流行 | medium | MusicBrainz recording search |

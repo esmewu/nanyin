@@ -1226,7 +1226,7 @@
       "originalArtist": "王力宏",
       "charCount": 4,
       "releaseYear": "2010",
-      "genre": "R&B / Soul",
+      "genre": "R&B",
       "confidence": "medium"
     },
     {
@@ -2277,7 +2277,7 @@
       "originalArtist": "Michael Buble",
       "charCount": 4,
       "releaseYear": "2005",
-      "genre": "爵士 / Blues",
+      "genre": "爵士",
       "confidence": "medium"
     },
     {
@@ -2754,7 +2754,7 @@
       "originalArtist": "Ed Sheeran",
       "charCount": 10,
       "releaseYear": "2022",
-      "genre": "R&B / Soul",
+      "genre": "R&B",
       "confidence": "medium"
     },
     {
@@ -3033,7 +3033,7 @@
       "originalArtist": "George Michael",
       "charCount": 13,
       "releaseYear": "1996",
-      "genre": "R&B / Soul",
+      "genre": "R&B",
       "confidence": "medium"
     },
     {
@@ -3159,7 +3159,7 @@
       "originalArtist": "Tracy Chapman",
       "charCount": 15,
       "releaseYear": "1998",
-      "genre": "爵士 / Blues",
+      "genre": "爵士",
       "confidence": "medium"
     },
     {
@@ -3204,7 +3204,7 @@
       "originalArtist": "Lewis Capaldi",
       "charCount": 15,
       "releaseYear": "2023",
-      "genre": "R&B / Soul",
+      "genre": "R&B",
       "confidence": "medium"
     },
     {
