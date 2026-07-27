@@ -2088,6 +2088,19 @@ body {
   margin-top: 5px;
 }
 
+.song-card-pin-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 7px;
+}
+
+.song-card-pin-tag {
+  background: linear-gradient(135deg, #eae3db 0%, #dfeeff 100%);
+  color: #667085;
+  box-shadow: 0 6px 14px rgba(102, 112, 133, .08);
+}
+
 .song-card-flat {
   background: #fff7f2;
   border: 1px solid rgba(23, 37, 84, .08);
@@ -2120,6 +2133,11 @@ body {
 }
 
 .song-card-insight-highlight {
+  border-color: rgba(123, 47, 115, .1);
+  box-shadow: 0 10px 24px rgba(123, 47, 115, .08);
+}
+
+.song-card-home-pinned {
   border-color: rgba(123, 47, 115, .1);
   box-shadow: 0 10px 24px rgba(123, 47, 115, .08);
 }

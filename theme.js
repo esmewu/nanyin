@@ -1714,17 +1714,21 @@ function metadataScore(song) {
 function homeMergedSongs() {
   const merged = new Map();
   const source = visibleSongs();
+  const pins = readPinnedSongs();
   source.forEach((song) => {
     const key = normalizedSongTitle(song.title);
     if (!key) return;
     const singerName = displayName(song.singer || song.artist || "");
+    const legacyKey = `${song.singerId}:${song.title}:${song.originalArtist}`;
+    const pinnedSinger = pins[legacyKey] && singerName ? `${singerName}置顶` : "";
     if (!merged.has(key)) {
       merged.set(key, {
         ...song,
         singer: singerName,
         singers: singerName ? [singerName] : [],
         singerIds: song.singerId ? [song.singerId] : [],
-        likeKeys: [`${song.singerId}:${song.title}:${song.originalArtist}`],
+        likeKeys: [legacyKey],
+        pinnedSingerTags: pinnedSinger ? [pinnedSinger] : [],
         interactionKey: `home:${key}`
       });
       return;
@@ -1732,8 +1736,8 @@ function homeMergedSongs() {
     const item = merged.get(key);
     if (singerName && !item.singers.includes(singerName)) item.singers.push(singerName);
     if (song.singerId && !item.singerIds.includes(song.singerId)) item.singerIds.push(song.singerId);
-    const likeKey = `${song.singerId}:${song.title}:${song.originalArtist}`;
-    if (!item.likeKeys.includes(likeKey)) item.likeKeys.push(likeKey);
+    if (!item.likeKeys.includes(legacyKey)) item.likeKeys.push(legacyKey);
+    if (pinnedSinger && !item.pinnedSingerTags.includes(pinnedSinger)) item.pinnedSingerTags.push(pinnedSinger);
     if (metadataScore(song) > metadataScore(item)) {
       item.originalArtist = song.originalArtist;
       item.releaseYear = song.releaseYear;
@@ -1819,6 +1823,7 @@ function songInsightCounts(list) {
   const songDisplay = new Map();
   const songSingerCounts = new Map();
   const genreCounts = new Map();
+  const titlesByOriginalArtist = new Map();
   const originalArtistCounts = new Map();
   const uniqueSingerSongs = new Map();
   const ignoredOriginalArtists = new Set(["待补", "推荐", "看状态", "双倍", "谨慎点歌"]);
@@ -1840,8 +1845,12 @@ function songInsightCounts(list) {
     if (genre && genre !== "待补") genreCounts.set(genre, (genreCounts.get(genre) || 0) + 1);
     const originalArtist = String(song.originalArtist || "").trim();
     if (originalArtist && !ignoredOriginalArtists.has(originalArtist)) {
-      originalArtistCounts.set(originalArtist, (originalArtistCounts.get(originalArtist) || 0) + 1);
+      if (!titlesByOriginalArtist.has(originalArtist)) titlesByOriginalArtist.set(originalArtist, new Set());
+      titlesByOriginalArtist.get(originalArtist).add(titleKey);
     }
+  });
+  titlesByOriginalArtist.forEach((titles, originalArtist) => {
+    originalArtistCounts.set(originalArtist, titles.size);
   });
 
   return {
@@ -1862,7 +1871,7 @@ function homeSongInsights() {
     name: songDisplay.get(key) || key,
     count
   }));
-  const topOriginalArtists = topEntries(originalArtistCounts, 0, 5).map(([name, count]) => ({ name, count }));
+  const topOriginalArtists = topEntries(originalArtistCounts, 0, 7).map(([name, count]) => ({ name, count }));
 
   return {
     topGenre,
@@ -1896,7 +1905,7 @@ function homeSongInsightSecondaryItems(stats) {
       value: normalizedSongTitle(name),
       label: `${count}人会唱「${name}」`
     })),
-    originalArtistPopularity: stats.topOriginalArtists.slice(1, 5).map(({ name, count }) => ({
+    originalArtistPopularity: stats.topOriginalArtists.slice(1, 7).map(({ name, count }) => ({
       mode: "originalArtistPopularity",
       value: name,
       label: `${count}首${name}`
@@ -2115,13 +2124,16 @@ function songCard(song, options = {}) {
   const pinnedIndex = pinned ? Math.max(0, pinnedKeys.indexOf(songKey(song))) : -1;
   const pinnedClass = pinned ? `song-card-pinned song-card-pinned-${(pinnedIndex % 7) + 1}` : "";
   const insightIndex = Number.isInteger(options.insightHighlightIndex) ? options.insightHighlightIndex : -1;
+  const homePinnedIndex = Number.isInteger(options.homePinnedHighlightIndex) ? options.homePinnedHighlightIndex : -1;
+  const homePinnedClass = homePinnedIndex >= 0 ? `song-card-home-pinned song-card-pinned-${(homePinnedIndex % 7) + 1}` : "";
   const insightClass = insightIndex >= 0 ? `song-card-insight-highlight song-card-pinned-${(insightIndex % 7) + 1}` : "";
   const baseClass = flat ? "song-card-flat" : "bg-base-100 md:bg-base-200 border border-base-300";
   if (compact) {
     return `
-      <article class="card ${baseClass} ${pinnedClass} ${insightClass} song-card-compact">
+      <article class="card ${baseClass} ${pinnedClass} ${homePinnedClass} ${insightClass} song-card-compact">
         <div class="card-body song-card-body">
           <h3 class="font-bold">${song.title}</h3>
+          ${song.pinnedSingerTags?.length ? `<div class="song-card-pin-tags">${song.pinnedSingerTags.map((tag) => `<span class="tag-chip song-card-pin-tag">${tag}</span>`).join("")}</div>` : ""}
         </div>
       </article>
     `;
@@ -2133,14 +2145,18 @@ function songCard(song, options = {}) {
     song.language
   ].filter(Boolean).join(" · ");
   const singerLine = showSinger && song.singer ? `<p class="song-card-singers">${song.singer}</p>` : "";
+  const pinTags = song.pinnedSingerTags?.length
+    ? `<div class="song-card-pin-tags">${song.pinnedSingerTags.map((tag) => `<span class="tag-chip song-card-pin-tag">${tag}</span>`).join("")}</div>`
+    : "";
 
   return `
-    <article class="card ${baseClass} ${pinnedClass} ${insightClass}">
+    <article class="card ${baseClass} ${pinnedClass} ${homePinnedClass} ${insightClass}">
       <div class="card-body song-card-body flex-row justify-between items-center gap-3">
         <div class="min-w-0">
           <h3 class="font-bold text-lg">${song.title}</h3>
           <p class="text-sm opacity-70">${details}</p>
           ${singerLine}
+          ${pinTags}
         </div>
         <div class="song-card-actions">
           ${canEdit ? `<button class="pin-button song-edit-button" type="button" aria-label="编辑 ${song.title}" data-song-edit-key="${encodeURIComponent(song.editKey)}">
@@ -2184,10 +2200,18 @@ function renderSongs() {
   const visibleList = list.slice(0, homeSongRenderLimit);
   const compact = homeSongViewMode === "card";
   const shouldHighlightInsights = ["songPopularity", "originalArtistPopularity"].includes(homeSongInsightSortMode);
+  let homePinnedCount = 0;
   updateSongViewToggle("homeSongViewToggle", homeSongViewMode);
   $("songs").className = compact ? "song-card-grid-compact" : "grid gap-2";
   $("songs").innerHTML = visibleList
-    .map((song, index) => songCard(song, { compact, insightHighlightIndex: shouldHighlightInsights && index < 10 ? index : -1 }))
+    .map((song, index) => {
+      const homePinnedHighlightIndex = !homeSongInsightSortMode && $("sort").value === "default" && song.pinnedSingerTags?.length ? homePinnedCount++ : -1;
+      return songCard(song, {
+        compact,
+        homePinnedHighlightIndex,
+        insightHighlightIndex: shouldHighlightInsights && index < 10 ? index : -1
+      });
+    })
     .join("") || "<article class='alert'>没有找到结果</article>";
   if (!compact) {
     bindStarButtons();
