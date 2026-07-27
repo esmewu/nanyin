@@ -8,10 +8,10 @@
     "japanese": 0,
     "english": 54,
     "total": 69,
-    "originalArtistCompleted": 2,
-    "releaseYearCompleted": 2,
-    "genreCompleted": 2,
-    "pending": 67,
+    "originalArtistCompleted": 15,
+    "releaseYearCompleted": 15,
+    "genreCompleted": 15,
+    "pending": 54,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -29,12 +29,13 @@
       },
       {
         "title": "掉了",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "张惠妹",
+        "releaseYear": "2009",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "发现",
@@ -66,12 +67,13 @@
       },
       {
         "title": "太美丽",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "陶喆",
+        "releaseYear": "2006",
+        "genre": "R&B",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "那一瞬间",
@@ -112,21 +114,24 @@
       },
       {
         "title": "想你时风起",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "单依纯",
+        "releaseYear": "2022",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "想念你想我",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "李玖哲",
+        "releaseYear": "2007",
+        "genre": "R&B",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "待确认"
       },
       {
         "title": "十万毫升泪水",
@@ -187,21 +192,23 @@
       },
       {
         "title": "Arcade",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "Duncan Laurence",
+        "releaseYear": "2019",
+        "genre": "流行",
         "language": "英文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "Bad Day",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "Daniel Powter",
+        "releaseYear": "2005",
+        "genre": "流行",
         "language": "英文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "Flying",
@@ -232,12 +239,14 @@
       },
       {
         "title": "Too Bad",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "Nickelback",
+        "releaseYear": "2001",
+        "genre": "摇滚",
         "language": "英文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "待确认"
       },
       {
         "title": "Wishes",
@@ -250,12 +259,14 @@
       },
       {
         "title": "Happier",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "Ed Sheeran",
+        "releaseYear": "2017",
+        "genre": "流行",
         "language": "英文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "待确认"
       },
       {
         "title": "Leavin'",
@@ -268,21 +279,23 @@
       },
       {
         "title": "Skyfall",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "Adele",
+        "releaseYear": "2012",
+        "genre": "流行",
         "language": "英文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "Stitches",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "Shawn Mendes",
+        "releaseYear": "2015",
+        "genre": "流行",
         "language": "英文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "Afterglow",
@@ -511,12 +524,13 @@
       },
       {
         "title": "Just the Way You Are",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "Bruno Mars",
+        "releaseYear": "2010",
+        "genre": "流行",
         "language": "英文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "Last Night on Earth",
@@ -547,12 +561,13 @@
       },
       {
         "title": "Talking to the Moon",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "Bruno Mars",
+        "releaseYear": "2010",
+        "genre": "R&B",
         "language": "英文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "Here's Your Perfect",
@@ -583,12 +598,13 @@
       },
       {
         "title": "Falling Like the Stars",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "James Arthur",
+        "releaseYear": "2019",
+        "genre": "流行",
         "language": "英文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "Can't Help Falling in Love",

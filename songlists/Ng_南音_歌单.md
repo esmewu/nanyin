@@ -5,10 +5,10 @@
 - 中文区：15 首
 - 英文区：54 首
 - 合计：69 首
-- 原唱字段：已补 2 / 69
-- 发行年份字段：已补 2 / 69
-- 风格字段：已补 2 / 69
-- 仍需人工确认：67 首
+- 原唱字段：已补 15 / 69
+- 发行年份字段：已补 15 / 69
+- 风格字段：已补 15 / 69
+- 仍需人工确认：54 首
 
 说明：本文件根据用户提供的纯文本歌单整理生成；当前主要录入歌名。
 
@@ -17,17 +17,17 @@
 | # | 歌名 | 原唱 | 年份 | 风格 | 语种 | 字数 | confidence | 备注 |
 |---:|---|---|---|---|---|---:|---|---|
 | 1 | 爱错 |  |  |  | 中文 | 2 | pending |  |
-| 2 | 掉了 |  |  |  | 中文 | 2 | pending |  |
+| 2 | 掉了 | 张惠妹 | 2009 | 流行 | 中文 | 2 | medium |  |
 | 3 | 发现 |  |  |  | 中文 | 2 | pending |  |
 | 4 | 不将就 |  |  |  | 中文 | 3 | pending |  |
 | 5 | 你不在 | 王力宏 | 2007 | 流行 | 中文 | 3 | medium |  |
-| 6 | 太美丽 |  |  |  | 中文 | 3 | pending |  |
+| 6 | 太美丽 | 陶喆 | 2006 | R&B | 中文 | 3 | medium |  |
 | 7 | 那一瞬间 |  |  |  | 中文 | 4 | pending |  |
 | 8 | 善男信女 |  |  |  | 中文 | 4 | pending |  |
 | 9 | 修炼爱情 |  |  |  | 中文 | 4 | pending |  |
 | 10 | 一念之间 | 张杰 | 2014 | 流行 | 中文 | 4 | medium |  |
-| 11 | 想你时风起 |  |  |  | 中文 | 5 | pending |  |
-| 12 | 想念你想我 |  |  |  | 中文 | 5 | pending |  |
+| 11 | 想你时风起 | 单依纯 | 2022 | 流行 | 中文 | 5 | medium |  |
+| 12 | 想念你想我 | 李玖哲 | 2007 | R&B | 中文 | 5 | medium | 待确认 |
 | 13 | 十万毫升泪水 |  |  |  | 中文 | 6 | pending |  |
 | 14 | 除了爱你还能爱谁 |  |  |  | 中文 | 8 | pending |  |
 | 15 | 下一次爱情来的时候 |  |  |  | 中文 | 9 | pending |  |
@@ -39,17 +39,17 @@
 | 1 | Blow |  |  |  | 英文 | 4 | pending |  |
 | 2 | Ashes |  |  |  | 英文 | 5 | pending |  |
 | 3 | Sunny |  |  |  | 英文 | 5 | pending |  |
-| 4 | Arcade |  |  |  | 英文 | 6 | pending |  |
-| 5 | Bad Day |  |  |  | 英文 | 6 | pending |  |
+| 4 | Arcade | Duncan Laurence | 2019 | 流行 | 英文 | 6 | medium |  |
+| 5 | Bad Day | Daniel Powter | 2005 | 流行 | 英文 | 6 | medium |  |
 | 6 | Flying |  |  |  | 英文 | 6 | pending |  |
 | 7 | Helium |  |  |  | 英文 | 6 | pending |  |
 | 8 | The End |  |  |  | 英文 | 6 | pending |  |
-| 9 | Too Bad |  |  |  | 英文 | 6 | pending |  |
+| 9 | Too Bad | Nickelback | 2001 | 摇滚 | 英文 | 6 | medium | 待确认 |
 | 10 | Wishes |  |  |  | 英文 | 6 | pending |  |
-| 11 | Happier |  |  |  | 英文 | 7 | pending |  |
+| 11 | Happier | Ed Sheeran | 2017 | 流行 | 英文 | 7 | medium | 待确认 |
 | 12 | Leavin' |  |  |  | 英文 | 7 | pending |  |
-| 13 | Skyfall |  |  |  | 英文 | 7 | pending |  |
-| 14 | Stitches |  |  |  | 英文 | 8 | pending |  |
+| 13 | Skyfall | Adele | 2012 | 流行 | 英文 | 7 | medium |  |
+| 14 | Stitches | Shawn Mendes | 2015 | 流行 | 英文 | 8 | medium |  |
 | 15 | Afterglow |  |  |  | 英文 | 9 | pending |  |
 | 16 | Fine China |  |  |  | 英文 | 9 | pending |  |
 | 17 | in Reverse |  |  |  | 英文 | 9 | pending |  |
@@ -75,15 +75,15 @@
 | 37 | Forever Right Now |  |  |  | 英文 | 15 | pending |  |
 | 38 | From the Ground Up |  |  |  | 英文 | 15 | pending |  |
 | 39 | Everybody Loves Me |  |  |  | 英文 | 16 | pending |  |
-| 40 | Just the Way You Are |  |  |  | 英文 | 16 | pending |  |
+| 40 | Just the Way You Are | Bruno Mars | 2010 | 流行 | 英文 | 16 | medium |  |
 | 41 | Last Night on Earth |  |  |  | 英文 | 16 | pending |  |
 | 42 | Leave the Door Open |  |  |  | 英文 | 16 | pending |  |
 | 43 | Lover & Earth Angel |  |  |  | 英文 | 16 | pending |  |
-| 44 | Talking to the Moon |  |  |  | 英文 | 16 | pending |  |
+| 44 | Talking to the Moon | Bruno Mars | 2010 | R&B | 英文 | 16 | medium |  |
 | 45 | Here's Your Perfect |  |  |  | 英文 | 17 | pending |  |
 | 46 | Versace on the Floor |  |  |  | 英文 | 17 | pending |  |
 | 47 | Supermarket Flowers |  |  |  | 英文 | 18 | pending |  |
-| 48 | Falling Like the Stars |  |  |  | 英文 | 19 | pending |  |
+| 48 | Falling Like the Stars | James Arthur | 2019 | 流行 | 英文 | 19 | medium |  |
 | 49 | Can't Help Falling in Love |  |  |  | 英文 | 22 | pending |  |
 | 50 | I Don't Want to Miss a Thing |  |  |  | 英文 | 22 | pending |  |
 | 51 | I Think They Call This Love |  |  |  | 英文 | 22 | pending |  |

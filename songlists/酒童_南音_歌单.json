@@ -8,10 +8,10 @@
     "japanese": 0,
     "english": 26,
     "total": 124,
-    "originalArtistCompleted": 9,
-    "releaseYearCompleted": 9,
-    "genreCompleted": 9,
-    "pending": 115,
+    "originalArtistCompleted": 41,
+    "releaseYearCompleted": 41,
+    "genreCompleted": 41,
+    "pending": 83,
     "cantonese": 0,
     "minnan": 0,
     "other": 0
@@ -20,21 +20,25 @@
     "chinese": [
       {
         "title": "在",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "张悬",
+        "releaseYear": "2012",
+        "genre": "民谣",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "待确认"
       },
       {
         "title": "不算",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "张远",
+        "releaseYear": "2022",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "待确认"
       },
       {
         "title": "不枉",
@@ -78,12 +82,13 @@
       },
       {
         "title": "海浪",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "黄品源",
+        "releaseYear": "2000",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "回留",
@@ -150,30 +155,35 @@
       },
       {
         "title": "美错",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "王菲",
+        "releaseYear": "2010",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "米店",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "张玮玮",
+        "releaseYear": "2012",
+        "genre": "民谣",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "已核对张玮玮《白银饭店》版本"
       },
       {
         "title": "蜜蜂",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "万芳",
+        "releaseYear": "1992",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "待确认"
       },
       {
         "title": "气球",
@@ -186,12 +196,14 @@
       },
       {
         "title": "千禧",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "徐秉龙",
+        "releaseYear": "2019",
+        "genre": "民谣",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "同名作品较多；按徐秉龙版本填写，待歌手本人确认"
       },
       {
         "title": "秋别",
@@ -260,12 +272,14 @@
       },
       {
         "title": "一天",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "黄宣",
+        "releaseYear": "2019",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "待确认"
       },
       {
         "title": "雨爱",
@@ -279,12 +293,14 @@
       },
       {
         "title": "浴室",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "deca joins",
+        "releaseYear": "2017",
+        "genre": "摇滚",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "短歌名；按 deca joins 版本填写"
       },
       {
         "title": "证据",
@@ -297,30 +313,35 @@
       },
       {
         "title": "重来",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "黄小琥",
+        "releaseYear": "2011",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "待确认"
       },
       {
         "title": "左边",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "杨丞琳",
+        "releaseYear": "2006",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "待确认"
       },
       {
         "title": "艾蜜莉",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "回春丹",
+        "releaseYear": "2020",
+        "genre": "摇滚",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "奥特曼",
@@ -353,12 +374,13 @@
       },
       {
         "title": "慢灵魂",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "方大同",
+        "releaseYear": "2008",
+        "genre": "R&B",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "没名字",
@@ -398,12 +420,13 @@
       },
       {
         "title": "陀飞轮",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "陈奕迅",
+        "releaseYear": "2010",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "想着你",
@@ -416,21 +439,25 @@
       },
       {
         "title": "一格格",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "卫兰",
+        "releaseYear": "2014",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "粤语歌曲"
       },
       {
         "title": "再一起",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "余佳运",
+        "releaseYear": "2021",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "待确认"
       },
       {
         "title": "阿May",
@@ -488,12 +515,13 @@
       },
       {
         "title": "寂寞难耐",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "李宗盛",
+        "releaseYear": "1986",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "降雨几率",
@@ -534,12 +562,13 @@
       },
       {
         "title": "你听得到",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "周杰伦",
+        "releaseYear": "2003",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "你想要的",
@@ -553,21 +582,24 @@
       },
       {
         "title": "世界末日",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "周杰伦",
+        "releaseYear": "2001",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "同名歌曲较多；按周杰伦版本填写"
       },
       {
         "title": "逝去的歌",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "旅行团乐队",
+        "releaseYear": "2015",
+        "genre": "摇滚",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "完美夏天",
@@ -580,12 +612,14 @@
       },
       {
         "title": "我的问题",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "黄宣",
+        "releaseYear": "2019",
+        "genre": "R&B",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "待确认"
       },
       {
         "title": "无法逃脱",
@@ -607,21 +641,24 @@
       },
       {
         "title": "香格里拉",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "黄玠",
+        "releaseYear": "2007",
+        "genre": "民谣",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "待确认"
       },
       {
         "title": "想去海边",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "夏日入侵企画",
+        "releaseYear": "2019",
+        "genre": "摇滚",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "夜间独白",
@@ -670,12 +707,13 @@
       },
       {
         "title": "或是一首歌",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "田馥甄",
+        "releaseYear": "2020",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "寂寞的季节",
@@ -697,21 +735,24 @@
       },
       {
         "title": "每个人都会",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "方大同",
+        "releaseYear": "2008",
+        "genre": "R&B",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "是但求其爱",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "陈奕迅",
+        "releaseYear": "2020",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "粤语歌曲"
       },
       {
         "title": "无人的海边",
@@ -788,21 +829,24 @@
       },
       {
         "title": "用背脊唱情歌",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "洪卓立",
+        "releaseYear": "2008",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "最寂寞的时候",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "卢广仲",
+        "releaseYear": "2008",
+        "genre": "民谣",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26",
+        "confirmationNote": "待确认"
       },
       {
         "title": "喝酒blues",
@@ -815,12 +859,13 @@
       },
       {
         "title": "没有名字的夜晚",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "告五人",
+        "releaseYear": "2023",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "我落泪情绪零碎",
@@ -879,21 +924,23 @@
       },
       {
         "title": "我喜欢上你时的内心活动",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "陈绮贞",
+        "releaseYear": "2017",
+        "genre": "民谣",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "昨晚我梦见我学会了游泳",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "告五人",
+        "releaseYear": "2023",
+        "genre": "流行",
         "language": "中文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "夏日最美的三十张拍立得相片",
@@ -918,12 +965,13 @@
     "english": [
       {
         "title": "Bad",
-        "originalArtist": "",
-        "releaseYear": "",
-        "genre": "",
+        "originalArtist": "James Bay",
+        "releaseYear": "2015",
+        "genre": "流行",
         "language": "英文",
-        "source": "用户提供歌单",
-        "confidence": "pending"
+        "source": "user-provided 1-1000 metadata table",
+        "confidence": "medium",
+        "checkedAt": "2026-07-26"
       },
       {
         "title": "Dear",

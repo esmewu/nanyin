@@ -6,10 +6,10 @@
 - 日文区：1 首
 - 英文区：270 首
 - 合计：409 首
-- 原唱字段：已补 35 / 409
-- 发行年份字段：已补 35 / 409
-- 风格字段：已补 35 / 409
-- 仍需人工确认：374 首
+- 原唱字段：已补 98 / 409
+- 发行年份字段：已补 98 / 409
+- 风格字段：已补 98 / 409
+- 仍需人工确认：311 首
 
 说明：本文件根据用户提供的纯文本歌单整理生成；当前主要录入歌名。
 
@@ -19,50 +19,50 @@
 |---:|---|---|---|---|---|---:|---|---|
 | 1 | 爱 | 莫文蔚 | 2002 | 流行 | 中文 | 1 | medium |  |
 | 2 | 家 |  |  |  | 中文 | 1 | pending |  |
-| 3 | 鱼 |  |  |  | 中文 | 1 | pending |  |
+| 3 | 鱼 | 陈绮贞 | 2009 | 民谣 | 中文 | 1 | medium | 短歌名；按陈绮贞《太阳》专辑版本填写 |
 | 4 | susan说 |  |  |  | 中文 | 6 | pending |  |
 | 5 | 90%都会 |  |  |  | 中文 | 4 | pending |  |
-| 6 | 爱情 |  |  |  | 中文 | 2 | pending |  |
+| 6 | 爱情 | 莫文蔚 | 1998 | 流行 | 中文 | 2 | medium |  |
 | 7 | 暗恋 | 张智成 | 2009 | 流行 | 中文 | 2 | medium | 短歌名可能重名；按常见版本默认归入，待歌手本人确认 |
-| 8 | 偿还 |  |  |  | 中文 | 2 | pending |  |
+| 8 | 偿还 | 王菲 | 1994 | 流行 | 中文 | 2 | medium |  |
 | 9 | 成全 |  |  |  | 中文 | 2 | pending |  |
 | 10 | 兜圈 | 林宥嘉 | 2016 | 流行 | 中文 | 2 | medium |  |
 | 11 | 斗牛 |  |  |  | 中文 | 2 | pending |  |
-| 12 | 耳朵 |  |  |  | 中文 | 2 | pending |  |
+| 12 | 耳朵 | 李荣浩 | 2018 | 流行 | 中文 | 2 | medium |  |
 | 13 | 搁浅 | 周杰伦 | 2004 | 流行 | 中文 | 2 | medium |  |
 | 14 | 蝴蝶 | 陶喆 | 2002 | R&B | 中文 | 2 | medium |  |
 | 15 | 咖啡 |  |  |  | 中文 | 2 | pending |  |
-| 16 | 苦瓜 |  |  |  | 中文 | 2 | pending |  |
+| 16 | 苦瓜 | 陈奕迅 | 2011 | 流行 | 中文 | 2 | medium |  |
 | 17 | 浪费 | 林宥嘉 | 2012 | 流行 | 中文 | 2 | medium |  |
 | 18 | 李白 |  |  |  | 中文 | 2 | pending |  |
 | 19 | 流沙 |  |  |  | 中文 | 2 | pending |  |
 | 20 | 路口 |  |  |  | 中文 | 2 | pending |  |
-| 21 | 落俗 |  |  |  | 中文 | 2 | pending |  |
+| 21 | 落俗 | 李荣浩 | 2018 | 流行 | 中文 | 2 | medium | 待确认 |
 | 22 | 矛盾 |  |  |  | 中文 | 2 | pending |  |
 | 23 | 迷宫 | 王若琳 | 2008 | 爵士 | 中文 | 2 | medium |  |
 | 24 | 内疚 | 陈奕迅 | 2011 | 流行 | 中文 | 2 | medium | 短歌名可能重名；按常见版本默认归入，待歌手本人确认 |
 | 25 | 沙滩 |  |  |  | 中文 | 2 | pending |  |
-| 26 | 上海1943 |  |  |  | 中文 | 6 | pending |  |
+| 26 | 上海1943 | 周杰伦 | 2001 | 中国风 | 中文 | 6 | medium |  |
 | 27 | 说谎 |  |  |  | 中文 | 2 | pending |  |
 | 28 | 天天 |  |  |  | 中文 | 2 | pending |  |
 | 29 | 唯一 |  |  |  | 中文 | 2 | pending |  |
 | 30 | 心酸 | 林宥嘉 | 2011 | 流行 | 中文 | 2 | medium |  |
-| 31 | 兄妹 |  |  |  | 中文 | 2 | pending |  |
+| 31 | 兄妹 | 陈奕迅 | 2003 | 流行 | 中文 | 2 | medium |  |
 | 32 | 眼色 | 林宥嘉 | 2008 | 流行 | 中文 | 2 | medium |  |
 | 33 | 阴天 | 莫文蔚 | 1999 | 流行 | 中文 | 2 | medium | 短歌名可能重名；按常见版本默认归入，待歌手本人确认 |
-| 34 | 拥有 |  |  |  | 中文 | 2 | pending |  |
-| 35 | 鱼仔 |  |  |  | 中文 | 2 | pending |  |
-| 36 | 遇到 |  |  |  | 中文 | 2 | pending |  |
+| 34 | 拥有 | 五月天 | 1999 | 摇滚 | 中文 | 2 | medium | 待确认 |
+| 35 | 鱼仔 | 卢广仲 | 2017 | 民谣 | 中文 | 2 | medium |  |
+| 36 | 遇到 | 孙燕姿 | 2003 | 流行 | 中文 | 2 | medium |  |
 | 37 | 原点 |  |  |  | 中文 | 2 | pending |  |
 | 38 | 抱一抱 |  |  |  | 中文 | 3 | pending |  |
 | 39 | 不将就 |  |  |  | 中文 | 3 | pending |  |
 | 40 | 不挑歌 |  |  |  | 中文 | 3 | pending |  |
 | 41 | 达尔文 |  |  |  | 中文 | 3 | pending |  |
-| 42 | 凡人歌 |  |  |  | 中文 | 3 | pending |  |
+| 42 | 凡人歌 | 李宗盛 | 1991 | 民歌 | 中文 | 3 | medium |  |
 | 43 | 花田错 | 王力宏 | 2005 | R&B | 中文 | 3 | medium |  |
 | 44 | 旧情歌 |  |  |  | 中文 | 3 | pending |  |
 | 45 | 旧行李 |  |  |  | 中文 | 3 | pending |  |
-| 46 | 慢灵魂 |  |  |  | 中文 | 3 | pending |  |
+| 46 | 慢灵魂 | 方大同 | 2008 | R&B | 中文 | 3 | medium |  |
 | 47 | 毛毛虫 |  |  |  | 中文 | 3 | pending |  |
 | 48 | 玫瑰香 |  |  |  | 中文 | 3 | pending |  |
 | 49 | 迷迭香 | 周杰伦 | 2006 | 流行 | 中文 | 3 | medium |  |
@@ -73,7 +73,7 @@
 | 54 | 十二楼 |  |  |  | 中文 | 3 | pending |  |
 | 55 | 收敛水 |  |  |  | 中文 | 3 | pending |  |
 | 56 | 随便点 |  |  |  | 中文 | 3 | pending |  |
-| 57 | 太聪明 |  |  |  | 中文 | 3 | pending |  |
+| 57 | 太聪明 | 陈绮贞 | 2002 | 民谣 | 中文 | 3 | medium |  |
 | 58 | 太坦白 |  |  |  | 中文 | 3 | pending |  |
 | 59 | 旺夫相 |  |  |  | 中文 | 3 | pending |  |
 | 60 | 我爱你 | 卢广仲 | 2011 | 流行 | 中文 | 3 | medium | 短歌名可能重名；按唱见常见版本默认归入，待歌手本人确认 |
@@ -83,63 +83,63 @@
 | 64 | 谢谢侬 |  |  |  | 中文 | 3 | pending |  |
 | 65 | 夜盲症 |  |  |  | 中文 | 3 | pending |  |
 | 66 | 园游会 | 周杰伦 | 2004 | 流行 | 中文 | 3 | medium |  |
-| 67 | 在梅边 |  |  |  | 中文 | 3 | pending |  |
+| 67 | 在梅边 | 王力宏 | 2005 | 中国风 | 中文 | 3 | medium |  |
 | 68 | 找自己 |  |  |  | 中文 | 3 | pending |  |
 | 69 | 种生活 |  |  |  | 中文 | 3 | pending |  |
 | 70 | 半岛铁盒 | 周杰伦 | 2002 | 流行 | 中文 | 4 | medium |  |
 | 71 | 不只有缘 |  |  |  | 中文 | 4 | pending |  |
 | 72 | 大城小爱 |  |  |  | 中文 | 4 | pending |  |
 | 73 | 倒带人生 |  |  |  | 中文 | 4 | pending |  |
-| 74 | 电台情歌 |  |  |  | 中文 | 4 | pending |  |
+| 74 | 电台情歌 | 莫文蔚 | 1997 | 流行 | 中文 | 4 | medium |  |
 | 75 | 独家记忆 |  |  |  | 中文 | 4 | pending |  |
 | 76 | 盖世英雄 |  |  |  | 中文 | 4 | pending |  |
-| 77 | 关于小熊 |  |  |  | 中文 | 4 | pending |  |
-| 78 | 鬼迷心窍 |  |  |  | 中文 | 4 | pending |  |
-| 79 | 好心分手 |  |  |  | 中文 | 4 | pending |  |
+| 77 | 关于小熊 | 蛋堡 | 2009 | 说唱 | 中文 | 4 | medium | 待确认 |
+| 78 | 鬼迷心窍 | 李宗盛 | 1992 | 流行 | 中文 | 4 | medium |  |
+| 79 | 好心分手 | 卢巧音 | 2002 | 流行 | 中文 | 4 | medium | 国语合唱版常见为卢巧音/王力宏 |
 | 80 | 黑白画映 |  |  |  | 中文 | 4 | pending |  |
 | 81 | 花花世界 |  |  |  | 中文 | 4 | pending |  |
 | 82 | 坏与更坏 |  |  |  | 中文 | 4 | pending |  |
 | 83 | 回到过去 |  |  |  | 中文 | 4 | pending |  |
 | 84 | 几分之几 | 卢广仲 | 2018 | 流行 | 中文 | 4 | medium |  |
-| 85 | 寂寞难耐 |  |  |  | 中文 | 4 | pending |  |
+| 85 | 寂寞难耐 | 李宗盛 | 1986 | 流行 | 中文 | 4 | medium |  |
 | 86 | 结婚钻戒 |  |  |  | 中文 | 4 | pending |  |
-| 87 | 浪人情歌 |  |  |  | 中文 | 4 | pending |  |
+| 87 | 浪人情歌 | 伍佰 | 1994 | 摇滚 | 中文 | 4 | medium |  |
 | 88 | 你的背包 | 陈奕迅 | 2002 | 流行 | 中文 | 4 | medium |  |
-| 89 | 你听得到 |  |  |  | 中文 | 4 | pending |  |
+| 89 | 你听得到 | 周杰伦 | 2003 | 流行 | 中文 | 4 | medium |  |
 | 90 | 普通朋友 |  |  |  | 中文 | 4 | pending |  |
-| 91 | 似曾相识 |  |  |  | 中文 | 4 | pending |  |
+| 91 | 似曾相识 | 陶喆 | 2009 | R&B | 中文 | 4 | medium | 待确认 |
 | 92 | 他不爱我 |  |  |  | 中文 | 4 | pending |  |
 | 93 | 天真有邪 | 林宥嘉 | 2016 | 流行 | 中文 | 4 | medium |  |
-| 94 | 完美孤独 |  |  |  | 中文 | 4 | pending |  |
+| 94 | 完美孤独 | 莫文蔚 | 2010 | 流行 | 中文 | 4 | medium |  |
 | 95 | 需要人陪 |  |  |  | 中文 | 4 | pending |  |
 | 96 | 夜间漫游 |  |  |  | 中文 | 4 | pending |  |
 | 97 | 一路向北 | 周杰伦 | 2005 | 流行 | 中文 | 4 | medium |  |
 | 98 | 一念之间 | 张杰 | 2014 | 流行 | 中文 | 4 | medium |  |
 | 99 | 依然爱你 | 王力宏 | 2011 | 流行 | 中文 | 4 | medium |  |
-| 100 | 止战之殇 |  |  |  | 中文 | 4 | pending |  |
+| 100 | 止战之殇 | 周杰伦 | 2004 | 流行 | 中文 | 4 | medium |  |
 | 101 | 爱我还是他 |  |  |  | 中文 | 5 | pending |  |
 | 102 | 爱在西元前 | 周杰伦 | 2001 | 流行 | 中文 | 5 | medium |  |
 | 103 | 反方向的钟 | 周杰伦 | 2000 | 流行 | 中文 | 5 | medium |  |
 | 104 | 给自己的歌 |  |  |  | 中文 | 5 | pending |  |
-| 105 | 还是会寂寞 |  |  |  | 中文 | 5 | pending |  |
-| 106 | 好想要挥霍 |  |  |  | 中文 | 5 | pending |  |
+| 105 | 还是会寂寞 | 陈绮贞 | 2000 | 民谣 | 中文 | 5 | medium |  |
+| 106 | 好想要挥霍 | 卢广仲 | 2011 | 民谣 | 中文 | 5 | medium |  |
 | 107 | 寂寞的季节 |  |  |  | 中文 | 5 | pending |  |
 | 108 | 今天没回家 |  |  |  | 中文 | 5 | pending |  |
-| 109 | 旅行的意义 |  |  |  | 中文 | 5 | pending |  |
+| 109 | 旅行的意义 | 陈绮贞 | 2004 | 民谣 | 中文 | 5 | medium |  |
 | 110 | 慢慢喜欢你 |  |  |  | 中文 | 5 | pending |  |
-| 111 | 挪威的森林 |  |  |  | 中文 | 5 | pending |  |
+| 111 | 挪威的森林 | 伍佰 | 1996 | 摇滚 | 中文 | 5 | medium |  |
 | 112 | 谁来剪月光 |  |  |  | 中文 | 5 | pending |  |
 | 113 | 讨厌红楼梦 | 陶喆 | 2013 | R&B | 中文 | 5 | medium |  |
 | 114 | 突然的自我 |  |  |  | 中文 | 5 | pending |  |
 | 115 | 幸福摩天轮 |  |  |  | 中文 | 5 | pending |  |
-| 116 | 夜的第七章 |  |  |  | 中文 | 5 | pending |  |
+| 116 | 夜的第七章 | 周杰伦 feat. 潘儿 | 2006 | 说唱 | 中文 | 5 | medium |  |
 | 117 | 因为你爱我 |  |  |  | 中文 | 5 | pending |  |
-| 118 | 有你的快乐 |  |  |  | 中文 | 5 | pending |  |
+| 118 | 有你的快乐 | 王若琳 | 2008 | 流行 | 中文 | 5 | medium |  |
 | 119 | 走钢索的人 |  |  |  | 中文 | 5 | pending |  |
 | 120 | 寂寞的恋人啊 |  |  |  | 中文 | 6 | pending |  |
 | 121 | 三个人的晚餐 |  |  |  | 中文 | 6 | pending |  |
-| 122 | 一首简单的歌 |  |  |  | 中文 | 6 | pending |  |
-| 123 | 飞机场的十点半 |  |  |  | 中文 | 7 | pending |  |
+| 122 | 一首简单的歌 | 王力宏 | 2004 | R&B | 中文 | 6 | medium |  |
+| 123 | 飞机场的十点半 | 陶喆 | 1999 | R&B | 中文 | 7 | medium |  |
 | 124 | 每天爱你多一些 |  |  |  | 中文 | 7 | pending |  |
 | 125 | 我要我们在一起 | 范晓萱 | 1999 | 流行 | 中文 | 7 | medium |  |
 | 126 | 想和你去吹吹风 |  |  |  | 中文 | 7 | pending |  |
@@ -155,31 +155,31 @@
 
 | # | 歌名 | 原唱 | 年份 | 风格 | 语种 | 字数 | confidence | 备注 |
 |---:|---|---|---|---|---|---:|---|---|
-| 1 | First Love |  |  |  | 日文 | 9 | pending |  |
+| 1 | First Love | 宇多田光 | 1999 | 流行 | 日文 | 9 | medium |  |
 
 ## 英文歌曲
 
 | # | 歌名 | 原唱 | 年份 | 风格 | 语种 | 字数 | confidence | 备注 |
 |---:|---|---|---|---|---|---:|---|---|
-| 1 | Bad |  |  |  | 英文 | 3 | pending |  |
+| 1 | Bad | James Bay | 2015 | 流行 | 英文 | 3 | medium |  |
 | 2 | Mad |  |  |  | 英文 | 3 | pending |  |
 | 3 | Why |  |  |  | 英文 | 3 | pending |  |
 | 4 | Home |  |  |  | 英文 | 4 | pending |  |
 | 5 | Love |  |  |  | 英文 | 4 | pending |  |
-| 6 | Over |  |  |  | 英文 | 4 | pending |  |
+| 6 | Over | Lucky Daye | 2021 | R&B | 英文 | 4 | medium | 待确认 |
 | 7 | Pray |  |  |  | 英文 | 4 | pending |  |
 | 8 | Raye |  |  |  | 英文 | 4 | pending |  |
 | 9 | Sway |  |  |  | 英文 | 4 | pending |  |
 | 10 | Wave |  |  |  | 英文 | 4 | pending |  |
 | 11 | Angle |  |  |  | 英文 | 5 | pending |  |
 | 12 | Fever |  |  |  | 英文 | 5 | pending |  |
-| 13 | Happy |  |  |  | 英文 | 5 | pending |  |
+| 13 | Happy | Pharrell Williams | 2013 | 流行 | 英文 | 5 | medium |  |
 | 14 | Honey |  |  |  | 英文 | 5 | pending |  |
 | 15 | I Got U |  |  |  | 英文 | 5 | pending |  |
-| 16 | Lucky |  |  |  | 英文 | 5 | pending |  |
+| 16 | Lucky | Jason Mraz & Colbie Caillat | 2008 | 流行 | 英文 | 5 | medium |  |
 | 17 | Misty |  |  |  | 英文 | 5 | pending |  |
 | 18 | Movie |  |  |  | 英文 | 5 | pending |  |
-| 19 | My Way |  |  |  | 英文 | 5 | pending |  |
+| 19 | My Way | Frank Sinatra | 1969 | 流行 | 英文 | 5 | medium |  |
 | 20 | Rosie |  |  |  | 英文 | 5 | pending |  |
 | 21 | Smile |  |  |  | 英文 | 5 | pending |  |
 | 22 | Touch |  |  |  | 英文 | 5 | pending |  |
@@ -187,20 +187,20 @@
 | 24 | Venus |  |  |  | 英文 | 5 | pending |  |
 | 25 | Easily |  |  |  | 英文 | 6 | pending |  |
 | 26 | Higher |  |  |  | 英文 | 6 | pending |  |
-| 27 | If Only |  |  |  | 英文 | 6 | pending |  |
+| 27 | If Only | Andrea Bocelli & Dua Lipa | 2018 | 流行 | 英文 | 6 | medium | 待确认 |
 | 28 | Melody |  |  |  | 英文 | 6 | pending |  |
 | 29 | My Dear |  |  |  | 英文 | 6 | pending |  |
 | 30 | My Girl |  |  |  | 英文 | 6 | pending |  |
-| 31 | My Love |  |  |  | 英文 | 6 | pending |  |
+| 31 | My Love | Westlife | 2000 | 流行 | 英文 | 6 | medium | 同名歌曲较多；按 Westlife |
 | 32 | My My My |  |  |  | 英文 | 6 | pending |  |
 | 33 | So Nice |  |  |  | 英文 | 6 | pending |  |
-| 34 | So Sick |  |  |  | 英文 | 6 | pending |  |
+| 34 | So Sick | Ne-Yo | 2006 | R&B | 英文 | 6 | medium |  |
 | 35 | Yellow | Coldplay | 2000 | 摇滚 | 英文 | 6 | medium |  |
 | 36 | All of Me |  |  |  | 英文 | 7 | pending |  |
 | 37 | Fly Love |  |  |  | 英文 | 7 | pending |  |
 | 38 | How Long |  |  |  | 英文 | 7 | pending |  |
 | 39 | Journey |  |  |  | 英文 | 7 | pending |  |
-| 40 | May Rain |  |  |  | 英文 | 7 | pending |  |
+| 40 | May Rain | 窦靖童 | 2016 | 流行 | 英文 | 7 | medium | 待确认 |
 | 41 | Nothing |  |  |  | 英文 | 7 | pending |  |
 | 42 | Reality |  |  |  | 英文 | 7 | pending |  |
 | 43 | This Bag |  |  |  | 英文 | 7 | pending |  |
@@ -210,7 +210,7 @@
 | 47 | Angel 2 Me |  |  |  | 英文 | 8 | pending |  |
 | 48 | Bada Bada |  |  |  | 英文 | 8 | pending |  |
 | 49 | Best Part |  |  |  | 英文 | 8 | pending |  |
-| 50 | Eyes on Me |  |  |  | 英文 | 8 | pending |  |
+| 50 | Eyes on Me | 王菲 | 1999 | 流行 | 英文 | 8 | medium |  |
 | 51 | Fill Me In |  |  |  | 英文 | 8 | pending |  |
 | 52 | Free Loop |  |  |  | 英文 | 8 | pending |  |
 | 53 | Freezing |  |  |  | 英文 | 8 | pending |  |
@@ -218,15 +218,15 @@
 | 55 | Go on Girl |  |  |  | 英文 | 8 | pending |  |
 | 56 | Goodnite |  |  |  | 英文 | 8 | pending |  |
 | 57 | I Want You |  |  |  | 英文 | 8 | pending |  |
-| 58 | I'm Yours |  |  |  | 英文 | 8 | pending |  |
+| 58 | I'm Yours | Jason Mraz | 2008 | 流行 | 英文 | 8 | medium |  |
 | 59 | Just Vibe |  |  |  | 英文 | 8 | pending |  |
-| 60 | Let Her Go |  |  |  | 英文 | 8 | pending |  |
+| 60 | Let Her Go | Passenger | 2012 | 民谣 | 英文 | 8 | medium |  |
 | 61 | Mona Lisa |  |  |  | 英文 | 8 | pending |  |
 | 62 | One Night |  |  |  | 英文 | 8 | pending |  |
 | 63 | Open Door |  |  |  | 英文 | 8 | pending |  |
 | 64 | Quando X 3 |  |  |  | 英文 | 8 | pending |  |
 | 65 | Senorita |  |  |  | 英文 | 8 | pending |  |
-| 66 | Sexy Back |  |  |  | 英文 | 8 | pending |  |
+| 66 | Sexy Back | Justin Timberlake | 2006 | 流行 | 英文 | 8 | medium |  |
 | 67 | Snail Oil |  |  |  | 英文 | 8 | pending |  |
 | 68 | Stay Gold |  |  |  | 英文 | 8 | pending |  |
 | 69 | Suit & Tie |  |  |  | 英文 | 8 | pending |  |
@@ -238,14 +238,14 @@
 | 75 | A Foggy Day |  |  |  | 英文 | 9 | pending |  |
 | 76 | Apologize |  |  |  | 英文 | 9 | pending |  |
 | 77 | Attention |  |  |  | 英文 | 9 | pending |  |
-| 78 | Back at One |  |  |  | 英文 | 9 | pending |  |
+| 78 | Back at One | Brian McKnight | 1999 | R&B | 英文 | 9 | medium |  |
 | 79 | Better Man |  |  |  | 英文 | 9 | pending |  |
 | 80 | Just Right |  |  |  | 英文 | 9 | pending |  |
 | 81 | Last Night |  |  |  | 英文 | 9 | pending |  |
 | 82 | Lay Me Down |  |  |  | 英文 | 9 | pending |  |
 | 83 | Let You Win |  |  |  | 英文 | 9 | pending |  |
-| 84 | Letting Go |  |  |  | 英文 | 9 | pending |  |
-| 85 | Lost Stars |  |  |  | 英文 | 9 | pending |  |
+| 84 | Letting Go | 蔡健雅 | 2011 | 流行 | 英文 | 9 | medium | 英文歌名、中文演唱 |
+| 85 | Lost Stars | Adam Levine | 2014 | 流行 | 英文 | 9 | medium | 电影《Begin Again》；原版另有Keira Knightley，暂按Adam Levine |
 | 86 | Loving You |  |  |  | 英文 | 9 | pending |  |
 | 87 | Magic Ways |  |  |  | 英文 | 9 | pending |  |
 | 88 | Moon River |  |  |  | 英文 | 9 | pending |  |
@@ -266,7 +266,7 @@
 | 103 | Pillow Talk |  |  |  | 英文 | 10 | pending |  |
 | 104 | Reflection |  |  |  | 英文 | 10 | pending |  |
 | 105 | Rendezvous |  |  |  | 英文 | 10 | pending |  |
-| 106 | Stay with Me |  |  |  | 英文 | 10 | pending |  |
+| 106 | Stay with Me | Sam Smith | 2014 | R&B | 英文 | 10 | medium |  |
 | 107 | Summer Wind |  |  |  | 英文 | 10 | pending |  |
 | 108 | Temptation |  |  |  | 英文 | 10 | pending |  |
 | 109 | Body and Soul |  |  |  | 英文 | 11 | pending |  |
@@ -292,7 +292,7 @@
 | 129 | Autumn Leaves |  |  |  | 英文 | 12 | pending |  |
 | 130 | Because of You |  |  |  | 英文 | 12 | pending |  |
 | 131 | Cheek to Cheek |  |  |  | 英文 | 12 | pending |  |
-| 132 | Don't Know Why |  |  |  | 英文 | 12 | pending |  |
+| 132 | Don't Know Why | Norah Jones | 2002 | 爵士 | 英文 | 12 | medium |  |
 | 133 | Garden Kisses |  |  |  | 英文 | 12 | pending |  |
 | 134 | Heal the World |  |  |  | 英文 | 12 | pending |  |
 | 135 | I Wish You Love |  |  |  | 英文 | 12 | pending |  |
@@ -300,13 +300,13 @@
 | 137 | It Had to Be You |  |  |  | 英文 | 12 | pending |  |
 | 138 | Kissing a Fool |  |  |  | 英文 | 12 | pending |  |
 | 139 | Liberian Girl |  |  |  | 英文 | 12 | pending |  |
-| 140 | Love Me Tender |  |  |  | 英文 | 12 | pending |  |
+| 140 | Love Me Tender | Elvis Presley | 1956 | 流行 | 英文 | 12 | medium |  |
 | 141 | Mack the Knife |  |  |  | 英文 | 12 | pending |  |
 | 142 | Say You Love Me |  |  |  | 英文 | 12 | pending |  |
 | 143 | Simple Things |  |  |  | 英文 | 12 | pending |  |
 | 144 | Swing Supreme |  |  |  | 英文 | 12 | pending |  |
 | 145 | U Make Me Wanna |  |  |  | 英文 | 12 | pending |  |
-| 146 | You Raise Me Up |  |  |  | 英文 | 12 | pending |  |
+| 146 | You Raise Me Up | Secret Garden feat. Brian Kennedy | 2002 | 流行 | 英文 | 12 | medium |  |
 | 147 | King of the Road |  |  |  | 英文 | 13 | pending |  |
 | 148 | Kiss from a Rose |  |  |  | 英文 | 13 | pending |  |
 | 149 | Last Christmas |  |  |  | 英文 | 13 | pending |  |
@@ -314,7 +314,7 @@
 | 151 | My Cherie Amour |  |  |  | 英文 | 13 | pending |  |
 | 152 | Once Upon a Time |  |  |  | 英文 | 13 | pending |  |
 | 153 | One in a Million |  |  |  | 英文 | 13 | pending |  |
-| 154 | Tears in Heaven |  |  |  | 英文 | 13 | pending |  |
+| 154 | Tears in Heaven | Eric Clapton | 1992 | 摇滚 | 英文 | 13 | medium |  |
 | 155 | The Girl Is Mine |  |  |  | 英文 | 13 | pending |  |
 | 156 | The Look of Love |  |  |  | 英文 | 13 | pending |  |
 | 157 | The One You Love |  |  |  | 英文 | 13 | pending |  |
@@ -330,7 +330,7 @@
 | 167 | Englishman in NY |  |  |  | 英文 | 14 | pending |  |
 | 168 | Fly Me to the Moon |  |  |  | 英文 | 14 | pending |  |
 | 169 | Hit the Road Jack |  |  |  | 英文 | 14 | pending |  |
-| 170 | I Want It That Way |  |  |  | 英文 | 14 | pending |  |
+| 170 | I Want It That Way | Backstreet Boys | 1999 | 流行 | 英文 | 14 | medium |  |
 | 171 | If I Ain't Got You |  |  |  | 英文 | 14 | pending |  |
 | 172 | Isn't She Lovely |  |  |  | 英文 | 14 | pending |  |
 | 173 | Just the Two of Us |  |  |  | 英文 | 14 | pending |  |
@@ -342,7 +342,7 @@
 | 179 | Take It from Here |  |  |  | 英文 | 14 | pending |  |
 | 180 | This Masquerade |  |  |  | 英文 | 14 | pending |  |
 | 181 | Traveling Light |  |  |  | 英文 | 14 | pending |  |
-| 182 | You Are Not Alone |  |  |  | 英文 | 14 | pending |  |
+| 182 | You Are Not Alone | Michael Jackson | 1995 | 流行 | 英文 | 14 | medium |  |
 | 183 | You Rock My World |  |  |  | 英文 | 14 | pending |  |
 | 184 | You're on My Mind |  |  |  | 英文 | 14 | pending |  |
 | 185 | Ain't No Sunshine |  |  |  | 英文 | 15 | pending |  |
@@ -360,10 +360,10 @@
 | 197 | The Sweetest Love |  |  |  | 英文 | 15 | pending |  |
 | 198 | Whatever It Takes |  |  |  | 英文 | 15 | pending |  |
 | 199 | You Can Never Tell |  |  |  | 英文 | 15 | pending |  |
-| 200 | Five Hundred Miles |  |  |  | 英文 | 16 | pending |  |
+| 200 | Five Hundred Miles | The Journeymen | 1961 | 民谣 | 英文 | 16 | medium | 待确认 |
 | 201 | I'd Rather Go Blind |  |  |  | 英文 | 16 | pending |  |
 | 202 | I'm Not the Only One |  |  |  | 英文 | 16 | pending |  |
-| 203 | Just the Way You Are |  |  |  | 英文 | 16 | pending |  |
+| 203 | Just the Way You Are | Bruno Mars | 2010 | 流行 | 英文 | 16 | medium |  |
 | 204 | Leave the Door Open |  |  |  | 英文 | 16 | pending |  |
 | 205 | Minnie the Moocher |  |  |  | 英文 | 16 | pending |  |
 | 206 | My Funny Valentine |  |  |  | 英文 | 16 | pending |  |
@@ -372,11 +372,11 @@
 | 209 | Singing in the Rain |  |  |  | 英文 | 16 | pending |  |
 | 210 | Tennessee Whiskey |  |  |  | 英文 | 16 | pending |  |
 | 211 | Beauty and the Beast |  |  |  | 英文 | 17 | pending |  |
-| 212 | Can You Feel My World |  |  |  | 英文 | 17 | pending |  |
+| 212 | Can You Feel My World | 王力宏 | 2004 | R&B | 英文 | 17 | medium |  |
 | 213 | Chocolate and Chili |  |  |  | 英文 | 17 | pending |  |
 | 214 | Don't Worry Be Happy |  |  |  | 英文 | 17 | pending |  |
 | 215 | Heaven on the Ground |  |  |  | 英文 | 17 | pending |  |
-| 216 | How Deep Is Your Love |  |  |  | 英文 | 17 | pending |  |
+| 216 | How Deep Is Your Love | Bee Gees | 1977 | 流行 | 英文 | 17 | medium |  |
 | 217 | Lullaby of Birdland |  |  |  | 英文 | 17 | pending |  |
 | 218 | Make You Feel My Love |  |  |  | 英文 | 17 | pending |  |
 | 219 | On an Evening in Roma |  |  |  | 英文 | 17 | pending |  |
@@ -385,7 +385,7 @@
 | 222 | Until the End of Time |  |  |  | 英文 | 17 | pending |  |
 | 223 | Walking on Sunshine |  |  |  | 英文 | 17 | pending |  |
 | 224 | Whatever Lola Wants |  |  |  | 英文 | 17 | pending |  |
-| 225 | Yesterday Once More |  |  |  | 英文 | 17 | pending |  |
+| 225 | Yesterday Once More | Carpenters | 1973 | 流行 | 英文 | 17 | medium |  |
 | 226 | California Dreaming |  |  |  | 英文 | 18 | pending |  |
 | 227 | Dancing with My Phone |  |  |  | 英文 | 18 | pending |  |
 | 228 | Days of Wine and Roses |  |  |  | 英文 | 18 | pending |  |
@@ -404,7 +404,7 @@
 | 241 | Can't Smile Without You |  |  |  | 英文 | 20 | pending |  |
 | 242 | Can't Take My Eyes Off You |  |  |  | 英文 | 21 | pending |  |
 | 243 | Just One of Those Things |  |  |  | 英文 | 20 | pending |  |
-| 244 | Officially Missing You |  |  |  | 英文 | 20 | pending |  |
+| 244 | Officially Missing You | Tamia | 2003 | R&B | 英文 | 20 | medium |  |
 | 245 | Practical Arrangement |  |  |  | 英文 | 20 | pending |  |
 | 246 | The Shadow of Your Smile |  |  |  | 英文 | 20 | pending |  |
 | 247 | The Way You Look Tonight |  |  |  | 英文 | 20 | pending |  |

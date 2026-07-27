@@ -275,6 +275,8 @@ function normalizeGenre(genre) {
       粤语: "流行",
       国风: "中国风",
       "爵士 / Blues": "爵士",
+      放克: "R&B",
+      乡村流行: "流行",
     }[genre] || genre
   );
 }
